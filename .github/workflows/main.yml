@@ -1,4 +1,4 @@
-name: CI/CD Deploy to Server
+name: Deploy to Server
 
 on:
   push:
@@ -20,14 +20,6 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -p 53987 103.27.202.40 >> ~/.ssh/known_hosts
 
-      - name: Pull Latest Code on Server
+      - name: Deploy Code
         run: |
-          ssh -p 53987 yuth@103.27.202.40 << 'EOF'
-            cd /var/www/ibrowe.com/html/
-            git pull origin main || git clone git@github.com:yuthstyle88/ibrowe.git .
-            echo "✅ Git updated to latest version!"
-          EOF
-
-      - name: Deploy Files via SCP
-        run: |
-          scp -P 53987 -r * yuth@103.27.202.40:/var/www/ibrowe.com/html/
+          ssh -p 53987 yuth@103.27.202.40 "cd /var/www/ibrowe.com/html && git pull origin main"
