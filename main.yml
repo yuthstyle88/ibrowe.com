@@ -1,0 +1,26 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-keyscan -p 53987 103.27.202.40 >> ~/.ssh/known_hosts
+
+      - name: Deploy Code
+        run: |
+          ssh -p 53987 yuth@103.27.202.40 << 'EOF'
+              cd /var/www/ibrowe.com/ibrowe
+              git pull origin main
+          EOF
