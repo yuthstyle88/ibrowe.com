@@ -22,4 +22,4 @@ jobs:
 
       - name: Deploy Code
         run: |
-          ssh -p 53987 yuth@103.27.202.40 "cd /var/www/ibrowe.com/html && git pull origin main"
+          ssh -p 53987 yuth@103.27.202.40 "cd /var/www/ibrowe.com && git pull origin main"
