@@ -1,0 +1,36 @@
+.searchform-container {
+  --search-form-width: calc(100% + var(--search-form-logo-gap)) !important;
+  --text-xs: 0.6875rem !important;
+  transform: translateX(calc(var(--search-form-logo-gap) * -1));
+  margin-left: 0 !important;
+}
+
+.desktop-large-regular {
+  font-size: 1rem !important;
+  line-height: 1.625rem !important;
+}
+
+#submit-button {
+  margin-right: 0.3rem;
+}
+
+#submit-button .icon {
+  --size: var(--icon-l) !important;
+}
+
+.desktop-small-regular {
+  font-size: 0.75rem !important;
+  line-height: 1.25rem !important;
+}
+
+.suggestion .entity .content .desc {
+  line-height: 1.125rem !important;
+}
+
+.suggestion .entity .content .title {
+  line-height: 1.375rem !important;
+}
+
+#autocomplete {
+  width: calc(var(--search-form-width) - var(--search-form-logo-gap)) !important;
+}
