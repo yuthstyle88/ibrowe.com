@@ -1,1 +1,33 @@
-tsts
+name: CI/CD Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p 53987 103.27.202.40 >> ~/.ssh/known_hosts
+
+      - name: Pull Latest Code on Server
+        run: |
+          ssh -p 53987 yuth@103.27.202.40 << 'EOF'
+            cd /var/www/ibrowe.com/html/
+            git pull origin main || git clone git@github.com:USERNAME/REPOSITORY.git .
+            echo "✅ Git updated to latest version!"
+          EOF
+
+      - name: Deploy Files via SCP
+        run: |
+          scp -P 53987 -r * yuth@103.27.202.40:/var/www/ibrowe.com/html/
