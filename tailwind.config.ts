@@ -12,6 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        flecha: ["FlechaM", "serif"],
+      },
+    },
+    boxShadow: {
+      header: "0 0 3px rgba(117, 117, 117, .5);",
     },
   },
   plugins: [],
