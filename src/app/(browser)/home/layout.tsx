@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import { ReactNode } from "react";
 
 interface HomeLayoutProps {
@@ -15,6 +16,7 @@ export default function HomeLayout({ children }: HomeLayoutProps) {
       </header>
 
       <main className="blog-container">{children}</main>
+      <Footer/>
     </div>
   );
 }

@@ -2,6 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: url("../app/fonts/poppins-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../app/fonts/poppins-latin-600-italic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../app/fonts/poppins-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../app/fonts/poppins-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Inter (Variable Font) */
+@font-face {
+  font-family: "Inter";
+  src: url("../app/fonts/inter-latin-wght-italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../app/fonts/inter-latin-wght-normal.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* FlechaM */
+@font-face {
+  font-family: "FlechaM";
+  src: url("../app/fonts/FlechaM-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  /* Medium weight */
+  font-display: swap;
+}
+
+/* Dark Mode Colors */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,12 +75,13 @@
   }
 }
 
+/* Apply Global Font */
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Custom Tailwind Utility */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
