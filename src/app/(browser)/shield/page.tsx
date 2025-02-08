@@ -149,6 +149,90 @@ export default function BlogPage() {
 
       <section className="w-full bg-white px-6 md:px-16 lg:px-32 py-16 flex flex-col items-start text-left">
         <div className="w-full px-8 md:px-16 lg:px-24">
+          <h1 className="text-2xl font-bold mb-4 text-gray-900">
+            A long list of what Shields can do
+          </h1>
+          <p className="mb-6 text-gray-600">
+            By default, iBrowe has the strongest privacy protections of any
+            popular browser. And Shields are a core part of that protection.
+            Here’s a long list of what they can do:
+          </p>
+
+          <h2 className="text-xl font-semibold mb-4 text-gray-900">
+            Block third-party ads & trackers
+          </h2>
+          <ul className="list-disc pl-6 mb-6">
+            <li className="mb-2 text-gray-600">
+              <strong>Third-party ad & tracker blocking</strong>, on every page
+              you visit. Available in Standard and Aggressive mode.
+            </li>
+            <li className="mb-2 text-gray-600">
+              <strong>Resource replacement</strong>: iBrowe will
+              block-and-replace problematic resource scripts with a
+              stripped-down, more private version that still allows the page to
+              function.
+            </li>
+            <li className="mb-2 text-gray-600">
+              Learn more about iBrowe “SugarCoat” work with UC San Diego.
+            </li>
+            <li className="mb-2 text-gray-600">
+              <strong>CNAME uncloaking</strong>: Some third-party trackers use
+              cloaking tactics to hide where code really comes from, and
+              circumvent ad blockers. iBrowe can see through this evasion, and
+              stop it from happening.
+            </li>
+          </ul>
+
+          <h2 className="text-xl font-semibold mb-4 text-gray-900">
+            Cookie partitioning
+          </h2>
+          <ul className="list-disc pl-6 mb-6">
+            <li className="mb-2 text-gray-600">
+              <strong>Block cross-site cookies</strong>, and thus prevent
+              site-to-site tracking.
+            </li>
+            <li className="mb-2 text-gray-600">
+              <strong>Ephemeral storage</strong>: Block third-party application
+              storage (e.g. what’s used with cookies), but replace with a
+              temporary, auto-deleted storage that still allows sites to
+              function.
+            </li>
+          </ul>
+
+          <h2 className="text-xl font-semibold mb-4 text-gray-900">
+            Fingerprint randomization
+          </h2>
+          <ul className="list-disc pl-6 mb-6">
+            <li className="mb-2 text-gray-600">
+              <strong>Randomizing browser APIs</strong>: iBrowe prevents sites
+              from tracking you based on your browser fingerprint by slightly
+              randomizing (or occasionally removing) the browser features
+              trackers use to follow you. For example, iBrowe randomizes APIs
+              that are vulnerable to fingerprinting to ensure both privacy and
+              site functionality. It also blocks highly identifying APIs.
+            </li>
+            <li className="mb-2 text-gray-600">
+              <strong>Block browser-language and font fingerprinting</strong>:
+              iBrowe further strengthens its fingerprinting protections by
+              preventing users from being identified based on preferred browser
+              language.
+            </li>
+          </ul>
+
+          <h2 className="text-xl font-semibold mb-4 text-gray-900">
+            Phishing protections
+          </h2>
+          <ul className="list-disc pl-6 mb-6">
+            <li className="mb-2 text-gray-600">
+              iBrowe can alert you if the site you’re trying to visit shows
+              evidence of phishing, malware, or other bad intent.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="w-full bg-white px-6 md:px-16 lg:px-32 py-16 flex flex-col items-start text-left">
+        <div className="w-full px-8 md:px-16 lg:px-24">
           <h2 className="text-2xl font-bold mb-8 text-gray-900">FAQs</h2>
           {faqs.map((faq, index) => (
             <div key={index} className="mb-8">
