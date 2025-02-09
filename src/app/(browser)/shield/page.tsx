@@ -1,7 +1,14 @@
 "use client";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import mobileshield from "@/assets/images/optimized/shield-assets/images/mobile-shields.webp";
+import shieldheroscreenshot from "@/assets/images/optimized/shield-assets/images/shields-hero-screenshot.webp";
+import shieldmenu from "@/assets/images/optimized/shield-assets/images/shields-menu.webp";
+import shieldsettingcog from "@/assets/images/optimized/shield-assets/images/shields-setting-cog.webp";
+import shieldvideo from "@/assets/images/optimized/shield-assets/images/shields-video.gif";
+
 import { useState } from "react";
+import Image from "next/image";
 
 export default function BlogPage() {
   const [openIndexes, setOpenIndexes] = useState(new Set<number>());
@@ -55,8 +62,8 @@ export default function BlogPage() {
           Get iBrowe
         </button>
         <div className="relative w-full max-w-4xl mt-12">
-          <img
-            src="/images/shields-hero-screenshot.webp"
+          <Image
+            src={shieldheroscreenshot}
             alt="iBrowe Shields Preview"
             className="rounded-lg w-full"
           />
@@ -78,8 +85,8 @@ export default function BlogPage() {
 
       <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2 mr-4 flex justify-end">
-          <img
-            src="/images/shields-menu.webp"
+          <Image
+            src={shieldmenu}
             alt="Protection Preview"
             className="w-full md:w-auto max-w-lg rounded-lg bg-white"
           />
@@ -120,8 +127,8 @@ export default function BlogPage() {
           </p>
         </div>
         <div className="w-full md:w-1/2 flex justify-start">
-          <img
-            src="/images/mobile-shields.webp"
+          <Image
+            src={mobileshield}
             alt="iBrowe Shields Preview"
             className="w-1/2 md:w-1/2 max-w-sm lg:max-w-md rounded-lg"
           />
@@ -130,8 +137,8 @@ export default function BlogPage() {
 
       <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2 mr-4 flex justify-end">
-          <img
-            src="/images/shields-video.gif"
+          <Image
+            src={shieldvideo}
             alt="iBrowe Shields"
             className="w-1/2 md:w-1/2 max-w-sm lg:max-w-md rounded-lg"
           />
