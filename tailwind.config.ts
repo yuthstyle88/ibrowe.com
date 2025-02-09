@@ -17,9 +17,19 @@ const config: Config = {
         inter: ["Inter", "sans-serif"],
         flecha: ["FlechaM", "serif"],
       },
-    },
-    boxShadow: {
-      header: "0 0 3px rgba(117, 117, 117, .5);",
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        "fade-in": "fade-in 0.3s ease forwards",
+      },
+      boxShadow: {
+        header: "0 0 3px rgba(117, 117, 117, .5);",
+        dropDown: "0 0 0 0 #0000, 0 0 0 0 #0000, 0 8px 40px 0 rgba(0,0,0,0.20)",
+      },
     },
   },
   plugins: [],
