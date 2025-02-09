@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import mobileshield from "@/assets/images/optimized/shield-assets/images/mobile-shields.webp";
 import shieldheroscreenshot from "@/assets/images/optimized/shield-assets/images/shields-hero-screenshot.webp";
 import shieldmenu from "@/assets/images/optimized/shield-assets/images/shields-menu.webp";
-import shieldsettingcog from "@/assets/images/optimized/shield-assets/images/shields-setting-cog.webp";
+import shieldsettingcog from "@/assets/images/optimized/shield-assets/images/shields-settings-cog.svg";
 import shieldvideo from "@/assets/images/optimized/shield-assets/images/shields-video.gif";
 
 import { useState } from "react";
@@ -153,6 +153,27 @@ export default function BlogPage() {
             find out.
           </p>
           <div className="w-full md:w-1/4"></div>
+        </div>
+      </section>
+
+      <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex flex-col md:flex-row items-center justify-center gap-10">
+        <div className="w-full md:w-1/4 flex flex-col items-start text-left"></div>
+        <div className="w-full md:w-1/4 flex flex-col items-start text-left">
+          <h2 className="text-3xl font-bold text-gray-900">
+            Privacy you can control
+          </h2>
+          <p className="mt-4 text-gray-600">
+            By default, Brave Shields are on for every site you visit. See a
+            site that looks broken? You can easily turn Shields on / off. No
+            more toggling between browsers.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 flex justify-start">
+          <Image
+            src={shieldsettingcog}
+            alt="iBrowe Shields Privacy"
+            className="w-1/3 md:w-1/3 max-w-sm lg:max-w-md rounded-lg"
+          />
         </div>
       </section>
 
