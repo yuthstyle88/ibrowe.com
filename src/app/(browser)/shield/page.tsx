@@ -9,6 +9,8 @@ import shieldvideo from "@/assets/images/optimized/shield-assets/images/shields-
 
 import { useState } from "react";
 import Image from "next/image";
+import { FaChevronUp } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function BlogPage() {
   const [openIndexes, setOpenIndexes] = useState(new Set<number>());
@@ -83,7 +85,10 @@ export default function BlogPage() {
         </svg>
       </section>
 
-      <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex flex-col md:flex-row items-center gap-10">
+      <section
+        className="w-full bg-white px-6 md:px-16 md:py-20 lg:px-32 flex flex-col md:flex-row items-center gap-10"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
         <div className="w-full md:w-1/2 mr-4 flex justify-end">
           <Image
             src={shieldmenu}
@@ -93,7 +98,8 @@ export default function BlogPage() {
         </div>
 
         <div className="w-full md:w-1/4">
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
+            {" "}
             Protection against online tracking
           </h2>
           <p className="mt-4 text-gray-600">
@@ -104,7 +110,10 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex justify-center items-center py-10 gap-10">
+      <section
+        className="w-full bg-white px-6 pt-10 md:px-16 lg:px-32 flex justify-center items-center py-10 gap-10"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
         <div className="w-full max-w-3xl">
           <iframe
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -114,10 +123,14 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex flex-col md:flex-row items-center justify-center gap-10">
+      <section
+        className="w-full bg-white px-6 md:px-16 lg:px-32 md:py-20  flex flex-col md:flex-row items-center justify-center gap-10"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
         <div className="w-full md:w-1/4 flex flex-col items-start text-left"></div>
         <div className="w-full md:w-1/4 flex flex-col items-start text-left">
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
+            {" "}
             Default protection, no setup required
           </h2>
           <p className="mt-4 text-gray-600">
@@ -135,7 +148,10 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex flex-col md:flex-row items-center gap-10">
+      <section
+        className="w-full bg-white px-6 md:px-16 md:py-20  lg:px-32 flex flex-col md:flex-row items-center gap-10"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
         <div className="w-full md:w-1/2 mr-4 flex justify-end">
           <Image
             src={shieldvideo}
@@ -144,7 +160,8 @@ export default function BlogPage() {
           />
         </div>
         <div className="w-full md:w-1/4">
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
+            {" "}
             See Shields in action
           </h2>
           <p className="mt-4 text-gray-600">
@@ -156,10 +173,13 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="w-full bg-white px-6 md:px-16 lg:px-32 flex flex-col md:flex-row items-center justify-center gap-10">
+      <section
+        className="w-full bg-white px-6 md:px-16 md:py-20 lg:px-32 flex flex-col md:flex-row items-center justify-center gap-10"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
         <div className="w-full md:w-1/4 flex flex-col items-start text-left"></div>
         <div className="w-full md:w-1/4 flex flex-col items-start text-left">
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
             Privacy you can control
           </h2>
           <p className="mt-4 text-gray-600">
@@ -172,16 +192,19 @@ export default function BlogPage() {
           <Image
             src={shieldsettingcog}
             alt="iBrowe Shields Privacy"
-            className="w-1/3 md:w-1/3 max-w-sm lg:max-w-md rounded-lg"
+            className="w-1/2 md:w-1/2 max-w-sm lg:max-w-md rounded-lg"
           />
         </div>
       </section>
 
-      <section className="w-full bg-white px-6 md:px-16 lg:px-32 py-16 flex flex-col items-start text-left">
-        <div className="w-full px-8 md:px-16 lg:px-24">
-          <h1 className="text-2xl font-bold mb-4 text-gray-900">
+      <section
+        className="w-full bg-white px-6 md:px-16 lg:px-32 py-16 flex flex-col items-start text-left"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
+        <div className="w-2/3 mx-auto md:px-16 lg:px-24">
+          <h2 className="text-[2.25rem] font-bold mb-4 text-gray-900">
             A long list of what Shields can do
-          </h1>
+          </h2>
           <p className="mb-6 text-gray-600">
             By default, iBrowe has the strongest privacy protections of any
             popular browser. And Shields are a core part of that protection.
@@ -261,25 +284,50 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="w-full bg-white px-6 md:px-16 lg:px-32 py-16 flex flex-col items-start text-left">
-        <div className="w-full px-8 md:px-16 lg:px-24">
-          <h2 className="text-2xl font-bold mb-8 text-gray-900">FAQs</h2>
+      <section
+        className="w-full bg-white px-6 md:px-16 lg:px-32 py-20 flex flex-col items-start text-left"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
+        <div className="w-1/2 mx-auto">
+          <h2 className="text-6xl font-bold mb-8 text-gray-900 text-center pb-6">
+            FAQs
+          </h2>{" "}
+          <div className="border-b border-gray-200 last:border-b-0 py-4" />
           {faqs.map((faq, index) => (
-            <div key={index} className="mb-8">
-              <h3
-                className="text-xl font-semibold mb-4 text-gray-900 cursor-pointer"
+            <div
+              key={index}
+              className="border-b border-gray-200 last:border-b-0 py-4"
+            >
+              <div
+                className="flex justify-between items-center cursor-pointer"
                 onClick={() => toggleFAQ(index)}
               >
-                {faq.question}
-              </h3>
+                <h3 className="text-sm font-semibold text-gray-900">
+                  {faq.question}
+                </h3>
+                <motion.div
+                  animate={{ rotate: openIndexes.has(index) ? 0 : 180 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <FaChevronUp className="text-[#CED0DB]" />
+                </motion.div>
+              </div>
               {openIndexes.has(index) && (
-                <p className="text-gray-600">{faq.answer}</p>
+                <motion.p
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.3 }}
+                  className="text-sm text-gray-600 mt-2"
+                >
+                  {faq.answer}
+                </motion.p>
               )}
             </div>
           ))}
+          <div className="border-b border-gray-200 last:border-b-0 py-4" />
         </div>
       </section>
-
       <Footer />
     </div>
   );
