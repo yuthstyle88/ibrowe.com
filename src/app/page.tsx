@@ -346,7 +346,7 @@ export default function Home() {
           src={AssetIcon.logo_text}
           alt="ibrowe logo"
           className="absolute top-48 md:top-[22rem] lg:top-64 left-1/2 w-[105%] max-w-[1800px] -translate-x-1/2 opacity-5"
-        />
+        />  
       </div>
       <Header />
       <div className="grid-cols-layout grid w-full place-self-start gap-x-8 pt-[140px]">
