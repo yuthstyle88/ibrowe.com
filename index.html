@@ -236,224 +236,124 @@
     </div>
   </div>
 </aside>
-<header
-    class="site-header site-header layout ease-out grid-rows-[var(--site-header-height)_var(--sub-header-height)] overflow-visible font-medium text-text-primary transition-all duration-300"
-  >
+<header class="site-header layout ease-out grid-rows-[var(--site-header-height)_var(--sub-header-height)] overflow-visible font-medium text-text-primary transition-all duration-300 site-header--dark" data-theme="light">
     <div class="relative flex w-full items-center justify-between">
       <a href="https://ibrowe.com/">
-        <img
-          src="/static-assets/images/brave-logo-sans-text.svg"
-          alt="iBrowe Software home"
-          class="h-10"
-        />
+        <img src="/static-assets/images/brave-logo-sans-text.svg" alt="iBrowe Software home" class="h-10">
       </a>
-      <input type="checkbox" id="nav-control" class="nav-control hidden" />
+      <input type="checkbox" id="nav-control" class="nav-control hidden">
       <label for="nav-control" class="toggle-button z-50 lg:hidden">
-        <div data-theme="light"
-          class="nojs-toggle leoButton block isSmall isFilled !px-[16px] !py-[14px]"
-        >
+        <div data-theme="light" class="nojs-toggle leoButton block isSmall isFilled !px-[16px] !py-[14px]">
           <div class="nav-icon"></div>
         </div>
       </label> 
       <nav class="site-nav z-40 hidden w-full shadow-[0_8px_40px_0_rgba(0,0,0,0.35)] max-lg:mr-0 max-lg:mt-6 max-lg:rounded-xl max-lg:px-8 lg:contents border-[0.5px] border-divider-strong">
         
         <ul class="block list-none items-center justify-start gap-4 p-0 pt-6 lg:ml-8 lg:flex lg:pt-2"><li class="border-t border-divider-strong border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0">
-              <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
-                tabindex="0"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-controls="dropdown-browser"
-              >เบราว์เซอร์<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
+              <span class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-browser">เบราว์เซอร์<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
               </span>
               
-              <span
-                class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]"
-                id="dropdown-browser" data-theme="light"
-              ><ul class="list-none p-0 lg:flex gap-10"><li class="">
+              <span class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]" id="dropdown-browser" data-theme="light"><ul class="list-none p-0 lg:flex gap-10"><li class="">
                       
-                        <span class="hidden lg:block flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">ดาวน์โหลด</span><ul class="p-0 list-none"><li class=""><a href="/download/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เดสก์ท็อป<span class="icon bg-icon-interactive [--icon-size:1em] [--icon-url:url(/leo-icons/download.svg)]"></span></a>
-                          </li><li class=""><a href="/android/"target="_blank"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"rel="noreferrer noopener">Android<span class="icon bg-icon-interactive [--icon-size:1em] [--icon-url:url(/leo-icons/download.svg)]"></span></a>
-                          </li><li class=""><a href="/ios/"target="_blank"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"rel="noreferrer noopener">iOS<span class="icon bg-icon-interactive [--icon-size:1em] [--icon-url:url(/leo-icons/download.svg)]"></span></a>
+                        <span class="hidden lg:block flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">ดาวน์โหลด</span><ul class="p-0 list-none"><li class=""><a href="/download/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เดสก์ท็อป<span class="icon bg-icon-interactive [--icon-size:1em] [--icon-url:url(/leo-icons/download.svg)]"></span></a>
+                          </li><li class=""><a href="/android/" target="_blank" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger" rel="noreferrer noopener">Android<span class="icon bg-icon-interactive [--icon-size:1em] [--icon-url:url(/leo-icons/download.svg)]"></span></a>
+                          </li><li class=""><a href="/ios/" target="_blank" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger" rel="noreferrer noopener">iOS<span class="icon bg-icon-interactive [--icon-size:1em] [--icon-url:url(/leo-icons/download.svg)]"></span></a>
                           </li>
                       </ul>
                       </li><li class="">
                       
                         <span class="font-semibold leoButton isPlainFaint isTiny nav-dropdown relative w-full max-lg:!p-0 max-lg:!leading-6 items-center justify-between lg:pb-1 !text-neutral-70 lg:hover:!text-neutral-30 lg:cursor-text lg:!leading-5 lg:!pl-0 before:!bg-white flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">ฟีเจอร์
-                            <span class="lg:hidden transition-transform duration-500 [--icon-size:20px] icon [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span></span><ul class="lg:col-count-2 lg:columns-2 gap-x-0 p-0 list-none"><li class=""><a href="/shields/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">Shields</a>
-                          </li><li class=""><a href="/firewall-vpn/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">VPN</a>
-                          </li><li class=""><a href="/leo/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">Leo AI</a>
-                          </li><li class=""><a href="/wallet/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">กระเป๋าเงิน</a>
-                          </li><li class=""><a href="/brave-rewards/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">รีวอร์ด</a>
-                          </li><li class=""><a href="/playlist/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เพลย์ลิสต์</a>
-                          </li><li class=""><a href="/brave-news/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ข่าวสาร</a>
-                          </li><li class=""><a href="/talk/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">พูด</a>
-                          </li><li class=""><a href="/privacy-features/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ความเป็นส่วนตัวชั้นสูง</a>
-                          </li><li class=""><a href="/features/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ฟีเจอร์ทั้งหมดfeatures</a>
+                            <span class="lg:hidden transition-transform duration-500 [--icon-size:20px] icon [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span></span><ul class="lg:col-count-2 lg:columns-2 gap-x-0 p-0 list-none"><li class=""><a href="/shields/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">Shields</a>
+                          </li><li class=""><a href="/firewall-vpn/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">VPN</a>
+                          </li><li class=""><a href="/leo/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">Leo AI</a>
+                          </li><li class=""><a href="/wallet/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">กระเป๋าเงิน</a>
+                          </li><li class=""><a href="/brave-rewards/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">รีวอร์ด</a>
+                          </li><li class=""><a href="/playlist/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เพลย์ลิสต์</a>
+                          </li><li class=""><a href="/brave-news/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ข่าวสาร</a>
+                          </li><li class=""><a href="/talk/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">พูด</a>
+                          </li><li class=""><a href="/privacy-features/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ความเป็นส่วนตัวชั้นสูง</a>
+                          </li><li class=""><a href="/features/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ฟีเจอร์ทั้งหมดfeatures</a>
                           </li>
                       </ul>
                       </li></ul>
               </span>
             </li><li class="border-t border-divider-strong border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0">
-              <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
-                tabindex="0"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-controls="dropdown-bravesearch"
-              >เครื่องมือค้นหา iBrowe<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
+              <span class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-bravesearch">เครื่องมือค้นหา iBrowe<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
               </span>
               
-              <span
-                class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]"
-                id="dropdown-bravesearch" data-theme="light"
-              ><ul class="list-none p-0 "><li class=""><ul class="p-0 list-none"><li class=""><a href="https://search.brave.com/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ลอง iBrowe Search</a>
-                          </li><li class=""><a href="/search/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เกี่ยวกับ iBrowe Search</a>
-                          </li><li class=""><a href="https://support.brave.com/hc/en-us/articles/4409406835469-What-is-the-Web-Discovery-Project-"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">Web Discovery Project</a>
+              <span class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]" id="dropdown-bravesearch" data-theme="light"><ul class="list-none p-0 "><li class=""><ul class="p-0 list-none"><li class=""><a href="https://search.brave.com/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ลอง iBrowe Search</a>
+                          </li><li class=""><a href="/search/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เกี่ยวกับ iBrowe Search</a>
+                          </li><li class=""><a href="https://support.brave.com/hc/en-us/articles/4409406835469-What-is-the-Web-Discovery-Project-" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">Web Discovery Project</a>
                           </li>
                       </ul>
                       </li></ul>
               </span>
             </li><li class="border-t border-divider-strong border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0">
-              <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
-                tabindex="0"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-controls="dropdown-whybrave"
-              >ทำไมถึงเลือก iBrowe<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
+              <span class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-whybrave">ทำไมถึงเลือก iBrowe<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
               </span>
               
-              <span
-                class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]"
-                id="dropdown-whybrave" data-theme="light"
-              ><ul class="list-none p-0 lg:flex gap-10"><li class=""><ul class="p-0 list-none"><li class=""><a href="/learn/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">คู่มือการใช้งานเบราว์เซอร์และการค้นหา</a>
+              <span class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]" id="dropdown-whybrave" data-theme="light"><ul class="list-none p-0 lg:flex gap-10"><li class=""><ul class="p-0 list-none"><li class=""><a href="/learn/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">คู่มือการใช้งานเบราว์เซอร์และการค้นหา</a>
                               <p class="hidden pb-4 text-[10px] font-semibold leading-3 tracking-tighter text-[#878DA6] lg:block">ความเป็นส่วนตัว ส่วนขยาย และตัวเลือกที่ดีที่สุดสำหรับทุกแพลตฟอร์ม</p>
-                          </li><li class=""><a href="/web3/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">คู่มือ Web3</a>
+                          </li><li class=""><a href="/web3/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">คู่มือ Web3</a>
                               <p class="hidden pb-4 text-[10px] font-semibold leading-3 tracking-tighter text-[#878DA6] lg:block">คริปโต, NFT, และทุกสิ่งเกี่ยวกับบล็อกเช่น เรียนรู้พื้นฐานของ Web3</p>
-                          </li><li class=""><a href="/glossary/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">สารบัญคำศัพท์เกี่ยวกับความเป็นส่วนตัว</a>
+                          </li><li class=""><a href="/glossary/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">สารบัญคำศัพท์เกี่ยวกับความเป็นส่วนตัว</a>
                               <p class="hidden pb-4 text-[10px] font-semibold leading-3 tracking-tighter text-[#878DA6] lg:block">การแนะนำคำศัพท์เกี่ยวกับอินเทอร์เน็ตและคอมพิวเตอร์ในภาษาง่ายๆ</p>
-                          </li><li class=""><a href="/compare/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เปรียนเทียบ</a>
+                          </li><li class=""><a href="/compare/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">เปรียนเทียบ</a>
                               <p class="hidden pb-4 text-[10px] font-semibold leading-3 tracking-tighter text-[#878DA6] lg:block">ดูว่า iBrowe เปรียบเทียบกับเบราว์เซอร์และเครื่องมือค้นหาอื่นๆ อย่างไร</p>
-                          </li><li class=""><a href="/ai/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">คู่มือ AI</a>
+                          </li><li class=""><a href="/ai/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">คู่มือ AI</a>
                               <p class="hidden pb-4 text-[10px] font-semibold leading-3 tracking-tighter text-[#878DA6] lg:block">LLMs แมชชินเลิร์นนิ่ง และรากฐานของ AI สำหรับทั้งผู้ใช้และนักพัฒนา</p>
                           </li>
                       </ul>
                       </li><li class="border-t border-divider-strong lg:border-0 mt-2 lg:mt-0">
                       
-                        <span class="uppercase text-neutral-30 text-[8px] font-bold tracking-tighter flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">บล็อก</span><ul class="p-0 list-none"><li class=""><a href="/blog/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">บล็อก iBrowe</a>
-                          </li><li class=""><a href="/privacy-updates/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">การอัปเดตความเป็นส่วนตัว</a>
-                          </li><li class=""><a href="/web-standards-at-brave/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">มาตรฐานเว็บ</a>
-                          </li><li class=""><a href="/research/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">การค้นคว้า</a>
-                          </li><li class=""><a href="/podcast/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">พอดแคสต์ Brave</a>
+                        <span class="uppercase text-neutral-30 text-[8px] font-bold tracking-tighter flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">บล็อก</span><ul class="p-0 list-none"><li class=""><a href="/blog/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">บล็อก iBrowe</a>
+                          </li><li class=""><a href="/privacy-updates/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">การอัปเดตความเป็นส่วนตัว</a>
+                          </li><li class=""><a href="/web-standards-at-brave/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">มาตรฐานเว็บ</a>
+                          </li><li class=""><a href="/research/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">การค้นคว้า</a>
+                          </li><li class=""><a href="/podcast/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">พอดแคสต์ Brave</a>
                           </li>
                       </ul>
                       </li></ul>
               </span>
             </li><li class="border-t border-divider-strong border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0">
-              <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
-                tabindex="0"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-controls="dropdown-searchapi"
-              >Search API<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
+              <span class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-searchapi">Search API<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
               </span>
               
-              <span
-                class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]"
-                id="dropdown-searchapi" data-theme="light"
-              ><ul class="list-none p-0 "><li class=""><ul class="p-0 list-none"><li class=""><a href="/search/api/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"data-track-event data-event-category="Nav Menu CTAs" data-event-action="Search API pricing link click" data-event-name="Search API pricing link">การกำหนดราคา</a>
-                          </li><li class=""><a href="https://api-dashboard.search.brave.com/app/documentation/web-search/get-started"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"data-track-event data-event-category="Nav Menu CTAs" data-event-action="Search API docs link click" data-event-name="Search API docs link">เอกสาร</a>
-                          </li><li class=""><a href="https://api-dashboard.search.brave.com/login"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"data-track-event data-event-category="Nav Menu CTAs" data-event-action="Search API login/signup link click" data-event-name="Search API login/signup link">เข้าสู่ระบบ / สมัครสมาชิก</a>
+              <span class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]" id="dropdown-searchapi" data-theme="light"><ul class="list-none p-0 "><li class=""><ul class="p-0 list-none"><li class=""><a href="/search/api/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger" data-track-event="" data-event-category="Nav Menu CTAs" data-event-action="Search API pricing link click" data-event-name="Search API pricing link">การกำหนดราคา</a>
+                          </li><li class=""><a href="https://api-dashboard.search.brave.com/app/documentation/web-search/get-started" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger" data-track-event="" data-event-category="Nav Menu CTAs" data-event-action="Search API docs link click" data-event-name="Search API docs link">เอกสาร</a>
+                          </li><li class=""><a href="https://api-dashboard.search.brave.com/login" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger" data-track-event="" data-event-category="Nav Menu CTAs" data-event-action="Search API login/signup link click" data-event-name="Search API login/signup link">เข้าสู่ระบบ / สมัครสมาชิก</a>
                           </li>
                       </ul>
                       </li></ul>
               </span>
             </li><li class="border-t border-divider-strong border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0">
-              <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
-                tabindex="0"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-controls="dropdown-privateadvertising"
-              >โฆษณา<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
+              <span class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-privateadvertising">โฆษณา<span class="hidden lg:inline-flex icon mt-px bg-[var(--leo-color-text-tertiary)] [--icon-size:18px] [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
               </span>
               
-              <span
-                class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]"
-                id="dropdown-privateadvertising" data-theme="light"
-              ><ul class="list-none p-0 lg:flex gap-5"><li class=""><ul class="p-0 list-none"><li class=""><a href="/brave-ads/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ภาพรวม</a>
-                          </li><li class=""><a href="https://ads.brave.com"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ตัวจัดการโฆษณา</a>
-                          </li><li class=""><a href="/brave-ads/audience/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">กลุ่มเป้าหมาย</a>
-                          </li><li class=""><a href="/brave-ads/casestudies/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">กรณีศึกษา</a>
-                          </li><li class=""><a href="https://ads-help.brave.com/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ศูนย์ช่วยเหลือ</a>
-                          </li><li class=""><a href="/brave-ads/learn/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ทำไมต้องเป็น iBrowe Ads</a>
+              <span class="dropdown-content z-30 block border-divider-strong lg:absolute lg:-ml-6 lg:mt-2 lg:rounded-xl lg:border-[0.5px] lg:bg-white lg:px-6 lg:py-4 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.20)]" id="dropdown-privateadvertising" data-theme="light"><ul class="list-none p-0 lg:flex gap-5"><li class=""><ul class="p-0 list-none"><li class=""><a href="/brave-ads/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ภาพรวม</a>
+                          </li><li class=""><a href="https://ads.brave.com" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ตัวจัดการโฆษณา</a>
+                          </li><li class=""><a href="/brave-ads/audience/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">กลุ่มเป้าหมาย</a>
+                          </li><li class=""><a href="/brave-ads/casestudies/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">กรณีศึกษา</a>
+                          </li><li class=""><a href="https://ads-help.brave.com/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ศูนย์ช่วยเหลือ</a>
+                          </li><li class=""><a href="/brave-ads/learn/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger">ทำไมต้องเป็น iBrowe Ads</a>
                           </li>
                       </ul>
                       </li><li class="lg:border-l lg:-my-4 lg:pt-4 border-divider-strong">
                       
-                        <span class="mt-2 lg:mt-0 hidden lg:block pl-6 flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">รูปแบบโฆษณาของ iBrowe</span><ul class="hidden lg:block pl-6 table-of-contents list-none"><li class="li-before"><a href="/brave-ads/search/"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">โฆษณาในผลค้นหา</a>
-                          </li><li class="li-before"><a href="/brave-ads/browser/#new-tab-takeover"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">การแสดงโฆษณาแบบเต็มในแท็บใหม่</a>
-                          </li><li class="li-before"><a href="/brave-ads/browser/#newsfeed-ads"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">โฆษณาฟีดข่าว</a>
-                          </li><li class="li-before"><a href="/brave-ads/browser/#notification-ads"
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">โฆษณาการแจ้งเตือน</a>
+                        <span class="mt-2 lg:mt-0 hidden lg:block pl-6 flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">รูปแบบโฆษณาของ iBrowe</span><ul class="hidden lg:block pl-6 table-of-contents list-none"><li class="li-before"><a href="/brave-ads/search/" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">โฆษณาในผลค้นหา</a>
+                          </li><li class="li-before"><a href="/brave-ads/browser/#new-tab-takeover" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">การแสดงโฆษณาแบบเต็มในแท็บใหม่</a>
+                          </li><li class="li-before"><a href="/brave-ads/browser/#newsfeed-ads" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">โฆษณาฟีดข่าว</a>
+                          </li><li class="li-before"><a href="/brave-ads/browser/#notification-ads" class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6 !inline-block" data-nav-control="trigger">โฆษณาการแจ้งเตือน</a>
                           </li>
                       </ul>
                       <div class="hidden lg:block border-t border-divider-strong -mr-6 mt-4 py-[0.5rem] pb-[0.7rem] text-center">
-                          <a href='/brave-ads/resources/' class="no-underline font-semibold !text-neutral-70 hover:!text-text-interactive text-[12px]">แหล่งข้อมูลเพิ่มเติมเกี่ยวกับโฆษณา</a>
+                          <a href="/brave-ads/resources/" class="no-underline font-semibold !text-neutral-70 hover:!text-text-interactive text-[12px]">แหล่งข้อมูลเพิ่มเติมเกี่ยวกับโฆษณา</a>
                         </div></li></ul>
               </span>
             </li>
         </ul>
-        <div
-          class="lg:flex-no-wrap button-block sticky bottom-0 flex flex-grow flex-wrap items-center justify-end gap-3 pb-6 pt-3 before:absolute before:left-0 before:right-0 before:block max-lg:bg-white lg:relative lg:bg-[transparent] lg:p-0 lg:before:hidden"
-        ><a id="top-nav-download-button-desktop"  data-show-platform="false" class="download  leoButton isFilled isSmall flex items-center [--icon-size:18px!important] justify-center max-lg:w-full [--leo-button-padding:0_12px] invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV002"><span class="content">ดาวน์โหลด iBrowe</span><span class="icon [--icon-url:url('/leo-icons/download.svg')] bg-[var(--icon-color,currentColor)] ml-1"></span></a>
-          <a
-            id="top-nav-try-search-button"
-            class="leoButton isSmall w-full max-w-full text-center font-semibold capitalize leading-none max-lg:w-full lg:w-fit isOutline max-lg:![--border-color-hover:#1C1E26] ![--border-color-hover:var(--leo-color-text-primary)] max-lg:![--border-color:#1C1E26] ![--border-color:var(--leo-color-text-primary)] !text-[#1C1E26] lg:!text-text-primary [--leo-button-padding:0_12px]"
-            href="https://search.brave.com"
-            target="_blank"
-            ><span class="content">ค้นหาเว็บ</span><span class="icon [--icon-size:18px] [--icon-url:url('/leo-icons/search.svg')] bg-[#1C1E26] lg:bg-[var(--leo-color-text-primary)] dark:lg:text-text-primary"></span></a
-          ></div>
+        <div class="lg:flex-no-wrap button-block sticky bottom-0 flex flex-grow flex-wrap items-center justify-end gap-3 pb-6 pt-3 before:absolute before:left-0 before:right-0 before:block max-lg:bg-white lg:relative lg:bg-[transparent] lg:p-0 lg:before:hidden"><a id="top-nav-download-button-desktop" data-show-platform="false" class="download leoButton isFilled isSmall flex items-center [--icon-size:18px!important] justify-center max-lg:w-full [--leo-button-padding:0_12px] transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV002"><span class="content">ดาวน์โหลด iBrowe</span><span class="icon [--icon-url:url('/leo-icons/download.svg')] bg-[var(--icon-color,currentColor)] ml-1"></span></a>
+          <a id="top-nav-try-search-button" class="leoButton isSmall w-full max-w-full text-center font-semibold capitalize leading-none max-lg:w-full lg:w-fit isOutline max-lg:![--border-color-hover:#1C1E26] ![--border-color-hover:var(--leo-color-text-primary)] max-lg:![--border-color:#1C1E26] ![--border-color:var(--leo-color-text-primary)] !text-[#1C1E26] lg:!text-text-primary [--leo-button-padding:0_12px]" href="https://search.brave.com" target="_blank"><span class="content">ค้นหาเว็บ</span><span class="icon [--icon-size:18px] [--icon-url:url('/leo-icons/search.svg')] bg-[#1C1E26] lg:bg-[var(--leo-color-text-primary)] dark:lg:text-text-primary"></span></a></div>
       </nav>
     </div></header>
 </div>
@@ -1347,7 +1247,7 @@
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
     <div class="-mt-2 pb-6 prose" data-accordion-content>
-        <p>เพียงดาวน์โหลด iBrowe บนคอมพิวเตอร์, Android หรือ iOS ก็เริ่มใช้งานได้ทันที <a href="/download/">for desktop</a>, <a href="https://play.google.com/store/apps/details?id=com.brave.browser" target="_blank" rel="noopener">for Android</a>, or <a href="https://apps.apple.com/app/brave-private-web-browser-vpn/id1052879175?mt=8&amp;ign-mpt=uo%3D4" target="_blank" rel="noopener">for iOS</a> to get started. You can also use Brave Search free from any browser at search.brave.com, or <a href="https://search.brave.com/default" target="_blank" rel="noopener">set it as your default search engine</a>.</p>
+        <p>เพียงดาวน์โหลด iBrowe บนคอมพิวเตอร์, Android หรือ iOS ก็เริ่มใช้งานได้ทันที <a href="/download/">for desktop</a>, <a href="https://play.google.com/store/apps/details?id=com.brave.browser" target="_blank" rel="noopener">for Android</a>, or <a href="https://apps.apple.com/app/brave-private-web-browser-vpn/id1052879175?mt=8&amp;ign-mpt=uo%3D4" target="_blank" rel="noopener">for iOS</a> เพื่อเริ่มต้น คุณยังสามารถใช้ iBrowe Search ได้ฟรีจากเบราว์เซอร์ใดก็ได้ที่ หรือ search.ibrowe.com, or <a href="https://search.ibrowe.com/default" target="_blank" rel="noopener">ตั้งเป็นเครื่องมือค้นหาเริ่มต้นของคุณ</a>.</p>
 <p>นอกจากนี้ คุณยังสามารถใช้ iBrowe Search ได้ฟรีจากทุกเบราว์เซอร์ที่ search.ibrowe.com หรือกำหนดให้เป็นเครื่องมือค้นหาเริ่มต้นของคุณ <a href="/talk/">แต่ถ้าคุณต้องการฟีเจอร์พรีเมียม iBrowe ก็มี iBrowe Talk Premium</a> and <a href="/firewall-vpn/">และ iBrowe Firewall + VPN เพื่อความเป็นส่วนตัวที่เหนือกว่า! 🔒🔥</a>.</p>
 
     </div>
