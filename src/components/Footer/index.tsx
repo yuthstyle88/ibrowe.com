@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import logo from "../../assets/images/brave-logo-sans-text.svg";
+
 
 const Footer = () => {
   return (
@@ -256,12 +258,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm">
           <div className="flex items-center space-x-2">
-            <Image
-              src="/images/brave-logo-sans-text.svg"
-              alt="iBrowe Logo"
-              width={32}
-              height={32}
-            />
+            <Image src={logo} height={32} alt="logo" />
             <span className="text-white font-bold">iBrowe</span>
           </div>
           <div className="mt-2 pt-2 flex flex-col items-end text-sm">
