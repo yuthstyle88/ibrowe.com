@@ -62,29 +62,87 @@
 }
 
 
+@layer utilities {
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .dropdown-item {
   @apply pt-[5px] text-[12px] font-semibold text-[#1b1b1b] hover:text-[#3E37D4] duration-150;
 }
+
 .nav-links {
   @apply text-gray-700 leading-[16px] tracking-[-0.36px] hover:text-gray-900 px-[11px] py-2 rounded-md text-[12px] font-[600] flex flex-row items-center gap-1;
 }
-.primary-button {
-  @apply flex flex-row gap-1 bg-[#3E37D4] text-white px-3 py-[9px] rounded-md text-[12px] font-[600] hover:bg-[#3731B0];
+
+.card {
+  @apply text-[#1b1b1f] p-[1.8rem] rounded-2xl border-2 border-[#1b1b1f];
 }
-.secondary-button {
-  @apply flex flex-row gap-1 border-[1px] border-[#1b1b1f] bg-transparent text-[#1b1b1f] px-3 py-2 rounded-md text-[12px] font-[600] hover:bg-[#3731B0];
+
+.card__contents {
+  @apply w-full min-[1280px]:w-[400px] [--card-padding:1.8rem] [--card-contents-border-width:2px] relative min-h-[290px]
 }
-.menu-button {
-  @apply lg:hidden flex flex-col gap-1 bg-[#3E37D4] text-white px-4 py-4 rounded-md text-[12px] font-[600] hover:bg-[#3731B0];
+
+.leoButton {
+  @apply text-[#3e37d4] border-[1px] border-[#c1c4ff] hover:border-[#a1a2ff] text-[14px] font-poppins font-bold py-[11px] px-[20px] rounded-xl hover:shadow-ai
 }
-.menu-bar {
-  @apply w-[24px] h-[2px] bg-white rounded-sm;
+
+.card-h4 {
+  @apply pb-2 text-[#1b1b1f] text-[30px] font-poppins font-semibold leading-[45px]
 }
+
+.text-blockquote {
+  @apply text-[1.25rem] font-semibold leading-[1.8750rem] font-poppins tracking-[.025rem]
+}
+
+.card_quote {
+  @apply text-[#fff] rounded-tr-2xl rounded-tl-2xl border-2 border-[#111114];
+}
+
+.card__contents_quote {
+  @apply w-full relative
+}
+
+.card__contents_quote_right {
+  @apply relative
+}
+
+.leoButtonCompare {
+  @apply text-[#fff] bg-[#3e37d4] border-[1px] border-[#c1c4ff] hover:border-[#a1a2ff] hover:bg-[#3731B0] text-[14px] font-poppins font-bold py-[11px] px-[20px] rounded-xl hover:shadow-ai duration-300
+}
+.leoButtonCompareLarge {
+  @apply text-[#fff] bg-[#3e37d4] border-[1px] border-[#3e37d4] hover:border-[#a1a2ff] hover:bg-[#3731B0] text-[14px] font-poppins font-bold py-[11px] px-[20px] rounded-xl hover:shadow-ai duration-300
+}
+
+.leoButtonBanner {
+  @apply text-[#3e37d4] border-[1px] border-[#c1c4ff] hover:border-[#a1a2ff] text-[12px] font-poppins font-bold py-[8px] px-[12px] rounded-lg hover:shadow-ai
+}
+
+.card_faq {
+  @apply text-[#1b1b1f] px-[32px] py-[24px] border-t-2 border-x-2 border-[#1b1b1f];
+}
+
+.card__contents_faq {
+  @apply w-full px-[32px] [--card-contents-border-width:2px] relative
+}
+
 
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --gradient-peachy: radial-gradient(at 2% 78%, #b8b7e1 0px, transparent 50%),
+    radial-gradient(at 50% 7%, #f4c071 0px, transparent 50%),
+    radial-gradient(at 89% 10%, #ff8a66 0px, transparent 50%),
+    radial-gradient(at 77% 85%, #413ee5 0px, transparent 50%),
+    radial-gradient(at 0% 100%, #9999ff 0px, transparent 50%),
+    radial-gradient(at 0% 0%, #f4f4f6 0px, transparent 50%);
 }
 
 @media (prefers-color-scheme: dark) {
