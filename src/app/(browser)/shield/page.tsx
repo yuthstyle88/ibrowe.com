@@ -53,7 +53,7 @@ export default function BlogPage() {
     },
   ];
   return (
-    <div>
+    <div className="bg-white">
       <Header />
       <section className="relative bg-gradient-to-b from-indigo-600 to-purple-500 min-h-[500px] flex flex-col items-center text-white">
         <h1 className="text-4xl font-bold mt-20">iBrowe Shields</h1>
@@ -86,35 +86,34 @@ export default function BlogPage() {
       </section>
 
       <section
-        className="w-full bg-white px-6 md:px-16 md:py-20 lg:px-32 flex flex-col md:flex-row items-center gap-10"
+        className="w-3/5 bg-white mx-auto px-6 md:py-20 grid md:grid-cols-2 gap-5 items-center unicode-bidi-[isolate] max-w-full md:max-w-[980px]"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="w-full md:w-1/2 mr-4 flex justify-end">
+        <div className="order-last my-auto">
           <Image
             src={shieldmenu}
             alt="Protection Preview"
-            className="w-full md:w-auto max-w-lg rounded-lg bg-white"
+            className="max-w-sm w-full my-auto mx-auto max-w-maxcontent "
           />
         </div>
 
-        <div className="w-full md:w-1/4">
-          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
-            {" "}
+        <div className="order-last my-auto">
+          <h2 className="text-[2.25rem] font-semibold leading-[1.6667] text-[rgb(33,37,41)] text-opacity-100">
             Protection against online tracking
           </h2>
-          <p className="mt-4 text-gray-600">
+          <div className="mt-4 text-[1.125rem] leading-[2rem] text-[rgb(73,80,87)] text-opacity-100">
             iBrowe Shields block the stuff that follows you online, across every
             page you visit. Trackers. Cross-site cookies. Phishing.
             Fingerprinting. And more.
-          </p>
+          </div>
         </div>
       </section>
 
       <section
-        className="w-full bg-white px-6 pt-10 md:px-16 lg:px-32 flex justify-center items-center py-10 gap-10"
+        className="w-3/5 max-w-[768px] bg-white mx-auto px-6 pt-10 md:py-20 pb-24 border-0 border-solid border-[#dadce8] box-border text-[100%] tab-size-4 font-normal leading-[2] unicode-bidi-[isolate]"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="w-full max-w-3xl">
+        <div className="w-full px-6">
           <iframe
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             className="w-full h-[400px] rounded-lg shadow-md"
@@ -124,84 +123,76 @@ export default function BlogPage() {
       </section>
 
       <section
-        className="w-full bg-white px-6 md:px-16 lg:px-32 md:py-20  flex flex-col md:flex-row items-center justify-center gap-10"
+        className="w-3/5 bg-white mx-auto px-6 md:py-20 grid md:grid-cols-2 gap-5 items-center unicode-bidi-[isolate] max-w-full"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="w-full md:w-1/4 flex flex-col items-start text-left"></div>
-        <div className="w-full md:w-1/4 flex flex-col items-start text-left">
-          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
-            {" "}
+        <div className="order-last md:order-first my-auto">
+          <h2 className="text-[2.25rem] font-semibold leading-[1.67] text-[rgb(33_37_41)] pb-1">
             Default protection, no setup required
           </h2>
-          <p className="mt-4 text-gray-600">
+          <div className="mt-4 text-[1.125rem] leading-[2rem] text-[rgb(73,80,87)] text-opacity-100">
             Shields mean out-of-the-box protection. No extra downloads, no
             settings to configure. Just download iBrowe, and start browsing.
             Privately. Securely.
-          </p>
+          </div>
         </div>
-        <div className="w-full md:w-1/2 flex justify-start">
+        <div className="max-w-maxcontent">
           <Image
             src={mobileshield}
             alt="iBrowe Shields Preview"
-            className="w-1/2 md:w-1/2 max-w-sm lg:max-w-md rounded-lg"
+            className="max-w-sm w-full my-auto mx-auto"
           />
         </div>
       </section>
 
       <section
-        className="w-full bg-white px-6 md:px-16 md:py-20  lg:px-32 flex flex-col md:flex-row items-center gap-10"
+        className="w-3/5 bg-white mx-auto px-6 md:py-20 grid md:grid-cols-2 gap-5 items-center unicode-bidi-[isolate] max-w-full"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="w-full md:w-1/2 mr-4 flex justify-end">
-          <Image
-            src={shieldvideo}
-            alt="iBrowe Shields"
-            className="w-1/2 md:w-1/2 max-w-sm lg:max-w-md rounded-lg"
-          />
-        </div>
-        <div className="w-full md:w-1/4">
-          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
-            {" "}
+        <Image
+          src={shieldvideo}
+          alt="iBrowe Shields"
+          className="max-w-sm w-full my-auto mx-auto"
+        />
+        <div className="order-last my-auto">
+          <h2 className="text-[2.25rem] font-semibold leading-[1.67] text-[rgb(33_37_41)] pb-1">
             See Shields in action
           </h2>
-          <p className="mt-4 text-gray-600">
+          <div className="mt-4 text-[1.125rem] leading-[2rem] text-[rgb(73,80,87)] text-opacity-100">
             With Shields, you can see all the creepy stuff that iBrowe blocked.
             Just click the iBrowe Shields icon in the address bar of any page to
             find out.
-          </p>
+          </div>
           <div className="w-full md:w-1/4"></div>
         </div>
       </section>
 
       <section
-        className="w-full bg-white px-6 md:px-16 md:py-20 lg:px-32 flex flex-col md:flex-row items-center justify-center gap-10"
+        className="w-3/5 bg-white mx-auto px-6 md:py-20 grid md:grid-cols-2 gap-5 items-center unicode-bidi-[isolate] max-w-full"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="w-full md:w-1/4 flex flex-col items-start text-left"></div>
-        <div className="w-full md:w-1/4 flex flex-col items-start text-left">
-          <h2 className="text-[36px] font-semibold leading-[60px] text-[rgb(33,37,41)]">
+        <div className="order-last md:order-first my-auto">
+          <h2 className="text-[2.25rem] font-semibold leading-[1.67] text-[rgb(33_37_41)] pb-1">
             Privacy you can control
           </h2>
-          <p className="mt-4 text-gray-600">
+          <div className="mt-4 text-[1.125rem] leading-[2rem] text-[rgb(73,80,87)] text-opacity-100">
             By default, Brave Shields are on for every site you visit. See a
             site that looks broken? You can easily turn Shields on / off. No
             more toggling between browsers.
-          </p>
+          </div>
         </div>
-        <div className="w-full md:w-1/2 flex justify-start">
-          <Image
-            src={shieldsettingcog}
-            alt="iBrowe Shields Privacy"
-            className="w-1/2 md:w-1/2 max-w-sm lg:max-w-md rounded-lg"
-          />
-        </div>
+        <Image
+          src={shieldsettingcog}
+          alt="iBrowe Shields Privacy"
+          className="max-w-sm w-full my-auto mx-auto"
+        />
       </section>
 
       <section
-        className="w-full bg-white px-6 md:px-16 lg:px-32 py-16 flex flex-col items-start text-left"
+        className="w-3/5 bg-white mx-auto py-10 md:py-20 grid md:grid-cols-1 gap-5 items-center unicode-bidi-[isolate] max-w-full md:max-w-[980px] border-t border-gray-100"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="w-2/3 mx-auto md:px-16 lg:px-24">
+        <div className="order-last">
           <h2 className="text-[2.25rem] font-bold mb-4 text-gray-900">
             A long list of what Shields can do
           </h2>
@@ -285,11 +276,11 @@ export default function BlogPage() {
       </section>
 
       <section
-        className="w-full bg-white px-6 md:px-16 lg:px-32 py-20 flex flex-col items-start text-left"
+        className="w-3/5 bg-white mx-auto py-10 md:py-20 grid md:grid-cols-1 gap-5 items-center unicode-bidi-[isolate] max-w-full md:max-w-[980px] border-t border-gray-100"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="w-1/2 mx-auto">
-          <h2 className="text-6xl font-bold mb-8 text-gray-900 text-center pb-6">
+        <div className="w-full mx-auto max-w-[980px] border-0 border-solid border-[#dadce8] box-border tab-[4] text-[100%]">
+          <h2 className="text-[2.25rem] font-bold mb-4 text-gray-900 text-center">
             FAQs
           </h2>{" "}
           <div className="border-b border-gray-200 last:border-b-0 py-4" />
