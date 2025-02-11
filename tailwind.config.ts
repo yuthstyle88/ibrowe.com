@@ -48,6 +48,16 @@ const config: Config = {
         'h3': ['2.5rem', { lineHeight: '2.75rem', letterSpacing: '-.1rem' }],
         'h2': ['4.375rem', { lineHeight: '5.625rem', letterSpacing: '-.175rem' }],
         'default-regular': ['14px', { lineHeight: '22px', letterSpacing: '0' }],
+        'ds-h1': ['3.25rem', { lineHeight: '1.2307692307692308', letterSpacing: '0' }],
+        'ds-h2': ['2.25rem', { lineHeight: '45px', letterSpacing: '0' }],
+        'ds-h4': ['1.5rem', { lineHeight: '1.5', letterSpacing: '0' }],
+        'ds-lg': ['1.125rem', { lineHeight: '2rem', letterSpacing: '0' }],
+        'ds-2xl': ['2.5rem', { lineHeight: '1.25', letterSpacing: '0' }],
+      },
+      textColor:{
+        "light-01":"rgba(33,37,41)",
+        "light-02":"rgba(73 80 87)",
+        "light-03":"#868e96",
       }
       
     },
