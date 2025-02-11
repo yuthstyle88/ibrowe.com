@@ -56,7 +56,7 @@ export default function BlogPage() {
     <div className="bg-white">
       <Header />
       <section className="relative bg-gradient-to-b from-indigo-600 to-purple-500 min-h-[500px] flex flex-col items-center text-white">
-        <h1 className="text-4xl font-bold mt-20">iBrowe Shields</h1>
+        <h1 className="text-4xl font-bold mt-40">iBrowe Shields</h1>
         <p className="mt-2 text-lg">
           Default protection. On every web page you visit.
         </p>
