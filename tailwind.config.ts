@@ -46,6 +46,8 @@ const config: Config = {
         'display-mobile-h1': ['2.5rem', { lineHeight: '2.8125rem', letterSpacing: '-.05rem' }],
         'display-desktop-h3': ['4.375rem', { lineHeight: '1', letterSpacing: '-.0875rem' }],
         'h3': ['2.5rem', { lineHeight: '2.75rem', letterSpacing: '-.1rem' }],
+        'h2': ['4.375rem', { lineHeight: '5.625rem', letterSpacing: '-.175rem' }],
+        'default-regular': ['14px', { lineHeight: '22px', letterSpacing: '0' }],
       }
       
     },

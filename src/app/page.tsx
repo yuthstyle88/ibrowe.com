@@ -1,44 +1,287 @@
 "use client";
+import FaqItem from "@/components/FaqItem";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { AssetIcon } from "@/constants/icon";
+import compare from "@/data/compare";
 import Image from "next/image";
-import logo_text from "../assets/images/brave-logo-text-only.svg";
-import download from "../assets/icon/download.svg";
-import search_linear from "../assets/icon/search-radient.svg";
-import wave from "../assets/icon/line-waves.svg";
-import leo from "../assets/images/leo-illustration.svg";
-import vpn from "../assets/images/vpn-illustration.svg";
-import app from "../assets/images/app-illustration.svg";
-import minus from "../assets/icon/minus.svg";
-import edge from "../assets/icon/edge-color.svg";
-import chrome from "../assets/icon/chromerelease-color.svg";
-import safari from "../assets/icon/safari-color.svg";
-import firefox from "../assets/icon/firefox-color.svg";
-import ibrowe from "../assets/icon/social-brave-release-favicon-fullheight-color.svg";
-import google from "../assets/icon/google-color.svg";
-import arrowLeft from "../assets/icon/arrow-left.svg";
-import arrowRight from "../assets/icon/arrow-right.svg";
-import { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
-const compare = [
+const faqData = [
   {
-    name: "Brave vs Chrome",
-    icon1: ibrowe,
-    icon2: chrome,
+    question: "Is the Brave Browser safe?",
+    answer: (
+      <>
+        <p className="pb-[30px]">
+          Brave is one of the safest browsers on the market today. It blocks
+          privacy-invasive ads &amp; trackers. It blocks third-party data
+          storage. It protects from browser fingerprinting. It upgrades every
+          webpage possible to secure https connections. And it does all this by
+          default.
+        </p>
+        <p>
+          It’s also built off the open-source Chromium Web core, which powers
+          browsers used by billions of people worldwide. This source code is
+          arguably vetted by more security researchers than any other browser.
+          In short, not only is Brave safe to use, it’s much safer than almost
+          any other browser.{" "}
+          <a href="/privacy-features/" className="text-[#3e37d4] underline">
+            Learn more
+          </a>
+          .
+        </p>
+      </>
+    ),
   },
   {
-    name: "Brave vs Edge",
-    icon1: ibrowe,
-    icon2: edge,
+    question: "How do I download & install Brave?",
+    answer: (
+      <>
+        <p>
+          Brave is available on nearly all desktop computers (Windows, macOS,
+          Linux) and nearly every mobile device (Android and iOS). To get
+          started, simply download the Brave browser{" "}
+          <a className="text-[#b3186c] underline" href="/download/">
+            for desktop
+          </a>
+          ,{" "}
+          <a
+            href="https://play.google.com/store/apps/details?id=com.brave.browser"
+            target="_blank"
+            className="text-[#3e37d4] underline"
+          >
+            for Android
+          </a>
+          , or{" "}
+          <a
+            href="https://apps.apple.com/app/brave-private-web-browser-vpn/id1052879175?mt=8&amp;ign-mpt=uo%3D4"
+            target="_blank"
+            className="text-[#3e37d4] underline"
+          >
+            for iOS
+          </a>
+          .
+        </p>
+      </>
+    ),
   },
   {
-    name: "Brave vs Safari",
-    icon1: ibrowe,
-    icon2: safari,
+    question: "Does Brave have a VPN?",
+    answer: (
+      <>
+        <p>
+          Yes!{" "}
+          <a className="text-[#b3186c] underline" href="/firewall-vpn/">
+            Brave Firewall + VPN
+          </a>{" "}
+          protects everything you do online, on your entire device,{" "}
+          <em>even outside the Brave Browser</em>. One subscription covers up to
+          5 devices, across Android, iOS, and desktop.
+        </p>
+      </>
+    ),
   },
   {
-    name: "Brave vs Firefox",
-    icon1: ibrowe,
-    icon2: firefox,
+    question: "Does Brave block YouTube ads?",
+    answer: (
+      <>
+        <p>
+          Yes, the Brave browser can block ads on video sites like YouTube. That
+          includes on-page ads, pre-roll and mid-roll ads, end-card ads, and
+          more. By blocking ads, you get a cleaner experience and faster video
+          load.{" "}
+          <a
+            className="text-[#3e37d4] underline"
+            href="/did-you-know/brave-blocks-youtube-ads/"
+          >
+            Learn more about Brave’s YouTube ad blocking.
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "What is the Brave Search engine?",
+    answer: (
+      <>
+        <p>
+          Brave Search is the private, independent search engine that’s default
+          for most new users of the Brave browser. It’s also{" "}
+          <a
+            href="https://search.brave.com/default"
+            target="_blank"
+            className="text-[#3e37d4] underline"
+          >
+            available in any other browser
+          </a>{" "}
+          at search.brave.com. Brave Search serves fast, accurate results from
+          its own independent index of the Web, and offers unique features like
+          a powerful AI-answer engine. Unlike some other search engines, Brave
+          Search doesn’t profile you; it can’t share, sell, or lose your
+          personal data, because it’s not collected in the first place.{" "}
+          <a className="text-[#b3186c] underline" href="/search/">
+            Learn more about Brave Search.
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "What languages is Brave available in?",
+    answer: (
+      <>
+        <p>
+          The Brave Browser is available in nearly 160 languages in all,
+          including four different dialects of Chinese. Brave Search is
+          currently available in almost 20 different languages, with support for
+          even more languages on the horizon.
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "Who owns Brave?",
+    answer: (
+      <>
+        <p>
+          The Brave Browser, Brave Search, and all their various features are
+          made by Brave Software Inc, an independent, privately-held company.
+          Brave is not beholden to any other tech company, and works every
+          single day to fight Big Tech’s terrible privacy abuses. Brave exists
+          to help real people, not some faceless tech company.
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "Is Brave open source?",
+    answer: (
+      <>
+        <p>
+          Yes. The Brave Browser is built on the open-source Chromium Web core
+          and our own client code is released under the{" "}
+          <a
+            href="https://github.com/brave/brave-browser"
+            target="_blank"
+            className="text-[#b3186c] underline"
+          >
+            Mozilla Public License 2.0
+          </a>
+          .
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "How does Brave compare to Chrome?",
+    answer: (
+      <>
+        <p>
+          Simply put, the{" "}
+          <a
+            className="text-[#3e37d4] underline"
+            href="/compare/chrome-vs-brave/"
+          >
+            Brave Browser is 3x faster than Google Chrome
+          </a>
+          . By blocking privacy-invading ads &amp; trackers by default, there’s
+          less stuff to load on every single webpage you visit. That means pages
+          load much faster, saving you time, money, and battery life. It also
+          means you’re much safer online.{" "}
+          <a
+            className="text-[#3e37d4] underline"
+            href="/compare/chrome-vs-brave/"
+          >
+            Learn more
+          </a>
+          .
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "Is Brave free?",
+    answer: (
+      <>
+        <p className="pb-[30px]">
+          Yes, Brave is completely free to use. Simply download the Brave
+          browser{" "}
+          <a className="text-[#b3186c] underline" href="/download/">
+            for desktop
+          </a>
+          ,{" "}
+          <a
+            href="https://play.google.com/store/apps/details?id=com.brave.browser"
+            target="_blank"
+            className="text-[#3e37d4] underline"
+          >
+            for Android
+          </a>
+          , or{" "}
+          <a
+            href="https://apps.apple.com/app/brave-private-web-browser-vpn/id1052879175?mt=8&amp;ign-mpt=uo%3D4"
+            target="_blank"
+            className="text-[#3e37d4] underline"
+          >
+            for iOS
+          </a>{" "}
+          to get started. You can also use Brave Search free from any browser at
+          search.brave.com, or{" "}
+          <a
+            href="https://search.brave.com/default"
+            target="_blank"
+            className="text-[#3e37d4] underline"
+          >
+            set it as your default search engine
+          </a>
+          .
+        </p>
+        <p>
+          Brave also has some great, subscription-based features, including{" "}
+          <a className="text-[#3e37d4] underline" href="/talk/">
+            Brave Talk Premium
+          </a>{" "}
+          and{" "}
+          <a className="text-[#b3186c] underline" href="/firewall-vpn/">
+            Brave Firewall + VPN
+          </a>
+          .
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "What is BAT, and how do I earn it?",
+    answer: (
+      <>
+        <p className="pb-[30px]">
+          BAT is short for Basic Attention Token. BAT is a digital asset, and a
+          key (but totally optional) part of the Brave Rewards ecosystem. Here’s
+          how it works:
+        </p>
+        <p className="pb-[30px]">
+          Brave Rewards gives you the option to view first-party,
+          privacy-protecting ads while you browse (these ads are from the Brave
+          Private Ads network). If you choose to view them, you earn BAT via{" "}
+          <a className="text-[#b3186c] underline" href="/brave-rewards/">
+            the Brave Rewards program
+          </a>
+          .
+        </p>
+        <p className="pb-[30px]">
+          You can keep BAT like any other digital asset, or use it to tip the
+          content publishers you love. Brave even gives you a secure way to
+          store BAT (and any other asset), with Brave Wallet. And, again, Brave
+          Rewards is a totally optional program.
+        </p>
+        <p>
+          Other tech companies steal your data to sell ads—to them, you are the
+          product. Brave is different. We think your attention is valuable (and
+          private!), and that you should get a fair share of the revenue for any
+          advertising you choose to view. That fair share is rewarded in BAT.
+        </p>
+      </>
+    ),
   },
 ];
 
@@ -90,11 +333,17 @@ export default function Home() {
     };
   }
 
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const handleToggle = (index: number) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
-    <main className="bg-[rgba(240,240,244,1)] min-h-[200vh] text-[#1b1b1f]">
+    <div className="bg-[rgba(240,240,244,1)] min-h-[200vh] text-[#1b1b1f]">
       <div className="relative overflow-x-clip z-0">
         <Image
-          src={logo_text}
+          src={AssetIcon.logo_text}
           alt="ibrowe logo"
           className="absolute top-48 md:top-[22rem] lg:top-64 left-1/2 w-[105%] max-w-[1800px] -translate-x-1/2 opacity-5"
         />
@@ -113,7 +362,7 @@ export default function Home() {
             </p>
             <button className="flex flex-row items-center gap-2 bg-[#FF3A00] font-poppins text-white py-4 pl-6 pr-4 rounded-2xl text-[18px] leading-6 font-[600] hover:bg-[#CA2F0B] min-h-[60px] w-fit duration-300">
               <p>Get iBrowe</p>
-              <Image src={download} height={24} alt="download" />
+              <Image src={AssetIcon.download} height={24} alt="download" />
             </button>
           </header>
           <section className="flex flex-wrap gap-10 min-[1280px]:flex-nowrap justify-between w-full z-10 mt-10 sm:mt-[3.5rem] md:mt-10 2xl:mt-20">
@@ -129,7 +378,7 @@ export default function Home() {
                   className="w-full py-3 px-6 text-[#000] outline-none text-[16px] font-poppins leading-normal border-[1px] shadow-inputShadow rounded-xl border-[#eceef2]"
                 />
                 <button className="absolute right-4 top-1/2 -translate-y-1/2">
-                  <Image src={search_linear} height={24} alt="search_linear" />
+                  <Image src={AssetIcon.search_linear} height={24} alt="search_linear" />
                 </button>
               </form>
               <p className="mb-32 text-[1.25rem] font-normal leading-[1.875rem] font-poppins">
@@ -144,7 +393,7 @@ export default function Home() {
                 .
               </p>
               <Image
-                src={wave}
+                src={AssetIcon.wave}
                 height={24}
                 alt="wave"
                 className="absolute bottom-0 left-0 w-full max-h-[140px]"
@@ -156,7 +405,7 @@ export default function Home() {
                 Get answers, generate content, & more. Right in the browser.
               </p>
               <Image
-                src={leo}
+                src={AssetIcon.leo}
                 alt="wave"
                 className="absolute right-0 bottom-0 z-0 max-w-full h-auto"
               />
@@ -172,7 +421,7 @@ export default function Home() {
                 Protect every app, on your entire device.
               </p>
               <Image
-                src={vpn}
+                src={AssetIcon.vpn}
                 alt="wave"
                 className="absolute right-0 xl:-right-6 2xl:right-0 bottom-0 -z-0"
               />
@@ -201,28 +450,23 @@ export default function Home() {
                   }}
                   open={open === 1}
                 >
-                  <summary
-                    className="text-blockquote list-none flex gap-2 items-start p-8"
-                    data-accordion-heading=""
-                  >
+                  <summary className="text-blockquote list-none flex gap-2 items-start p-8">
                     <span className="text-[30px] leading-[40px]">
                       The Web, <em>without</em> the annoyances
                     </span>
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
                     />
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
-                      className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
-                        open === 1
-                          ? "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                          : "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                      } `}
+                      className={`absolute top-12 right-6 h-[40px] w-[40px] text-white transition-transform duration-150 ${
+                        open === 1 ? "rotate-0" : "rotate-90"
+                      }`}
                     />
                   </summary>
                   <div
@@ -256,13 +500,13 @@ export default function Home() {
                     </span>
                     <div className="w-3"></div>
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
                     />
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
@@ -300,13 +544,13 @@ export default function Home() {
                     </span>
                     <div className="w-3"></div>
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
                     />
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
@@ -354,13 +598,13 @@ export default function Home() {
                     </span>
                     <div className="w-3"></div>
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
                     />
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
@@ -397,13 +641,13 @@ export default function Home() {
                       Switching is easy
                     </span>
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
                     />
                     <Image
-                      src={minus}
+                      src={AssetIcon.minus}
                       height={40}
                       alt="minus"
                       className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
@@ -499,7 +743,7 @@ export default function Home() {
                     <div className="flex gap-[0.65rem] lg:gap-3">
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={ibrowe}
+                          src={AssetIcon.ibrowe}
                           height={30}
                           alt="ibrowe"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -507,7 +751,7 @@ export default function Home() {
                       </div>
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={chrome}
+                          src={AssetIcon.chrome}
                           height={30}
                           alt="chrome"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -539,7 +783,7 @@ export default function Home() {
                     <div className="flex gap-[0.65rem] lg:gap-3">
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={ibrowe}
+                          src={AssetIcon.ibrowe}
                           height={30}
                           alt="ibrowe"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -547,7 +791,7 @@ export default function Home() {
                       </div>
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={firefox}
+                          src={AssetIcon.firefox}
                           height={30}
                           alt="firefox"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -579,7 +823,7 @@ export default function Home() {
                     <div className="flex gap-[0.65rem] lg:gap-3">
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={ibrowe}
+                          src={AssetIcon.ibrowe}
                           height={30}
                           alt="ibrowe"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -587,7 +831,7 @@ export default function Home() {
                       </div>
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={google}
+                          src={AssetIcon.google}
                           height={30}
                           alt="google"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -619,7 +863,7 @@ export default function Home() {
                     <div className="flex gap-[0.65rem] lg:gap-3">
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={ibrowe}
+                          src={AssetIcon.ibrowe}
                           height={30}
                           alt="ibrowe"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -627,7 +871,7 @@ export default function Home() {
                       </div>
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
-                          src={safari}
+                          src={AssetIcon.safari}
                           height={30}
                           alt="safari"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
@@ -659,23 +903,20 @@ export default function Home() {
                   className=""
                   onClick={() => handleCarouselScroll("backward")}
                 >
-                  <Image src={arrowLeft} height={27} alt="ibrowe" />
+                  <Image src={AssetIcon.arrowLeft} height={27} alt="ibrowe" />
                 </button>
                 <button
                   className=""
                   onClick={() => handleCarouselScroll("forward")}
                 >
-                  <Image src={arrowRight} height={27} alt="ibrowe" />
+                  <Image src={AssetIcon.arrowRight} height={27} alt="ibrowe" />
                 </button>
               </div>
             </div>
           </section>
-          {/* section ngoai */}
         </section>
       </div>
-      <section
-        className="px-[30px] 2xl:px-[120px] 4xl:px-[300px] text-[#e3e3e8] font-flecha font-medium bg-black mt-10 sm:mt-[3.5rem] lg:mt-20 overflow-x-clip pt-10 sm:pt-12 lg:pt-0"
-      >
+      <section className="px-[30px] 2xl:px-[120px] 4xl:px-[300px] text-[#e3e3e8] font-flecha font-medium bg-black mt-10 sm:mt-[3.5rem] lg:mt-20 overflow-y-clip overflow-x-clip pt-10 sm:pt-12 lg:pt-0">
         <div className="flex flex-col min-[1280px]:flex-row">
           <div className="min-[1280px]:flex-1 self-center">
             <h2 className="text-display-mobile-h1 md:text-display-desktop-h3 pb-2 sm:pb-4">
@@ -686,16 +927,69 @@ export default function Home() {
             </p>
             <button className="flex flex-row items-center gap-2 bg-[#FF3A00] font-poppins text-white py-4 pl-6 pr-4 rounded-2xl text-[18px] leading-6 font-[600] hover:bg-[#CA2F0B] min-h-[60px] w-fit duration-300">
               <p>Get iBrowe</p>
-              <Image src={download} height={24} alt="download" />
+              <Image src={AssetIcon.download} height={24} alt="download" />
             </button>
           </div>
           <Image
-            src={app}
+            src={AssetIcon.app}
             alt="app"
             className="-mb-24 -mt-4 ml-24 sm:-mb-[7.5rem] md:-mb-36 md:-mt-[5rem] lg:-mb-[13rem] lg:-mt-12 min-[1280px]:-mr-64 min-[1280px]:flex-1 min-[1280px]:mb-0 min-[1280px]:mt-10"
           />
         </div>
       </section>
-    </main>
+      <section className="flex flex-col bg-[#3E37D4] text-[#e3e3e8] font-bold mt-8 md:rounded-none md:border-0 md:mt-0 grid-cols-layout text-text-primary px-4 py-8 lg:py-10 gap-4 mx-8 md:mx-0 rounded-xl md:rounded-none">
+        <div className="flex flex-col lg:flex-row gap-4 md:gap-8 md:items-center md:justify-center">
+          <p className="text-mobile-h2 lg:text-desktop-h4">
+            Let Brave power your business:
+          </p>
+          <div className="flex flex-row flex-wrap md:flex-nowrap gap-4">
+            <a
+              href="/brave-ads/"
+              className="leoButtonBanner flex justify-center items-center text-center bg-white hover:!bg-white max-w-[max-content]"
+            >
+              Brave Ads
+            </a>
+
+            <a
+              href="/search/api/"
+              className="leoButtonBanner isOutline isSmall text-center bg-white hover:!bg-white max-w-[max-content]"
+            >
+              Search API
+            </a>
+
+            <a
+              href="https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy"
+              className="leoButtonBanner isOutline isSmall text-center bg-white hover:!bg-white max-w-[max-content]"
+            >
+              Enterprise group installs*
+            </a>
+          </div>
+        </div>
+
+        <p className="italic font-medium md:text-center text-default-regular">
+          *Brave supports enterprise group policy installation to customize
+          which features are enabled/disabled for your organization.
+        </p>
+      </section>
+
+      <section className="my-10 mx-4 lg:my-20 md:mx-[90px] lg:mx-[100px] xl:mx-[40px] 2xl:mx-[120px] 4xl:mx-[310px]">
+        <h2 className="pb-6 text-3xl font-bold sm:text-4xl">FAQs</h2>
+        <div>
+          {faqData.map((item, index) => (
+            <FaqItem
+              key={index}
+              index={index}
+              totalItems={faqData.length}
+              question={item.question}
+              isActive={activeIndex === index}
+              onClick={() => handleToggle(index)}
+            >
+              {item.answer}
+            </FaqItem>
+          ))}
+        </div>
+      </section>
+      <Footer/>
+    </div>
   );
 }
