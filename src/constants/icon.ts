@@ -14,6 +14,13 @@ import ibrowe from "../assets/icon/social-brave-release-favicon-fullheight-color
 import google from "../assets/icon/google-color.svg";
 import arrowLeft from "../assets/icon/arrow-left.svg";
 import arrowRight from "../assets/icon/arrow-right.svg";
+import wallet from "../assets/icon/wallet.svg";
+import wave_curve from "../assets/icon/wave-curve.svg";
+import coinbase from "../assets/icon/coinbase-logo.svg";
+import metamask from "../assets/icon/metamask-logo.svg";
+import opera from "../assets/icon/opera-logo.svg";
+import phantom from "../assets/icon/phantom-logo.svg";
+import arrow_down from "../assets/icon/down-arrow.svg";
 
 
 export const AssetIcon = {
@@ -33,4 +40,12 @@ export const AssetIcon = {
     google,
     arrowLeft,
     arrowRight,
+    wallet, 
+    wave_curve,
+    coinbase,
+    phantom,
+    opera,
+    metamask,
+    arrow_down,
+    
 };
