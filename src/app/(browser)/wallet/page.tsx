@@ -9,16 +9,20 @@ import { useState } from "react";
 
 import { FaChevronUp } from "react-icons/fa";
 import { motion } from "framer-motion";
+import usePlayVideo from "@/app/hooks/usePlayVideo";
 
 export default function Wallet() {
   const [openIndexes, setOpenIndexes] = useState<number[]>([]);
 
+  const { iframeRef, isPlaying, playVideo } = usePlayVideo(
+    "https://player.vimeo.com/video/646109222?dnt=1&amp;portrait=0&amp;title=0&amp;byline=0"
+  );
+
   const toggleFAQ = (index: number) => {
-    setOpenIndexes(
-      (prevIndexes) =>
-        prevIndexes.includes(index)
-          ? prevIndexes.filter((i) => i !== index) 
-          : [...prevIndexes, index] 
+    setOpenIndexes((prevIndexes) =>
+      prevIndexes.includes(index)
+        ? prevIndexes.filter((i) => i !== index)
+        : [...prevIndexes, index]
     );
   };
 
@@ -172,6 +176,7 @@ export default function Wallet() {
           >
             <div className="h-0" style={{ paddingBottom: "56.2%" }}>
               <iframe
+                ref={iframeRef}
                 className="absolute top-0 left-0 w-full h-full border-0"
                 src="https://player.vimeo.com/video/646109222?dnt=1&amp;portrait=0&amp;title=0&amp;byline=0"
                 title="Brave - The Privacy Browser"
@@ -186,39 +191,40 @@ export default function Wallet() {
                   </p>
                 </div>
               </noscript>
-
-              <div className="video-overlay absolute left-0 top-0 h-full w-full bg-center bg-no-repeat bg-cover cursor-pointer">
-                <a
-                  className="group play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50"
-                  title="Play Brave - The Privacy Browser video"
-                  aria-label="Play Brave - The Privacy Browser video"
-                  href="#"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 128 128"
-                    fill="none"
-                    className="transition-filter duration-150 ease-linear group-hover:invert w-[20%] max-w-[128px]"
+              {!isPlaying && (
+                <div className="video-overlay absolute left-0 top-0 h-full w-full bg-center bg-no-repeat bg-cover cursor-pointer">
+                  <div
+                    className="group play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50"
+                    title="Play Brave - The Privacy Browser video"
+                    aria-label="Play Brave - The Privacy Browser video"
+                    onClick={playVideo}
                   >
-                    <rect
-                      width="126"
-                      height="126"
-                      x="1"
-                      y="1"
-                      fill="#09090C"
-                      stroke="#F5F5F7"
-                      strokeWidth="2"
-                      rx="15"
-                    ></rect>
-                    <path
-                      fill="#fff"
-                      fillRule="evenodd"
-                      d="M64 99c-19.3 0-35-15.7-35-35s15.7-35 35-35 35 15.7 35 35-15.7 35-35 35Zm0-64.167c-16.083 0-29.167 13.084-29.167 29.167 0 16.082 13.084 29.167 29.167 29.167 16.082 0 29.167-13.085 29.167-29.167 0-16.083-13.085-29.167-29.167-29.167Zm-7.191 45.799 23.46-15.803a1 1 0 0 0 0-1.658l-23.46-15.803a1 1 0 0 0-1.559.83v31.604a1 1 0 0 0 1.559.83Z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 128 128"
+                      fill="none"
+                      className="transition-filter duration-150 ease-linear group-hover:invert w-[20%] max-w-[128px]"
+                    >
+                      <rect
+                        width="126"
+                        height="126"
+                        x="1"
+                        y="1"
+                        fill="#09090C"
+                        stroke="#F5F5F7"
+                        strokeWidth="2"
+                        rx="15"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        fillRule="evenodd"
+                        d="M64 99c-19.3 0-35-15.7-35-35s15.7-35 35-35 35 15.7 35 35-15.7 35-35 35Zm0-64.167c-16.083 0-29.167 13.084-29.167 29.167 0 16.082 13.084 29.167 29.167 29.167 16.082 0 29.167-13.085 29.167-29.167 0-16.083-13.085-29.167-29.167-29.167Zm-7.191 45.799 23.46-15.803a1 1 0 0 0 0-1.658l-23.46-15.803a1 1 0 0 0-1.559.83v31.604a1 1 0 0 0 1.559.83Z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </section>
@@ -772,7 +778,9 @@ export default function Wallet() {
                 </h3>
                 <div
                   className={`faq__item-content accordion__item-content max-h-0 overflow-hidden ${
-                    openIndexes.includes(index) ? "max-h-96 animate-dropDown " : ""
+                    openIndexes.includes(index)
+                      ? "max-h-96 animate-dropDown "
+                      : ""
                   }`}
                 >
                   {faq.answer}{" "}

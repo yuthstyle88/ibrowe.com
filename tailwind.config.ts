@@ -26,14 +26,14 @@ const config: Config = {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
-        "dropDown": {
+        dropDown: {
           "0%": { transform: "translateY(-1rem)" },
           "100%": { transform: "translateY(0)" },
         },
       },
       animation: {
         "fade-in": "fade-in 0.3s ease forwards",
-        "dropDown": "dropDown 0.2s ease-in-out",
+        dropDown: "dropDown 0.2s ease-in-out",
       },
       boxShadow: {
         header: "0 0 3px rgba(117, 117, 117, .5);",
@@ -55,6 +55,10 @@ const config: Config = {
           "1.875rem",
           { lineHeight: "2.5rem", letterSpacing: "-0.075rem" },
         ],
+        "desktop-h5": [
+          "1.5rem",
+          { lineHeight: "1.875rem", letterSpacing: "-.06rem" },
+        ],
         "mobile-h3": [
           "1.5rem",
           { lineHeight: "2.1875rem", letterSpacing: "-0.06rem" },
@@ -64,8 +68,12 @@ const config: Config = {
           { lineHeight: "2.8125rem", letterSpacing: "-.05rem" },
         ],
         "display-desktop-h3": [
-          "4.375rem",
+          "4.35rem",
           { lineHeight: "1", letterSpacing: "-.0875rem" },
+        ],
+        "display-desktop-h4": [
+          "2.5rem",
+          { lineHeight: "1", letterSpacing: "-.05rem" },
         ],
         h3: ["2.5rem", { lineHeight: "2.75rem", letterSpacing: "-.1rem" }],
         h2: ["4.375rem", { lineHeight: "5.625rem", letterSpacing: "-.175rem" }],
@@ -78,6 +86,8 @@ const config: Config = {
         "ds-h4": ["1.5rem", { lineHeight: "1.5", letterSpacing: "0" }],
         "ds-lg": ["1.125rem", { lineHeight: "2rem", letterSpacing: "0" }],
         "ds-2xl": ["2.5rem", { lineHeight: "1.25", letterSpacing: "0" }],
+        "display-hero": ["2.5rem", { lineHeight: "1.25", letterSpacing: "0" }],
+        "display-h3": ["2.5rem", { lineHeight: "1.25", letterSpacing: "0" }],
       },
       textColor: {
         "light-01": "rgba(33,37,41)",

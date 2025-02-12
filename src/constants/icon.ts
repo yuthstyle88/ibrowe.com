@@ -21,6 +21,10 @@ import metamask from "../assets/icon/metamask-logo.svg";
 import opera from "../assets/icon/opera-logo.svg";
 import phantom from "../assets/icon/phantom-logo.svg";
 import arrow_down from "../assets/icon/down-arrow.svg";
+import vpn_firewall from "../assets/icon/vpn-shield-color.svg";
+import vpn_inactive from "../assets/icon/vpn-inactive-default-label.svg";
+import vpn_lock from "../assets/icon/vpn_lock.svg";
+import checkbox from "../assets/icon/checkbox-alt-checked.svg";
 
 
 export const AssetIcon = {
@@ -47,5 +51,9 @@ export const AssetIcon = {
     opera,
     metamask,
     arrow_down,
+    vpn_firewall,
+    vpn_inactive,
+    vpn_lock,
+    checkbox,
     
 };
