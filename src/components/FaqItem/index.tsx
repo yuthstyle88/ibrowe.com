@@ -55,7 +55,7 @@ const FaqItem = ({
         </svg>
       </summary>
       <div className={`text-[1.25rem] font-normal leading-[1.875rem] font-poppins text-[#1b1b1f] pt-2 max-w-[76ch] max-h-0 duration-500 
-        ${isActive ? "max-h-[480px] pb-2" : ""}`}>
+        ${isActive ? "max-h-[1200px] pb-2" : ""}`}>
         {children}
       </div>
     </details>

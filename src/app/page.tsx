@@ -1,4 +1,5 @@
 "use client";
+import AccordionItem from "@/components/DivideSection";
 import FaqItem from "@/components/FaqItem";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -284,7 +285,77 @@ const faqData = [
     ),
   },
 ];
-
+const accordionItems = [
+  {
+    title: "The Web, without the annoyances",
+    content: (
+      <>
+        <p className="pb-4">
+          Brave blocks third-party ads on every website. That’s video ads,
+          search ads, social media ads, and more.
+        </p>
+        <p className="pb-4">
+          And those annoying “Accept cookies?” pop-ups? Yeah, we block those
+          too.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Save data, save battery, save time",
+    content: (
+      <p className="pb-4">
+        Without that unwanted junk, you save Wi-Fi bandwidth and mobile data,
+        battery life and CPU. And websites load 3x-6x faster. Less waiting =
+        more time back in your day.
+      </p>
+    ),
+  },
+  {
+    title: "Unparalleled privacy",
+    content: (
+      <>
+        <p className="pb-4">
+          Shields against tracking and fingerprinting. A premium VPN that can
+          encrypt every connection no matter where you are. On-by-default{" "}
+          <a
+            className="text-[#c1c4ff] underline"
+            href="/web-standards-at-brave/4-global-privacy-control/"
+          >
+            Global Privacy Control
+          </a>{" "}
+          to stop websites from selling and sharing your data.
+        </p>
+        <p className="pb-4">
+          All this (and more) in one ridiculously easy package.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Built-in security, on by default",
+    content: (
+      <p className="pb-4">
+        Brave works right out of the box. No dials to turn, no extensions, no
+        PhD required.
+      </p>
+    ),
+  },
+  {
+    title: "Switching is easy",
+    content: (
+      <>
+        <p className="pb-4">
+          A faster, more private, less annoying Web is only 60 seconds away.
+        </p>
+        <p className="pb-4">
+          Just download Brave, import favorites from your old browser, and…
+          You’re done!
+        </p>
+      </>
+    ),
+  },
+];
 export default function Home() {
   const [open, setOpen] = useState<number | null>(1);
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -333,10 +404,18 @@ export default function Home() {
     };
   }
 
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [openIndexes, setOpenIndexes] = useState(new Set<number>());
 
   const handleToggle = (index: number) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    setOpenIndexes((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(index)) {
+        newSet.delete(index);
+      } else {
+        newSet.add(index);
+      }
+      return newSet;
+    });
   };
 
   return (
@@ -378,7 +457,11 @@ export default function Home() {
                   className="w-full py-3 px-6 text-[#000] outline-none text-[16px] font-poppins leading-normal border-[1px] shadow-inputShadow rounded-xl border-[#eceef2]"
                 />
                 <button className="absolute right-4 top-1/2 -translate-y-1/2">
-                  <Image src={AssetIcon.search_linear} height={24} alt="search_linear" />
+                  <Image
+                    src={AssetIcon.search_linear}
+                    height={24}
+                    alt="search_linear"
+                  />
                 </button>
               </form>
               <p className="mb-32 text-[1.25rem] font-normal leading-[1.875rem] font-poppins">
@@ -440,238 +523,19 @@ export default function Home() {
             </p>
             <div className="flex gap-[42px]">
               <div className="min-[1280px]:w-5/12">
-                <details
-                  className={`card_quote card__contents_quote group p-0 w-full overflow-hidden ${
-                    open === 1 ? "bg-[#252529]" : "bg-[#111114]"
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleAccordion(1);
-                  }}
-                  open={open === 1}
-                >
-                  <summary className="text-blockquote list-none flex gap-2 items-start p-8">
-                    <span className="text-[30px] leading-[40px]">
-                      The Web, <em>without</em> the annoyances
-                    </span>
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
-                    />
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className={`absolute top-12 right-6 h-[40px] w-[40px] text-white transition-transform duration-150 ${
-                        open === 1 ? "rotate-0" : "rotate-90"
-                      }`}
-                    />
-                  </summary>
-                  <div
-                    className={`-mt-2 mr-4 lg:mr-12 text-[1.25rem] font-normal leading-[1.875rem] font-poppins text-[#e3e3e8] px-8 overflow-hidden transition-max-height duration-300 ${
-                      open === 1 ? "max-h-96 pb-2" : "max-h-0"
-                    }`}
+                {accordionItems.map((item, index) => (
+                  <AccordionItem
+                    key={index}
+                    index={index + 1}
+                    open={open}
+                    title={item.title}
+                    toggleAccordion={toggleAccordion}
+                    isFirst={index === 0}
+                    isLast={index === accordionItems.length - 1}
                   >
-                    <p className="pb-4">
-                      Brave blocks third-party ads on every website. That’s
-                      video ads, search ads, social media ads, and more.
-                    </p>
-                    <p className="pb-4">
-                      And those annoying “Accept cookies?” pop-ups? Yeah, we
-                      block those too.
-                    </p>
-                  </div>
-                </details>
-                <details
-                  className={`text-[#fff] border-2 border-[#111114] card__contents_quote group p-0 w-full overflow-hidden ${
-                    open === 2 ? "bg-[#252529]" : "bg-[#111114]"
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleAccordion(2);
-                  }}
-                  open={open === 2}
-                >
-                  <summary className="text-blockquote list-none flex gap-2 items-start p-8">
-                    <span className="text-[30px] leading-[40px]">
-                      Save data, save battery, save time
-                    </span>
-                    <div className="w-3"></div>
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
-                    />
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
-                        open === 2
-                          ? "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                          : "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                      } `}
-                    />
-                  </summary>
-                  <div
-                    className={`-mt-2 mr-4 lg:mr-12 text-[1.25rem] font-normal leading-[1.875rem] font-poppins text-[#e3e3e8] px-8 overflow-hidden transition-max-height duration-300 ${
-                      open === 2 ? "max-h-96 pb-2" : "max-h-0"
-                    }`}
-                  >
-                    <p className="pb-4">
-                      Without that unwanted junk, you save Wi-Fi bandwidth and
-                      mobile data, battery life and CPU. And websites load 3x-6x
-                      faster. Less waiting = more time back in your day.
-                    </p>
-                  </div>
-                </details>
-                <details
-                  className={`text-[#fff] border-2 border-[#111114] card__contents_quote group p-0 w-full overflow-hidden ${
-                    open === 3 ? "bg-[#252529]" : "bg-[#111114]"
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleAccordion(3);
-                  }}
-                  open={open === 3}
-                >
-                  <summary className="text-blockquote list-none flex gap-2 items-start p-8">
-                    <span className="text-[30px] leading-[40px]">
-                      Unparalleled privacy
-                    </span>
-                    <div className="w-3"></div>
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
-                    />
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
-                        open === 3
-                          ? "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                          : "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                      } `}
-                    />
-                  </summary>
-                  <div
-                    className={`-mt-2 mr-4 lg:mr-12 text-[1.25rem] font-normal leading-[1.875rem] font-poppins text-[#e3e3e8] px-8 overflow-hidden transition-max-height duration-300 ${
-                      open === 3 ? "max-h-96 pb-2" : "max-h-0"
-                    }`}
-                  >
-                    <p className="pb-4">
-                      Shields against tracking and fingerprinting. A premium VPN
-                      that can encrypt every connection no matter where you are.
-                      On-by-default{" "}
-                      <a
-                        className="text-[#c1c4ff] underline"
-                        href="/web-standards-at-brave/4-global-privacy-control/"
-                      >
-                        Global Privacy Control
-                      </a>{" "}
-                      to stop websites from selling and sharing your data.
-                    </p>
-                    <p className="pb-4">
-                      All this (and more) in one ridiculously easy package.
-                    </p>
-                  </div>
-                </details>
-                <details
-                  className={`text-[#fff] border-2 border-[#111114] card__contents_quote group p-0 w-full overflow-hidden ${
-                    open === 4 ? "bg-[#252529]" : "bg-[#111114]"
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleAccordion(4);
-                  }}
-                  open={open === 4}
-                >
-                  <summary className="text-blockquote list-none flex gap-2 items-start p-8">
-                    <span className="text-[30px] leading-[40px]">
-                      Built-in security, on by default
-                    </span>
-                    <div className="w-3"></div>
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
-                    />
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
-                        open === 4
-                          ? "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                          : "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                      } `}
-                    />
-                  </summary>
-                  <div
-                    className={`-mt-2 mr-4 lg:mr-12 text-[1.25rem] font-normal leading-[1.875rem] font-poppins text-[#e3e3e8] px-8 overflow-hidden transition-max-height duration-300 ${
-                      open === 4 ? "max-h-96 pb-2" : "max-h-0"
-                    }`}
-                  >
-                    <p className="pb-4">
-                      Brave works right out of the box. No dials to turn, no
-                      extensions, no PhD required.
-                    </p>
-                  </div>
-                </details>
-
-                <details
-                  className={`text-[#fff] rounded-bl-2xl rounded-br-2xl border-2 border-[#111114] card__contents_quote group p-0 w-full overflow-hidden ${
-                    open === 5 ? "bg-[#252529]" : "bg-[#111114]"
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleAccordion(5);
-                  }}
-                  open={open === 5}
-                >
-                  <summary className="text-blockquote list-none flex gap-2 items-start p-8">
-                    <span className="text-[30px] leading-[40px]">
-                      Switching is easy
-                    </span>
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className="absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white"
-                    />
-                    <Image
-                      src={AssetIcon.minus}
-                      height={40}
-                      alt="minus"
-                      className={`absolute top-12 right-6 [--icon-size:40px] h-[40px] w-[40px] text-white ${
-                        open === 5
-                          ? "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                          : "transition-transform duration-100 rotate-90 group-open:rotate-0"
-                      } `}
-                    />
-                  </summary>
-                  <div
-                    className={`-mt-2 mr-4 lg:mr-12 text-[1.25rem] font-normal leading-[1.875rem] font-poppins text-[#e3e3e8] px-8 overflow-hidden transition-max-height duration-300 ${
-                      open === 5 ? "max-h-96 pb-2" : "max-h-0"
-                    }`}
-                  >
-                    <p className="pb-4">
-                      A faster, more private, less annoying Web is only 60
-                      seconds away.
-                    </p>
-                    <p className="pb-4">
-                      Just download Brave, import favorites from your old
-                      browser, and… You’re done!
-                    </p>
-                  </div>
-                </details>
+                    {item.content}
+                  </AccordionItem>
+                ))}
               </div>
               <div className="hidden min-[1280px]:grid w-7/12 card_quote card__contents_quote_right p-0 overflow-hidden grid-cols-1 grid-rows-1 animation-container h-fit"></div>
             </div>
@@ -981,7 +845,7 @@ export default function Home() {
               index={index}
               totalItems={faqData.length}
               question={item.question}
-              isActive={activeIndex === index}
+              isActive={openIndexes.has(index)}
               onClick={() => handleToggle(index)}
             >
               {item.answer}
@@ -989,7 +853,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
