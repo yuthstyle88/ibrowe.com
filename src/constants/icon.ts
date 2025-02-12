@@ -20,6 +20,7 @@ import coinbase from "../assets/icon/coinbase-logo.svg";
 import metamask from "../assets/icon/metamask-logo.svg";
 import opera from "../assets/icon/opera-logo.svg";
 import phantom from "../assets/icon/phantom-logo.svg";
+import arrow_down from "../assets/icon/down-arrow.svg";
 
 
 export const AssetIcon = {
@@ -45,4 +46,6 @@ export const AssetIcon = {
     phantom,
     opera,
     metamask,
+    arrow_down,
+    
 };

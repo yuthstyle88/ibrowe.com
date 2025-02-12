@@ -181,6 +181,15 @@
   @apply w-9 h-9
 }
 
+.faq__item {
+  @apply py-4 border-b-[1px] border-[rgb(233,233,244)] list-none first:border-t-[1px]
+}
+.faq__item-heading{
+  @apply text-base leading-[1.5] text-[#212529] font-semibold font-poppins py-1
+}
+.faq__item-content{
+  @apply text-base leading-[1.5] text-[#495057] font-medium font-poppins 
+}
 
 
 

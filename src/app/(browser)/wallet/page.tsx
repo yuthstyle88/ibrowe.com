@@ -11,18 +11,15 @@ import { FaChevronUp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function Wallet() {
-  const [openIndexes, setOpenIndexes] = useState(new Set<number>());
+  const [openIndexes, setOpenIndexes] = useState<number[]>([]);
 
   const toggleFAQ = (index: number) => {
-    setOpenIndexes((prev) => {
-      const newIndexes = new Set(prev);
-      if (newIndexes.has(index)) {
-        newIndexes.delete(index);
-      } else {
-        newIndexes.add(index);
-      }
-      return newIndexes;
-    });
+    setOpenIndexes(
+      (prevIndexes) =>
+        prevIndexes.includes(index)
+          ? prevIndexes.filter((i) => i !== index) 
+          : [...prevIndexes, index] 
+    );
   };
 
   const description_wallet = [
@@ -45,27 +42,64 @@ export default function Wallet() {
 
   const faqs = [
     {
-      question:
-        "How exactly does Brave block trackers, scripts, and other resources?",
-      answer:
-        "To start, Brave applies filter lists from the EasyList and EasyPrivacy projects, the uBlock Origin project, and lists Brave has generated internally. By pulling from many different tracking protection lists, Brave blocks more unwanted trackers and resources than any other popular browser. Brave also funds and supports the maintenance of tracking-protection lists to support the privacy community. And we apply system-wide protections to prevent trackers from tracking you, even in cases where the tracker doesn’t appear on a list.",
+      question: "What is Brave Wallet?",
+      answer: (
+        <>
+          Brave Wallet is a secure, self-custody crypto wallet built directly
+          into the Brave browser. Brave Wallet can be used to safely store your
+          assets, and to connect to Web3. We’re constantly improving
+          compatibility to meet the needs of users, so follow our{" "}
+          <a
+            href="https://support.brave.com/hc/en-us/articles/14380262951053-What-features-are-available-in-Brave-Wallet-"
+            target="_blank"
+            className="text-[#4c54d2] underline"
+          >
+            Wallet support docs
+          </a>{" "}
+          for the most up to date list of features.
+        </>
+      ),
     },
     {
-      question: "How does fingerprint randomization work?",
+      question: "Is Brave Wallet safe?",
       answer:
-        "Your digital fingerprint is the unique set of data points (like your graphics hardware, audio hardware, device type, and more) that, when combined, could help identify you online. By default, Brave protects you from tracking based on your browser fingerprint, by randomizing that fingerprint. The Brave browser makes you look different to every site, each time you restart the browser. This prevents sites from using fingerprinting to track you across sites or even from one online session to another.",
+        "Brave Wallet is among the safest self-custody wallet options available. In addition to being audited by specialized security engineers, our code is open-source and transparent. Because Brave Wallet is built into the browser, it also inherits Brave’s strict privacy and security protections. And because it’s not a third-party extension, it’s also less susceptible to phishing, which is a leading cause of crypto & NFT theft.",
     },
     {
-      question:
-        "What’s different about the way Brave blocks third-party storage?",
-      answer:
-        "Brave blocks both third-party cookies and third-party storage (e.g. storage in iframes) by default; some other privacy-focused browsers do, too. What’s unique about Brave is the lifetime of the partitioned storage (i.e. that it’s 'ephemeral'). Brave’s approach limits tracking, and provides much stronger protections than any other browser.",
+      question: "Is Brave Wallet free?",
+      answer: (
+        <>
+          <p className="pb-[8.8px]">
+            Brave, and Brave Wallet, are entirely free to use. However, most
+            blockchain transactions require network fees (e.g. Ethereum gas
+            fees). Fees vary on each network based on demand and other factors.
+          </p>
+          <p className="pb-[8.8px]">
+            Certain types of transactions (like swaps and crypto purchases) may
+            also include Brave fees. These fees will be displayed transparently,
+            and are similar to—or the same as—other wallets.
+          </p>
+        </>
+      ),
     },
     {
-      question:
-        "One of the websites I’m visiting isn’t working. Can I turn off Shields?",
+      question: "Is Brave Wallet the same as Brave Rewards?",
       answer:
-        "Yes. But know that with Shields down, some of the privacy protections of Brave will be disabled. If you see a site that’s not working, first verify that the site is trusted before putting Shields down.",
+        "No, they are two different features offered by Brave. Rewards is a program that lets you earn tokens (BAT) for seeing privacy-respecting ads in the browser, while Brave Wallet is a self-custody crypto wallet.",
+    },
+    {
+      question: "How do I start using Brave Wallet?",
+      answer: (
+        <>
+          On your desktop, open Brave and click the Wallet icon in the toolbar.
+          If you don’t see the icon, navigate to “brave://settings/web3” and
+          ensure{" "}
+          <strong className="font-poppins">Show wallet icon in toolbar</strong>{" "}
+          is toggled on. On mobile or tablet, open the browser menu and then tap
+          the Wallet icon. Then, follow the instructions to create or import a
+          wallet.
+        </>
+      ),
     },
   ];
   return (
@@ -118,7 +152,7 @@ export default function Wallet() {
           className="absolute bottom-0 left-0 w-full origin-center transform scale-110"
         />
       </section>
-      <div className="section container 2xl:px-0 sm:px-10 py-10">
+      <div className="container 2xl:px-0 sm:px-10 py-10">
         <section className="grid md:grid-cols-2 md:gap-x-10 items-center my-10">
           <div className="flex flex-wrap md:order-last">
             <div className="w-full">
@@ -718,50 +752,34 @@ export default function Wallet() {
           <h2 className="text-ds-h1 text-center font-semibold text-[#3b3e4f]">
             FAQs about Brave Wallet
           </h2>
-        </div>
-      </section>
-      <section
-        className="w-3/5 bg-white mx-auto py-10 md:py-20 grid md:grid-cols-1 gap-5 items-center unicode-bidi-[isolate] max-w-full md:max-w-[980px] border-t border-gray-100"
-        style={{ fontFamily: "Montserrat, sans-serif" }}
-      >
-        <div className="w-full mx-auto max-w-[980px] border-0 border-solid border-[#dadce8] box-border tab-[4] text-[100%]">
-          <h2 className="text-[2.25rem] font-bold mb-4 text-gray-900 text-center">
-            FAQs
-          </h2>{" "}
-          <div className="border-b border-gray-200 last:border-b-0 py-4" />
-          {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className="border-b border-gray-200 last:border-b-0 py-4"
-            >
-              <div
-                className="flex justify-between items-center cursor-pointer"
-                onClick={() => toggleFAQ(index)}
-              >
-                <h3 className="text-sm font-semibold text-gray-900">
-                  {faq.question}
+          <ul className="accordion--alt accordion-faq faq pt-16 lg:mx-24">
+            {faqs.map((faq, index) => (
+              <li key={index} className="faq__item accordion__item">
+                <h3
+                  onClick={() => toggleFAQ(index)}
+                  className="faq__item-heading accordion__item-heading cursor-pointer"
+                >
+                  <button>{faq.question}</button>
+                  <Image
+                    src={AssetIcon.arrow_down}
+                    alt="Wallet"
+                    width={13}
+                    height={13}
+                    className={`float-right duration-300 ${
+                      openIndexes.includes(index) ? "rotate-180" : ""
+                    }`}
+                  />
                 </h3>
-                <motion.div
-                  animate={{ rotate: openIndexes.has(index) ? 0 : 180 }}
-                  transition={{ duration: 0.3 }}
+                <div
+                  className={`faq__item-content accordion__item-content max-h-0 overflow-hidden ${
+                    openIndexes.includes(index) ? "max-h-96 animate-dropDown " : ""
+                  }`}
                 >
-                  <FaChevronUp className="text-[#CED0DB]" />
-                </motion.div>
-              </div>
-              {openIndexes.has(index) && (
-                <motion.p
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -10 }}
-                  transition={{ duration: 0.3 }}
-                  className="text-sm text-gray-600 mt-2"
-                >
-                  {faq.answer}
-                </motion.p>
-              )}
-            </div>
-          ))}
-          <div className="border-b border-gray-200 last:border-b-0 py-4" />
+                  {faq.answer}{" "}
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
       <Footer />
