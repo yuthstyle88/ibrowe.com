@@ -7,6 +7,15 @@ import compare from "@/data/compare";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
+import desktopbravedailymail from "@/assets/images/optimized/home-assets/images/desktop-brave-dailymail.webp";
+import desktopbravegoogle from "@/assets/images/optimized/home-assets/images/desktop-chrome-dailymail.webp";
+import ibrowe from "@/assets/leo-icons/social-brave-release-favicon-fullheight-color.svg";
+import chrome from "@/assets/leo-icons/chromerelease-color.svg";
+
+import {
+  ReactCompareSlider,
+  ReactCompareSliderImage,
+} from "react-compare-slider";
 const faqData = [
   {
     question: "Is the Brave Browser safe?",
@@ -346,7 +355,7 @@ export default function Home() {
           src={AssetIcon.logo_text}
           alt="ibrowe logo"
           className="absolute top-48 md:top-[22rem] lg:top-64 left-1/2 w-[105%] max-w-[1800px] -translate-x-1/2 opacity-5"
-        />  
+        />
       </div>
       <Header />
       <div className="grid-cols-layout grid w-full place-self-start gap-x-8 pt-[140px]">
@@ -378,7 +387,11 @@ export default function Home() {
                   className="w-full py-3 px-6 text-[#000] outline-none text-[16px] font-poppins leading-normal border-[1px] shadow-inputShadow rounded-xl border-[#eceef2]"
                 />
                 <button className="absolute right-4 top-1/2 -translate-y-1/2">
-                  <Image src={AssetIcon.search_linear} height={24} alt="search_linear" />
+                  <Image
+                    src={AssetIcon.search_linear}
+                    height={24}
+                    alt="search_linear"
+                  />
                 </button>
               </form>
               <p className="mb-32 text-[1.25rem] font-normal leading-[1.875rem] font-poppins">
@@ -714,8 +727,64 @@ export default function Home() {
                 </button>
               ))}
             </div>
-            <div className="flex flex-col lg:gap-1">
-              <div>hêlo</div>
+            <div
+              style={{
+                color: "rgba(var(--tw-color-text-primary), 1)",
+                borderRadius: "1rem",
+                border:
+                  "var(--card-contents-border-width) solid rgba(var(--tw-color-text-primary), 1)",
+                background: "rgba(var(--tw-color-container-background), 1)",
+              }}
+              className="grid overflow-hidden w-full p-0 [--compare-range-value:50%] mobile:hidden"
+            >
+              <ReactCompareSlider
+                itemOne={
+                  <div className="relative flex justify-center items-center">
+                    <ReactCompareSliderImage
+                      src={desktopbravedailymail.src}
+                      alt="Brave Daily Mail"
+                    />
+                    <div
+                      className="absolute left-[22%] bottom-12 flex items-center justify-center rounded-2xl shadow-lg bg-white border-2 border-black transition-all duration-300 aspect-square"
+                      style={{
+                        opacity: 1,
+                        width: "10%",
+                        transform:
+                          "translateX(calc(var(--compare-range-value) * -0.5%))",
+                      }}
+                    >
+                      <Image
+                        src={ibrowe}
+                        alt="Brave Icon"
+                        className="w-full h-full p-2"
+                      />
+                    </div>
+                  </div>
+                }
+                itemTwo={
+                  <div className="relative flex justify-center items-center">
+                    <ReactCompareSliderImage
+                      src={desktopbravegoogle.src}
+                      alt="Brave Google"
+                    />
+                    <div
+                      className="absolute right-[22%] bottom-12 flex items-center justify-center rounded-2xl shadow-lg bg-white border-2 border-black transition-all duration-300 aspect-square"
+                      style={{
+                        opacity: 1,
+                        width: "10%",
+                        transform:
+                          "translateX(calc(var(--compare-range-value) * 0.5%))",
+                      }}
+                    >
+                      <Image
+                        src={chrome}
+                        alt="Chrome Icon"
+                        className="w-full h-full p-2"
+                      />
+                    </div>
+                  </div>
+                }
+              />
             </div>
           </section>
           <section className="mt-10 sm:mt-[3.5rem] lg:mt-20">
@@ -744,7 +813,6 @@ export default function Home() {
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
                           src={AssetIcon.ibrowe}
-                          height={30}
                           alt="ibrowe"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
                         />
@@ -752,7 +820,6 @@ export default function Home() {
                       <div className="bg-white rounded-[20%] w-[40px] flex items-center justify-center aspect-square drop-shadow-[0_1px_4px_rgba(0,0,0,0.1)]">
                         <Image
                           src={AssetIcon.chrome}
-                          height={30}
                           alt="chrome"
                           className="color icon [--icon-size:75%] [--icon-url:url('/leo-icons/social-brave-release-favicon-fullheight-color.svg')]"
                         />
@@ -937,7 +1004,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex flex-col bg-[#3E37D4] text-[#e3e3e8] font-bold mt-8 md:rounded-none md:border-0 md:mt-0 grid-cols-layout text-text-primary px-4 py-8 lg:py-10 gap-4 mx-8 md:mx-0 rounded-xl md:rounded-none">
+      <section className="flex flex-col bg-[#3E37D4] text-[#e3e3e8] font-bold mt-8 md:border-0 md:mt-0 grid-cols-layout text-text-primary px-4 py-8 lg:py-10 gap-4 mx-8 md:mx-0 rounded-xl md:rounded-none">
         <div className="flex flex-col lg:flex-row gap-4 md:gap-8 md:items-center md:justify-center">
           <p className="text-mobile-h2 lg:text-desktop-h4">
             Let Brave power your business:
@@ -989,7 +1056,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
