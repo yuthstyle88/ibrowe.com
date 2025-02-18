@@ -1116,7 +1116,7 @@ a.instagram {
 }
 
 .hero-image {
-  background-image: url(/hc/theming_assets/01HZHBGR89D7AS27A2KS3849K4);
+  background-image: url(/static-assets/images/89435434bd1f3687a60586d1e4a42c54b443de53.png);
   background-position: center;
   background-size: cover;
 }
@@ -6892,7 +6892,7 @@ section.articles .latest-articles-item a.article-title.active {
 	}
   
   .logo img {
-    content: url(/hc/theming_assets/01JJWYK25HRADT7CKP9ZYYZ6CK);
+    content: url(/static-assets/images/brave-logo.svg);
   }
   
   .download-link{
