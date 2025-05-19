@@ -2,18 +2,18 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Navigation from '@/components/Navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
+import { locales} from '@/i18n/routing';
 import '../globals.css';
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } = params;
-  if (!hasLocale(routing.locales, locale)) {
+  const { locale } = await params;
+  if (!hasLocale(locales, locale)) {
     notFound();
   }
   const messages = require(`../../messages/${locale}.json`);

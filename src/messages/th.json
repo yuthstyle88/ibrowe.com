@@ -14,6 +14,27 @@
     "business": "สำหรับธุรกิจ",
     "support": "ฝ่ายสนับสนุน",
     "download": "ดาวน์โหลด iBrowe",
-    "logo_alt": "โลโก้ iBrowe"
+    "logo_alt": "โลโก้ iBrowe",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "linux": "iBrowe สำหรับ Linux"
+  },
+  "pages": {
+    "home": {
+      "title": "iBrowe - เว็บเบราว์เซอร์ที่ปลอดภัยและเป็นส่วนตัว",
+      "description": "เบราว์เซอร์ที่ออกแบบมาเพื่อความเป็นส่วนตัวและความปลอดภัยของคุณ"
+    },
+    "download": {
+      "title": "ดาวน์โหลด iBrowe",
+      "description": "ดาวน์โหลด iBrowe สำหรับ Windows, Mac, Linux และอุปกรณ์มือถือ"
+    },
+    "privacy": {
+      "title": "นโยบายความเป็นส่วนตัว",
+      "description": "นโยบายความเป็นส่วนตัวของ iBrowe"
+    }
+  },
+  "common": {
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "try_again": "ลองใหม่อีกครั้ง"
   }
 }

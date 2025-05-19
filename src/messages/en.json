@@ -13,12 +13,28 @@
     },
     "business": "For Business",
     "support": "Support",
-    "download": "Download iBrowe"
+    "download": "Download iBrowe",
+    "logo_alt": "iBrowe Logo",
+    "privacy": "Privacy Policy",
+    "linux": "iBrowe for Linux"
   },
-  "logo_alt": "iBrowe Logo",
-  "hero": {
-    "title": "iBrowe – The Browser That Cares About You",
-    "description": "iBrowe is a browser that is designed to be a more secure and private alternative to Chrome. It is a browser that is designed to be a more secure and private alternative to Chrome. It is a browser that is designed to be a more secure and private alternative to Chrome.",
-    "download_button": "Download iBrowe"
+  "pages": {
+    "home": {
+      "title": "iBrowe - Secure and Private Web Browser",
+      "description": "A browser designed for your privacy and security"
+    },
+    "download": {
+      "title": "Download iBrowe",
+      "description": "Download iBrowe for Windows, Mac, Linux and Mobile"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "iBrowe Privacy Policy"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "try_again": "Try again"
   }
 }

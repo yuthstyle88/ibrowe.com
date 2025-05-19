@@ -8,8 +8,8 @@ import FaqSection from '@/components/FaqSection'
 import AboutSection from '@/components/AboutSection'
 import Footer from '@/components/Footer'
 
-export default function Home() {
-  const t = useTranslations('Home');
+export default  function Home() {
+  const t = useTranslations('pages.home');
   return (
     <main className="min-h-screen">
       <Hero />
@@ -22,4 +22,4 @@ export default function Home() {
       <Footer />
     </main>
   )
-} 
+}
