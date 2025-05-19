@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <div className="relative pt-20 overflow-hidden">
+    <div className="relative pt-20 bg-slateGrey overflow-hidden">
       <div className="container mx-auto px-5 py-16">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center lg:text-left">

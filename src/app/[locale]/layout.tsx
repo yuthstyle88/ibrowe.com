@@ -1,27 +1,22 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { notFound } from 'next/navigation';
-import '../globals.css';
-import Navigation from '@/components/Navigation';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
-
-export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'th' }, { locale: 'vi' }];
-}
+import Navigation from '@/components/Navigation';
+import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { notFound } from 'next/navigation';
+import { routing } from '@/i18n/routing';
+import '../globals.css';
 
 export default function LocaleLayout({
   children,
-  params: { locale },
+  params
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  let messages;
-  try {
-    messages = require(`../../messages/${locale}.json`);
-  } catch (error) {
+  const { locale } = params;
+  if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
-
+  const messages = require(`../../messages/${locale}.json`);
   return (
     <html lang={locale}>
       <head>
@@ -39,4 +34,4 @@ export default function LocaleLayout({
       </body>
     </html>
   );
-} 
+}

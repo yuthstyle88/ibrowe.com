@@ -27,6 +27,8 @@ const config: Config = {
           800: '#1e293b',
           900: '#0f172a',
         },
+        navbar: '#2f3642',
+        slateGrey: '#D3D3D3'
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

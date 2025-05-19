@@ -1,5 +1,19 @@
 {
-  "Home": {
-    "title": "Chào mừng đến với iBrowe"
+  "nav": {
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "compare": "So sánh",
+    "compare_links": {
+      "chrome": "iBrowe so với Chrome",
+      "firefox": "iBrowe so với Firefox",
+      "google": "iBrowe so với Google",
+      "duckduckgo": "iBrowe Search so với DuckDuckGo",
+      "safari": "iBrowe so với Safari",
+      "edge": "iBrowe so với Edge"
+    },
+    "business": "Dành cho doanh nghiệp",
+    "support": "Hỗ trợ",
+    "download": "Tải iBrowe",
+    "logo_alt": "Logo iBrowe"
   }
-} 
+}

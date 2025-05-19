@@ -12,7 +12,6 @@ export default function Home() {
   const t = useTranslations('Home');
   return (
     <main className="min-h-screen">
-      <h1 className="text-3xl font-bold text-center my-8">{t('title')}</h1>
       <Hero />
       <ComparisonSection />
       <NewsSection />
