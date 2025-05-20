@@ -1,22 +1,47 @@
+import { Metadata } from 'next'
+import { generateBaseMetadata } from '@/lib/metadata'
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Navigation from '@/components/Navigation';
-import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { notFound } from 'next/navigation';
+import { NextIntlClientProvider } from 'next-intl';
 import { locales} from '@/i18n/routing';
 import '../globals.css';
 
-export default async function LocaleLayout({
-  children,
-  params
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
-  const { locale } = await params;
-  if (!hasLocale(locales, locale)) {
-    notFound();
+
+type Props = {
+  children: React.ReactNode
+  params: { locale: string }
+}
+
+export async function generateMetadata({ params }: Omit<Props, 'children'>): Promise<Metadata> {
+  const { locale } = await params
+  return generateBaseMetadata({ locale })
+}
+
+export function generateStaticParams() {
+  return locales.map(locale => ({ locale }))
+}
+
+export default async function LocaleLayout({ children, params }: Props) {
+  const { locale } = await params
+  // โหลด messages สำหรับการแปลภาษา
+  type Messages = {
+    [key: string]: string | Record<string, any>
   }
-  const messages = require(`../../messages/${locale}.json`);
+
+  let messages: Messages
+
+  const loadMessages = async (locale: string): Promise<Messages> => {
+    try {
+      return (await import(`@/messages/${locale}.json`)).default
+    } catch (error) {
+      console.warn(`Could not load messages for locale: ${locale}, falling back to Thai`)
+      return (await import('@/messages/th.json')).default
+    }
+  }
+
+  messages = await loadMessages(locale)
+
+
   return (
     <html lang={locale}>
       <head>
