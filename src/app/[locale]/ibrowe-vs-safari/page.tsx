@@ -1,10 +1,10 @@
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useLocalizedPath } from '@/utils/path';
 
-export default function DuckDuckGoComparison() {
-  const t = useTranslations('DuckDuckGoComparison');
+export default function SafariComparison() {
+  const t = useTranslations('SafariComparison');
   const getLocalizedPath = useLocalizedPath();
 
   return (
@@ -29,8 +29,8 @@ export default function DuckDuckGoComparison() {
             </div>
             <div className="mt-12 relative aspect-[16/9] max-w-3xl mx-auto">
               <Image
-                src="/images/3d-icon-design-ibrowe-browser--logo-head-dog-vs-duckduckgo.png"
-                alt="iBrowe vs DuckDuckGo"
+                src="/images/3d-icon-design-ibrowe-browser--logo-head-dog-vs-safari.png"
+                alt="iBrowe vs Safari"
                 fill
                 className="object-contain"
                 priority
@@ -103,54 +103,54 @@ export default function DuckDuckGoComparison() {
                 </div>
               </div>
 
-              {/* DuckDuckGo Features */}
+              {/* Safari Features */}
               <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
                 <div className="flex flex-col items-center mb-6">
                   <Image
-                    src="/images/duckduckgo.png"
-                    alt="DuckDuckGo"
+                    src="/images/safari.png"
+                    alt="Safari"
                     width={80}
                     height={80}
                     className="mb-4"
                   />
-                  <h3 className="text-xl font-bold text-gray-900">DuckDuckGo</h3>
+                  <h3 className="text-xl font-bold text-gray-900">Safari</h3>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-start">
                     <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                    <span className="text-gray-600">{t('features.duckduckgo.thirdPartyAds')}</span>
+                    <span className="text-gray-600">{t('features.safari.thirdPartyAds')}</span>
                   </div>
                   <div className="flex items-start">
                     <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                    <span className="text-gray-600">{t('features.duckduckgo.crossSiteTracking')}</span>
+                    <span className="text-gray-600">{t('features.safari.crossSiteTracking')}</span>
                   </div>
                   <div className="flex items-start">
                     <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                    <span className="text-gray-600">{t('features.duckduckgo.thirdPartyCookies')}</span>
+                    <span className="text-gray-600">{t('features.safari.thirdPartyCookies')}</span>
                   </div>
                   <div className="flex items-start">
                     <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                    <span className="text-gray-600">{t('features.duckduckgo.fingerprinting')}</span>
+                    <span className="text-gray-600">{t('features.safari.fingerprinting')}</span>
                   </div>
                   <div className="flex items-start">
                     <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                    <span className="text-gray-600">{t('features.duckduckgo.cookieBanners')}</span>
+                    <span className="text-gray-600">{t('features.safari.cookieBanners')}</span>
                   </div>
                   <div className="flex items-start">
                     <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                    <span className="text-gray-600">{t('features.duckduckgo.globalPrivacy')}</span>
+                    <span className="text-gray-600">{t('features.safari.globalPrivacy')}</span>
                   </div>
                 </div>
               </div>

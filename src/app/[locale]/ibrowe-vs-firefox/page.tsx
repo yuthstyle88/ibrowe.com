@@ -1,9 +1,14 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function FirefoxComparisonPage() {
   const t = useTranslations('FirefoxComparison');
+  const locale = useLocale();
+
+  const getLocalizedPath = (path: string) => {
+    return `/${locale}${path}`;
+  };
 
   return (
     <main className="min-h-screen bg-white">
@@ -18,7 +23,7 @@ export default function FirefoxComparisonPage() {
               {t('subtitle')}
             </p>
             <Link
-              href="/download"
+              href={getLocalizedPath('/download')}
               className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               {t('downloadButton')}
@@ -84,7 +89,7 @@ export default function FirefoxComparisonPage() {
                       <svg className="h-6 w-6 text-red-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                       </svg>
-                      <span className="text-gray-600">{value}</span>
+                      <span className="text-gray-600">{String(value)}</span>
                     </li>
                   ))}
                 </ul>

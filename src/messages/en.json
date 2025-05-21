@@ -326,6 +326,7 @@
     "news": "News",
     "followUs": "Follow Us",
     "copyright": "© Copyright 2025 iBrowe.co.th",
+    "language": "Language",
     "links": {
       "company": "Company",
       "leadership": "Leadership",
@@ -340,6 +341,66 @@
       "faq": "FAQ",
       "aboutUs": "About Us",
       "pressRelease": "Press Release"
+    }
+  },
+  "SafariComparison": {
+    "title": "iBrowe vs Safari: Privacy-First Browser Comparison",
+    "subtitle": "Discover why iBrowe offers superior privacy protection compared to Safari",
+    "downloadButton": "Download iBrowe",
+    "privacyTitle": "Privacy Protection Comparison",
+    "privacyDescription": "See how iBrowe's privacy features stack up against Safari's built-in protections",
+    "privacyConclusion": "While Safari offers basic privacy features, iBrowe provides comprehensive protection against tracking and data collection.",
+    "featuresTitle": "Feature Comparison",
+    "featuresDescription": "Compare the key features of iBrowe and Safari",
+    "featuresComparison": "Key Features",
+    "features": {
+      "ibrowe": {
+        "thirdPartyAds": "Blocks third-party ads",
+        "crossSiteTracking": "Prevents cross-site tracking",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Protects against fingerprinting",
+        "cookieBanners": "Auto-dismisses cookie banners",
+        "globalPrivacy": "Global privacy protection",
+        "adBlocker": "Built-in ad blocker",
+        "youtubeAdBlocker": "YouTube ad blocker"
+      },
+      "safari": {
+        "thirdPartyAds": "Limited ad blocking",
+        "crossSiteTracking": "Basic tracking prevention",
+        "thirdPartyCookies": "Blocks some third-party cookies",
+        "fingerprinting": "Limited fingerprinting protection",
+        "cookieBanners": "No cookie banner handling",
+        "globalPrivacy": "Platform-specific protection"
+      }
+    }
+  },
+  "Download": {
+    "title": "Download iBrowe for All Platforms",
+    "description": "Choose to download iBrowe for your device for a faster, safer, and more private browsing experience",
+    "windows": {
+      "alt": "Windows",
+      "title": "Windows",
+      "description": "For Windows 10 and newer",
+      "downloadButton": "Download"
+    },
+    "macos": {
+      "alt": "macOS",
+      "title": "macOS",
+      "description": "For macOS 10.15 and newer",
+      "downloadButton": "Download"
+    },
+    "linux": {
+      "alt": "Linux",
+      "title": "Linux",
+      "description": "For Ubuntu and Debian",
+      "downloadButton": "Download"
+    },
+    "mobile": {
+      "alt": "Mobile",
+      "title": "Mobile",
+      "description": "For iOS and Android",
+      "appStore": "App Store",
+      "playStore": "Play Store"
     }
   }
 }

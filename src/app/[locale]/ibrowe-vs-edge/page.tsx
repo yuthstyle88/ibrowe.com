@@ -1,179 +1,197 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useLocalizedPath } from '@/utils/path';
 
 export default function EdgeComparison() {
   const t = useTranslations('EdgeComparison');
+  const getLocalizedPath = useLocalizedPath();
 
   return (
-    <main className="min-h-screen">
-      <div className="section-content">
-        <div className="container space-below">
-          <div className="title-wrap-left">
-            <div className="hero-content">
-              <div className="hero-block">
-                <div className="content-block-hero">
-                  <h1 className="head-ibrowe-vs-duckduckgo">{t('title')}</h1>
-                  <p className="sub-ibrowe-vs-duckduckgo">{t('subtitle')}</p>
-                  <div className="button-wrap-hero">
-                    <Link href="/download" className="button w-button">
-                      {t('downloadButton')}
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="hero-image-wrap">
-                <Image
-                  src="/images/3d-icon-design-ibrowe-browser--logo-head-dog-vs-mi.png"
-                  alt="iBrowe vs Edge"
-                  width={1024}
-                  height={1024}
-                  className="hero-image-search"
-                  priority
-                />
-              </div>
+    <main className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gradient-to-b from-blue-50 to-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              {t('title')}
+            </h1>
+            <p className="text-xl text-gray-600 mb-8">
+              {t('subtitle')}
+            </p>
+            <div className="flex justify-center">
+              <Link
+                href={getLocalizedPath('/download')}
+                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                {t('downloadButton')}
+              </Link>
+            </div>
+            <div className="mt-12 relative aspect-[16/9] max-w-3xl mx-auto">
+              <Image
+                src="/images/3d-icon-design-ibrowe-browser--logo-head-dog-vs-mi.png"
+                alt="iBrowe vs Edge"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
           </div>
-        </div>
-      </div>
-
-      <section className="pricing-comparison">
-        <div className="container-16">
-          <h1 className="heading-23">{t('privacyTitle')}</h1>
-          <p className="paragraph-9">{t('privacyDescription')}</p>
-          <div className="pricing-wrapper-edge">
-            <div className="pricing-card">
-              <Image
-                src="/images/product_logo_256.png"
-                alt="iBrowe"
-                width={256}
-                height={256}
-                className="pricing-image"
-              />
-              <h2 className="pricing-title">iBrowe</h2>
-              <div className="pricing-divider"></div>
-              <ul className="safari3 w-list-unstyled">
-                <li>
-                  <div className="search1">
-                    <strong>{t('features.ibrowe.thirdPartyAds')}</strong>
-                  </div>
-                </li>
-                <li>
-                  <div className="search2-copy">
-                    <strong>{t('features.ibrowe.crossSiteTracking')}</strong>
-                  </div>
-                </li>
-                <li>
-                  <div className="search3-copy">
-                    <strong>{t('features.ibrowe.thirdPartyCookies')}</strong>
-                  </div>
-                  <div className="search4-copy-copy">
-                    <strong>{t('features.ibrowe.fingerprinting')}</strong>
-                  </div>
-                  <div className="search4-copy">
-                    <strong>{t('features.ibrowe.cookieBanners')}</strong>
-                  </div>
-                  <div className="ibrowevssafari1">
-                    <strong>{t('features.ibrowe.globalPrivacy')}</strong>
-                  </div>
-                  <div className="search4-copy-copy">
-                    <strong>{t('features.ibrowe.httpsUpgrade')}</strong>
-                  </div>
-                  <div className="search4-copy-copy">
-                    <strong>{t('features.ibrowe.networkState')}</strong>
-                  </div>
-                  <div className="search4-copy-copy">
-                    <strong>{t('features.ibrowe.searchParams')}</strong>
-                  </div>
-                  <div className="search4-copy-copy">
-                    <strong>{t('features.ibrowe.bounceTracking')}</strong>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div className="safari">
-              <Image
-                src="/images/microsoft.png"
-                alt="Microsoft Edge"
-                width={512}
-                height={512}
-                className="pricing-image"
-              />
-              <h2 className="pricing-title">Microsoft Edge</h2>
-              <div className="pricing-divider"></div>
-              <ul className="safari3 w-list-unstyled">
-                <li>
-                  <div className="safari1">
-                    <strong>{t('features.edge.thirdPartyAds')}</strong>
-                  </div>
-                  <div className="safari2">
-                    <strong>{t('features.edge.crossSiteTracking')}</strong>
-                  </div>
-                </li>
-                <li>
-                  <div className="search3-edge">
-                    <strong>{t('features.edge.thirdPartyCookies')}</strong>
-                  </div>
-                  <div className="safari4">
-                    <strong>{t('features.edge.fingerprinting')}</strong>
-                  </div>
-                  <div className="search4-copy-copy-copy-copy">
-                    <strong>{t('features.edge.globalPrivacy')}</strong>
-                  </div>
-                  <div className="safari6-1">
-                    <strong>{t('features.edge.cookieBanners')}</strong>
-                  </div>
-                  <div className="edge6">
-                    <strong>{t('features.edge.httpsUpgrade')}</strong>
-                  </div>
-                  <div className="edge8">
-                    <strong>{t('features.edge.networkState')}</strong>
-                  </div>
-                  <div className="safari9">
-                    <strong>{t('features.edge.searchParams')}</strong>
-                  </div>
-                  <div className="edge10">
-                    <strong>{t('features.edge.bounceTracking')}</strong>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p className="paragraph-9">{t('privacyConclusion')}</p>
         </div>
       </section>
 
-      <section className="pricing-comparison">
-        <div className="container-16">
-          <h1 className="heading-23">{t('featuresTitle')}</h1>
-          <p className="paragraph-9">{t('featuresDescription')}</p>
-          <div className="text-block">{t('featuresComparison')}</div>
-          <div className="pricing-wrapper">
-            <div className="pricing-card">
-              <div className="pricing-divider"></div>
-              <div className="pricing-card">
-                <Image
-                  src="/images/product_logo_256.png"
-                  alt="iBrowe"
-                  width={256}
-                  height={256}
-                  className="pricing-image"
-                />
-                <h2 className="pricing-title">iBrowe</h2>
-                <div className="pricing-divider"></div>
-                <ul className="safari3 w-list-unstyled">
-                  <li>
-                    <div className="pricing-feature-1">
-                      <strong>{t('features.ibrowe.adBlocker')}</strong>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="pricing-feature-2">
-                      <strong>{t('features.ibrowe.youtubeAdBlocker')}</strong>
-                    </div>
-                  </li>
-                </ul>
+      {/* Privacy Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              {t('privacyTitle')}
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              {t('privacyDescription')}
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* iBrowe Features */}
+              <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+                <div className="flex flex-col items-center mb-6">
+                  <Image
+                    src="/images/product_logo_256.png"
+                    alt="iBrowe"
+                    width={80}
+                    height={80}
+                    className="mb-4"
+                  />
+                  <h3 className="text-xl font-bold text-gray-900">iBrowe</h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.thirdPartyAds')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.crossSiteTracking')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.thirdPartyCookies')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.fingerprinting')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.cookieBanners')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.globalPrivacy')}</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Edge Features */}
+              <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+                <div className="flex flex-col items-center mb-6">
+                  <Image
+                    src="/images/microsoft.png"
+                    alt="Microsoft Edge"
+                    width={80}
+                    height={80}
+                    className="mb-4"
+                  />
+                  <h3 className="text-xl font-bold text-gray-900">Microsoft Edge</h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.edge.thirdPartyAds')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.edge.crossSiteTracking')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.edge.thirdPartyCookies')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.edge.fingerprinting')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.edge.cookieBanners')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.edge.globalPrivacy')}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className="text-lg text-gray-600 mt-8">
+              {t('privacyConclusion')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              {t('featuresTitle')}
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              {t('featuresDescription')}
+            </p>
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+                {t('featuresComparison')}
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="space-y-4">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-4">iBrowe</h4>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.adBlocker')}</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-600">{t('features.ibrowe.youtubeAdBlocker')}</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -4,9 +4,11 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import { useLocalizedPath } from '@/utils/path'
 
 export default function ComparisonSection() {
   const t = useTranslations('ComparisonSection')
+  const getLocalizedPath = useLocalizedPath()
 
   const comparisons = [
     {
@@ -77,7 +79,7 @@ export default function ComparisonSection() {
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{comparison.title}</h3>
                 <p className="text-gray-600 mb-6">{comparison.description}</p>
                 <Link
-                  href={comparison.href}
+                  href={getLocalizedPath(comparison.href)}
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-colors duration-200 shadow-button hover:shadow-hover"
                 >
                   {t('viewComparison')}

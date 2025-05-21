@@ -1,7 +1,12 @@
+"use client";
+
 import Image from 'next/image'
 import Navigation from '@/components/Navigation'
+import { useTranslations } from 'next-intl'
 
 export default function Download() {
+  const t = useTranslations('Download')
+
   return (
     <main>
       <Navigation />
@@ -9,10 +14,10 @@ export default function Download() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-8">
-              ดาวน์โหลด iBrowe สำหรับทุกแพลตฟอร์ม
+              {t('title')}
             </h1>
             <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-              เลือกดาวน์โหลด iBrowe สำหรับอุปกรณ์ของคุณ เพื่อประสบการณ์การท่องเว็บที่เร็วขึ้น ปลอดภัยขึ้น และเป็นส่วนตัวมากขึ้น
+              {t('description')}
             </p>
           </div>
 
@@ -21,15 +26,15 @@ export default function Download() {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <Image
                 src="/images/windows.png"
-                alt="Windows"
+                alt={t('windows.alt')}
                 width={64}
                 height={64}
                 className="mx-auto mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2">Windows</h3>
-              <p className="text-gray-600 mb-4">สำหรับ Windows 10 และใหม่กว่า</p>
+              <h3 className="text-lg font-semibold mb-2">{t('windows.title')}</h3>
+              <p className="text-gray-600 mb-4">{t('windows.description')}</p>
               <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
-                ดาวน์โหลด
+                {t('windows.downloadButton')}
               </button>
             </div>
 
@@ -37,15 +42,15 @@ export default function Download() {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <Image
                 src="/images/mac-os-logo.png"
-                alt="macOS"
+                alt={t('macos.alt')}
                 width={64}
                 height={64}
                 className="mx-auto mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2">macOS</h3>
-              <p className="text-gray-600 mb-4">สำหรับ macOS 10.15 และใหม่กว่า</p>
+              <h3 className="text-lg font-semibold mb-2">{t('macos.title')}</h3>
+              <p className="text-gray-600 mb-4">{t('macos.description')}</p>
               <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
-                ดาวน์โหลด
+                {t('macos.downloadButton')}
               </button>
             </div>
 
@@ -53,15 +58,15 @@ export default function Download() {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <Image
                 src="/images/linux.png"
-                alt="Linux"
+                alt={t('linux.alt')}
                 width={64}
                 height={64}
                 className="mx-auto mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2">Linux</h3>
-              <p className="text-gray-600 mb-4">สำหรับ Ubuntu และ Debian</p>
+              <h3 className="text-lg font-semibold mb-2">{t('linux.title')}</h3>
+              <p className="text-gray-600 mb-4">{t('linux.description')}</p>
               <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
-                ดาวน์โหลด
+                {t('linux.downloadButton')}
               </button>
             </div>
 
@@ -69,19 +74,19 @@ export default function Download() {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <Image
                 src="/images/iphone-web.png"
-                alt="Mobile"
+                alt={t('mobile.alt')}
                 width={64}
                 height={64}
                 className="mx-auto mb-4"
               />
-              <h3 className="text-lg font-semibold mb-2">Mobile</h3>
-              <p className="text-gray-600 mb-4">สำหรับ iOS และ Android</p>
+              <h3 className="text-lg font-semibold mb-2">{t('mobile.title')}</h3>
+              <p className="text-gray-600 mb-4">{t('mobile.description')}</p>
               <div className="space-y-2">
                 <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors w-full">
-                  App Store
+                  {t('mobile.appStore')}
                 </button>
                 <button className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition-colors w-full">
-                  Play Store
+                  {t('mobile.playStore')}
                 </button>
               </div>
             </div>

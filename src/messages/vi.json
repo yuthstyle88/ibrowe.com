@@ -320,26 +320,87 @@
     "description": "iBrowe không chỉ là một trình duyệt thông thường, mà là một công cụ mạnh mẽ được thiết kế để hỗ trợ các thương hiệu đang phát triển và người dùng am hiểu công nghệ. Với các tính năng tiên tiến được tối ưu hóa cho hiệu suất, iBrowe đảm bảo điều hướng mượt mà và nhanh chóng. Tương tự như sự phát triển của ngành công nghiệp in ấn, iBrowe đã trở thành tiêu chuẩn mới trong công nghệ duyệt web, được xây dựng để đáp ứng nhu cầu của thời đại kỹ thuật số. Nâng cao hành trình trực tuyến của bạn với khả năng tối ưu hóa công cụ tìm kiếm nâng cao, mang lại kết quả chính xác và nhanh chóng, giúp bạn luôn dẫn đầu trong thế giới kỹ thuật số!"
   },
   "Footer": {
-    "description": "Trình duyệt tiết kiệm thời gian của bạn, không phải dữ liệu cá nhân của bạn",
-    "about": "Về Chúng Tôi",
-    "download": "Tải Xuống",
-    "news": "Tin Tức",
-    "followUs": "Theo Dõi Chúng Tôi",
+    "description": "Trình duyệt giúp tiết kiệm thời gian của bạn, không phải dữ liệu cá nhân của bạn",
+    "about": "Giới thiệu",
+    "download": "Tải xuống",
+    "news": "Tin tức",
+    "followUs": "Theo dõi chúng tôi",
     "copyright": "© Bản quyền 2025 iBrowe.co.th",
+    "language": "Ngôn ngữ",
     "links": {
-      "company": "Công Ty",
-      "leadership": "Ban Lãnh Đạo",
-      "feature": "Tính Năng",
-      "news": "Tin Tức",
-      "privacyPolicy": "Chính Sách Bảo Mật",
+      "company": "Công ty",
+      "leadership": "Ban lãnh đạo",
+      "feature": "Tính năng",
+      "news": "Tin tức",
+      "privacyPolicy": "Chính sách bảo mật",
       "macos": "Cho MacOS",
       "windows": "Cho Windows",
-      "ios": "Ứng Dụng iOS",
-      "android": "Ứng Dụng Android",
+      "ios": "Ứng dụng iOS",
+      "android": "Ứng dụng Android",
       "linux": "Cho Linux",
-      "faq": "FAQ",
-      "aboutUs": "Về Chúng Tôi",
-      "pressRelease": "Thông Cáo Báo Chí"
+      "faq": "Câu hỏi thường gặp",
+      "aboutUs": "Về chúng tôi",
+      "pressRelease": "Thông cáo báo chí"
+    }
+  },
+  "SafariComparison": {
+    "title": "iBrowe vs Safari: So sánh trình duyệt ưu tiên quyền riêng tư",
+    "subtitle": "Khám phá lý do tại sao iBrowe cung cấp khả năng bảo vệ quyền riêng tư vượt trội so với Safari",
+    "downloadButton": "Tải xuống iBrowe",
+    "privacyTitle": "So sánh bảo vệ quyền riêng tư",
+    "privacyDescription": "Xem các tính năng bảo mật của iBrowe so với các biện pháp bảo vệ tích hợp của Safari",
+    "privacyConclusion": "Trong khi Safari chỉ cung cấp các tính năng bảo mật cơ bản, iBrowe mang đến khả năng bảo vệ toàn diện chống theo dõi và thu thập dữ liệu.",
+    "featuresTitle": "So sánh tính năng",
+    "featuresDescription": "So sánh các tính năng chính của iBrowe và Safari",
+    "featuresComparison": "Tính năng chính",
+    "features": {
+      "ibrowe": {
+        "thirdPartyAds": "Chặn quảng cáo bên thứ ba",
+        "crossSiteTracking": "Ngăn chặn theo dõi liên trang",
+        "thirdPartyCookies": "Chặn cookie bên thứ ba",
+        "fingerprinting": "Bảo vệ chống vân tay trình duyệt",
+        "cookieBanners": "Tự động đóng thông báo cookie",
+        "globalPrivacy": "Bảo vệ quyền riêng tư toàn cầu",
+        "adBlocker": "Trình chặn quảng cáo tích hợp",
+        "youtubeAdBlocker": "Chặn quảng cáo YouTube"
+      },
+      "safari": {
+        "thirdPartyAds": "Chặn quảng cáo hạn chế",
+        "crossSiteTracking": "Ngăn chặn theo dõi cơ bản",
+        "thirdPartyCookies": "Chặn một số cookie bên thứ ba",
+        "fingerprinting": "Bảo vệ vân tay trình duyệt hạn chế",
+        "cookieBanners": "Không xử lý thông báo cookie",
+        "globalPrivacy": "Bảo vệ theo nền tảng"
+      }
+    }
+  },
+  "Download": {
+    "title": "Tải xuống iBrowe cho tất cả các nền tảng",
+    "description": "Chọn tải xuống iBrowe cho thiết bị của bạn để có trải nghiệm duyệt web nhanh hơn, an toàn hơn và riêng tư hơn",
+    "windows": {
+      "alt": "Windows",
+      "title": "Windows",
+      "description": "Cho Windows 10 và mới hơn",
+      "downloadButton": "Tải xuống"
+    },
+    "macos": {
+      "alt": "macOS",
+      "title": "macOS",
+      "description": "Cho macOS 10.15 và mới hơn",
+      "downloadButton": "Tải xuống"
+    },
+    "linux": {
+      "alt": "Linux",
+      "title": "Linux",
+      "description": "Cho Ubuntu và Debian",
+      "downloadButton": "Tải xuống"
+    },
+    "mobile": {
+      "alt": "Di động",
+      "title": "Di động",
+      "description": "Cho iOS và Android",
+      "appStore": "App Store",
+      "playStore": "Play Store"
     }
   }
 }

@@ -2,10 +2,13 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import { useLocalizedPath } from '@/utils/path'
 
 export default function FeaturesSection() {
   const t = useTranslations('FeaturesSection')
+  const getLocalizedPath = useLocalizedPath()
   const [activeTab, setActiveTab] = useState('tab1')
 
   const features = [
@@ -113,12 +116,12 @@ export default function FeaturesSection() {
             <p className="text-gray-600 mb-8">
               {t('browserDescription')}
             </p>
-            <a
-              href="/download"
+            <Link
+              href={getLocalizedPath('/download')}
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-all duration-200 transform hover:-translate-y-0.5 shadow-button hover:shadow-hover"
             >
               {t('downloadButton')}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -3,9 +3,25 @@
 import React from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { usePathname, useRouter } from 'next/navigation';
+import { useLocale } from 'next-intl';
+
+const languages = [
+  { code: 'en', label: 'English' },
+  { code: 'vi', label: 'Tiếng Việt' },
+  { code: 'th', label: 'ไทย' },
+];
 
 export default function Footer() {
   const t = useTranslations('Footer');
+  const pathname = usePathname();
+  const router = useRouter();
+  const currentLocale = useLocale();
+  const restPath = pathname.split('/').slice(2).join('/') || '';
+
+  const handleLocaleChange = (locale: string) => {
+    router.push(`/${locale}${restPath ? '/' + restPath : ''}`);
+  };
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -16,6 +32,23 @@ export default function Footer() {
             <p className="text-gray-400 mb-4">
               {t('description')}
             </p>
+            <div className="mt-4">
+              <label htmlFor="language-select" className="block text-sm font-medium text-gray-400 mb-2">
+                {t('language')}
+              </label>
+              <select
+                id="language-select"
+                value={currentLocale}
+                onChange={(e) => handleLocaleChange(e.target.value)}
+                className="bg-gray-800 text-white border border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                {languages.map((lang) => (
+                  <option key={lang.code} value={lang.code}>
+                    {lang.label}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
           <div>
             <h4 className="font-semibold mb-4">{t('links.company')}</h4>
