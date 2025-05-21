@@ -9,7 +9,6 @@ import AboutSection from '@/components/AboutSection'
 import Footer from '@/components/Footer'
 
 export default function Home() {
-  const t = useTranslations('Home');
   return (
     <main className="min-h-screen">
       <Hero />

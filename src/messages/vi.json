@@ -13,24 +13,25 @@
     },
     "business": "Doanh nghiệp",
     "support": "Hỗ trợ",
-    "download": "Tải iBrowe",
-    "logo_alt": "Logo iBrowe"
+    "download": "Tải iBrowe"
   },
   "logo_alt": "Logo iBrowe",
-  "hero": {
-    "title": "iBrowe – Trình duyệt quan tâm đến bạn",
-    "description": "iBrowe là trình duyệt được thiết kế để thay thế Chrome an toàn và riêng tư hơn",
-    "download_button": "Tải iBrowe"
+  "Hero": {
+    "title": "iBrowe - Trình duyệt Quan Tâm Đến Bạn",
+    "description": "Trình duyệt không quảng cáo tối ưu, an toàn khỏi lừa đảo. Hãy chuyển sang iBrowe!",
+    "downloadButton": "Tải iBrowe",
+    "imageAlt": "Giao diện trình duyệt iBrowe",
+    "partnerLogoAlt": "Logo đối tác {num}"
   },
   "EdgeComparison": {
     "title": "iBrowe vs Edge",
-    "subtitle": "Microsoft Edge là người kế nhiệm của Internet Explorer và là trình duyệt được sử dụng nhiều thứ ba trên thế giới (và thứ hai trên máy tính để bàn). Nhưng điều này chủ yếu là do nó là trình duyệt mặc định trên thiết bị Windows. Rất ít người chọn chuyển sang Edge một cách tự nguyện. Trong khi Edge có một số tính năng tốt và được tối ưu hóa cho Windows, khi nói đến quyền riêng tư, hiệu suất và các tính năng quan trọng, Edge còn thiếu nhiều thứ. Hãy so sánh chúng.",
+    "subtitle": "Microsoft Edge là người kế nhiệm của Internet Explorer và là trình duyệt được sử dụng nhiều thứ ba trên thế giới (và thứ hai trên máy tính để bàn). Nhưng điều này chủ yếu là do nó là trình duyệt mặc định trên thiết bị Windows. Rất ít người tự nguyện chuyển sang Edge. Mặc dù Edge có một số tính năng tốt và được tối ưu hóa cho Windows, nhưng khi nói đến quyền riêng tư, hiệu suất và các tính năng quan trọng, Edge còn thiếu nhiều thứ. Hãy so sánh chúng.",
     "downloadButton": "Tải iBrowe",
-    "privacyTitle": "iBrowe có riêng tư hơn Edge không?",
-    "privacyDescription": "Microsoft là một ví dụ về 'Big Tech' và là một trong những công ty có giá trị nhất thế giới. Trong khi phần lớn lợi nhuận đến từ việc bán PC và phần mềm như Windows, quảng cáo cũng là nguồn doanh thu khổng lồ. Và những quảng cáo đó chủ yếu được tìm thấy trong Edge (và công cụ tìm kiếm Bing). Edge theo dõi bạn trên toàn bộ web và thu thập càng nhiều dữ liệu càng tốt. Microsoft 'kiếm tiền' từ dữ liệu này dưới dạng quảng cáo được nhắm mục tiêu cao. Đối với Microsoft, Edge là về quảng cáo và lợi nhuận. Trong khi đó, iBrowe chặn hầu hết các nỗ lực theo dõi bạn:",
+    "privacyTitle": "iBrowe có bảo mật hơn Edge không?",
+    "privacyDescription": "Microsoft là một ví dụ về 'Big Tech' và là một trong những công ty có giá trị nhất thế giới. Mặc dù phần lớn lợi nhuận đến từ việc bán PC và phần mềm như Windows, nhưng quảng cáo cũng là nguồn doanh thu khổng lồ. Và những quảng cáo đó chủ yếu được tìm thấy trong Edge (và công cụ tìm kiếm Bing). Edge theo dõi bạn trên web và thu thập càng nhiều dữ liệu càng tốt. Microsoft 'kiếm tiền' từ dữ liệu này dưới dạng quảng cáo được nhắm mục tiêu cao. Đối với Microsoft, Edge là về quảng cáo và lợi nhuận. Trong khi đó, iBrowe chặn hầu hết các nỗ lực theo dõi bạn:",
     "privacyConclusion": "Tóm lại, Edge được xây dựng để theo dõi. Nó cho phép quảng cáo đáng sợ, trình theo dõi, cookie và nhiều thứ khác theo dõi bạn trên web, ghi lại mọi thứ bạn làm và liên kết hoạt động đó trực tiếp với bạn. Tất cả mà không có kiến thức hoặc sự đồng ý của bạn. Trong khi đó, iBrowe mặc định là riêng tư.",
     "featuresTitle": "iBrowe có nhiều tính năng hơn Edge không?",
-    "featuresDescription": "Cả iBrowe và Edge đều được xây dựng trên động cơ trình duyệt Chromium mã nguồn mở (giống như được sử dụng trong các trình duyệt khác như Chrome, Opera và Vivaldi). Vì vậy, bạn có thể mong đợi giao diện và chức năng tương tự. Nhưng khi nói đến những thứ vượt ra ngoài những điểm tương đồng đó, iBrowe có nhiều tùy chỉnh mà Edge không thể cạnh tranh được.",
+    "featuresDescription": "Cả iBrowe và Edge đều được xây dựng trên công cụ trình duyệt Chromium mã nguồn mở (giống như được sử dụng trong các trình duyệt khác như Chrome, Opera và Vivaldi). Vì vậy, bạn có thể mong đợi giao diện và chức năng tương tự. Nhưng khi nói đến những thứ vượt quá những điểm tương đồng đó, iBrowe có nhiều tùy chỉnh mà Edge không thể cạnh tranh được.",
     "featuresComparison": "Hãy xem xét sự so sánh về chất lượng kết quả và tính minh bạch:",
     "features": {
       "ibrowe": {
@@ -43,7 +44,7 @@
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Phân vùng trạng thái mạng",
         "searchParams": "Lọc tham số tìm kiếm",
-        "bounceTracking": "Chặn theo dõi nảy",
+        "bounceTracking": "Chặn theo dõi chuyển hướng",
         "adBlocker": "Trình chặn quảng cáo tích hợp",
         "youtubeAdBlocker": "Trình chặn quảng cáo YouTube"
       },
@@ -57,16 +58,16 @@
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Phân vùng trạng thái mạng",
         "searchParams": "Lọc tham số tìm kiếm",
-        "bounceTracking": "Chặn theo dõi nảy"
+        "bounceTracking": "Chặn theo dõi chuyển hướng"
       }
     }
   },
   "DuckDuckGoComparison": {
     "title": "iBrowe Search vs DuckDuckGo",
-    "subtitle": "DuckDuckGo là công cụ tìm kiếm tập trung vào quyền riêng tư và không theo dõi người dùng. Mặc dù đây là một khởi đầu tốt, iBrowe Search còn đi xa hơn bằng cách cung cấp giải pháp bảo mật toàn diện bảo vệ bạn trên toàn bộ web, không chỉ trong quá trình tìm kiếm.",
+    "subtitle": "DuckDuckGo là công cụ tìm kiếm tập trung vào quyền riêng tư không theo dõi người dùng. Mặc dù đây là một khởi đầu tốt, iBrowe Search còn đi xa hơn bằng cách cung cấp giải pháp bảo mật toàn diện bảo vệ bạn trên toàn bộ web, không chỉ trong quá trình tìm kiếm.",
     "downloadButton": "Tải iBrowe",
-    "privacyTitle": "iBrowe Search có riêng tư hơn DuckDuckGo không?",
-    "privacyDescription": "DuckDuckGo đã xây dựng danh tiếng về quyền riêng tư, và đúng là họ không theo dõi các tìm kiếm của bạn. Tuy nhiên, sự bảo vệ quyền riêng tư của họ chỉ giới hạn ở trải nghiệm tìm kiếm. Khi bạn nhấp vào kết quả tìm kiếm, bạn phải tự bảo vệ mình. iBrowe Search, mặt khác, cung cấp sự bảo vệ quyền riêng tư toàn diện:",
+    "privacyTitle": "iBrowe Search có bảo mật hơn DuckDuckGo không?",
+    "privacyDescription": "DuckDuckGo đã xây dựng danh tiếng về quyền riêng tư, và đúng là họ không theo dõi tìm kiếm của bạn. Tuy nhiên, sự bảo vệ quyền riêng tư của họ chỉ giới hạn ở trải nghiệm tìm kiếm. Khi bạn nhấp vào kết quả tìm kiếm, bạn phải tự lo liệu. iBrowe Search, ngược lại, cung cấp bảo vệ quyền riêng tư toàn diện:",
     "privacyConclusion": "Trong khi DuckDuckGo là lựa chọn tốt cho tìm kiếm riêng tư, iBrowe Search cung cấp giải pháp bảo mật toàn diện hơn bảo vệ bạn không chỉ trong quá trình tìm kiếm, mà còn trong toàn bộ trải nghiệm duyệt web của bạn.",
     "featuresTitle": "iBrowe Search có nhiều tính năng hơn DuckDuckGo không?",
     "featuresDescription": "Cả iBrowe Search và DuckDuckGo đều ưu tiên quyền riêng tư, nhưng iBrowe Search cung cấp các tính năng bổ sung nâng cao trải nghiệm duyệt web của bạn trong khi vẫn duy trì quyền riêng tư.",
@@ -82,7 +83,7 @@
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Phân vùng trạng thái mạng",
         "searchParams": "Lọc tham số tìm kiếm",
-        "bounceTracking": "Chặn theo dõi nảy",
+        "bounceTracking": "Chặn theo dõi chuyển hướng",
         "adBlocker": "Trình chặn quảng cáo tích hợp",
         "youtubeAdBlocker": "Trình chặn quảng cáo YouTube"
       },
@@ -90,30 +91,30 @@
         "thirdPartyAds": "Không chặn quảng cáo",
         "crossSiteTracking": "Bảo vệ theo dõi hạn chế",
         "thirdPartyCookies": "Chặn cookie bên thứ ba",
-        "fingerprinting": "Không có bảo vệ vân tay kỹ thuật số",
+        "fingerprinting": "Không bảo vệ vân tay kỹ thuật số",
         "globalPrivacy": "Chỉ riêng tư khi tìm kiếm",
         "cookieBanners": "Không chặn biểu ngữ cookie",
         "httpsUpgrade": "Không nâng cấp HTTPS tự động",
         "networkState": "Không phân vùng trạng thái mạng",
         "searchParams": "Không lọc tham số tìm kiếm",
-        "bounceTracking": "Không bảo vệ theo dõi nảy"
+        "bounceTracking": "Không bảo vệ theo dõi chuyển hướng"
       }
     }
   },
   "GoogleComparison": {
     "title": "iBrowe Search vs Google",
-    "subtitle": "Google là công cụ tìm kiếm phổ biến nhất thế giới, nhưng điều đó phải trả giá bằng quyền riêng tư của bạn. iBrowe Search cung cấp một lựa chọn riêng tư không theo dõi các tìm kiếm của bạn hoặc thu thập dữ liệu cá nhân của bạn.",
+    "subtitle": "Google là công cụ tìm kiếm phổ biến nhất thế giới, nhưng điều đó phải trả giá bằng quyền riêng tư của bạn. iBrowe Search cung cấp một lựa chọn riêng tư không theo dõi tìm kiếm của bạn hoặc thu thập dữ liệu cá nhân của bạn.",
     "downloadButton": "Tải iBrowe",
-    "privacyTitle": "iBrowe Search có riêng tư hơn Google không?",
-    "privacyDescription": "Mô hình kinh doanh của Google được xây dựng trên việc thu thập và kiếm tiền từ dữ liệu người dùng. Mỗi tìm kiếm bạn thực hiện, mỗi trang web bạn truy cập và mỗi lần nhấp chuột đều được theo dõi, phân tích và sử dụng để xây dựng hồ sơ chi tiết về bạn. Dữ liệu này sau đó được sử dụng để phục vụ quảng cáo được nhắm mục tiêu và ảnh hưởng đến trải nghiệm trực tuyến của bạn. iBrowe Search, mặt khác, được thiết kế với quyền riêng tư là nguyên tắc cốt lõi:",
-    "privacyConclusion": "Trong khi Google cung cấp trải nghiệm tìm kiếm toàn diện, điều đó phải trả giá bằng quyền riêng tư của bạn. iBrowe Search cung cấp một lựa chọn riêng tư không theo dõi các tìm kiếm của bạn hoặc thu thập dữ liệu cá nhân của bạn, trong khi vẫn cung cấp kết quả tìm kiếm phù hợp.",
+    "privacyTitle": "iBrowe Search có bảo mật hơn Google không?",
+    "privacyDescription": "Mô hình kinh doanh của Google được xây dựng trên việc thu thập và kiếm tiền từ dữ liệu người dùng. Mỗi tìm kiếm bạn thực hiện, mỗi trang web bạn truy cập và mỗi lần nhấp chuột đều được theo dõi, phân tích và sử dụng để xây dựng hồ sơ chi tiết về bạn. Dữ liệu này sau đó được sử dụng để phục vụ quảng cáo được nhắm mục tiêu và ảnh hưởng đến trải nghiệm trực tuyến của bạn. iBrowe Search, ngược lại, được thiết kế với quyền riêng tư là nguyên tắc cốt lõi:",
+    "privacyConclusion": "Trong khi Google cung cấp trải nghiệm tìm kiếm toàn diện, điều đó phải trả giá bằng quyền riêng tư của bạn. iBrowe Search cung cấp một lựa chọn riêng tư không theo dõi tìm kiếm của bạn hoặc thu thập dữ liệu cá nhân của bạn, trong khi vẫn cung cấp kết quả tìm kiếm liên quan.",
     "featuresTitle": "iBrowe Search có nhiều tính năng hơn Google không?",
     "featuresDescription": "Trong khi Google cung cấp nhiều tính năng, nhiều tính năng trong số đó được thiết kế để thu thập thêm dữ liệu về bạn. iBrowe Search tập trung vào việc cung cấp các tính năng tìm kiếm thiết yếu trong khi bảo vệ quyền riêng tư của bạn.",
     "featuresComparison": "Hãy so sánh các tính năng chính:",
     "features": {
       "ibrowe": {
         "thirdPartyAds": "Chặn quảng cáo bên thứ ba",
-        "crossSiteTracking": "Chặn trình theo dõi liên trang",
+        "crossSiteTracking": "Chặn theo dõi liên trang",
         "thirdPartyCookies": "Chặn cookie bên thứ ba",
         "fingerprinting": "Ngăn chặn vân tay kỹ thuật số",
         "cookieBanners": "Chặn biểu ngữ đồng ý cookie",
@@ -121,7 +122,7 @@
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Phân vùng trạng thái mạng",
         "searchParams": "Lọc tham số tìm kiếm",
-        "bounceTracking": "Chặn theo dõi nảy",
+        "bounceTracking": "Chặn theo dõi chuyển hướng",
         "adBlocker": "Trình chặn quảng cáo tích hợp",
         "youtubeAdBlocker": "Trình chặn quảng cáo YouTube"
       },
@@ -135,24 +136,24 @@
         "httpsUpgrade": "Không nâng cấp HTTPS tự động",
         "networkState": "Không phân vùng trạng thái mạng",
         "searchParams": "Không lọc tham số tìm kiếm",
-        "bounceTracking": "Không bảo vệ theo dõi nảy"
+        "bounceTracking": "Không bảo vệ theo dõi chuyển hướng"
       }
     }
   },
   "FirefoxComparison": {
     "title": "iBrowe vs Firefox",
-    "subtitle": "Firefox được biết đến với các tính năng quyền riêng tư và tính chất mã nguồn mở. Mặc dù là một trình duyệt tốt, nhưng iBrowe cung cấp thêm các biện pháp bảo vệ quyền riêng tư và trải nghiệm đơn giản hơn.",
+    "subtitle": "Firefox được biết đến với các tính năng bảo mật và bản chất mã nguồn mở. Mặc dù là một trình duyệt tốt, iBrowe cung cấp bảo vệ quyền riêng tư bổ sung và trải nghiệm đơn giản hơn.",
     "downloadButton": "Tải iBrowe",
-    "privacyTitle": "iBrowe có riêng tư hơn Firefox không?",
-    "privacyDescription": "Firefox có sự tập trung mạnh mẽ vào quyền riêng tư và là mã nguồn mở, điều này rất tốt. Tuy nhiên, iBrowe nâng cấp bảo vệ quyền riêng tư lên một tầm cao mới với các tính năng bổ sung và cách tiếp cận toàn diện hơn trong việc bảo vệ quyền riêng tư của người dùng:",
-    "privacyConclusion": "Trong khi Firefox là lựa chọn tốt cho người dùng quan tâm đến quyền riêng tư, iBrowe cung cấp sự bảo vệ quyền riêng tư mạnh mẽ hơn và trải nghiệm đơn giản hơn. Cả hai trình duyệt đều là lựa chọn tốt, nhưng iBrowe cung cấp nhiều tính năng quyền riêng tư toàn diện hơn.",
+    "privacyTitle": "iBrowe có bảo mật hơn Firefox không?",
+    "privacyDescription": "Firefox có sự tập trung mạnh mẽ vào quyền riêng tư và là mã nguồn mở, điều này rất tốt. Tuy nhiên, iBrowe nâng cao bảo vệ quyền riêng tư với các tính năng bổ sung và cách tiếp cận toàn diện hơn để bảo vệ quyền riêng tư người dùng:",
+    "privacyConclusion": "Trong khi Firefox là lựa chọn tốt cho người dùng quan tâm đến quyền riêng tư, iBrowe cung cấp bảo vệ quyền riêng tư mạnh mẽ hơn và trải nghiệm đơn giản hơn. Cả hai trình duyệt đều là lựa chọn tốt, nhưng iBrowe cung cấp nhiều tính năng bảo mật toàn diện hơn.",
     "featuresTitle": "iBrowe có nhiều tính năng hơn Firefox không?",
-    "featuresDescription": "Cả Firefox và iBrowe đều ưu tiên quyền riêng tư, nhưng iBrowe cung cấp các tính năng bổ sung nâng cao trải nghiệm duyệt web của bạn trong khi duy trì sự bảo vệ quyền riêng tư mạnh mẽ.",
+    "featuresDescription": "Cả Firefox và iBrowe đều ưu tiên quyền riêng tư, nhưng iBrowe cung cấp các tính năng bổ sung nâng cao trải nghiệm duyệt web của bạn trong khi vẫn duy trì bảo vệ quyền riêng tư mạnh mẽ.",
     "featuresComparison": "Hãy so sánh các tính năng chính:",
     "features": {
       "ibrowe": {
         "thirdPartyAds": "Chặn quảng cáo bên thứ ba",
-        "crossSiteTracking": "Chặn theo dõi xuyên trang",
+        "crossSiteTracking": "Chặn theo dõi liên trang",
         "thirdPartyCookies": "Chặn cookie bên thứ ba",
         "fingerprinting": "Ngăn chặn vân tay kỹ thuật số",
         "cookieBanners": "Chặn biểu ngữ đồng ý cookie",
@@ -160,13 +161,13 @@
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Phân vùng trạng thái mạng",
         "searchParams": "Lọc tham số tìm kiếm",
-        "bounceTracking": "Chặn theo dõi bounce",
+        "bounceTracking": "Chặn theo dõi chuyển hướng",
         "adBlocker": "Trình chặn quảng cáo tích hợp",
         "youtubeAdBlocker": "Trình chặn quảng cáo YouTube"
       },
       "firefox": {
         "thirdPartyAds": "Chặn một số quảng cáo bên thứ ba",
-        "crossSiteTracking": "Chặn theo dõi xuyên trang",
+        "crossSiteTracking": "Chặn theo dõi liên trang",
         "thirdPartyCookies": "Chặn cookie bên thứ ba",
         "fingerprinting": "Bảo vệ vân tay cơ bản",
         "globalPrivacy": "Kiểm soát quyền riêng tư hạn chế",
@@ -174,8 +175,171 @@
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Không phân vùng trạng thái mạng",
         "searchParams": "Không lọc tham số tìm kiếm",
-        "bounceTracking": "Không bảo vệ theo dõi bounce"
+        "bounceTracking": "Không bảo vệ theo dõi chuyển hướng"
       }
+    }
+  },
+  "ComparisonSection": {
+    "title": "Vượt trội trong mọi khía cạnh: Quyền riêng tư, Tốc độ và Tính năng",
+    "subtitle": "Xem rõ tại sao iBrowe là trình duyệt tốt nhất cho bạn. Hãy xem chúng tôi tốt hơn như thế nào",
+    "viewComparison": "Xem so sánh",
+    "comparisons": {
+      "chrome": {
+        "title": "iBrowe vs Chrome",
+        "description": "Về quyền riêng tư và tốc độ, Chrome không thể theo kịp! Chúng tôi cung cấp nhiều hơn với bảo vệ theo dõi tự động và chặn quảng cáo"
+      },
+      "firefox": {
+        "title": "iBrowe vs Firefox",
+        "description": "Firefox có thể là lựa chọn tốt, nhưng iBrowe cung cấp trải nghiệm vượt trội với tốc độ và bảo mật không thể so sánh"
+      },
+      "google": {
+        "title": "iBrowe vs Google",
+        "description": "Tìm kiếm riêng tư, không theo dõi, không quảng cáo không liên quan, cho kết quả phù hợp với nhu cầu của bạn"
+      },
+      "duckduckgo": {
+        "title": "iBrowe Search vs DuckDuckGo",
+        "description": "Không giống DuckDuckGo, chúng tôi không phụ thuộc vào Microsoft Bing mà sử dụng hệ thống tìm kiếm riêng cho quyền riêng tư thực sự"
+      },
+      "safari": {
+        "title": "iBrowe vs Safari",
+        "description": "Là trình duyệt mặc định trên thiết bị Apple, Safari là trình duyệt được sử dụng nhiều thứ hai trên thế giới. Nó thường được coi là bảo mật hơn Chrome và được tối ưu hóa cho iOS và macOS"
+      }
+    }
+  },
+  "FeaturesSection": {
+    "title": "iBrowe Cung Cấp Trải Nghiệm Duyệt Web Vượt Trội",
+    "subtitle": "Với các tính năng được thiết kế cho bảo mật và tiện lợi của bạn",
+    "browserImageAlt": "Trình duyệt tiết kiệm thời gian",
+    "safeToUse": "An toàn khi sử dụng",
+    "browserTitle": "Trình duyệt tiết kiệm thời gian của bạn, không phải dữ liệu cá nhân của bạn",
+    "browserDescription": "Tải iBrowe ngay hôm nay cho Android, iOS, Linux, macOS hoặc Windows – duyệt web nhanh hơn, an toàn hơn và riêng tư hơn bao giờ hết!",
+    "downloadButton": "Tải iBrowe",
+    "features": {
+      "tab1": {
+        "title": "Web không phiền nhiễu",
+        "heading": "Chặn tất cả các loại quảng cáo bên thứ ba trên trang web"
+      },
+      "tab2": {
+        "title": "Tiết kiệm dữ liệu, tiết kiệm pin, tiết kiệm thời gian",
+        "heading": "Bạn sẽ tiết kiệm băng thông Wi-Fi và dữ liệu di động"
+      },
+      "tab3": {
+        "title": "Quyền riêng tư vượt trội",
+        "heading": "Bảo vệ khỏi theo dõi và vân tay kỹ thuật số"
+      },
+      "tab4": {
+        "title": "Bảo mật được bật tự động",
+        "heading": "Sẵn sàng sử dụng ngay lập tức, không cần cài đặt thêm"
+      }
+    }
+  },
+  "NewsSection": {
+    "readMore": "Đọc thêm",
+    "news": {
+      "items": [
+        {
+          "title": "Người dùng AI để ứng tuyển việc làm",
+          "content": "Một người đàn ông tuyên bố đã sử dụng AI để ứng tuyển 1.000 vị trí trong khi ngủ, kết quả khiến mọi người bất ngờ. Cộng đồng chia thành hai phe tranh luận. Một người đàn ông trên Reddit cho biết việc tìm kiếm việc làm của anh ta đã thay đổi đáng kể sau khi tạo ra bot AI. Người này tiết lộ rằng bot trí tuệ nhân tạo do anh ta tạo ra đã giúp quá trình tìm việc trở nên dễ dàng hơn nhiều. Đặc biệt hơn, bot AI làm việc chăm chỉ thay anh ta trong khi anh ta ngủ ngon trên giường."
+        },
+        {
+          "title": "Sử dụng AI để đọc tin tức",
+          "content": "Đã đến thời của phát thanh viên AI! Nhiều quốc gia đã bắt đầu sử dụng phát thanh viên AI hoặc kết hợp họ vào các chương trình tin tức. Mới đây, đến lượt Thái Lan khi Nation TV đã giới thiệu Natcha và Nichan, những phát thanh viên AI đầu tiên của Thái Lan trong chương trình tin tức."
+        },
+        {
+          "title": "Nhanh chóng trong sử dụng",
+          "content": "iBrowe cung cấp trải nghiệm duyệt web nhanh chóng và hiệu quả. Với công nghệ tối ưu hóa hiệu suất tiên tiến, bạn có thể tận hưởng tốc độ tải trang nhanh hơn và phản hồi mượt mà hơn."
+        },
+        {
+          "title": "Nhân viên văn phòng",
+          "content": "iBrowe giúp nhân viên văn phòng làm việc hiệu quả hơn với các tính năng bảo mật và tối ưu hóa hiệu suất. Tận hưởng trải nghiệm duyệt web mượt mà và an toàn."
+        }
+      ]
+    }
+  },
+  "FeatureSection": {
+    "title": "Tính Năng Nổi Bật",
+    "subtitle": "Khám phá các tính năng độc đáo của iBrowe",
+    "learnMore": "Tìm hiểu thêm",
+    "features": {
+      "0": {
+        "title": "Chặn Quảng Cáo",
+        "category": "Bảo Mật",
+        "description": "Chặn tất cả các loại quảng cáo trên web, bao gồm cả quảng cáo YouTube"
+      },
+      "1": {
+        "title": "Bảo Vệ Quyền Riêng Tư",
+        "category": "Bảo Mật",
+        "description": "Bảo vệ dữ liệu cá nhân của bạn khỏi các trình theo dõi và cookie"
+      },
+      "2": {
+        "title": "Tối Ưu Hóa Hiệu Suất",
+        "category": "Hiệu Suất",
+        "description": "Tải trang nhanh hơn và sử dụng ít tài nguyên hơn"
+      },
+      "3": {
+        "title": "Giao Diện Thân Thiện",
+        "category": "Trải Nghiệm",
+        "description": "Thiết kế đơn giản, dễ sử dụng cho mọi người dùng"
+      },
+      "4": {
+        "title": "Đồng Bộ Hóa",
+        "category": "Tiện Ích",
+        "description": "Đồng bộ hóa dữ liệu của bạn trên tất cả các thiết bị"
+      },
+      "5": {
+        "title": "Hỗ Trợ Đa Nền Tảng",
+        "category": "Tương Thích",
+        "description": "Hoạt động trên Windows, macOS, Linux, Android và iOS"
+      }
+    }
+  },
+  "FaqSection": {
+    "title": "Câu Hỏi Thường Gặp",
+    "faqs": [
+      {
+        "question": "iBrowe là gì?",
+        "answer": "iBrowe là một trình duyệt web hiện đại được thiết kế để mang lại trải nghiệm duyệt web vượt trội với tính năng bảo mật, tốc độ và các tính năng nâng cao."
+      },
+      {
+        "question": "iBrowe có miễn phí không?",
+        "answer": "Có, iBrowe hoàn toàn miễn phí để tải xuống và sử dụng. Chúng tôi tin tưởng vào việc cung cấp trải nghiệm duyệt web chất lượng cao mà không mất phí."
+      },
+      {
+        "question": "iBrowe bảo vệ quyền riêng tư của tôi như thế nào?",
+        "answer": "iBrowe bao gồm các tính năng bảo mật tích hợp như chặn quảng cáo, chặn trình theo dõi và duyệt web an toàn để bảo vệ quyền riêng tư trực tuyến của bạn."
+      },
+      {
+        "question": "Tôi có thể đồng bộ dữ liệu giữa các thiết bị không?",
+        "answer": "Có, iBrowe cho phép bạn đồng bộ dấu trang, lịch sử và cài đặt trên tất cả các thiết bị của bạn để có trải nghiệm liền mạch."
+      }
+    ]
+  },
+  "AboutSection": {
+    "subtitle": "Về Chúng Tôi",
+    "title": "Giới Thiệu iBrowe - Công Nghệ Cho Trải Nghiệm Duyệt Web Xuất Sắc!",
+    "description": "iBrowe không chỉ là một trình duyệt thông thường, mà là một công cụ mạnh mẽ được thiết kế để hỗ trợ các thương hiệu đang phát triển và người dùng am hiểu công nghệ. Với các tính năng tiên tiến được tối ưu hóa cho hiệu suất, iBrowe đảm bảo điều hướng mượt mà và nhanh chóng. Tương tự như sự phát triển của ngành công nghiệp in ấn, iBrowe đã trở thành tiêu chuẩn mới trong công nghệ duyệt web, được xây dựng để đáp ứng nhu cầu của thời đại kỹ thuật số. Nâng cao hành trình trực tuyến của bạn với khả năng tối ưu hóa công cụ tìm kiếm nâng cao, mang lại kết quả chính xác và nhanh chóng, giúp bạn luôn dẫn đầu trong thế giới kỹ thuật số!"
+  },
+  "Footer": {
+    "description": "Trình duyệt tiết kiệm thời gian của bạn, không phải dữ liệu cá nhân của bạn",
+    "about": "Về Chúng Tôi",
+    "download": "Tải Xuống",
+    "news": "Tin Tức",
+    "followUs": "Theo Dõi Chúng Tôi",
+    "copyright": "© Bản quyền 2025 iBrowe.co.th",
+    "links": {
+      "company": "Công Ty",
+      "leadership": "Ban Lãnh Đạo",
+      "feature": "Tính Năng",
+      "news": "Tin Tức",
+      "privacyPolicy": "Chính Sách Bảo Mật",
+      "macos": "Cho MacOS",
+      "windows": "Cho Windows",
+      "ios": "Ứng Dụng iOS",
+      "android": "Ứng Dụng Android",
+      "linux": "Cho Linux",
+      "faq": "FAQ",
+      "aboutUs": "Về Chúng Tôi",
+      "pressRelease": "Thông Cáo Báo Chí"
     }
   }
 }

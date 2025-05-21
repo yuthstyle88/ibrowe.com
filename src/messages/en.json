@@ -16,10 +16,12 @@
     "download": "Download iBrowe"
   },
   "logo_alt": "iBrowe Logo",
-  "hero": {
-    "title": "iBrowe – The Browser That Cares About You",
-    "description": "iBrowe is a browser that is designed to be a more secure and private alternative to Chrome. It is a browser that is designed to be a more secure and private alternative to Chrome. It is a browser that is designed to be a more secure and private alternative to Chrome.",
-    "download_button": "Download iBrowe"
+  "Hero": {
+    "title": "iBrowe - The Browser That Cares About You",
+    "description": "The ultimate ad-free browser that's safe from scammers. Just switch to iBrowe!",
+    "downloadButton": "Download iBrowe",
+    "imageAlt": "iBrowe Browser Interface",
+    "partnerLogoAlt": "Partner Logo {num}"
   },
   "EdgeComparison": {
     "title": "iBrowe vs Edge",
@@ -175,6 +177,169 @@
         "searchParams": "No search parameter filtering",
         "bounceTracking": "No bounce tracking protection"
       }
+    }
+  },
+  "ComparisonSection": {
+    "title": "Superior in Every Aspect: Privacy, Speed, and Features",
+    "subtitle": "See clearly why iBrowe is the best browser for you. Let's see how we're better",
+    "viewComparison": "View Comparison",
+    "comparisons": {
+      "chrome": {
+        "title": "iBrowe vs Chrome",
+        "description": "When it comes to privacy and speed, Chrome can't keep up! We give you more with automatic tracking protection and ad blocking"
+      },
+      "firefox": {
+        "title": "iBrowe vs Firefox",
+        "description": "Firefox might be a good choice, but iBrowe delivers a superior experience with unmatched speed and security"
+      },
+      "google": {
+        "title": "iBrowe vs Google",
+        "description": "Search privately, no tracking, no irrelevant ads, for results that match your needs"
+      },
+      "duckduckgo": {
+        "title": "iBrowe Search vs DuckDuckGo",
+        "description": "Unlike DuckDuckGo, we don't rely on Microsoft Bing but use our own search system for true privacy"
+      },
+      "safari": {
+        "title": "iBrowe vs Safari",
+        "description": "As the default browser on Apple devices, Safari is the world's second most used browser. It's generally considered more private than Chrome and is optimized for iOS and macOS"
+      }
+    }
+  },
+  "FeaturesSection": {
+    "title": "iBrowe Delivers a Superior Web Browsing Experience",
+    "subtitle": "With features designed for your security and convenience, powerful features",
+    "browserImageAlt": "Browser that saves your time",
+    "safeToUse": "Safe to Use",
+    "browserTitle": "A Browser That Saves Your Time, Not Your Personal Data",
+    "browserDescription": "Download iBrowe today for Android, iOS, Linux, macOS, or Windows - browse faster, safer, and more privately than ever!",
+    "downloadButton": "Download iBrowe",
+    "features": {
+      "tab1": {
+        "title": "Web Without Annoyances",
+        "heading": "Block all types of third-party ads on websites"
+      },
+      "tab2": {
+        "title": "Save Data, Save Battery, Save Time",
+        "heading": "You'll save on Wi-Fi bandwidth and mobile data"
+      },
+      "tab3": {
+        "title": "Superior Privacy",
+        "heading": "Prevent tracking and online fingerprinting"
+      },
+      "tab4": {
+        "title": "Automatically Enabled Security",
+        "heading": "Ready to use immediately, no additional setup required"
+      }
+    }
+  },
+  "NewsSection": {
+    "readMore": "Read More",
+    "news": {
+      "items": [
+        {
+          "title": "Man Uses AI to Apply for Jobs",
+          "content": "A man claims to have used AI to apply for 1,000 jobs while sleeping, waking up to shocking results. People are divided in their opinions. A man on Reddit claims that his job search changed dramatically after creating an AI bot. This man revealed that the artificial intelligence bot he created made the job search process much easier. What's more special is that the AI bot worked hard for him while he slept comfortably in bed."
+        },
+        {
+          "title": "Using AI to Read News",
+          "content": "The era of AI news anchors has arrived! Many countries have started using AI news anchors or incorporating them into their programs. Recently, it's Thailand's turn as Nation TV became the first in Thailand to use Natcha and Nichan, AI news anchors, in their news programs."
+        },
+        {
+          "title": "Fast in Usage",
+          "content": "iBrowe uses modern and efficient web page rendering technology, such as the Chromium engine, which is the same foundation as other browsers like Google Chrome. However, iBrowe has improved its performance by reducing unnecessary resource usage."
+        },
+        {
+          "title": "Fast in Usage",
+          "content": "iBrowe uses modern and efficient web page rendering technology, such as the Chromium engine, which is the same foundation as other browsers like Google Chrome. However, iBrowe has improved its performance by reducing unnecessary resource usage."
+        }
+      ]
+    }
+  },
+  "FeatureSection": {
+    "title": "iBrowe Delivers an Exceptional Web Browsing Experience",
+    "subtitle": "With features designed for your security and convenience",
+    "learnMore": "Learn More",
+    "features": [
+      {
+        "title": "Safe from the Start",
+        "category": "Security",
+        "description": "Privacy and security are our top priorities, and this browser is designed with this principle at its core from the very first step of development... You can be confident that every use will be safe from start to finish"
+      },
+      {
+        "title": "Fast as Lightning",
+        "category": "Performance",
+        "description": "Experience lightning-fast performance with our superior web page loading technology... You'll feel the smoothness in every use"
+      },
+      {
+        "title": "Designed for Everyone",
+        "category": "Accessibility",
+        "description": "Browse privately with a browser that delivers a safe, fast, and customizable web experience tailored to your needs..."
+      },
+      {
+        "title": "High-Level Encryption",
+        "category": "Security",
+        "description": "Protect your data with the most advanced encryption technology in the industry... So you can browse with confidence"
+      },
+      {
+        "title": "Incognito Mode",
+        "category": "Privacy",
+        "description": "Browse without leaving any traces with an incognito mode designed for maximum privacy..."
+      },
+      {
+        "title": "Smart Notifications",
+        "category": "Features",
+        "description": "Receive important and useful notifications without disrupting your browsing experience..."
+      }
+    ]
+  },
+  "FaqSection": {
+    "title": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "question": "What is iBrowe?",
+        "answer": "iBrowe is a modern web browser designed to provide a superior browsing experience with enhanced privacy, speed, and features."
+      },
+      {
+        "question": "Is iBrowe free to use?",
+        "answer": "Yes, iBrowe is completely free to download and use. We believe in providing high-quality browsing experience without any cost."
+      },
+      {
+        "question": "How does iBrowe protect my privacy?",
+        "answer": "iBrowe includes built-in privacy features such as ad blocking, tracker blocking, and secure browsing to protect your online privacy."
+      },
+      {
+        "question": "Can I sync my data across devices?",
+        "answer": "Yes, iBrowe allows you to sync your bookmarks, history, and settings across all your devices for a seamless experience."
+      }
+    ]
+  },
+  "AboutSection": {
+    "subtitle": "About Us",
+    "title": "Introducing iBrowe - Technology for an Exceptional Browsing Experience!",
+    "description": "iBrowe is not just an ordinary browser, but a powerful tool designed to support growing brands and tech-savvy users. With cutting-edge features tailored for performance, iBrowe guarantees smooth and fast navigation. Similar to the development of the printing industry, iBrowe has become the new standard in web browsing technology, built to meet the needs of the digital age. Enhance your online journey with advanced Search Engine Optimization capabilities that provide accurate and lightning-fast results, keeping you ahead in the digital world!"
+  },
+  "Footer": {
+    "description": "A browser that saves your time, not your personal data",
+    "about": "About",
+    "download": "Download",
+    "news": "News",
+    "followUs": "Follow Us",
+    "copyright": "© Copyright 2025 iBrowe.co.th",
+    "links": {
+      "company": "Company",
+      "leadership": "Leadership",
+      "feature": "Feature",
+      "news": "News",
+      "privacyPolicy": "Privacy Policy",
+      "macos": "For MacOS",
+      "windows": "For Windows",
+      "ios": "iOS App",
+      "android": "Android App",
+      "linux": "For Linux",
+      "faq": "FAQ",
+      "aboutUs": "About Us",
+      "pressRelease": "Press Release"
     }
   }
 }

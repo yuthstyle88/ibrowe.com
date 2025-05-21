@@ -1,35 +1,36 @@
+"use client";
+
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
-const newsItems = [
-  {
-    image: '/images/iBrowe-news-1.webp',
-    title: 'นายแน่มากใช้ ai สมัครงาน',
-    content:
-      'หนุ่มอ้างใช้ AI ช่วยสมัครงาน 1,000 ตำแหน่ง ตอนนอนหลับ ตื่นมาเจอผลลัพธ์ช็อก คนวิจารณ์เสียงแตกเป็นสองฝั่ง ชายคนหนึ่งใน Reddit อ้างว่าการหางานของเขาเปลี่ยนไปอย่างมาก หลังจากสร้างบอท AI ชายรายนี้เปิดเผยว่า บอทปัญญาประดิษฐ์ที่เขาสร้างขึ้นช่วยให้กระบวนการหางานง่ายขึ้นมาก ที่พิเศษกว่านั้นคือ บอท AI ทำงานหนักแทนเขาในขณะที่เขานอนหลับสบายอยู่บนเตียง',
-  },
-  {
-    image: '/images/iBrowe-news-2.webp',
-    title: 'ใช้ ai อ่านข่าว',
-    content:
-      'ถึงยุคผู้ประกาศ AI! หลายประเทศเริ่มนำผู้ประกาศข่าว AI มาใช้งานหรือร่วมดำเนินรายการกันมากขึ้น ล่าสุดถึงคิวประเทศไทยเมื่อ เนชั่นทีวีได้นำเอา ณัชชา และ ณิชชาน ผู้ประกาศข่าว AI มาใช้ในรายการข่าวเป็นแห่งแรกของไทย',
-  },
-  {
-    image: '/images/iBrowe-news-3.webp',
-    title: 'รวดเร็วในการใช้งาน',
-    content:
-      'iBrowe ใช้เทคโนโลยีการเรนเดอร์หน้าเว็บที่ทันสมัยและมีประสิทธิภาพ เช่น Chromium engine ซึ่งเป็นพื้นฐานเดียวกันกับเบราว์เซอร์อื่น ๆ เช่น Google Chrome แต่ iBrowe ได้ปรับปรุงให้ทำงานได้เร็วขึ้นโดยการลดการใช้งานทรัพยากรที่ไม่จำเป็น',
-  },
-  {
-    image: '/images/office-girl.webp',
-    title: 'รวดเร็วในการใช้งาน',
-    content:
-      'iBrowe ใช้เทคโนโลยีการเรนเดอร์หน้าเว็บที่ทันสมัยและมีประสิทธิภาพ เช่น Chromium engine ซึ่งเป็นพื้นฐานเดียวกันกับเบราว์เซอร์อื่น ๆ เช่น Google Chrome แต่ iBrowe ได้ปรับปรุงให้ทำงานได้เร็วขึ้นโดยการลดการใช้งานทรัพยากรที่ไม่จำเป็น',
-  },
-]
+import { useTranslations } from 'next-intl'
 
 export default function NewsSection() {
+  const t = useTranslations('NewsSection')
+
+  const newsItems = [
+    {
+      image: '/images/iBrowe-news-1.webp',
+      title: t('news.items.0.title'),
+      content: t('news.items.0.content'),
+    },
+    {
+      image: '/images/iBrowe-news-2.webp',
+      title: t('news.items.1.title'),
+      content: t('news.items.1.content'),
+    },
+    {
+      image: '/images/iBrowe-news-3.webp',
+      title: t('news.items.2.title'),
+      content: t('news.items.2.content'),
+    },
+    {
+      image: '/images/office-girl.webp',
+      title: t('news.items.3.title'),
+      content: t('news.items.3.content'),
+    },
+  ]
+
   return (
     <section className="py-16 bg-white" id="news">
       <div className="container mx-auto px-5">
@@ -56,7 +57,7 @@ export default function NewsSection() {
                   href="#"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-colors duration-200 shadow-button hover:shadow-hover"
                 >
-                  อ่านต่อ
+                  {t('readMore')}
                 </Link>
               </div>
             </div>

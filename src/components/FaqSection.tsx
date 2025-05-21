@@ -1,29 +1,34 @@
 "use client";
 import React, { useState } from 'react';
-
-const faqs = [
-  {
-    question: 'iBrowe Browser ปลอดภัยหรือไม่?',
-    answer: 'Brave เป็นหนึ่งในเบราว์เซอร์ที่ปลอดภัยที่สุดในปัจจุบัน ...',
-  },
-  {
-    question: 'วิธีดาวน์โหลดและติดตั้ง iBrowe',
-    answer: 'Brave พร้อมให้ใช้งานบนคอมพิวเตอร์เดสก์ท็อปเกือบทุกรุ่น ...',
-  },
-  {
-    question: 'iBrowe มี VPN หรือไม่?',
-    answer: 'มี! iBrowe Firewall + VPN ปกป้องทุกกิจกรรมออนไลน์ของคุณ ...',
-  },
-  // Add more FAQ items as needed
-];
+import { useTranslations } from 'next-intl';
 
 export default function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const t = useTranslations('FaqSection');
+
+  const faqs = [
+    {
+      question: t('faqs.0.question'),
+      answer: t('faqs.0.answer'),
+    },
+    {
+      question: t('faqs.1.question'),
+      answer: t('faqs.1.answer'),
+    },
+    {
+      question: t('faqs.2.question'),
+      answer: t('faqs.2.answer'),
+    },
+    {
+      question: t('faqs.3.question'),
+      answer: t('faqs.3.answer'),
+    },
+  ];
 
   return (
     <section className="py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-8">ถาม-ตอบ</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-8">{t('title')}</h2>
         <div className="space-y-4">
           {faqs.map((faq, idx) => (
             <div key={idx} className="border rounded-lg overflow-hidden">

@@ -2,46 +2,48 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
-
-const features = [
-  {
-    id: 'tab1',
-    title: 'เว็บที่ไร้ความน่ารำคาญ',
-    heading: 'บล็อกโฆษณาจากบุคคลที่สามทุกประเภทบนเว็บไซต์',
-    image: '/images/eye-catching-dynamic-dazzling-ethereal-image-of-a-.jpg',
-  },
-  {
-    id: 'tab2',
-    title: 'ประหยัดข้อมูล, ประหยัดแบตเตอรี่, ประหยัดเวลา',
-    heading: 'คุณจะประหยัดแบนด์วิธของ Wi-Fi และข้อมูลมือถือ',
-    image: '/images/3d-icon-cyber-save-data--save-battery--save-time.jpg',
-  },
-  {
-    id: 'tab3',
-    title: 'ความเป็นส่วนตัวที่เหนือชั้น',
-    heading: 'ป้องกันการติดตามและการทำลายนิ้วมือออนไลน์',
-    image: '/images/cyber-security-logo-ibrowe.jpg',
-  },
-  {
-    id: 'tab4',
-    title: 'ความปลอดภัยที่ เปิดใช้งานโดยอัตโนมัติ',
-    heading: 'ใช้งานได้ทันทีไม่ต้องตั้งค่าอะไรเพิ่มเติม',
-    image: '/images/cybersecurity-shield--digital-protection--neon-lig.jpg',
-  },
-]
+import { useTranslations } from 'next-intl'
 
 export default function FeaturesSection() {
+  const t = useTranslations('FeaturesSection')
   const [activeTab, setActiveTab] = useState('tab1')
+
+  const features = [
+    {
+      id: 'tab1',
+      title: t('features.tab1.title'),
+      heading: t('features.tab1.heading'),
+      image: '/images/eye-catching-dynamic-dazzling-ethereal-image-of-a-.jpg',
+    },
+    {
+      id: 'tab2',
+      title: t('features.tab2.title'),
+      heading: t('features.tab2.heading'),
+      image: '/images/3d-icon-cyber-save-data--save-battery--save-time.jpg',
+    },
+    {
+      id: 'tab3',
+      title: t('features.tab3.title'),
+      heading: t('features.tab3.heading'),
+      image: '/images/cyber-security-logo-ibrowe.jpg',
+    },
+    {
+      id: 'tab4',
+      title: t('features.tab4.title'),
+      heading: t('features.tab4.heading'),
+      image: '/images/cybersecurity-shield--digital-protection--neon-lig.jpg',
+    },
+  ]
 
   return (
     <section className="py-16 bg-gray-50" id="feature">
       <div className="container mx-auto px-5">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            iBrowe มอบประสบการณ์การท่องเว็บที่เหนือระดับ
+            {t('title')}
           </h2>
           <p className="text-xl text-gray-600">
-            ด้วยฟีเจอร์ที่ออกแบบมาเพื่อความปลอดภัยและความสะดวกสบายของคุณฟีเจอร์ที่ทรงพลัง
+            {t('subtitle')}
           </p>
         </div>
 
@@ -97,26 +99,25 @@ export default function FeaturesSection() {
           <div className="relative aspect-[4/3]">
             <Image
               src="/images/browser-that-saves-your-time.png"
-              alt="Browser that saves your time"
+              alt={t('browserImageAlt')}
               fill
               className="object-contain"
               sizes="(max-width: 1200px) 100vw, 50vw"
             />
           </div>
           <div>
-            <p className="text-primary text-lg font-medium mb-4">ปลอดภัยต่อการใช้งาน</p>
+            <p className="text-primary text-lg font-medium mb-4">{t('safeToUse')}</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              เบราว์เซอร์ที่ช่วยประหยัดเวลา ไม่ใช่เก็บข้อมูลส่วนตัวของคุณ
+              {t('browserTitle')}
             </h2>
             <p className="text-gray-600 mb-8">
-              ดาวน์โหลด iBrowe ได้แล้ววันนี้สำหรับ Android, iOS, Linux, macOS หรือ Windows –
-              ท่องเว็บได้เร็วขึ้น ปลอดภัยกว่า และเป็นส่วนตัวมากกว่าที่เคย!
+              {t('browserDescription')}
             </p>
             <a
               href="/download"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-all duration-200 transform hover:-translate-y-0.5 shadow-button hover:shadow-hover"
             >
-              ดาวน์โหลด iBrowe
+              {t('downloadButton')}
             </a>
           </div>
         </div>

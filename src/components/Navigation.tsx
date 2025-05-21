@@ -6,10 +6,17 @@ import Image from 'next/image'
 import Lottie from 'lottie-react'
 import dropdownAnimation from '../animations/Drop-lottie.json'
 import { useTranslations } from 'next-intl'
+import { usePathname } from 'next/navigation'
 
 export default function Navigation() {
   const [isCompareOpen, setIsCompareOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const t = useTranslations('nav')
+  const pathname = usePathname()
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-navbar border-b border-gray-200">
@@ -30,14 +37,14 @@ export default function Navigation() {
           <div className="hidden md:flex space-x-8">
             <Link
               href="/"
-              className="relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group"
+              className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${pathname === '/' ? 'text-primary' : ''}`}
             >
               {t('home')}
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
             </Link>
             <Link
               href="/#feature"
-              className="relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group"
+              className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${pathname === '/features' ? 'text-primary' : ''}`}
             >
               {t('features')}
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
@@ -45,7 +52,7 @@ export default function Navigation() {
             <div className="relative">
               <button
                 onClick={() => setIsCompareOpen(!isCompareOpen)}
-                className="relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group flex items-center"
+                className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group flex items-center ${pathname === '/compare' ? 'text-primary' : ''}`}
               >
                 {t('compare')}
                 <div className="w-5 h-5 ml-1">
@@ -89,14 +96,14 @@ export default function Navigation() {
             </div>
             <Link
               href="https://marketing.ibrowe.com"
-              className="relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group"
+              className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${pathname === '/business' ? 'text-primary' : ''}`}
             >
               {t('business')}
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
             </Link>
             <Link
               href="https://support.ibrowe.com"
-              className="relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group"
+              className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${pathname === '/support' ? 'text-primary' : ''}`}
             >
               {t('support')}
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
@@ -109,11 +116,63 @@ export default function Navigation() {
             </Link>
           </div>
 
-          <button className="md:hidden p-2">
+          <button className="md:hidden p-2" onClick={toggleMobileMenu} aria-label="Toggle mobile menu">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              {isMobileMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
             </svg>
           </button>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} transition-all duration-300 ease-in-out`}>
+        <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg rounded-b-lg">
+          <Link 
+            href="/" 
+            className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/' ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            {t('home')}
+          </Link>
+          <Link 
+            href="/features" 
+            className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/features' ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            {t('features')}
+          </Link>
+          <Link 
+            href="/compare" 
+            className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/compare' ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            {t('compare')}
+          </Link>
+          <Link 
+            href="/business" 
+            className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/business' ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            {t('business')}
+          </Link>
+          <Link 
+            href="/support" 
+            className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/support' ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            {t('support')}
+          </Link>
+          <Link
+            href="/download"
+            className="block px-3 py-2 rounded-md text-base font-medium text-white bg-primary hover:bg-primary-dark transition-all duration-200"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            {t('download')}
+          </Link>
         </div>
       </div>
     </nav>
