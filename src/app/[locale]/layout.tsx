@@ -4,6 +4,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import '../globals.css';
+import Footer from '@/components/Footer';
 
 export default function LocaleLayout({
   children,
@@ -30,6 +31,7 @@ export default function LocaleLayout({
           <Navigation />
           <LanguageSwitcher />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

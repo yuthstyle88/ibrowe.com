@@ -402,5 +402,130 @@
       "appStore": "App Store",
       "playStore": "Play Store"
     }
+  },
+  "ChromeComparison": {
+    "title": "iBrowe vs Chrome",
+    "subtitle": "Xem tại sao iBrowe vượt trội hơn Chrome về mọi mặt - quyền riêng tư, tốc độ và bảo mật",
+    "features": {
+      "privacy": {
+        "title": "Quyền riêng tư",
+        "ibrowe": "iBrowe có hệ thống chống theo dõi và chặn quảng cáo tự động, không thu thập dữ liệu người dùng",
+        "chrome": "Chrome thu thập dữ liệu sử dụng và lịch sử duyệt web để phục vụ quảng cáo nhắm đối tượng"
+      },
+      "speed": {
+        "title": "Tốc độ",
+        "ibrowe": "Nhanh hơn nhờ chặn quảng cáo và trình theo dõi, tải trang web nhanh hơn đến 3 lần",
+        "chrome": "Tốc độ tải trang web bị giảm do phải tải nhiều quảng cáo và trình theo dõi"
+      },
+      "resources": {
+        "title": "Sử dụng tài nguyên",
+        "ibrowe": "Sử dụng ít RAM và CPU hơn vì không cần xử lý quảng cáo và trình theo dõi",
+        "chrome": "Sử dụng nhiều tài nguyên hệ thống hơn do phải xử lý quảng cáo và trình theo dõi"
+      },
+      "security": {
+        "title": "Bảo mật",
+        "ibrowe": "Bảo vệ nâng cao chống phần mềm độc hại và theo dõi, với mã hóa dữ liệu an toàn",
+        "chrome": "Bảo vệ cơ bản chống phần mềm độc hại nhưng vẫn cho phép theo dõi từ bên thứ ba"
+      }
+    }
+  },
+  "DownloadCTA": {
+    "title": "Bắt đầu sử dụng iBrowe ngay hôm nay",
+    "downloadButton": "Tải xuống iBrowe"
+  },
+  "Privacy": {
+    "title": "Chính sách bảo mật của trình duyệt iBrowe",
+    "description": "Trình duyệt iBrowe là trình duyệt nhanh, riêng tư và an toàn cho PC, Mac và thiết bị di động. Tải xuống ngay để tận hưởng trải nghiệm duyệt web nhanh hơn, không quảng cáo, tiết kiệm dữ liệu và pin bằng cách chặn phần mềm theo dõi.",
+    "overview": {
+      "title": "1. Tổng quan",
+      "content": "iBrowe là trình duyệt được thiết kế để bảo vệ quyền riêng tư của người dùng bằng cách ngăn chặn theo dõi (tracking) và quảng cáo không mong muốn. Chính sách này bao gồm việc sử dụng trình duyệt iBrowe và các tính năng liên quan như iBrowe Shields và iBrowe Rewards. Chúng tôi cam kết thu thập dữ liệu cá nhân ở mức tối thiểu và sử dụng các cơ chế bảo vệ quyền riêng tư như xử lý dữ liệu trên thiết bị (on-device processing)."
+    },
+    "dataCollection": {
+      "title": "2. Dữ liệu được thu thập",
+      "content": "iBrowe thu thập dữ liệu hạn chế và được phân loại như sau: Dữ liệu do người dùng cung cấp trực tiếp: iBrowe Rewards: Nếu người dùng chọn sử dụng iBrowe Rewards (để xem quảng cáo và nhận phần thưởng là iBrowe Attention Token hoặc iBOW), có thể cần cung cấp thông tin như email để kết nối với ví tiền điện tử (như Uphold hoặc Gemini). Tài khoản iBrowe (nếu có): Thông tin như email hoặc thông tin đăng ký (như iBrowe Premium). Liên hệ với iBrowe: Như email hoặc thông tin gửi khi liên hệ với nhóm hỗ trợ. Dữ liệu được thu thập tự động: Dữ liệu sử dụng (Usage Data): Thông tin về hoạt động của trình duyệt như nhấp vào nút hoặc sử dụng tính năng (được lưu trữ ẩn danh). Thống kê như số lượng quảng cáo bị chặn bởi iBrowe Shields. Dữ liệu chẩn đoán (Crash Reports): Nếu người dùng chọn gửi báo cáo lỗi (crash reports), dữ liệu sẽ được gửi ẩn danh (không có IP hoặc thông tin cá nhân). iBrowe không tạo hồ sơ người dùng từ hành vi tìm kiếm. Có tùy chọn 'Anonymous Usage Metrics' mà người dùng có thể tắt. iBrowe Rewards và Quảng cáo: Nếu chọn xem quảng cáo iBrowe Ads, dữ liệu như sở thích hoặc xem quảng cáo sẽ được xử lý trên thiết bị, không gửi đến máy chủ. Dữ liệu phần thưởng (tipping) được lưu trữ ẩn danh. Dữ liệu không được thu thập: iBrowe không lưu trữ lịch sử duyệt web, IP liên kết với tìm kiếm hoặc dữ liệu có thể nhận dạng trực tiếp. Brave Shields ngăn chặn theo dõi từ bên thứ ba (third-party trackers)."
+    },
+    "dataUsage": {
+      "title": "3. Sử dụng dữ liệu",
+      "content": "Mục đích: Cải thiện hiệu suất và tính năng của trình duyệt. Vận hành iBrowe Rewards và iBrowe Ads (như quản lý phần thưởng BAT). Phân tích dữ liệu ẩn danh để phát triển sản phẩm. Phản hồi yêu cầu của người dùng như hỗ trợ khách hàng. Brave sử dụng dữ liệu một cách hạn chế và tránh chia sẻ dữ liệu cá nhân."
+    },
+    "dataSharing": {
+      "title": "4. Chia sẻ dữ liệu",
+      "content": "iBrowe chia sẻ dữ liệu trong trường hợp hạn chế như: Nhà cung cấp dịch vụ: Sử dụng các nhà cung cấp đáng tin cậy (như nhà cung cấp máy chủ hoặc ví tiền điện tử) phải tuân thủ các biện pháp bảo mật. Yêu cầu pháp lý: Chia sẻ dữ liệu nếu có lệnh tòa án hoặc phải tuân thủ luật pháp. iBrowe Rewards: Dữ liệu cần thiết cho phần thưởng có thể được chia sẻ với đối tác như Uphold hoặc Gemini. Brave đảm bảo không bán dữ liệu cá nhân của người dùng."
+    },
+    "dataRetention": {
+      "title": "5. Lưu trữ dữ liệu",
+      "content": "Dữ liệu cá nhân (như email cho iBrowe Rewards) sẽ được lưu trữ miễn là cần thiết cho dịch vụ. Dữ liệu ẩn danh (như thống kê sử dụng) có thể được lưu trữ lâu hơn để phân tích. Người dùng có thể yêu cầu xóa dữ liệu cá nhân."
+    },
+    "userRights": {
+      "title": "6. Quyền của người dùng",
+      "content": "Người dùng có quyền theo luật như GDPR hoặc CCPA, bao gồm: Yêu cầu truy cập dữ liệu mà iBrowe lưu trữ về bạn. Yêu cầu sửa đổi hoặc xóa dữ liệu. Phản đối xử lý dữ liệu. Yêu cầu chuyển dữ liệu. Người dùng trong Liên minh Châu Âu có thể khiếu nại đến cơ quan bảo vệ dữ liệu địa phương. Liên hệ iBrowe tại privacy@ibrowe.com"
+    },
+    "security": {
+      "title": "7. Bảo mật",
+      "content": "iBrowe sử dụng các biện pháp bảo mật như mã hóa dữ liệu (encryption) và hạn chế truy cập dữ liệu. Hầu hết dữ liệu được xử lý trên thiết bị để giảm rủi ro rò rỉ."
+    },
+    "privacyFeatures": {
+      "title": "8. Tính năng tập trung vào quyền riêng tư",
+      "content": "iBrowe Shields: Tự động chặn quảng cáo và trình theo dõi (trackers). Ngăn chặn thu thập dữ liệu từ trang web bên thứ ba. iBrowe Rewards: Người dùng có thể chọn xem quảng cáo mà không bị theo dõi và nhận phần thưởng là iBrowe. Tích hợp Tor: Chế độ Tor trong iBrowe giúp duyệt web ẩn danh (anonymous browsing)."
+    },
+    "privacySettings": {
+      "title": "9. Cài đặt quyền riêng tư",
+      "content": "Người dùng có thể tùy chỉnh cài đặt trong trình duyệt như: Tắt Anonymous Usage Metrics trong iBrowe Rewards hoặc iBrowe Ads. Điều chỉnh mức độ bảo vệ của iBrowe Shields (Standard, Aggressive). Xem cài đặt tại Settings > Privacy and Security"
+    },
+    "contact": {
+      "title": "10. Liên hệ",
+      "content": "Nếu có câu hỏi về chính sách, có thể liên hệ: Email: privacy@ibrowe.com"
+    },
+    "policyUpdates": {
+      "title": "11. Cập nhật chính sách",
+      "content": "iBrowe có thể cập nhật chính sách này định kỳ và sẽ thông báo cho người dùng qua trang web hoặc kênh khác. Chính sách mới nhất có hiệu lực khi được xuất bản."
+    },
+    "faq": {
+      "title": "Chi tiết",
+      "location": {
+        "title": "Vị trí",
+        "purpose": "Mục đích xử lý",
+        "purposeContent": "Để đánh giá vị trí vật lý của người dùng theo yêu cầu của trang web và được người dùng xác nhận",
+        "dataType": "Loại dữ liệu cá nhân được xử lý",
+        "dataTypeContent": "Địa chỉ IP và thông tin về điểm truy cập WiFi gần đó (địa chỉ MAC, cường độ tín hiệu và SSID)",
+        "legalBasis": "Cơ sở pháp lý của việc xử lý",
+        "legalBasisContent": "Lợi ích hợp pháp",
+        "retention": "Thời gian lưu trữ",
+        "retentionContent": "Không lưu trữ"
+      },
+      "rewards": {
+        "title": "Phần thưởng iBrowe",
+        "purpose": "Mục đích xử lý",
+        "purposeContent": "Để thực hiện và xác minh quyên góp iBrowe Attention Token (iBOW), bao gồm phát hiện và ngăn chặn gian lận",
+        "dataType": "Loại dữ liệu cá nhân được xử lý",
+        "dataTypeContent": "Địa chỉ IP khi yêu cầu nhận token BAT hoặc xác nhận token",
+        "legalBasis": "Cơ sở pháp lý của việc xử lý",
+        "legalBasisContent": "Cần thiết để tuân thủ hợp đồng giữa chúng tôi và cần thiết để cung cấp dịch vụ theo yêu cầu. Xử lý để ngăn chặn gian lận dựa trên lợi ích hợp pháp của iBrowe và người dùng iBrowe Rewards",
+        "retention": "Thời gian lưu trữ",
+        "retentionContent": "Thông thường lưu trữ 7 ngày. Trong trường hợp nghi ngờ gian lận, lưu trữ tối đa 60 ngày. Trong trường hợp xác nhận gian lận, lưu trữ tối đa 2 năm"
+      },
+      "news": {
+        "title": "Tin tức iBrowe",
+        "purpose": "Mục đích xử lý",
+        "purposeContent": "Để thu thập nội dung từ máy chủ để hiển thị cho người dùng",
+        "dataType": "Loại dữ liệu cá nhân được xử lý",
+        "dataTypeContent": "Địa chỉ IP",
+        "legalBasis": "Cơ sở pháp lý của việc xử lý",
+        "legalBasisContent": "Lợi ích hợp pháp. Dữ liệu được sử dụng để cung cấp dịch vụ và rủi ro từ việc xử lý dữ liệu là thấp",
+        "retention": "Thời gian lưu trữ",
+        "retentionContent": "Thời gian của yêu cầu và phản hồi"
+      },
+      "feedback": {
+        "title": "Phản hồi của bạn",
+        "purpose": "Mục đích xử lý",
+        "purposeContent": "Để sử dụng phản hồi mà người dùng gửi để cải thiện sản phẩm",
+        "dataType": "Loại dữ liệu cá nhân được xử lý",
+        "dataTypeContent": "Thông tin cá nhân mà người dùng có thể bao gồm trong tin nhắn khi gửi phản hồi qua App Store hoặc kênh khác",
+        "legalBasis": "Cơ sở pháp lý của việc xử lý",
+        "legalBasisContent": "Lợi ích hợp pháp. Người dùng có ý định dữ liệu được sử dụng cho mục đích này và rủi ro từ việc xử lý dữ liệu là thấp",
+        "retention": "Thời gian lưu trữ",
+        "retentionContent": "2 năm"
+      }
+    }
   }
 }

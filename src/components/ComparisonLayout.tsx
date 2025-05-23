@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Navigation from './Navigation'
 import { useLocale } from 'next-intl'
+import DownloadCTA from './DownloadCTA'
 
 interface ComparisonLayoutProps {
   title: string
@@ -82,14 +83,8 @@ export default function ComparisonLayout({
             ))}
           </div>
 
-          <div className="text-center mt-16">
-            <h2 className="text-3xl font-bold mb-8">เริ่มใช้ iBrowe วันนี้</h2>
-            <Link
-              href={getLocalizedPath('/download')}
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
-            >
-              ดาวน์โหลด iBrowe
-            </Link>
+          <div className="mt-16">
+            <DownloadCTA />
           </div>
         </div>
       </div>

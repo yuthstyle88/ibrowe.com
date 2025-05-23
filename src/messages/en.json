@@ -402,5 +402,130 @@
       "appStore": "App Store",
       "playStore": "Play Store"
     }
+  },
+  "Privacy": {
+    "title": "iBrowe Browser Privacy Policy",
+    "description": "The iBrowe browser is a fast, private and secure web browser for PC, Mac and mobile. Download now to enjoy a faster ad-free browsing experience that saves data and battery life by blocking tracking software",
+    "overview": {
+      "title": "1. Overview",
+      "content": "iBrowe is a browser designed to protect user privacy by preventing tracking and unwanted ads. This policy covers the use of the iBrowe browser and related features such as iBrowe Shields and iBrowe Rewards. We are committed to collecting minimal personal data and using privacy-protecting mechanisms such as on-device processing."
+    },
+    "dataCollection": {
+      "title": "2. Data Collection",
+      "content": "iBrowe collects limited data, categorized as follows: User-provided data: iBrowe Rewards: If users choose to use iBrowe Rewards (to view ads and receive rewards as iBrowe Attention Token or iBOW), they may need to provide information such as email for connecting to crypto wallets (e.g., Uphold or Gemini). iBrowe Account (if applicable): Information such as email or subscription data (e.g., iBrowe Premium). Contacting iBrowe: Such as email or information sent when contacting the support team. Automatically collected data: Usage Data: Information about browser operation, such as button clicks or feature usage (collected anonymously). Statistics such as the number of ads blocked by iBrowe Shields. Diagnostic Data (Crash Reports): If users choose to send crash reports, data is sent anonymously (no IP or personal information). iBrowe does not create user profiles from search behavior. There is an 'Anonymous Usage Metrics' option that users can disable. iBrowe Rewards and Ads: If users choose to view iBrowe Ads, data such as interests or ad views are processed on-device, not sent to servers. Rewards data (tipping) is stored anonymously. Data Not Collected: iBrowe does not store browsing history, IPs linked to searches, or directly identifiable information. Brave Shields prevents third-party tracking."
+    },
+    "dataUsage": {
+      "title": "3. Data Usage",
+      "content": "Purposes: Improve browser performance and features. Operate iBrowe Rewards and iBrowe Ads (e.g., manage BAT rewards). Analyze anonymous data to develop products. Respond to user requests, such as customer support. Brave uses data minimally and avoids sharing personal information."
+    },
+    "dataSharing": {
+      "title": "4. Data Sharing",
+      "content": "iBrowe shares data in limited cases such as: Service Providers: Uses trusted providers (e.g., server or crypto wallet providers) who must comply with privacy measures. Legal Requirements: Shares data if required by court order or to comply with laws. iBrowe Rewards: Data necessary for rewards may be shared with partners such as Uphold or Gemini. Brave guarantees that it does not sell users' personal data."
+    },
+    "dataRetention": {
+      "title": "5. Data Retention",
+      "content": "Personal data (e.g., email for iBrowe Rewards) is kept as long as necessary for service provision. Anonymous data (e.g., usage statistics) may be kept longer for analysis. Users can request deletion of personal data."
+    },
+    "userRights": {
+      "title": "6. User Rights",
+      "content": "Users have rights under laws such as GDPR or CCPA, including: Request access to data iBrowe holds about you. Request correction or deletion of data. Object to data processing. Request data portability. Users in the European Union can complain to local data protection authorities. Contact iBrowe at privacy@ibrowe.com"
+    },
+    "security": {
+      "title": "7. Security",
+      "content": "iBrowe uses security measures such as data encryption and access restrictions. Most data is processed on-device to reduce the risk of leaks."
+    },
+    "privacyFeatures": {
+      "title": "8. Privacy-Focused Features",
+      "content": "iBrowe Shields: Automatically blocks ads and trackers. Prevents data collection from third-party websites. iBrowe Rewards: Users can choose to view ads without being tracked and receive rewards as iBrowe. Tor Integration: Tor mode in iBrowe enables anonymous browsing."
+    },
+    "privacySettings": {
+      "title": "9. Privacy Settings",
+      "content": "Users can customize settings in the browser, such as: Disable Anonymous Usage Metrics in iBrowe Rewards or iBrowe Ads. Adjust iBrowe Shields protection levels (Standard, Aggressive). View settings at Settings > Privacy and Security"
+    },
+    "contact": {
+      "title": "10. Contact",
+      "content": "For questions about the policy, contact: Email: privacy@ibrowe.com"
+    },
+    "policyUpdates": {
+      "title": "11. Policy Updates",
+      "content": "iBrowe may update this policy periodically and will notify users through the website or other channels. The latest policy takes effect when published."
+    },
+    "faq": {
+      "title": "Details",
+      "location": {
+        "title": "Location",
+        "purpose": "Purpose of Processing",
+        "purposeContent": "To evaluate the user's physical location at the request of the website and with user confirmation",
+        "dataType": "Types of Personal Data Processed",
+        "dataTypeContent": "IP address and information about nearby WiFi access points (MAC address, signal strength, and SSID)",
+        "legalBasis": "Legal Basis of Processing",
+        "legalBasisContent": "Legitimate interest",
+        "retention": "Retention Period",
+        "retentionContent": "No retention"
+      },
+      "rewards": {
+        "title": "iBrowe Rewards",
+        "purpose": "Purpose of Processing",
+        "purposeContent": "To process and verify iBrowe Attention Token (iBOW) donations, including fraud detection and prevention",
+        "dataType": "Types of Personal Data Processed",
+        "dataTypeContent": "IP address when requesting BAT tokens or requesting token verification",
+        "legalBasis": "Legal Basis of Processing",
+        "legalBasisContent": "Necessary for contract performance and necessary to provide requested services. Processing for fraud prevention is based on legitimate interests of iBrowe and iBrowe Rewards users",
+        "retention": "Retention Period",
+        "retentionContent": "Generally kept for 7 days. In case of suspected fraud, kept for up to 60 days. In case of confirmed fraud, kept for up to 2 years"
+      },
+      "news": {
+        "title": "iBrowe News",
+        "purpose": "Purpose of Processing",
+        "purposeContent": "To collect content from servers to display to users",
+        "dataType": "Types of Personal Data Processed",
+        "dataTypeContent": "IP address",
+        "legalBasis": "Legal Basis of Processing",
+        "legalBasisContent": "Legitimate interest. Data is used to provide services, and the risk from data processing is low",
+        "retention": "Retention Period",
+        "retentionContent": "Duration of request and response"
+      },
+      "feedback": {
+        "title": "Your Feedback",
+        "purpose": "Purpose of Processing",
+        "purposeContent": "To use user-submitted feedback to improve products",
+        "dataType": "Types of Personal Data Processed",
+        "dataTypeContent": "Personal information that users may include in written messages when submitting feedback through app stores or other channels",
+        "legalBasis": "Legal Basis of Processing",
+        "legalBasisContent": "Legitimate interest. Users intend for the data to be used for this purpose, and the risk from data processing is low",
+        "retention": "Retention Period",
+        "retentionContent": "2 years"
+      }
+    }
+  },
+  "ChromeComparison": {
+    "title": "iBrowe vs Chrome",
+    "subtitle": "See why iBrowe is better than Chrome in every aspect - privacy, speed, and security",
+    "features": {
+      "privacy": {
+        "title": "Privacy",
+        "ibrowe": "iBrowe has automatic tracking protection and ad blocking, with no user data collection",
+        "chrome": "Chrome collects usage data and browsing history to serve targeted advertisements"
+      },
+      "speed": {
+        "title": "Speed",
+        "ibrowe": "Faster with ad and tracker blocking, loading web pages up to 3x faster",
+        "chrome": "Web page loading speed is reduced due to loading numerous ads and trackers"
+      },
+      "resources": {
+        "title": "Resource Usage",
+        "ibrowe": "Uses less RAM and CPU as it doesn't need to process ads and trackers",
+        "chrome": "Uses more system resources due to processing ads and trackers"
+      },
+      "security": {
+        "title": "Security",
+        "ibrowe": "Advanced malware and tracking protection with secure data encryption",
+        "chrome": "Basic malware protection but still allows third-party tracking"
+      }
+    } 
+  },
+  "DownloadCTA": {
+    "title": "Start using iBrowe today",
+    "downloadButton": "Download iBrowe"
   }
 }
