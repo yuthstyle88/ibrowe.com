@@ -24,19 +24,21 @@ export default function SafariComparison() {
             <div className="flex justify-center">
               <Link
                 href={getLocalizedPath('/download')}
-                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors mb-12"
               >
                 {t('downloadButton')}
               </Link>
             </div>
-            <div className="mt-12 relative aspect-[16/9] max-w-3xl mx-auto">
+            <div className="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-300">
               <Image
-                src="/images/3d-icon-design-ibrowe-browser--logo-head-dog-vs-safari.png"
+                src="/images/ibrowe-safari-2-p-800.jpg"
                 alt="iBrowe vs Safari"
-                fill
-                className="object-contain"
+                width={800}
+                height={450}
+                className="w-full h-auto object-cover"
                 priority
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
           </div>
         </div>

@@ -34,7 +34,7 @@ export default function ChromeComparison() {
       title={t('title')}
       description={t('subtitle')}
       competitor="Chrome"
-      competitorLogo="/images/chrome-logo.png"
+      competitorLogo="/images/chrome-p-500.png"
       comparisonPoints={comparisonPoints}
     />
   )

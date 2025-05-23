@@ -298,19 +298,43 @@
     "faqs": [
       {
         "question": "iBrowe là gì?",
-        "answer": "iBrowe là một trình duyệt web hiện đại được thiết kế để mang lại trải nghiệm duyệt web vượt trội với tính năng bảo mật, tốc độ và các tính năng nâng cao."
+        "answer": "iBrowe là một trình duyệt web hiện đại được thiết kế để mang lại trải nghiệm duyệt web nhanh hơn, an toàn hơn và hiệu quả hơn. Nó kết hợp các tính năng mạnh mẽ với giao diện thân thiện với người dùng để nâng cao hoạt động trực tuyến của bạn."
       },
       {
         "question": "iBrowe có miễn phí không?",
-        "answer": "Có, iBrowe hoàn toàn miễn phí để tải xuống và sử dụng. Chúng tôi tin tưởng vào việc cung cấp trải nghiệm duyệt web chất lượng cao mà không mất phí."
+        "answer": "Vâng, iBrowe hoàn toàn miễn phí để tải xuống và sử dụng. Chúng tôi tin tưởng vào việc cung cấp trải nghiệm duyệt web chất lượng cao mà không mất phí cho người dùng."
+      },
+      {
+        "question": "iBrowe khác biệt với các trình duyệt khác như thế nào?",
+        "answer": "iBrowe nổi bật với các tính năng độc đáo như bảo vệ quyền riêng tư nâng cao, tải trang nhanh hơn, khả năng tìm kiếm thông minh và giao diện thân thiện với người dùng. Chúng tôi tập trung vào việc cung cấp trải nghiệm duyệt web mượt mà đồng thời ưu tiên quyền riêng tư và bảo mật của người dùng."
+      },
+      {
+        "question": "Tôi có thể nhập dấu trang từ các trình duyệt khác không?",
+        "answer": "Có, iBrowe cho phép bạn dễ dàng nhập dấu trang, lịch sử và dữ liệu khác từ các trình duyệt phổ biến như Chrome, Firefox và Edge. Quá trình nhập đơn giản và trực quan."
+      },
+      {
+        "question": "iBrowe có sẵn cho thiết bị di động không?",
+        "answer": "Hiện tại, iBrowe có sẵn cho các nền tảng máy tính (Windows, macOS và Linux). Chúng tôi đang phát triển phiên bản di động và sẽ thông báo về việc phát hành trong thời gian sớm."
       },
       {
         "question": "iBrowe bảo vệ quyền riêng tư của tôi như thế nào?",
-        "answer": "iBrowe bao gồm các tính năng bảo mật tích hợp như chặn quảng cáo, chặn trình theo dõi và duyệt web an toàn để bảo vệ quyền riêng tư trực tuyến của bạn."
+        "answer": "iBrowe bao gồm các tính năng bảo mật tích hợp như chặn quảng cáo, chặn trình theo dõi và duyệt web an toàn. Chúng tôi cũng không thu thập hoặc lưu trữ dữ liệu duyệt web cá nhân của bạn, đảm bảo hoạt động trực tuyến của bạn vẫn được bảo mật."
       },
       {
-        "question": "Tôi có thể đồng bộ dữ liệu giữa các thiết bị không?",
-        "answer": "Có, iBrowe cho phép bạn đồng bộ dấu trang, lịch sử và cài đặt trên tất cả các thiết bị của bạn để có trải nghiệm liền mạch."
+        "question": "Tôi có thể tùy chỉnh giao diện của iBrowe không?",
+        "answer": "Có, iBrowe cung cấp nhiều tùy chọn tùy chỉnh bao gồm giao diện, bố cục và cấu hình thanh công cụ. Bạn có thể cá nhân hóa trải nghiệm duyệt web để phù hợp với sở thích của mình."
+      },
+      {
+        "question": "iBrowe có hỗ trợ tiện ích mở rộng không?",
+        "answer": "Có, iBrowe hỗ trợ nhiều loại tiện ích mở rộng và phần bổ trợ. Bạn có thể nâng cao trải nghiệm duyệt web bằng cách cài đặt các tiện ích mở rộng từ cửa hàng tiện ích an toàn của chúng tôi."
+      },
+      {
+        "question": "iBrowe được cập nhật thường xuyên như thế nào?",
+        "answer": "Chúng tôi thường xuyên phát hành các bản cập nhật để cải thiện hiệu suất, thêm tính năng mới và tăng cường bảo mật. Các bản cập nhật được tự động và có thể cài đặt chỉ với một cú nhấp chuột."
+      },
+      {
+        "question": "Làm thế nào để nhận được hỗ trợ nếu tôi gặp vấn đề?",
+        "answer": "Đội ngũ hỗ trợ của chúng tôi có sẵn thông qua nhiều kênh bao gồm email, trò chuyện trực tiếp và diễn đàn cộng đồng của chúng tôi. Chúng tôi cam kết giúp bạn giải quyết mọi vấn đề một cách nhanh chóng và hiệu quả."
       }
     ]
   },
@@ -325,7 +349,7 @@
     "download": "Tải xuống",
     "news": "Tin tức",
     "followUs": "Theo dõi chúng tôi",
-    "copyright": "© Bản quyền 2025 iBrowe.co.th",
+    "copyright": "© Bản quyền 2025 iBrowe.com",
     "language": "Ngôn ngữ",
     "links": {
       "company": "Công ty",

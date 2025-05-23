@@ -6,7 +6,6 @@ import FeaturesSection from '@/components/FeaturesSection'
 import FeatureSection from '@/components/FeatureSection'
 import FaqSection from '@/components/FaqSection'
 import AboutSection from '@/components/AboutSection'
-import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       <FeatureSection />
       <FaqSection />
       <AboutSection />
-      <Footer />
     </main>
   )
 } 

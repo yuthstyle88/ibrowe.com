@@ -26,10 +26,20 @@ export default function GoogleComparisonPage() {
             </p>
             <Link
               href={getLocalizedPath('/download')}
-              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors mb-12"
             >
               {t('downloadButton')}
             </Link>
+            <div>
+              <Image
+                src="/images/3d-icon-design-ibrowe-search-vs-google-p-800.png"
+                alt="iBrowe Search vs Google"
+                width={800}
+                height={400}
+                className="w-full max-w-2xl mx-auto"
+                priority
+              />
+            </div>
           </div>
         </div>
       </section>

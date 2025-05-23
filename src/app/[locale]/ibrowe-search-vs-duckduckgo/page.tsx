@@ -31,7 +31,7 @@ export default function DuckDuckGoComparison() {
             </div>
             <div className="mt-12 relative aspect-[16/9] max-w-3xl mx-auto">
               <Image
-                src="/images/3d-icon-design-ibrowe-browser--logo-head-dog-vs-duckduckgo.png"
+                src="/images/3d-icon-design-ibrowe-search-vs-duckduckgo-p-800.png"
                 alt="iBrowe vs DuckDuckGo"
                 fill
                 className="object-contain"
@@ -109,7 +109,7 @@ export default function DuckDuckGoComparison() {
               <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
                 <div className="flex flex-col items-center mb-6">
                   <Image
-                    src="/images/duckduckgo.png"
+                    src="/images/icons8-duckduckgo.svg"
                     alt="DuckDuckGo"
                     width={80}
                     height={80}

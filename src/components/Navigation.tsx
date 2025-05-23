@@ -56,7 +56,7 @@ export default function Navigation() {
               {t('features')}
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
             </Link>
-            <div className="relative">
+            <div className="relative inline-flex flex-col items-center">
               <button
                 onClick={() => setIsCompareOpen(!isCompareOpen)}
                 className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group flex items-center ${isActive('/compare') ? 'text-primary' : ''}`}
@@ -75,32 +75,47 @@ export default function Navigation() {
                 </div>
                 <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
               </button>
+
               {isCompareOpen && (
-                <div className="absolute z-10 mt-2 w-64 rounded-lg shadow-xl bg-white ring-1 ring-black ring-opacity-5 transform origin-top transition-all duration-200 ease-out">
-                  <div className="py-2" role="menu">
+                <div className="absolute top-full mt-3 w-72 rounded-xl bg-white shadow-lg ring-1 ring-black ring-opacity-10 animate-fade-in-up">
+                  {/* Arrow */}
+                  <div className="absolute -top-2 left-1/2 w-4 h-4 bg-white rotate-45 shadow-md" style={{ transform: 'translateX(-50%) rotate(45deg)' }} />
+
+                  {/* Items */}
+                  <div className="py-2">
                     {[
-                      { href: '/ibrowevschome', text: 'iBrowe vs Chrome' },
-                      { href: '/ibrowe-vs-firefox', text: 'iBrowe vs Firefox' },
-                      { href: '/ibrowe-search-vs-google', text: 'iBrowe vs Google' },
-                      { href: '/ibrowe-search-vs-duckduckgo', text: 'iBrowe Search vs DuckDuckGo' },
-                      { href: '/ibrowe-vs-safari', text: 'iBrowe vs Safari' },
-                      { href: '/ibrowe-vs-edge', text: 'iBrowe vs Edge' }
+                      { href: '/ibrowevschome', text: 'iBrowe vs Chrome', image: '/images/chrome-p-130x130q80.png' },
+                      { href: '/ibrowe-vs-firefox', text: 'iBrowe vs Firefox', image: '/images/firefox-p-130x130q80.png' },
+                      { href: '/ibrowe-search-vs-google', text: 'iBrowe vs Google', image: '/images/search-google-p-130x130q80.png' },
+                      { href: '/ibrowe-search-vs-duckduckgo', text: 'iBrowe Search vs DuckDuckGo', image: '/images/icons8-duckduckgo.svg' },
+                      { href: '/ibrowe-vs-safari', text: 'iBrowe vs Safari', image: '/images/safari-p-130x130q80.png' },
+                      { href: '/ibrowe-vs-edge', text: 'iBrowe vs Edge', image: '/images/microsoft-p-130x130q80.png' }
                     ].map((item) => (
                       <Link
                         key={item.href}
                         href={getLocalizedPath(item.href)}
-                        className="block px-4 py-3 text-sm text-navbar hover:bg-gray-50 group relative"
-                        role="menuitem"
+                        onClick={() => setIsCompareOpen(false)}
+                        className="flex items-center gap-2 px-5 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-all duration-200 rounded-md group relative"
                       >
-                        <span>{item.text}</span>
-                        <div className="absolute bottom-0 left-4 right-4 h-[1px] bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
+                        {item.image && (
+                          <Image
+                            src={item.image}
+                            alt={item.text}
+                            width={20}
+                            height={20}
+                            className="w-5 h-5 object-contain"
+                          />
+                        )}
+                        <span className="relative z-10">{item.text}</span>
+                        <div className="absolute bottom-0 left-5 right-5 h-[1px] bg-blue-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
                       </Link>
                     ))}
                   </div>
-                  <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-white rotate-45 border-t border-l border-gray-200" />
                 </div>
               )}
             </div>
+
+
             <Link
               href="https://marketing.ibrowe.com"
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/business') ? 'text-primary' : ''}`}
@@ -138,36 +153,36 @@ export default function Navigation() {
       {/* Mobile Menu */}
       <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} transition-all duration-300 ease-in-out`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg rounded-b-lg">
-          <Link 
-            href={getLocalizedPath('/')} 
+          <Link
+            href={getLocalizedPath('/')}
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
             {t('home')}
           </Link>
-          <Link 
-            href={getLocalizedPath('/features')} 
+          <Link
+            href={getLocalizedPath('/features')}
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/features') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
             {t('features')}
           </Link>
-          <Link 
-            href={getLocalizedPath('/compare')} 
+          <Link
+            href={getLocalizedPath('/compare')}
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/compare') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
             {t('compare')}
           </Link>
-          <Link 
-            href="/business" 
+          <Link
+            href="/business"
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/business') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
             {t('business')}
           </Link>
-          <Link 
-            href="/support" 
+          <Link
+            href="/support"
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/support') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >

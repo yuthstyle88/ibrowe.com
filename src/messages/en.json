@@ -298,19 +298,43 @@
     "faqs": [
       {
         "question": "What is iBrowe?",
-        "answer": "iBrowe is a modern web browser designed to provide a superior browsing experience with enhanced privacy, speed, and features."
+        "answer": "iBrowe is a modern web browser designed to provide a faster, safer, and more efficient browsing experience. It combines powerful features with a user-friendly interface to enhance your online activities."
       },
       {
         "question": "Is iBrowe free to use?",
-        "answer": "Yes, iBrowe is completely free to download and use. We believe in providing high-quality browsing experience without any cost."
+        "answer": "Yes, iBrowe is completely free to download and use. We believe in providing a high-quality browsing experience without any cost to our users."
+      },
+      {
+        "question": "How is iBrowe different from other browsers?",
+        "answer": "iBrowe stands out with its unique features like advanced privacy protection, faster page loading, smart search capabilities, and a user-friendly interface. We focus on providing a seamless browsing experience while prioritizing user privacy and security."
+      },
+      {
+        "question": "Can I import my bookmarks from other browsers?",
+        "answer": "Yes, iBrowe allows you to easily import your bookmarks, history, and other data from popular browsers like Chrome, Firefox, and Edge. The import process is simple and straightforward."
+      },
+      {
+        "question": "Is iBrowe available for mobile devices?",
+        "answer": "Currently, iBrowe is available for desktop platforms (Windows, macOS, and Linux). We are working on mobile versions and will announce their release soon."
       },
       {
         "question": "How does iBrowe protect my privacy?",
-        "answer": "iBrowe includes built-in privacy features such as ad blocking, tracker blocking, and secure browsing to protect your online privacy."
+        "answer": "iBrowe includes built-in privacy features such as ad blocking, tracker blocking, and secure browsing. We also don't collect or store your personal browsing data, ensuring your online activities remain private."
       },
       {
-        "question": "Can I sync my data across devices?",
-        "answer": "Yes, iBrowe allows you to sync your bookmarks, history, and settings across all your devices for a seamless experience."
+        "question": "Can I customize iBrowe's appearance?",
+        "answer": "Yes, iBrowe offers various customization options including themes, layouts, and toolbar configurations. You can personalize your browsing experience to match your preferences."
+      },
+      {
+        "question": "Does iBrowe support extensions?",
+        "answer": "Yes, iBrowe supports a wide range of extensions and add-ons. You can enhance your browsing experience by installing extensions from our secure extension store."
+      },
+      {
+        "question": "How often is iBrowe updated?",
+        "answer": "We regularly release updates to improve performance, add new features, and enhance security. Updates are automatic and can be installed with a single click."
+      },
+      {
+        "question": "How can I get support if I have issues?",
+        "answer": "Our support team is available through multiple channels including email, live chat, and our community forum. We're committed to helping you resolve any issues quickly and efficiently."
       }
     ]
   },
@@ -325,7 +349,7 @@
     "download": "Download",
     "news": "News",
     "followUs": "Follow Us",
-    "copyright": "© Copyright 2025 iBrowe.co.th",
+    "copyright": "© Copyright 2025 iBrowe.com",
     "language": "Language",
     "links": {
       "company": "Company",

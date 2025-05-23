@@ -75,12 +75,12 @@ export default function ComparisonSection() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col h-[250px]">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{comparison.title}</h3>
-                <p className="text-gray-600 mb-6">{comparison.description}</p>
+                <p className="text-gray-600">{comparison.description}</p>
                 <Link
                   href={getLocalizedPath(comparison.href)}
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-colors duration-200 shadow-button hover:shadow-hover"
+                  className="inline-flex items-center justify-center px-6 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-colors duration-200 shadow-button hover:shadow-hover mt-auto w-fit"
                 >
                   {t('viewComparison')}
                 </Link>
