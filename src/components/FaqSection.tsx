@@ -51,11 +51,11 @@ export default function FaqSection() {
 
   return (
     <section className="py-16 bg-white">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-4xl mx-auto px-4 bg-lightGrey">
         <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-8">{t('title')}</h2>
         <div className="space-y-4">
           {faqs.map((faq, idx) => (
-            <div key={idx} className="border rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-200">
+            <div key={idx} className="border rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-200 bg-lightGrey">
               <button
                 className="w-full text-left px-6 py-4 bg-gray-50 hover:bg-gray-100 focus:outline-none flex justify-between items-center transition-colors duration-200"
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
@@ -77,7 +77,7 @@ export default function FaqSection() {
           <img
             src="/images/3d-icon-design-ibrowe-faq.jpg"
             alt="FAQ Illustration"
-            className="w-full max-w-md rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+            className="w-full mb-12 max-w-md rounded-lg transition-shadow duration-300"
           />
         </div>
       </div>

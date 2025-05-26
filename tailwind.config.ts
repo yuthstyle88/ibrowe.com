@@ -30,6 +30,7 @@ const config: Config = {
         navbar: '#2f3642',
         slateGrey: '#D3D3D3',
         darkBlue: '#1a3066',
+        lightGrey: '#d6d6d680',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
