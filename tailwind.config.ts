@@ -28,7 +28,8 @@ const config: Config = {
           900: '#0f172a',
         },
         navbar: '#2f3642',
-        slateGrey: '#D3D3D3'
+        slateGrey: '#D3D3D3',
+        darkBlue: '#1a3066',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

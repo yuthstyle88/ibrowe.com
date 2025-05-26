@@ -2,10 +2,10 @@
 
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import Navigation from './Navigation'
 import { useLocale } from 'next-intl'
 import DownloadCTA from './DownloadCTA'
+import DownloadButton from './DownloadButton'
 
 interface ComparisonLayoutProps {
   title: string
@@ -36,10 +36,33 @@ export default function ComparisonLayout({
     <main>
       <Navigation />
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl font-bold text-gray-900 mb-6">{title}</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{description}</p>
+        <div className="max-w-7xl mx-auto px-4 bg-staleGrey sm:px-6 lg:px-8 py-16">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-12 mb-16">
+            <div className="flex-1 text-center lg:text-left">
+              <div className="max-w-2xl">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-darkBlue mb-6 leading-tight">
+                  {title}
+                </h1>
+                <p className="text-lg md:text-xl text-darkBlue mb-8">
+                  {description}
+                </p>
+                <div className="flex justify-center lg:justify-start">
+                  <DownloadButton />
+                </div>
+              </div>
+            </div>
+            <div className="flex-1 relative">
+              <div className="relative w-full aspect-[1434/900]">
+                <Image
+                  src="/images/3d-icon-design-ibrowe-vs-chrome.png"
+                  alt={`iBrowe vs ${competitor}`}
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 1434px) 100vw, 1434px"
+                  priority
+                />
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

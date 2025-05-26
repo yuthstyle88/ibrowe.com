@@ -2,8 +2,8 @@
 
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import DownloadButton from './DownloadButton'
 
 export default function Hero() {
   const t = useTranslations('Hero')
@@ -14,19 +14,14 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center lg:text-left">
             <div className="max-w-2xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-gray-900 mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-darkBlue mb-6 leading-tight">
                 {t('title')}
               </h1>
-              <p className="text-lg md:text-xl text-gray-600 mb-8">
+              <p className="text-lg md:text-xl text-darkBlue mb-8">
                 {t('description')}
               </p>
               <div className="flex justify-center lg:justify-start">
-                <Link
-                  href="/download"
-                  className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary-dark transition-all duration-200 transform hover:-translate-y-0.5 shadow-button hover:shadow-hover"
-                >
-                  {t('downloadButton')}
-                </Link>
+                <DownloadButton text={t('downloadButton')} />
               </div>
             </div>
           </div>

@@ -15,7 +15,16 @@ export default function GoogleComparisonPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-b from-blue-50 to-white">
+      <section
+        className="py-16"
+        style={{
+          backgroundColor: '#535353',
+          backgroundImage: "url('/images/bg_shade.svg')",
+          backgroundPosition: '0 0',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+        }}
+      >
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">

@@ -227,3 +227,24 @@ body {
 .animate-fade-in-up {
   animation: fade-in-up 0.3s ease-out;
 }
+
+.bg-yellow-50-80 {
+  background-color: #ffc40045;
+}
+
+.bg-orange-50-80 {
+  background-color: #7c047636;
+}
+
+.bg-blue-50-80 {
+  background-color: #0d118675;
+}
+
+.bg-grey-50-80 {
+  background-color: #1d1d1d30;
+}
+
+
+.bg-purple-50-80 {
+  background-color: #7c047636;
+}

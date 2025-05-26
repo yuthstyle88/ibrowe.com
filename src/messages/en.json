@@ -1,4 +1,7 @@
 {
+  "Common": {
+    "downloadButton": "Download iBrowe"
+  },
   "nav": {
     "home": "Home",
     "features": "Features",
@@ -203,6 +206,10 @@
       "safari": {
         "title": "iBrowe vs Safari",
         "description": "As the default browser on Apple devices, Safari is the world's second most used browser. It's generally considered more private than Chrome and is optimized for iOS and macOS"
+      },
+      "edge": {
+        "title": "iBrowe vs Edge",
+        "description": "Microsoft Edge is the successor to Internet Explorer and is the world's third most used browser (and second on desktop). But this is mostly because it's the default browser on Windows devices"
       }
     }
   },

@@ -1,4 +1,7 @@
 {
+  "Common": {
+    "downloadButton": "Tải xuống iBrowe"
+  },
   "nav": {
     "home": "Trang chủ",
     "features": "Tính năng",
@@ -203,6 +206,10 @@
       "safari": {
         "title": "iBrowe vs Safari",
         "description": "Là trình duyệt mặc định trên thiết bị Apple, Safari là trình duyệt được sử dụng nhiều thứ hai trên thế giới. Nó thường được coi là bảo mật hơn Chrome và được tối ưu hóa cho iOS và macOS"
+      },
+      "edge": {
+        "title": "iBrowe vs Edge",
+        "description": "Microsoft Edge là người kế nhiệm của Internet Explorer và là trình duyệt được sử dụng nhiều thứ ba trên thế giới (và thứ hai trên máy tính để bàn). Nhưng điều này chủ yếu là do nó là trình duyệt mặc định trên thiết bị Windows"
       }
     }
   },
