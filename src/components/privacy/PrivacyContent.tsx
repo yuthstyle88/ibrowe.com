@@ -9,7 +9,8 @@ export default function PrivacyContent() {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Hero Section */}
-      <section className="mb-12">
+      <section className="mb-12"
+      >
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1">
             <h1 className="text-4xl font-bold mb-4">

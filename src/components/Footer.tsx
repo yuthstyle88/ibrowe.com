@@ -1,113 +1,189 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { usePathname, useRouter } from 'next/navigation';
-import { useLocale } from 'next-intl';
-
-const languages = [
-  { code: 'en', label: 'English' },
-  { code: 'vi', label: 'Tiếng Việt' },
-  { code: 'th', label: 'ไทย' },
-];
+import { useRouter, usePathname } from 'next/navigation';
 
 export default function Footer() {
   const t = useTranslations('Footer');
-  const pathname = usePathname();
   const router = useRouter();
-  const currentLocale = useLocale();
-  const restPath = pathname.split('/').slice(2).join('/') || '';
+  const pathname = usePathname();
 
-  const handleLocaleChange = (locale: string) => {
-    router.push(`/${locale}${restPath ? '/' + restPath : ''}`);
+  // Get current locale from pathname
+  const currentLocale = pathname.split('/')[1] || 'en';
+
+  const handleLanguageChange = (locale: string) => {
+    // Get the current path without the locale prefix
+    const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}(-[A-Z]{2})?/, '');
+    // Construct new path with selected locale
+    const newPath = `/${locale}${pathWithoutLocale}`;
+    router.push(newPath);
   };
 
   return (
-    <footer className="bg-gray-900 text-white py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-2">
-            <h3 className="text-xl font-bold mb-4">iBrowe</h3>
-            <p className="text-gray-400 mb-4">
-              {t('description')}
+    <footer className="bg-white py-16">
+      <div className="container mx-auto px-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
+          {/* Large Column */}
+          <div className="lg:col-span-2 lg:pr-16">
+            <Image
+              src="/images/Asset-47.png"
+              alt="iBrowe Logo"
+              width={130}
+              height={130}
+              className="mb-6"
+            />
+            <p className="text-[#4e5d78] text-base font-bold mb-6">
+              {t('tagline')}
             </p>
-            <div className="mt-4">
-              <label htmlFor="language-select" className="block text-sm font-medium text-gray-400 mb-2">
-                {t('language')}
-              </label>
-              <select
-                id="language-select"
-                value={currentLocale}
-                onChange={(e) => handleLocaleChange(e.target.value)}
-                className="bg-gray-800 text-white border border-gray-700 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              >
-                {languages.map((lang) => (
-                  <option key={lang.code} value={lang.code}>
-                    {lang.label}
-                  </option>
-                ))}
-              </select>
+            <div className="space-y-4">
+              <Link href="mailto:support@ibrowe.com" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Image
+                  src="https://uploads-ssl.webflow.com/5d01778cda7c6cc8a63e0b64/5d1324fd4b05c818c6fbecc1_mail.svg"
+                  alt="Email"
+                  width={19}
+                  height={19}
+                  className="mr-3"
+                />
+                <span>{t('email')}</span>
+              </Link>
+              <Link href="#" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Image
+                  src="https://uploads-ssl.webflow.com/5d01778cda7c6cc8a63e0b64/5d1324fd4b05c84f5afbecc0_communication%20(1).svg"
+                  alt="Livechat"
+                  width={19}
+                  height={19}
+                  className="mr-3"
+                />
+                <span>{t('livechat')}</span>
+              </Link>
             </div>
           </div>
-          <div>
-            <h4 className="font-semibold mb-4">{t('links.company')}</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/about" className="text-gray-400 hover:text-white">
-                  {t('links.aboutUs')}
+
+          {/* Right Columns Container */}
+          <div className="lg:col-span-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            {/* About Column */}
+            <div>
+              <h3 className="text-black text-base font-bold mb-6">{t('sections.about')}</h3>
+              <div className="space-y-3">
+                <Link href={`/${currentLocale}/about`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.company')}</Link>
+                <Link href="#feature" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.feature')}</Link>
+                <Link href="#news" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.news')}</Link>
+                <Link href="/block-ads" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.wallet')}</Link>
+                <Link href="/wallet" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.blockAds')}</Link>
+                <Link href={`/${currentLocale}/ibrowe-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.privacyPolicy')}</Link>
+                <Link href={`/${currentLocale}/terms`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.termsOfUse')}</Link>
+              </div>
+            </div>
+
+            {/* Download Column */}
+            <div>
+              <h3 className="text-black text-base font-bold mb-6">{t('sections.download')}</h3>
+              <div className="space-y-3">
+                <Link href="https://laptop-updates.brave.com/latest/osx" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                  <Image
+                    src="/images/mac-os-logo.png"
+                    alt="MacOS"
+                    width={20}
+                    height={20}
+                    className="mr-3"
+                  />
+                  <strong>{t('download.macos')}</strong>
                 </Link>
-              </li>
-              <li>
-                <Link href="/leadership" className="text-gray-400 hover:text-white">
-                  {t('links.leadership')}
+                <Link href="https://laptop-updates.brave.com/latest/winx64" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                  <Image
+                    src="/images/windows.png"
+                    alt="Windows"
+                    width={20}
+                    height={20}
+                    className="mr-3"
+                  />
+                  <strong>{t('download.windows')}</strong>
                 </Link>
-              </li>
-              <li>
-                <Link href="/feature" className="text-gray-400 hover:text-white">
-                  {t('links.feature')}
+                <Link href="https://laptop-updates.brave.com/download/ios/BRV002" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                  <Image
+                    src="/images/app-store.png"
+                    alt="iOS"
+                    width={20}
+                    height={20}
+                    className="mr-3"
+                  />
+                  <strong>{t('download.ios')}</strong>
                 </Link>
-              </li>
-              <li>
-                <Link href="/news" className="text-gray-400 hover:text-white">
-                  {t('links.news')}
+                <Link href="https://laptop-updates.brave.com/download/android/BRV002" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                  <Image
+                    src="/images/apps-android.png"
+                    alt="Android"
+                    width={20}
+                    height={20}
+                    className="mr-3"
+                  />
+                  <strong>{t('download.android')}</strong>
                 </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-4">{t('download')}</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/macos" className="text-gray-400 hover:text-white">
-                  {t('links.macos')}
+                <Link href="/linux" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                  <Image
+                    src="/images/linux.png"
+                    alt="Linux"
+                    width={20}
+                    height={20}
+                    className="mr-3"
+                  />
+                  <strong>{t('download.linux')}</strong>
                 </Link>
-              </li>
-              <li>
-                <Link href="/windows" className="text-gray-400 hover:text-white">
-                  {t('links.windows')}
+              </div>
+            </div>
+
+            {/* News Column */}
+            <div>
+              <h3 className="text-black text-base font-bold mb-6">{t('sections.news')}</h3>
+              <div className="space-y-3">
+                <Link href="#faq" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.faq')}</Link>
+                <Link href="#about-us" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.aboutUs')}</Link>
+                <Link href="#" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.pressRelease')}</Link>
+              </div>
+            </div>
+
+            {/* Social Links Column */}
+            <div>
+              <h3 className="text-black text-base font-bold mb-6">{t('sections.contact')}</h3>
+              <div className="flex space-x-4">
+                <Link href="#" className="hover:opacity-80 transition-opacity">
+                  <Image src="/images/twitter-bw.png" alt="Twitter" width={30} height={30} />
                 </Link>
-              </li>
-              <li>
-                <Link href="/ios" className="text-gray-400 hover:text-white">
-                  {t('links.ios')}
+                <Link href="#" className="hover:opacity-80 transition-opacity">
+                  <Image src="/images/facebook-bw.png" alt="Facebook" width={30} height={30} />
                 </Link>
-              </li>
-              <li>
-                <Link href="/android" className="text-gray-400 hover:text-white">
-                  {t('links.android')}
+                <Link href="#" className="hover:opacity-80 transition-opacity">
+                  <Image src="/images/instagram-bw.png" alt="Instagram" width={30} height={30} />
                 </Link>
-              </li>
-              <li>
-                <Link href="/linux" className="text-gray-400 hover:text-white">
-                  {t('links.linux')}
+                <Link href="#" className="hover:opacity-80 transition-opacity">
+                  <Image src="/images/youtube-bw.png" alt="YouTube" width={30} height={30} />
                 </Link>
-              </li>
-            </ul>
+                <Link href="#" className="hover:opacity-80 transition-opacity">
+                  <Image src="/images/tiktok-bw.png" alt="TikTok" width={30} height={30} />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>{t('copyright')}</p>
+
+        {/* Copyright and Language Selector */}
+        <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-[#4e5d78] text-sm">{t('copyright')}</p>
+          <div className="flex items-center space-x-6 mt-4 md:mt-0">
+            {/* Language Selector */}
+            <select
+              value={currentLocale}
+              onChange={(e) => handleLanguageChange(e.target.value)}
+              className="bg-white text-[#4e5d78] border border-gray-300 rounded px-3 py-1 focus:outline-none focus:border-primary text-sm"
+            >
+              <option value="en">English</option>
+              <option value="th">ภาษาไทย</option>
+              <option value="vi">Tiếng Việt</option>
+            </select>
+          </div>
         </div>
       </div>
     </footer>
