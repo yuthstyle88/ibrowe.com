@@ -684,5 +684,49 @@
         }
       }
     }
+  },
+  "wallet": {
+    "title": "iBrowe Wallet",
+    "subtitle": "A secure built-in crypto wallet. Power up your browser and unlock the world of Web3 with no limits.",
+    "activate": "Activate it in settings or simply click the wallet icon in your toolbar to get started.",
+    "download": "Download iBrowe",
+    "simplify": {
+      "title": "Simplify crypto.",
+      "description": "Manage your tokens and NFTs without switching between apps or extensions. All the power of a leading browser wallet built in, secure, and effortless."
+    },
+    "explore": {
+      "title": "Explore the world of Web3",
+      "description": "Connect to DApps with iBrowe Wallet and unlock a whole new web experience. Join decentralized communities, buy and sell NFTs, explore DeFi, social platforms, and games and discover everything Web3 has to offer."
+    },
+    "features": {
+      "newWallet": {
+        "title": "A new kind of crypto wallet.",
+        "description": "Most crypto wallets rely on limited in-app browsers to access Web3 often compromising on performance, privacy, or security. iBrowe is different. It's not just a wallet. It's a fully private browser and a world-class crypto wallet built into one seamless experience. No trade-offs. No limits. Just full freedom to browse, transact, and connect with Web3 securely, privately, and effortlessly."
+      },
+      "allInOne": {
+        "title": "Do more with your wallet. All in one place.",
+        "description": "No more switching apps or jumping between websites. Buy crypto instantly with your credit card, bank transfer, or other payment methods all within the same app. Fast, secure, and effortless. Real-time market insights. Stay on top of the crypto market with live prices, comparisons, and trending coin rankings powered by CoinGecko, trusted by investors worldwide. NFTs, beautifully organized. View and manage your NFTs across multiple blockchains including Ethereum, Polygon, and more in a single, elegant multichain gallery designed for simplicity and control."
+      },
+      "easySetup": {
+        "title": "Easy to set up. Ready on every device.",
+        "description": "iBrowe Wallet works seamlessly across smartphones, tablets, and desktops. Whether it's your first crypto wallet or your fifth, creating a new account or importing an existing one takes just a few simple steps. Start using iBrowe Wallet instantly and connect to the world of Web3 with ease, security, and confidence on any device you choose."
+      }
+    },
+    "comparison": {
+      "title": "How does iBrowe Wallet compare to other wallets?",
+      "features": {
+        "nativeBrowser": "Native browser experience (no extensions required)",
+        "nftReady": "NFT-ready",
+        "crossPlatform": "Seamlessly works across desktop and mobile",
+        "hardwareSupport": "Compatible with Ledger and Trezor",
+        "solanaSupport": "Buy, store, send, and connect to DApps on Solana",
+        "ethereumSupport": "Buy, store, send, and connect to DApps on Ethereum and EVM-compatible chains",
+        "filecoinSupport": "Buy, store, and send FIL on the Filecoin network",
+        "solanaDex": "Built-in DEX aggregator for token swaps on Solana",
+        "ethereumDex": "Integrated DEX aggregator for seamless swaps on Ethereum and EVM networks",
+        "openSource": "Open-source by design",
+        "marketInsights": "Real-time crypto market insights"
+      }
+    }
   }
 }

@@ -577,5 +577,49 @@
         }
       }
     }
+  },
+  "wallet": {
+    "title": "iBrowe Wallet",
+    "subtitle": "Ví tiền điện tử tích hợp an toàn. Tăng cường sức mạnh cho trình duyệt của bạn và mở khóa thế giới Web3 không giới hạn",
+    "activate": "Kích hoạt trong cài đặt hoặc chỉ cần nhấp vào biểu tượng ví trên thanh công cụ của bạn để bắt đầu",
+    "download": "Tải xuống iBrowe",
+    "simplify": {
+      "title": "Đơn giản hóa tiền điện tử",
+      "description": "Quản lý token và NFT của bạn mà không cần chuyển đổi giữa các ứng dụng hoặc tiện ích mở rộng. Sức mạnh đầy đủ của ví trình duyệt hàng đầu với bảo mật và dễ sử dụng"
+    },
+    "explore": {
+      "title": "Khám phá thế giới Web3",
+      "description": "Kết nối với DApps bằng iBrowe Wallet và mở khóa trải nghiệm web hoàn toàn mới. Tham gia cộng đồng phi tập trung, mua bán NFT, khám phá DeFi, nền tảng xã hội và trò chơi, và khám phá mọi thứ mà Web3 mang lại"
+    },
+    "features": {
+      "newWallet": {
+        "title": "Một loại ví tiền điện tử mới",
+        "description": "Hầu hết các ví tiền điện tử phụ thuộc vào trình duyệt trong ứng dụng với khả năng truy cập Web3 hạn chế, thường phải đánh đổi hiệu suất, quyền riêng tư hoặc bảo mật. iBrowe khác biệt. Đây không chỉ là một ví, mà là một trình duyệt riêng tư và ví tiền điện tử đẳng cấp thế giới kết hợp thành một trải nghiệm liền mạch duy nhất. Không thỏa hiệp. Không giới hạn. Chỉ có tự do hoàn toàn để duyệt web, thực hiện giao dịch và kết nối với Web3 một cách an toàn, riêng tư và dễ dàng"
+      },
+      "allInOne": {
+        "title": "Làm nhiều hơn với ví của bạn, tất cả trong một nơi",
+        "description": "Không cần chuyển đổi ứng dụng hoặc nhảy giữa các trang web nữa. Mua tiền điện tử ngay lập tức bằng thẻ tín dụng, chuyển khoản ngân hàng hoặc các phương thức thanh toán khác, tất cả trong cùng một ứng dụng. Nhanh chóng, an toàn và dễ dàng. Thông tin thị trường thời gian thực. Theo dõi thị trường tiền điện tử với giá trực tiếp, so sánh và xếp hạng đồng xu phổ biến được cung cấp bởi CoinGecko, được tin tưởng bởi các nhà đầu tư trên toàn cầu. NFT được tổ chức đẹp mắt. Xem và quản lý NFT của bạn trên nhiều blockchain bao gồm Ethereum, Polygon và hơn thế nữa trong một phòng trưng bày đa chuỗi đẹp mắt và đơn giản"
+      },
+      "easySetup": {
+        "title": "Thiết lập dễ dàng, sẵn sàng trên mọi thiết bị",
+        "description": "iBrowe Wallet hoạt động liền mạch trên điện thoại thông minh, máy tính bảng và máy tính để bàn. Cho dù đó là ví tiền điện tử đầu tiên hay thứ năm của bạn, việc tạo tài khoản mới hoặc nhập tài khoản hiện có chỉ mất vài bước đơn giản. Bắt đầu với iBrowe Wallet ngay lập tức và kết nối với thế giới Web3 một cách dễ dàng, an toàn và tự tin trên bất kỳ thiết bị nào bạn chọn"
+      }
+    },
+    "comparison": {
+      "title": "iBrowe Wallet so sánh với các ví khác như thế nào?",
+      "features": {
+        "nativeBrowser": "Trải nghiệm trình duyệt gốc (không cần tiện ích mở rộng)",
+        "nftReady": "Hỗ trợ NFT",
+        "crossPlatform": "Hoạt động liền mạch trên máy tính để bàn và di động",
+        "hardwareSupport": "Hỗ trợ Ledger và Trezor",
+        "solanaSupport": "Mua, lưu trữ, gửi và kết nối với DApps trên Solana",
+        "ethereumSupport": "Mua, lưu trữ, gửi và kết nối với DApps trên Ethereum và các blockchain tương thích EVM",
+        "filecoinSupport": "Mua, lưu trữ và gửi FIL trên mạng Filecoin",
+        "solanaDex": "Tổng hợp DEX tích hợp cho trao đổi token trên Solana",
+        "ethereumDex": "Tổng hợp DEX tích hợp cho trao đổi liền mạch trên Ethereum và mạng EVM",
+        "openSource": "Được thiết kế để mã nguồn mở",
+        "marketInsights": "Thông tin thị trường tiền điện tử thời gian thực"
+      }
+    }
   }
 }
