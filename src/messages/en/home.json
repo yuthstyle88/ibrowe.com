@@ -1,0 +1,28 @@
+{
+  "Hero": {
+    "title": "iBrowe - The Browser That Cares About You",
+    "description": "The ultimate ad-free browser that's safe from scammers. Just switch to iBrowe!",
+    "downloadButton": "Download iBrowe",
+    "imageAlt": "iBrowe Browser Interface",
+    "partnerLogoAlt": "Partner Logo {num}"
+  },
+  "ComparisonSection": {
+    "title": "Superior in Every Aspect: Privacy, Speed, and Features",
+    "subtitle": "See clearly why iBrowe is the best browser for you. Let's see how we're better",
+    "viewComparison": "View Comparison",
+    "comparisons": {
+      "chrome": {
+        "title": "iBrowe vs Chrome",
+        "description": "When it comes to privacy and speed, Chrome can't keep up! We give you more with automatic tracking protection and ad blocking"
+      },
+      "firefox": {
+        "title": "iBrowe vs Firefox",
+        "description": "Firefox might be a good choice, but iBrowe delivers a superior experience with unmatched speed and security"
+      },
+      "google": {
+        "title": "iBrowe vs Google",
+        "description": "Search privately, no tracking, no irrelevant ads, for results that match your needs"
+      }
+    }
+  }
+} 

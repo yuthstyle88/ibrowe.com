@@ -1,0 +1,50 @@
+{
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: {date}",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "At iBrowe, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information."
+      },
+      "informationCollection": {
+        "title": "Information We Collect",
+        "content": "We collect minimal information necessary to provide our services. This includes:",
+        "items": [
+          "Browser usage statistics",
+          "Crash reports (optional)",
+          "Feature usage data"
+        ]
+      },
+      "informationUse": {
+        "title": "How We Use Your Information",
+        "content": "We use the collected information to:",
+        "items": [
+          "Improve our browser performance",
+          "Fix bugs and issues",
+          "Enhance user experience"
+        ]
+      },
+      "dataProtection": {
+        "title": "Data Protection",
+        "content": "We implement strong security measures to protect your data, including:",
+        "items": [
+          "End-to-end encryption",
+          "Regular security audits",
+          "Strict access controls"
+        ]
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "content": "You have the right to:",
+        "items": [
+          "Access your personal data",
+          "Request data deletion",
+          "Opt-out of data collection"
+        ]
+      }
+    },
+    "contactUs": "Contact Us",
+    "email": "privacy@ibrowe.com"
+  }
+} 

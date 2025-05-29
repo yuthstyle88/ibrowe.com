@@ -1,0 +1,22 @@
+{
+  "Common": {
+    "downloadButton": "ดาวน์โหลด iBrowe"
+  },
+  "nav": {
+    "home": "หน้าแรก",
+    "features": "ฟีเจอร์",
+    "compare": "เปรียบเทียบ",
+    "compare_links": {
+      "chrome": "iBrowe vs Chrome",
+      "firefox": "iBrowe vs Firefox",
+      "google": "iBrowe vs Google",
+      "duckduckgo": "iBrowe Search vs DuckDuckGo",
+      "safari": "iBrowe vs Safari",
+      "edge": "iBrowe vs Edge"
+    },
+    "business": "สำหรับธุรกิจ",
+    "support": "ช่วยเหลือ",
+    "download": "ดาวน์โหลด iBrowe"
+  },
+  "logo_alt": "โลโก้ iBrowe"
+} 

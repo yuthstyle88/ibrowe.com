@@ -1,0 +1,22 @@
+{
+  "Wallet": {
+    "title": "iBrowe Wallet",
+    "description": "Secure, fast, and easy-to-use cryptocurrency wallet built into your browser",
+    "features": {
+      "security": {
+        "title": "Bank-Level Security",
+        "description": "Your private keys are encrypted and stored locally on your device"
+      },
+      "speed": {
+        "title": "Lightning Fast",
+        "description": "Send and receive crypto in seconds with minimal fees"
+      },
+      "easy": {
+        "title": "Easy to Use",
+        "description": "Simple interface designed for both beginners and experts"
+      }
+    },
+    "downloadButton": "Download iBrowe with Wallet",
+    "learnMoreButton": "Learn More"
+  }
+} 

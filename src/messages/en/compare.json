@@ -1,0 +1,158 @@
+{
+  "EdgeComparison": {
+    "title": "iBrowe vs Edge",
+    "subtitle": "Microsoft Edge is the successor to Internet Explorer and is the world's third most used browser (and second on desktop). But this is mostly because it's the default browser on Windows devices. Few people choose to switch to Edge on their own. While Edge has some good features and is optimized for Windows, when it comes to privacy, performance, and important features, Edge is missing a lot. Let's compare them.",
+    "downloadButton": "Download iBrowe",
+    "privacyTitle": "Is iBrowe more private than Edge?",
+    "privacyDescription": "Microsoft is an example of 'Big Tech' and one of the world's most valuable companies. While most of its profits come from selling PCs and software like Windows, advertising is also a massive revenue source. And those ads are mostly found in Edge (and the Bing search engine). Edge tracks you across the web and collects as much data as possible. Microsoft 'monetizes' this data in the form of highly targeted ads. For Microsoft, Edge is about advertising and profit. Meanwhile, iBrowe blocks almost all attempts to track you:",
+    "privacyConclusion": "In short, Edge is built for tracking. It allows creepy ads, trackers, cookies, and more to follow you around the web, record everything you do, and link that activity directly to you. All without your knowledge or consent. Meanwhile, iBrowe is private by default.",
+    "featuresTitle": "Does iBrowe have more features than Edge?",
+    "featuresDescription": "Both iBrowe and Edge are built on the open-source Chromium browser engine (the same one used in other browsers like Chrome, Opera, and Vivaldi). So you can expect similar looks and functions. But when it comes to things beyond those similarities, iBrowe has many customizations that Edge can't compete with.",
+    "featuresComparison": "Let's look at the comparison by quality of results and transparency:",
+    "features": {
+      "ibrowe": {
+        "thirdPartyAds": "Blocks third-party ads",
+        "crossSiteTracking": "Blocks cross-site trackers",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Prevents fingerprinting",
+        "cookieBanners": "Blocks cookie consent banners",
+        "globalPrivacy": "Enables global privacy controls",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "Network state partitioning",
+        "searchParams": "Filters search parameters",
+        "bounceTracking": "Blocks bounce tracking",
+        "adBlocker": "Built-in ad blocker",
+        "youtubeAdBlocker": "YouTube ad blocker"
+      },
+      "edge": {
+        "thirdPartyAds": "Blocks third-party ads",
+        "crossSiteTracking": "Blocks cross-site trackers",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Prevents fingerprinting",
+        "globalPrivacy": "Enables global privacy controls",
+        "cookieBanners": "Blocks cookie consent banners",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "Network state partitioning",
+        "searchParams": "Filters search parameters",
+        "bounceTracking": "Blocks bounce tracking"
+      }
+    }
+  },
+  "DuckDuckGoComparison": {
+    "title": "iBrowe Search vs DuckDuckGo",
+    "subtitle": "DuckDuckGo is a privacy-focused search engine that doesn't track its users. While this is a great start, iBrowe Search goes even further by providing a complete privacy solution that protects you across the entire web, not just during search.",
+    "downloadButton": "Download iBrowe",
+    "privacyTitle": "Is iBrowe Search more private than DuckDuckGo?",
+    "privacyDescription": "DuckDuckGo has built its reputation on privacy, and it's true that they don't track your searches. However, their privacy protection is limited to the search experience itself. Once you click on a search result, you're on your own. iBrowe Search, on the other hand, provides comprehensive privacy protection:",
+    "privacyConclusion": "While DuckDuckGo is a good choice for private search, iBrowe Search offers a more complete privacy solution that protects you not just during search, but across your entire browsing experience.",
+    "featuresTitle": "Does iBrowe Search have more features than DuckDuckGo?",
+    "featuresDescription": "Both iBrowe Search and DuckDuckGo prioritize privacy, but iBrowe Search offers additional features that enhance your browsing experience while maintaining privacy.",
+    "featuresComparison": "Let's compare the key features:",
+    "features": {
+      "ibrowe": {
+        "thirdPartyAds": "Blocks third-party ads",
+        "crossSiteTracking": "Blocks cross-site trackers",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Prevents fingerprinting",
+        "cookieBanners": "Blocks cookie consent banners",
+        "globalPrivacy": "Enables global privacy controls",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "Network state partitioning",
+        "searchParams": "Filters search parameters",
+        "bounceTracking": "Blocks bounce tracking",
+        "adBlocker": "Built-in ad blocker",
+        "youtubeAdBlocker": "YouTube ad blocker"
+      },
+      "duckduckgo": {
+        "thirdPartyAds": "No ad blocking",
+        "crossSiteTracking": "Limited tracking protection",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "No fingerprinting protection",
+        "globalPrivacy": "Search-only privacy",
+        "cookieBanners": "No cookie banner blocking",
+        "httpsUpgrade": "No automatic HTTPS upgrade",
+        "networkState": "No network state partitioning",
+        "searchParams": "No search parameter filtering",
+        "bounceTracking": "No bounce tracking protection"
+      }
+    }
+  },
+  "GoogleComparison": {
+    "title": "iBrowe Search vs Google",
+    "subtitle": "Google is the world's most popular search engine, but it comes at a cost to your privacy. iBrowe Search offers a private alternative that doesn't track your searches or collect your personal data.",
+    "downloadButton": "Download iBrowe",
+    "privacyTitle": "Is iBrowe Search more private than Google?",
+    "privacyDescription": "Google's business model is built on collecting and monetizing user data. Every search you make, every website you visit, and every click you make is tracked, analyzed, and used to build a detailed profile of you. This data is then used to serve targeted ads and influence your online experience. iBrowe Search, on the other hand, is designed with privacy as its core principle:",
+    "privacyConclusion": "While Google offers a comprehensive search experience, it comes at the cost of your privacy. iBrowe Search provides a private alternative that doesn't track your searches or collect your personal data, while still delivering relevant search results.",
+    "featuresTitle": "Does iBrowe Search have more features than Google?",
+    "featuresDescription": "While Google offers a wide range of features, many of them are designed to collect more data about you. iBrowe Search focuses on providing essential search features while protecting your privacy.",
+    "featuresComparison": "Let's compare the key features:",
+    "features": {
+      "ibrowe": {
+        "thirdPartyAds": "Blocks third-party ads",
+        "crossSiteTracking": "Blocks cross-site tracking",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Prevents digital fingerprinting",
+        "cookieBanners": "Blocks cookie consent banners",
+        "globalPrivacy": "Enables global privacy controls",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "Network state partitioning",
+        "searchParams": "Filters search parameters",
+        "bounceTracking": "Blocks bounce tracking",
+        "adBlocker": "Built-in ad blocker",
+        "youtubeAdBlocker": "YouTube ad blocker"
+      },
+      "google": {
+        "thirdPartyAds": "Shows targeted ads",
+        "crossSiteTracking": "Tracks across websites",
+        "thirdPartyCookies": "Uses tracking cookies",
+        "fingerprinting": "Collects browser data",
+        "globalPrivacy": "Limited privacy controls",
+        "cookieBanners": "No cookie banner blocking",
+        "httpsUpgrade": "No automatic HTTPS upgrade",
+        "networkState": "No network state partitioning",
+        "searchParams": "No search parameter filtering",
+        "bounceTracking": "No bounce tracking protection"
+      }
+    }
+  },
+  "FirefoxComparison": {
+    "title": "iBrowe vs Firefox",
+    "subtitle": "Firefox is known for its privacy features and open-source nature. While it's a good browser, iBrowe offers additional privacy protections and a more streamlined experience.",
+    "downloadButton": "Download iBrowe",
+    "privacyTitle": "Is iBrowe more private than Firefox?",
+    "privacyDescription": "Firefox has a strong focus on privacy and is open-source, which is great. However, iBrowe takes privacy protection to the next level with additional features and a more comprehensive approach to user privacy:",
+    "privacyConclusion": "While Firefox is a solid choice for privacy-conscious users, iBrowe provides even stronger privacy protections and a more streamlined experience. Both browsers are good choices, but iBrowe offers more comprehensive privacy features.",
+    "featuresTitle": "Does iBrowe have more features than Firefox?",
+    "featuresDescription": "Both Firefox and iBrowe prioritize privacy, but iBrowe offers additional features that enhance your browsing experience while maintaining strong privacy protections.",
+    "featuresComparison": "Let's compare the key features:",
+    "features": {
+      "ibrowe": {
+        "thirdPartyAds": "Blocks third-party ads",
+        "crossSiteTracking": "Blocks cross-site tracking",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Prevents digital fingerprinting",
+        "cookieBanners": "Blocks cookie consent banners",
+        "globalPrivacy": "Enables global privacy controls",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "Network state partitioning",
+        "searchParams": "Filters search parameters",
+        "bounceTracking": "Blocks bounce tracking",
+        "adBlocker": "Built-in ad blocker",
+        "youtubeAdBlocker": "YouTube ad blocker"
+      },
+      "firefox": {
+        "thirdPartyAds": "Blocks some third-party ads",
+        "crossSiteTracking": "Blocks cross-site tracking",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Basic fingerprinting protection",
+        "globalPrivacy": "Limited privacy controls",
+        "cookieBanners": "No cookie banner blocking",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "No network state partitioning",
+        "searchParams": "No search parameter filtering",
+        "bounceTracking": "No bounce tracking protection"
+      }
+    }
+  }
+} 

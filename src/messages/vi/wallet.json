@@ -1,0 +1,22 @@
+{
+  "Wallet": {
+    "title": "Ví iBrowe",
+    "description": "Ví tiền điện tử an toàn, nhanh chóng và dễ sử dụng được tích hợp sẵn trong trình duyệt của bạn",
+    "features": {
+      "security": {
+        "title": "Bảo Mật Cấp Độ Ngân Hàng",
+        "description": "Khóa riêng tư của bạn được mã hóa và lưu trữ cục bộ trên thiết bị"
+      },
+      "speed": {
+        "title": "Nhanh Như Chớp",
+        "description": "Gửi và nhận tiền điện tử trong vài giây với phí tối thiểu"
+      },
+      "easy": {
+        "title": "Dễ Sử Dụng",
+        "description": "Giao diện đơn giản được thiết kế cho cả người mới bắt đầu và chuyên gia"
+      }
+    },
+    "downloadButton": "Tải iBrowe với Ví",
+    "learnMoreButton": "Tìm Hiểu Thêm"
+  }
+} 

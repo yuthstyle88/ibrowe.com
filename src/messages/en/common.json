@@ -1,0 +1,22 @@
+{
+  "Common": {
+    "downloadButton": "Download iBrowe"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "compare": "Compare",
+    "compare_links": {
+      "chrome": "iBrowe vs Chrome",
+      "firefox": "iBrowe vs Firefox",
+      "google": "iBrowe vs Google",
+      "duckduckgo": "iBrowe Search vs DuckDuckGo",
+      "safari": "iBrowe vs Safari",
+      "edge": "iBrowe vs Edge"
+    },
+    "business": "For Business",
+    "support": "Support",
+    "download": "Download iBrowe"
+  },
+  "logo_alt": "iBrowe Logo"
+} 

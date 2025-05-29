@@ -1,0 +1,22 @@
+{
+  "Common": {
+    "downloadButton": "Tải xuống iBrowe"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "compare": "So sánh",
+    "compare_links": {
+      "chrome": "iBrowe vs Chrome",
+      "firefox": "iBrowe vs Firefox",
+      "google": "iBrowe vs Google",
+      "duckduckgo": "iBrowe Search vs DuckDuckGo",
+      "safari": "iBrowe vs Safari",
+      "edge": "iBrowe vs Edge"
+    },
+    "business": "Dành cho doanh nghiệp",
+    "support": "Hỗ trợ",
+    "download": "Tải xuống iBrowe"
+  },
+  "logo_alt": "Logo iBrowe"
+} 

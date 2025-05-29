@@ -1,0 +1,28 @@
+{
+  "Hero": {
+    "title": "iBrowe - Trình duyệt Quan Tâm Đến Bạn",
+    "description": "Trình duyệt không quảng cáo tối ưu, an toàn khỏi lừa đảo. Hãy chuyển sang iBrowe!",
+    "downloadButton": "Tải iBrowe",
+    "imageAlt": "Giao diện trình duyệt iBrowe",
+    "partnerLogoAlt": "Logo đối tác {num}"
+  },
+  "ComparisonSection": {
+    "title": "Vượt trội trong mọi khía cạnh: Quyền riêng tư, Tốc độ và Tính năng",
+    "subtitle": "Xem rõ tại sao iBrowe là trình duyệt tốt nhất cho bạn. Hãy xem chúng tôi tốt hơn như thế nào",
+    "viewComparison": "Xem so sánh",
+    "comparisons": {
+      "chrome": {
+        "title": "iBrowe vs Chrome",
+        "description": "Về quyền riêng tư và tốc độ, Chrome không thể theo kịp! Chúng tôi cung cấp nhiều hơn với bảo vệ theo dõi tự động và chặn quảng cáo"
+      },
+      "firefox": {
+        "title": "iBrowe vs Firefox",
+        "description": "Firefox có thể là lựa chọn tốt, nhưng iBrowe cung cấp trải nghiệm vượt trội với tốc độ và bảo mật không thể so sánh"
+      },
+      "google": {
+        "title": "iBrowe vs Google",
+        "description": "Tìm kiếm riêng tư, không theo dõi, không quảng cáo không liên quan, cho kết quả phù hợp với nhu cầu của bạn"
+      }
+    }
+  }
+} 

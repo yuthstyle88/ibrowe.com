@@ -1,0 +1,50 @@
+{
+  "PrivacyPolicy": {
+    "title": "Chính Sách Bảo Mật",
+    "lastUpdated": "Cập Nhật Lần Cuối: {date}",
+    "sections": {
+      "introduction": {
+        "title": "Giới Thiệu",
+        "content": "Tại iBrowe, chúng tôi coi trọng quyền riêng tư của bạn. Chính sách Bảo mật này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn."
+      },
+      "informationCollection": {
+        "title": "Thông Tin Chúng Tôi Thu Thập",
+        "content": "Chúng tôi chỉ thu thập thông tin tối thiểu cần thiết để cung cấp dịch vụ. Bao gồm:",
+        "items": [
+          "Thống kê sử dụng trình duyệt",
+          "Báo cáo lỗi (tùy chọn)",
+          "Dữ liệu sử dụng tính năng"
+        ]
+      },
+      "informationUse": {
+        "title": "Cách Chúng Tôi Sử Dụng Thông Tin",
+        "content": "Chúng tôi sử dụng thông tin đã thu thập để:",
+        "items": [
+          "Cải thiện hiệu suất trình duyệt",
+          "Sửa lỗi và vấn đề",
+          "Nâng cao trải nghiệm người dùng"
+        ]
+      },
+      "dataProtection": {
+        "title": "Bảo Vệ Dữ Liệu",
+        "content": "Chúng tôi áp dụng các biện pháp bảo mật mạnh mẽ để bảo vệ dữ liệu của bạn, bao gồm:",
+        "items": [
+          "Mã hóa end-to-end",
+          "Kiểm tra bảo mật định kỳ",
+          "Kiểm soát truy cập nghiêm ngặt"
+        ]
+      },
+      "yourRights": {
+        "title": "Quyền Của Bạn",
+        "content": "Bạn có quyền:",
+        "items": [
+          "Truy cập dữ liệu cá nhân của bạn",
+          "Yêu cầu xóa dữ liệu",
+          "Từ chối thu thập dữ liệu"
+        ]
+      }
+    },
+    "contactUs": "Liên Hệ Chúng Tôi",
+    "email": "privacy@ibrowe.com"
+  }
+} 
