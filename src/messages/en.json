@@ -728,5 +728,117 @@
         "marketInsights": "Real-time crypto market insights"
       }
     }
+  },
+  "TermsOfUse": {
+    "hero": {
+      "title": "Terms of Use",
+      "description": "Please read these Terms of Use (\"Agreement\" or \"Terms of Use\") carefully before using the services provided by 108plaza Co., Ltd. (\"iBrowe\"). This Agreement sets forth the legally binding terms and conditions for your use of the iBrowe Web Browser and all related services.",
+      "imageAlt": "iBrowe Browser Logo"
+    },
+    "main": {
+      "title": "iBrowe Terms of Use"
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By using iBrowe's services, you agree to be bound by these Terms of Use, including all applicable rules, policies, and any additional conditions introduced by iBrowe. iBrowe reserves the right to deny service at its sole discretion and to modify terms or eligibility criteria at any time. Any provision deemed unlawful in a specific jurisdiction shall be inapplicable within that jurisdiction."
+    },
+    "modifications": {
+      "title": "Modifications to Terms",
+      "content": "iBrowe reserves the right to amend or replace these Terms of Use, and to modify, suspend, or discontinue the Services (including, without limitation, features, databases, or content) at any time, with or without notice, by posting updates on its website or notifying you via email. iBrowe may impose restrictions on certain features or limit access to parts or all of the Services without liability. You are responsible for reviewing the Terms periodically. Continued use of the Services after any changes constitutes acceptance of the updated Terms."
+    },
+    "otherPolicies": {
+      "title": "Other Policies",
+      "content": "For information on how iBrowe handles personal data, please refer to the iBrowe Privacy Policy at https://ibrowe.com/ibrowe-privacy. If you believe that content or materials available through the Services infringe copyright, please consult iBrowe's Copyright Dispute Policy located at the end of these Terms of Use."
+    },
+    "license": {
+      "title": "License Agreement for iBrowe Browser",
+      "content": "You may use the iBrowe Browser executable code under the following terms:",
+      "openSource": "Portions of the iBrowe Browser source code are licensed under open-source licenses and are available at: https://github.com/yuthstyle88/ibrowe-core",
+      "rights": "This Agreement does not limit your rights under applicable open-source licenses for components covered by those terms.",
+      "intellectualProperty": "Under this Agreement, iBrowe grants you a personal, non-exclusive license to install and use the browser software. No intellectual property rights are transferred except as explicitly stated.",
+      "termination": "If you violate this Agreement, your license to use the iBrowe Browser will terminate immediately without notice, and you must delete or destroy all copies of the software in your possession."
+    },
+    "rules": {
+      "title": "Rules and Conduct",
+      "content": "By using our Services, you agree not to use them for any unlawful purpose or in violation of these Terms of Use. The term \"Content\" refers to all forms of data, including personal information, text, images, videos, software, scripts, graphics, or interactive features created, provided, or accessible through our Services.",
+      "prohibited": {
+        "title": "Prohibited conduct includes, but is not limited to:",
+        "laws": "Violating applicable laws, regulations, or rules",
+        "copyright": "Infringing on copyrights, patents, or other intellectual property rights",
+        "harassment": "Threatening, harassing, defaming, deceiving, or invading the privacy of others",
+        "content": "Distributing offensive, obscene, or inappropriate content",
+        "spam": "Sending spam, unauthorized advertisements, or bulk emails",
+        "viruses": "Releasing viruses or malicious software",
+        "impersonation": "Impersonating any person or entity"
+      },
+      "restrictions": {
+        "title": "In addition, you must not (directly or indirectly):",
+        "load": "Engage in activities that place an unreasonable load on iBrowe's systems or infrastructure",
+        "disruption": "Attempt to disrupt or interfere with the normal operation of the Services",
+        "security": "Bypass or interfere with security measures intended to restrict access to the Services"
+      }
+    },
+    "trademarks": {
+      "title": "Trademarks and Patents",
+      "content": "All iBrowe logos, marks, and designations are trademarks or registered trademarks of 108plaza Co., Ltd. Other trademarks mentioned on this website are the property of their respective owners. The trademarks and logos displayed on this website may not be used without the prior written consent of iBrowe or the respective rights holders. The components, features, and/or functionalities of iBrowe products may be protected under pending or granted patents owned by iBrowe."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "iBrowe may terminate your access to all or part of the Services at any time if you fail to comply with these Terms of Use, which may result in the forfeiture and deletion of all data associated with your account. Either party may terminate the Services at any time, for any reason, with written notice. You may cancel your account by following the instructions provided within the Services. Any fees paid are non-refundable. Upon termination, all rights and licenses granted to you under this Agreement will immediately cease. However, provisions that by their nature should survive termination such as disclaimers, indemnity, and limitations of liability will remain in effect."
+    },
+    "disclaimer": {
+      "title": "Disclaimer of Warranties",
+      "content": "Your use of the Services and any content is entirely at your own risk. The Services (including, but not limited to, the iBrowe Browser and all content) are provided \"as is\" and \"as available,\" without warranties of any kind, either express or implied. This includes, but is not limited to, implied warranties of title, non-infringement, merchantability, and fitness for a particular purpose, as well as any warranties arising from course of dealing or usage of trade all of which are expressly disclaimed. Some jurisdictions do not allow limitations on the duration of implied warranties, so the above limitations may not apply to you."
+    },
+    "indemnification": {
+      "title": "Indemnification",
+      "content": "You agree to indemnify, defend, and hold harmless iBrowe, its affiliates, and their employees, contractors, directors, suppliers, and agents from and against any and all liabilities, losses, claims, and expenses (including reasonable attorneys' fees) arising out of or related to: (1) your use or misuse of, or access to, the Services; or (2) your violation of these Terms of Use, applicable laws, contracts, policies, regulations, or other obligations. iBrowe reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which case you agree to cooperate fully with iBrowe in asserting any available defenses."
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "content": "In no event shall iBrowe, or its directors, employees, agents, partners, suppliers, or content providers, be liable under contract, tort, strict liability, negligence, or any other legal or equitable theory with respect to the Services for:",
+      "damages": "any lost profits, loss of data, cost of procurement of substitute goods or services, or any special, indirect, incidental, punitive, or consequential damages of any kind",
+      "reliance": "your reliance on the Services",
+      "direct": "any direct damages exceeding (in the aggregate) the fees you paid for the Services, or $100, whichever is greater"
+    },
+    "miscellaneous": {
+      "title": "Miscellaneous",
+      "content": "These Terms of Use constitute the entire agreement between you and iBrowe regarding the Services and supersede all prior or contemporaneous communications and proposals (whether oral, written, or electronic) between you and iBrowe. If any provision of these Terms is held to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that the remaining Terms remain in full force and effect. The failure of either party to enforce any right or provision shall not be deemed a waiver of future enforcement. iBrowe shall not be liable for any failure to perform its obligations due to causes beyond its reasonable control. These Terms are personal to you and may not be assigned or transferred without prior written consent from iBrowe. iBrowe may assign or transfer its rights and obligations without restriction. No agency, partnership, joint venture, or employment relationship is created as a result of these Terms, and neither party has authority to bind the other in any respect. All notices under these Terms must be in writing and shall be deemed properly delivered when received if delivered in person or by registered mail with confirmation of receipt; upon confirmation if sent by fax or email; or two days after dispatch if sent via recognized overnight courier."
+    },
+    "copyright": {
+      "title": "Copyright Dispute Policy",
+      "content": "The Digital Millennium Copyright Act of 1998 (\"DMCA\") provides recourse for copyright owners who believe that material appearing on the Internet infringes their rights under U.S. copyright law. If you believe in good faith that content available through the Services infringes your copyright, you (or your agent) may send us a written notice requesting the removal of, or the blocking of access to, the infringing material, as outlined below. For more information, please visit https://www.copyright.gov/.",
+      "policy": {
+        "title": "It is iBrowe's policy to:",
+        "block": "block access to or remove content that it believes in good faith to be unlawfully copied and distributed by advertisers, affiliates, content providers, members, or users",
+        "terminate": "terminate the accounts of repeat infringers"
+      },
+      "procedure": {
+        "title": "Procedure for Reporting Copyright Infringement",
+        "signature": "A physical or electronic signature of a person authorized to act on behalf of the copyright owner whose rights are allegedly infringed",
+        "identification": "Identification of the copyrighted work or material claimed to have been infringed",
+        "location": "Identification of the allegedly infringing content, including information reasonably sufficient to permit iBrowe to locate the material and verify its existence (e.g., URL or detailed location information)",
+        "contact": "Contact information for the complaining party, including a physical address, telephone number, and, if available, an email address",
+        "statement": "A statement that the complaining party has a good faith belief that the use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law",
+        "accuracy": "A statement, made under penalty of perjury, that the information in the notification is accurate and that the complaining party is authorized to act on behalf of the copyright owner"
+      },
+      "response": {
+        "title": "Upon Receipt of a Valid Infringement Notice",
+        "remove": "Remove or disable access to the infringing content",
+        "notify": "Notify the content provider, member, or user whose content has been removed or disabled",
+        "terminate": "In the case of repeat offenders, remove the infringing content from the system and terminate access to the Services for the content provider, member, or user in question"
+      },
+      "counter": {
+        "title": "Procedure for Submitting a Counter-Notification",
+        "signature": "A physical or electronic signature of the content provider, member, or user",
+        "identification": "Identification of the content that was removed or to which access was disabled, and the location at which the content appeared before it was removed or disabled",
+        "statement": "A statement under good faith belief that the content was removed or disabled as a result of mistake or misidentification",
+        "contact": "The name, address, telephone number, and, if available, email address of the content provider, member, or user, along with a statement that such person or entity consents to the jurisdiction of the federal court located in the district of their address, or if the address is outside of Thailand, the courts in the jurisdiction where iBrowe is located, and that such person or entity will accept service of process from the person who submitted the original infringement notice"
+      },
+      "contact": {
+        "title": "Copyright Designated Agent",
+        "address": "108Plaza Co., Ltd.\n182 Sangkhomsongkroh Road,\nLadprao Subdistrict, Ladprao District,\nBangkok 10230, Thailand"
+      }
+    }
   }
 }

@@ -621,5 +621,117 @@
         "marketInsights": "Thông tin thị trường tiền điện tử thời gian thực"
       }
     }
+  },
+  "TermsOfUse": {
+    "hero": {
+      "title": "Điều Khoản Sử Dụng",
+      "description": "Vui lòng đọc kỹ Điều Khoản Sử Dụng (\"Thỏa Thuận\" hoặc \"Điều Khoản Sử Dụng\") trước khi sử dụng các dịch vụ được cung cấp bởi 108plaza Co., Ltd. (\"iBrowe\"). Thỏa thuận này thiết lập các điều khoản và điều kiện ràng buộc về mặt pháp lý cho việc sử dụng iBrowe Web Browser và tất cả các dịch vụ liên quan",
+      "imageAlt": "Logo iBrowe Browser"
+    },
+    "main": {
+      "title": "Điều Khoản Sử Dụng iBrowe"
+    },
+    "acceptance": {
+      "title": "Chấp Nhận Điều Khoản",
+      "content": "Bằng việc sử dụng dịch vụ của iBrowe, bạn đồng ý tuân theo các điều khoản sử dụng này, bao gồm tất cả các quy tắc, chính sách và điều kiện bổ sung mà iBrowe có thể đề xuất. iBrowe bảo lưu quyền từ chối dịch vụ theo quyết định riêng của mình và có thể sửa đổi các điều khoản hoặc tiêu chí đủ điều kiện bất cứ lúc nào. Bất kỳ điều khoản nào bị coi là bất hợp pháp trong một khu vực pháp lý cụ thể sẽ không có hiệu lực trong khu vực pháp lý đó"
+    },
+    "modifications": {
+      "title": "Sửa Đổi Điều Khoản",
+      "content": "iBrowe bảo lưu quyền sửa đổi hoặc thay thế các điều khoản sử dụng này và có thể sửa đổi, tạm ngưng hoặc chấm dứt dịch vụ (bao gồm nhưng không giới hạn ở các tính năng, cơ sở dữ liệu hoặc nội dung) bất cứ lúc nào, có hoặc không có thông báo, bằng cách đăng cập nhật trên trang web hoặc thông báo cho bạn qua email. iBrowe có thể áp đặt các hạn chế đối với một số tính năng hoặc hạn chế quyền truy cập vào một phần hoặc toàn bộ dịch vụ mà không cần chịu trách nhiệm. Bạn có trách nhiệm kiểm tra các điều khoản định kỳ. Việc tiếp tục sử dụng dịch vụ sau bất kỳ thay đổi nào được coi là chấp nhận các điều khoản đã cập nhật"
+    },
+    "otherPolicies": {
+      "title": "Các Chính Sách Khác",
+      "content": "Để biết thông tin về cách iBrowe xử lý dữ liệu cá nhân của bạn, vui lòng xem Chính sách Bảo mật của iBrowe tại https://ibrowe.com/ibrowe-privacy. Nếu bạn tin rằng nội dung hoặc tài liệu được cung cấp thông qua dịch vụ vi phạm bản quyền, vui lòng xem Chính sách Tranh chấp Bản quyền của iBrowe ở cuối các điều khoản sử dụng này"
+    },
+    "license": {
+      "title": "Thỏa Thuận Giấy Phép cho iBrowe Browser",
+      "content": "Bạn có thể sử dụng mã nguồn hoạt động của iBrowe Browser theo các điều kiện sau:",
+      "openSource": "Phần mã nguồn của iBrowe Browser được cấp phép theo giấy phép mã nguồn mở và có sẵn tại: https://github.com/yuthstyle88/ibrowe-core",
+      "rights": "Thỏa thuận này không giới hạn quyền của bạn theo giấy phép mã nguồn mở áp dụng cho các thành phần tuân theo các điều khoản đó",
+      "intellectualProperty": "Theo thỏa thuận này, iBrowe cấp cho bạn giấy phép cá nhân, không độc quyền để cài đặt và sử dụng phần mềm trình duyệt. Không có sự chuyển nhượng quyền sở hữu trí tuệ trừ khi được quy định rõ ràng",
+      "termination": "Nếu bạn vi phạm thỏa thuận này, quyền sử dụng iBrowe Browser của bạn sẽ chấm dứt ngay lập tức mà không cần thông báo trước và bạn phải xóa hoặc hủy tất cả các bản sao phần mềm trong quyền sở hữu của bạn"
+    },
+    "rules": {
+      "title": "Quy Tắc và Hành Vi",
+      "content": "Bằng việc sử dụng dịch vụ của chúng tôi, bạn đồng ý không sử dụng dịch vụ cho các mục đích bất hợp pháp hoặc vi phạm các điều khoản sử dụng này. Thuật ngữ \"nội dung\" đề cập đến mọi hình thức dữ liệu, bao gồm thông tin cá nhân, văn bản, hình ảnh, video, phần mềm, tập lệnh, đồ họa hoặc các tính năng tương tác được tạo, cung cấp hoặc truy cập thông qua dịch vụ của chúng tôi",
+      "prohibited": {
+        "title": "Các hành vi bị cấm bao gồm, nhưng không giới hạn ở:",
+        "laws": "Vi phạm luật pháp, quy định hoặc quy tắc hiện hành",
+        "copyright": "Vi phạm bản quyền, bằng sáng chế hoặc quyền sở hữu trí tuệ khác",
+        "harassment": "Quấy rối, gây phiền nhiễu, phỉ báng, lừa đảo hoặc xâm phạm quyền riêng tư của người khác",
+        "content": "Phân phối nội dung không phù hợp, khiêu dâm hoặc không đúng đắn",
+        "spam": "Gửi thư rác, quảng cáo trái phép hoặc email hàng loạt",
+        "viruses": "Phát tán vi-rút hoặc phần mềm độc hại",
+        "impersonation": "Mạo danh bất kỳ cá nhân hoặc tổ chức nào"
+      },
+      "restrictions": {
+        "title": "Ngoài ra, bạn không được (trực tiếp hoặc gián tiếp):",
+        "load": "Tham gia vào các hoạt động tạo gánh nặng không hợp lý cho hệ thống hoặc cơ sở hạ tầng của iBrowe",
+        "disruption": "Cố gắng làm gián đoạn hoặc can thiệp vào hoạt động bình thường của dịch vụ",
+        "security": "Bỏ qua hoặc can thiệp vào các biện pháp bảo mật được thiết kế để hạn chế quyền truy cập vào dịch vụ"
+      }
+    },
+    "trademarks": {
+      "title": "Nhãn Hiệu và Bằng Sáng Chế",
+      "content": "Tất cả logo, nhãn hiệu và chỉ định của iBrowe là nhãn hiệu hoặc nhãn hiệu đã đăng ký của 108plaza Co., Ltd. Các nhãn hiệu khác được đề cập trên trang web này là tài sản của chủ sở hữu tương ứng. Các nhãn hiệu và logo hiển thị trên trang web này không thể được sử dụng mà không có sự đồng ý trước bằng văn bản từ iBrowe hoặc chủ sở hữu quyền liên quan. Các thành phần, tính năng và/hoặc chức năng của sản phẩm iBrowe có thể được bảo vệ dưới các bằng sáng chế đang chờ xử lý hoặc đã được cấp thuộc sở hữu của iBrowe"
+    },
+    "termination": {
+      "title": "Chấm Dứt",
+      "content": "iBrowe có thể chấm dứt quyền truy cập vào tất cả hoặc một phần dịch vụ của bạn bất cứ lúc nào nếu bạn không tuân thủ các điều khoản sử dụng này, điều này có thể dẫn đến việc mất và xóa tất cả dữ liệu liên quan đến tài khoản của bạn. Cả hai bên có thể chấm dứt dịch vụ bất cứ lúc nào, vì bất kỳ lý do gì, bằng cách thông báo bằng văn bản. Bạn có thể hủy tài khoản của mình bằng cách làm theo hướng dẫn được cung cấp trong dịch vụ. Phí đã trả không thể hoàn lại. Khi chấm dứt, tất cả các quyền và giấy phép được cấp cho bạn theo thỏa thuận này sẽ chấm dứt ngay lập tức. Tuy nhiên, các điều khoản mà theo bản chất nên tồn tại sau khi chấm dứt, chẳng hạn như tuyên bố miễn trừ trách nhiệm, bồi thường và giới hạn trách nhiệm, sẽ vẫn có hiệu lực"
+    },
+    "disclaimer": {
+      "title": "Tuyên Bố Miễn Trừ Trách Nhiệm",
+      "content": "Việc sử dụng dịch vụ và bất kỳ nội dung nào của bạn là hoàn toàn rủi ro của bạn. Dịch vụ (bao gồm nhưng không giới hạn ở iBrowe Browser và tất cả nội dung) được cung cấp \"nguyên trạng\" và \"như có sẵn\" mà không có bất kỳ bảo đảm nào, rõ ràng hoặc ngụ ý, bao gồm nhưng không giới hạn ở bảo đảm ngụ ý về quyền sở hữu, không vi phạm, khả năng bán được và phù hợp cho mục đích cụ thể, cũng như bất kỳ bảo đảm nào phát sinh từ quá trình giao dịch hoặc sử dụng thương mại, tất cả đều bị từ chối rõ ràng. Một số khu vực pháp lý không cho phép giới hạn thời hạn của bảo đảm ngụ ý, vì vậy các giới hạn trên có thể không áp dụng cho bạn"
+    },
+    "indemnification": {
+      "title": "Bồi Thường",
+      "content": "Bạn đồng ý bồi thường, bảo vệ và giữ vô hại iBrowe, các công ty liên kết và nhân viên, nhà thầu, giám đốc, nhà cung cấp và đại lý của họ khỏi và chống lại mọi trách nhiệm pháp lý, tổn thất, khiếu nại và chi phí (bao gồm phí luật sư hợp lý) phát sinh từ hoặc liên quan đến: (1) việc sử dụng hoặc sử dụng sai, hoặc truy cập vào dịch vụ của bạn, hoặc (2) việc vi phạm các điều khoản sử dụng, luật hiện hành, hợp đồng, chính sách, quy định hoặc nghĩa vụ khác của bạn. iBrowe bảo lưu quyền, theo chi phí của riêng mình, để đảm nhận việc bảo vệ và kiểm soát độc quyền đối với bất kỳ vấn đề nào mà bạn có thể phải bồi thường, trong trường hợp đó bạn đồng ý hợp tác đầy đủ với iBrowe trong việc khẳng định các biện pháp bảo vệ có sẵn"
+    },
+    "limitation": {
+      "title": "Giới Hạn Trách Nhiệm",
+      "content": "iBrowe hoặc giám đốc, nhân viên, đại lý, đối tác, nhà cung cấp hoặc nhà cung cấp nội dung sẽ không chịu trách nhiệm theo hợp đồng, vi phạm, trách nhiệm nghiêm ngặt, sơ suất hoặc bất kỳ lý thuyết pháp lý hoặc công bằng nào khác liên quan đến dịch vụ cho:",
+      "damages": "Lợi nhuận bị mất, mất dữ liệu, chi phí mua hàng hóa hoặc dịch vụ thay thế, hoặc bất kỳ thiệt hại đặc biệt, gián tiếp, ngẫu nhiên, trừng phạt hoặc hậu quả nào",
+      "reliance": "Sự phụ thuộc của bạn vào dịch vụ",
+      "direct": "Thiệt hại trực tiếp vượt quá (tổng cộng) phí bạn đã trả cho dịch vụ hoặc $100, tùy theo số nào lớn hơn"
+    },
+    "miscellaneous": {
+      "title": "Các Điều Khoản Khác",
+      "content": "Các điều khoản sử dụng này tạo thành toàn bộ thỏa thuận giữa bạn và iBrowe liên quan đến dịch vụ và thay thế cho tất cả các thông tin liên lạc và đề xuất trước hoặc đồng thời (bằng lời nói, bằng văn bản hoặc điện tử) giữa bạn và iBrowe. Nếu bất kỳ điều khoản nào của các điều khoản này bị coi là không thể thực thi hoặc không hợp lệ, điều khoản đó sẽ bị giới hạn hoặc loại bỏ đến mức tối thiểu cần thiết để các điều khoản còn lại vẫn có hiệu lực đầy đủ. Việc một bên không thực thi bất kỳ quyền hoặc điều khoản nào sẽ không được coi là từ bỏ việc thực thi trong tương lai. iBrowe sẽ không chịu trách nhiệm về việc không thực hiện nghĩa vụ do các nguyên nhân nằm ngoài tầm kiểm soát hợp lý. Các điều khoản này là cá nhân đối với bạn và không thể được chuyển nhượng hoặc chuyển giao mà không có sự đồng ý trước bằng văn bản của iBrowe. iBrowe có thể chuyển nhượng hoặc chuyển giao quyền và nghĩa vụ mà không bị hạn chế. Không có mối quan hệ đại lý, đối tác, liên doanh hoặc việc làm nào được tạo ra do các điều khoản này, và không bên nào có quyền ràng buộc bên kia trong mọi trường hợp. Tất cả các thông báo theo các điều khoản này phải bằng văn bản và sẽ được coi là đã được gửi đúng cách khi nhận được nếu gửi trực tiếp hoặc qua thư đăng ký có xác nhận nhận, khi xác nhận nếu gửi qua fax hoặc email, hoặc hai ngày sau khi gửi nếu gửi qua dịch vụ chuyển phát nhanh được công nhận"
+    },
+    "copyright": {
+      "title": "Chính Sách Tranh Chấp Bản Quyền",
+      "content": "Đạo luật Bản quyền Thiên niên kỷ Kỹ thuật số năm 1998 (\"DMCA\") cung cấp biện pháp khắc phục cho chủ sở hữu bản quyền tin rằng nội dung xuất hiện trên internet vi phạm quyền của họ theo luật bản quyền Hoa Kỳ. Nếu bạn tin một cách thiện chí rằng nội dung được cung cấp thông qua dịch vụ vi phạm bản quyền của bạn, bạn (hoặc đại lý của bạn) có thể gửi thông báo bằng văn bản cho chúng tôi yêu cầu xóa hoặc chặn quyền truy cập vào nội dung vi phạm bản quyền, như được nêu dưới đây. Để biết thêm thông tin, vui lòng truy cập https://www.copyright.gov/",
+      "policy": {
+        "title": "Chính sách của iBrowe là:",
+        "block": "Chặn quyền truy cập hoặc xóa nội dung mà chúng tôi tin một cách thiện chí đã được sao chép và phân phối bất hợp pháp bởi người quảng cáo, công ty liên kết, nhà cung cấp nội dung, thành viên hoặc người dùng",
+        "terminate": "Chấm dứt tài khoản của người vi phạm lặp lại"
+      },
+      "procedure": {
+        "title": "Quy Trình Báo Cáo Vi Phạm Bản Quyền",
+        "signature": "Chữ ký thực hoặc điện tử của người được ủy quyền hành động thay mặt cho chủ sở hữu bản quyền có quyền bị vi phạm",
+        "identification": "Xác định tác phẩm hoặc tài liệu có bản quyền được cho là bị vi phạm",
+        "location": "Xác định nội dung vi phạm bản quyền, bao gồm thông tin đủ để iBrowe xác định vị trí của tài liệu và xác minh sự tồn tại của tài liệu đó (ví dụ: URL hoặc thông tin vị trí chi tiết)",
+        "contact": "Thông tin liên hệ cho bên khiếu nại, bao gồm địa chỉ vật lý, số điện thoại và nếu có, địa chỉ email",
+        "statement": "Tuyên bố rằng bên khiếu nại tin một cách thiện chí rằng việc sử dụng tài liệu theo cách bị khiếu nại không được phép bởi chủ sở hữu bản quyền, đại lý của chủ sở hữu hoặc luật pháp",
+        "accuracy": "Tuyên bố được thực hiện dưới hình phạt khai man rằng thông tin trong thông báo là chính xác và bên khiếu nại được ủy quyền hành động thay mặt cho chủ sở hữu bản quyền"
+      },
+      "response": {
+        "title": "Khi Nhận Được Thông Báo Vi Phạm Hợp Lệ",
+        "remove": "Xóa hoặc vô hiệu hóa quyền truy cập vào nội dung vi phạm bản quyền",
+        "notify": "Thông báo cho nhà cung cấp nội dung, thành viên hoặc người dùng có nội dung bị xóa hoặc vô hiệu hóa",
+        "terminate": "Trong trường hợp người vi phạm lặp lại, xóa nội dung vi phạm bản quyền khỏi hệ thống và chấm dứt quyền truy cập dịch vụ cho nhà cung cấp nội dung, thành viên hoặc người dùng liên quan"
+      },
+      "counter": {
+        "title": "Quy Trình Gửi Thông Báo Phản Đối",
+        "signature": "Chữ ký thực hoặc điện tử của nhà cung cấp nội dung, thành viên hoặc người dùng",
+        "identification": "Xác định nội dung đã bị xóa hoặc vô hiệu hóa quyền truy cập và vị trí nội dung xuất hiện trước khi bị xóa hoặc vô hiệu hóa",
+        "statement": "Tuyên bố dưới sự tin tưởng thiện chí rằng nội dung đã bị xóa hoặc vô hiệu hóa do lỗi hoặc nhận dạng sai",
+        "contact": "Tên, địa chỉ, số điện thoại và nếu có, địa chỉ email của nhà cung cấp nội dung, thành viên hoặc người dùng, cùng với tuyên bố rằng người hoặc tổ chức đó đồng ý với thẩm quyền của tòa án liên bang đặt tại quận địa chỉ của họ, hoặc nếu ở ngoài Thái Lan, tòa án trong khu vực pháp lý nơi iBrowe đặt trụ sở, và rằng người hoặc tổ chức đó sẽ chấp nhận việc phục vụ quá trình từ người gửi thông báo vi phạm ban đầu"
+      },
+      "contact": {
+        "title": "Đại Diện Được Chỉ Định Cho Bản Quyền",
+        "address": "108Plaza Co., Ltd.\n182 Soi Sangkhasantisuk\nLadprao, Ladprao\nBangkok 10230, Thailand"
+      }
+    }
   }
 }
