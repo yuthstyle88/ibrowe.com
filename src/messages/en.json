@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "iBrowe | Privacy-First Browser",
+    "description": "A privacy-focused browser that puts you first"
+  },
   "Common": {
     "downloadButton": "Download iBrowe"
   },
@@ -839,6 +843,94 @@
         "title": "Copyright Designated Agent",
         "address": "108Plaza Co., Ltd.\n182 Sangkhomsongkroh Road,\nLadprao Subdistrict, Ladprao District,\nBangkok 10230, Thailand"
       }
+    }
+  },
+  "FeaturesPage": {
+    "hero": {
+      "title": "iBrowe – A Browser That <em>Protects</em> You and <em>Inspires</em> Innovation",
+      "description": "Advanced security meets unlimited creativity, step into the online world with a browser built just for you.\n💡⚔️ iBrowe protects your privacy at every step by blocking smart trackers and stripping hidden tracking parameters from links.\n🛡️ Browse anonymously with Tor-powered Private Windows for true confidentiality. Enjoy a modern interface packed with powerful tools designed for creators and developers.\n🚀 Experience fast, smooth, and stable browsing with no compromises between speed and security. iBrowe is the new choice for those bold enough to reshape the digital world.\nDownload it for free today and discover how true freedom starts with owning your browser.",
+      "downloadButtons": {
+        "ios": "iOS",
+        "macos": "MacOS",
+        "android": "Android",
+        "windows": "Windows"
+      }
+    },
+    "mainFeatures": {
+      "shields": {
+        "title": "🛡️ Shields – Intelligent Protection Built into iBrowe",
+        "description": "Shields is a core feature that sets iBrowe apart from ordinary browsers. It acts as a built-in defense layer that works right out of the box, no extensions needed. By default, Shields protects you from intrusive ads, cross-site trackers, digital fingerprinting, cross-site tracking cookies, and many other online threats.\nYou can fully customize how Shields works to fit your preferences—or just keep it in \"protect immediately\" mode for instant security with zero setup.\niBrowe Shields: security you control, click by click. Manage your Shields settings anytime at ibrowe://settings/shields."
+      },
+      "rewards": {
+        "title": "iBrowe Rewards – Earn Rewards While Protecting Your Privacy",
+        "description": "Simply enable iBrowe Rewards and start earning IAT (iBrowe Attention Token) by viewing ads that fully respect your privacy.\n🪙 Earn IAT every time you engage with privacy-preserving ads\n🤝 Use your IAT to support your favorite content creators\n🎁 Redeem IAT for gift cards, digital assets, and other exciting rewards.\nStart earning safely and privately today at https://ibrowe.com/ibrowe-rewards/"
+      },
+      "wallet": {
+        "title": "iBrowe Wallet – A Digital Wallet You Fully Control",
+        "description": "iBrowe Wallet is a fully self-custody crypto wallet that puts you in complete control, no external extensions or extra installs needed.\nEverything is built right into the iBrowe browser.\n🔐 Secured at the browser level\n🪪 Your \"passport\" to the world of Web3\n💼 Supports digital assets, NFTs, and seamless App integration\n🛡️ Designed with maximum privacy and security in mind.\nStart creating your wallet today at 👉 ibrowe://wallet/"
+      },
+      "news": {
+        "title": "📜 iBrowe News – News You Choose, Without the Tracking",
+        "description": "Discover a customizable news feed on your homepage, tailored just for you with no tracking and zero intrusive ads, so you can enjoy a truly private reading experience.\n📰 Choose the categories and sources that matter most to you\n🔍 No behavior-tracking algorithms involved\n⚡ Fast-loading, ad-free interface\nGetting started is simple: just open a new tab in iBrowe and scroll down to see your personalized news.\nWant to learn more about iBrowe News the privacy-first news experience?\n👉 Stay tuned for updates."
+      },
+      "playlist": {
+        "title": "🎶 iBrowe Playlist – Save the Content You Love for Later",
+        "description": "Create your personal playlist from your favorite videos or audio directly within the iBrowe browser and enjoy them anytime even offline.\n🎵 Collect all your favorite content in one convenient place, whether it's video or audio from various websites.\n🚫 No ads will interrupt your playback when offline, making it perfect for rewatching, rereading, or organizing content to enjoy later.\nOn iOS, just visit a page with the video or audio you want, then tap the \"Add to Playlist\" icon to save it instantly."
+      }
+    },
+    "moreFeatures": {
+      "title": "Plus Many More Features",
+      "features": {
+        "privacy": {
+          "title": "🔐 Enhanced Privacy and Security",
+          "description": "🌐 Tor Private Window – Browse Without a Trace. iBrowe integrates Tor (The Onion Router) to give you true online privacy by effectively hiding your IP address, preventing tracking from websites, third parties, and even your internet service provider. It also lets you access websites blocked or restricted in certain regions. Just open a Tor Private Window in iBrowe, and your traffic will automatically route through the Tor network, letting you browse the web without leaving a trace. With iBrowe, you're in full control of your privacy empowering your freedom online."
+        },
+        "customization": {
+          "title": "🎯 Customize Your Browsing Experience",
+          "description": "🧭 Smart Sidebar Everything Within Reach. iBrowe offers quick access to essential features through a Smart Sidebar designed for convenience and efficiency, giving you instant entry to your favorite websites, a neatly organized Reading List and bookmarks, plus easy activation of unique tools like privacy features, VPN, or AdBlock. Whether you're working, researching, or relaxing, the iBrowe sidebar keeps you in control without breaking your flow browse your way with a sidebar thoughtfully built just for you."
+        },
+        "accessibility": {
+          "title": "🌍 Accessibility and Usability Tools",
+          "description": "🌐 Built-in Translation With iBrowe's integrated page translation, you can instantly read content from around the world without relying on external services that may track your data, ensuring enhanced privacy as no data is sent to third-party servers, while enjoying seamless multilingual support to access articles, news, or international websites with a single click, all translated instantly within the browser itself for a fast, private, and effortless experience. iBrowe gives you the freedom to understand any language while fully respecting your privacy."
+        },
+        "fingerprint": {
+          "title": "🕵️ Fingerprint Randomization",
+          "description": "Automatically protect your identity from online tracking with iBrowe's Fingerprint Randomization technology. By constantly randomizing key fingerprint data like screen size, operating system, fonts, and more each time you visit a website, iBrowe makes you appear as a brand-new user every time. This stealthy process runs quietly in the background, preventing websites from profiling or tracking you across the web without interfering with your browsing. No matter where you go online, iBrowe ensures your digital fingerprint remains untraceable, keeping your privacy secure and intact."
+        },
+        "sync": {
+          "title": "🔄 Sync Across Devices",
+          "description": "Secure and Private with End-to-End Encryption\niBrowe Sync lets you effortlessly synchronize your essential data across all your devices while keeping it fully protected with end-to-end encryption.\n🔐 Your data stays private and invisible to everyone, including iBrowe itself. Sync bookmarks, passwords, open tabs, browsing history, and more seamlessly across mobile, tablet, and desktop devices. Just set up Sync with your unique passphrase, and enjoy a secure, consistent browsing experience anytime, anywhere.\niBrowe Sync seamless security across all your devices."
+        },
+        "speedreader": {
+          "title": "⚡ Speedreader",
+          "description": "📖 Read Faster With Zero Distractions\niBrowe Speedreader is a special reading mode that strips away clutter and boosts page loading speed:\n📄 Blocks ads, pop-ups, and other distractions\n🚀 Loads just the main content quickly saving data, perfect for mobile users\n👁️ Keeps your focus on what matters, like articles, news, or blog posts\nIt's not only easier on your eyes but also saves battery life and mobile data.\niBrowe Speedreader for a cleaner, faster reading experience anytime, anywhere."
+        },
+        "cookie": {
+          "title": "🍪 Cookie Consent Blocking",
+          "description": "Browse Websites Without Annoying Cookie Pop-Ups\niBrowe makes your browsing smoother by automatically hiding or blocking those persistent cookie consent banners you see on nearly every site:\n🚫 Automatically blocks or hides consent pop-ups\n💬 No more clicking \"Accept\" again and again\n🔒 Keeps your privacy intact without interruptions\nSay goodbye to distracting cookie banners and stay fully focused on what matters the content.\nWith iBrowe, browse quietly and seamlessly, no manual closing required."
+        },
+        "verticalTabs": {
+          "title": "📚 Vertical Tabs",
+          "description": "Efficient Tab Management Everything Neatly Organized\niBrowe's Vertical Tabs help you manage your browsing smarter and more systematically:\n📌 Pin important tabs for instant access\n🗂️ Group tabs by topic, project, or theme\n🧰 Use powerful tools like drag-to-reorder, drag-to-detach, and hide tab groups.\nNo matter how many tabs you have open, iBrowe's vertical tab system keeps your workspace tidy so you always find what you need, fast.\nSimple, intuitive, and designed to help you conquer tab chaos."
+        },
+        "wayback": {
+          "title": "🕰️ Wayback Integration",
+          "description": "Access Lost Web Pages Even When You Hit a 404 Error\nEncounter a \"404 – Page Not Found\"? No worries. iBrowe automatically searches for archived versions of missing pages using the Wayback Machine:\n🔍 Finds previous snapshots of unavailable pages\n🕸️ Lets you browse archived copies stored in the Internet Archive\n⚙️ Works seamlessly and automatically no setup needed\nWhen content disappears, iBrowe helps you retrieve it effortlessly.\niBrowe + Wayback Machine Rediscover pages that seem lost forever."
+        },
+        "mobilePrivacy": {
+          "title": "🔐 Mobile Privacy Center",
+          "description": "Monitor Your Protection All in One Place\niBrowe's Privacy Dashboard gives you real-time insight into your online defenses:\n🚫 See how many ads and trackers Shields has blocked automatically\n🔍 Dive into details about what each website tried to load and how iBrowe kept you safe\n📱 Mobile-friendly design lets you check protection stats easily on any device\nPlus, you can tweak your protection settings instantly from this handy control panel tailoring your browsing security exactly how you want it.\niBrowe Shields Quietly working in the background, with transparency you can trust."
+        },
+        "extensions": {
+          "title": "🧩 Extensions",
+          "description": "🧩 Supports Everything You Need Straight from the Chrome Web Store\niBrowe fully supports browser extensions, so you can customize your browsing experience exactly how you like:\n✅ Fully compatible with extensions from the Chrome Web Store\n🔄 Supports both Manifest V2 and V3 including older extensions that haven't yet updated\n🛠️ Ideal for everyday users and developers wanting to enhance browser capabilities\nWhether it's ad blockers, password managers, or advanced developer tools, iBrowe has you covered.\nUnlock your full potential with thousands of extensions all without switching browsers."
+        },
+        "ipfs": {
+          "title": "🌐 IPFS Integration",
+          "description": "Access Decentralized Content Directly from Your Browser\niBrowe comes with built-in support for IPFS (InterPlanetary File System), letting you access information without relying on centralized servers:\n🔗 Open IPFS URIs (ipfs://, ipns://) directly in the browser\n📦 Access files, documents, and decentralized apps from the IPFS network, no need for external gateways\n🛡️ Enjoy safe, censorship-resistant content that can't be deleted or blocked because it lives on the distributed network\nWith iBrowe, step into the Web3 world and explore content that never disappears. Access information freely without any central control thanks to IPFS integration."
+        }
+      },
+      "summary": "iBrowe Delivers All You Expect from a Modern Browser\nFrom autofill and secure password storage with its built-in password manager, to an intelligent import tool that makes switching from your previous browser seamless\niBrowe offers convenience and security right out of the box."
     }
   }
 }

@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "iBrowe | Trình Duyệt Ưu Tiên Quyền Riêng Tư",
+    "description": "Trình duyệt tập trung vào quyền riêng tư, đặt bạn lên hàng đầu"
+  },
   "Common": {
     "downloadButton": "Tải xuống iBrowe"
   },
@@ -732,6 +736,94 @@
         "title": "Đại Diện Được Chỉ Định Cho Bản Quyền",
         "address": "108Plaza Co., Ltd.\n182 Soi Sangkhasantisuk\nLadprao, Ladprao\nBangkok 10230, Thailand"
       }
+    }
+  },
+  "FeaturesPage": {
+    "hero": {
+      "title": "iBrowe – Trình duyệt <em>Bảo vệ</em> Bạn và <em>Truyền cảm hứng</em> cho Đổi mới",
+      "description": "Bảo mật nâng cao gặp gỡ sáng tạo không giới hạn, bước vào thế giới trực tuyến với trình duyệt được xây dựng dành riêng cho bạn.\n💡⚔️ iBrowe bảo vệ quyền riêng tư của bạn ở mọi bước bằng cách chặn trình theo dõi thông minh và loại bỏ các tham số theo dõi ẩn khỏi liên kết.\n🛡️ Duyệt web ẩn danh với Cửa sổ Riêng tư được hỗ trợ bởi Tor để đảm bảo tính bảo mật thực sự. Tận hưởng giao diện hiện đại với các công cụ mạnh mẽ được thiết kế cho người sáng tạo và nhà phát triển.\n🚀 Trải nghiệm duyệt web nhanh, mượt mà và ổn định mà không phải đánh đổi giữa tốc độ và bảo mật. iBrowe là lựa chọn mới cho những người đủ dũng cảm để định hình lại thế giới kỹ thuật số.\nTải xuống miễn phí ngay hôm nay và khám phá cách tự do thực sự bắt đầu từ việc sở hữu trình duyệt của bạn.",
+      "downloadButtons": {
+        "ios": "iOS",
+        "macos": "MacOS",
+        "android": "Android",
+        "windows": "Windows"
+      }
+    },
+    "mainFeatures": {
+      "shields": {
+        "title": "🛡️ Shields – Bảo vệ Thông minh được Tích hợp trong iBrowe",
+        "description": "Shields là tính năng cốt lõi giúp iBrowe khác biệt với các trình duyệt thông thường. Nó hoạt động như một lớp phòng thủ tích hợp hoạt động ngay lập tức, không cần tiện ích mở rộng. Theo mặc định, Shields bảo vệ bạn khỏi quảng cáo xâm lấn, trình theo dõi đa trang web, lấy dấu vân tay kỹ thuật số, cookie theo dõi đa trang web và nhiều mối đe dọa trực tuyến khác.\nBạn có thể tùy chỉnh hoàn toàn cách Shields hoạt động để phù hợp với sở thích của mình—hoặc chỉ giữ nó ở chế độ \"bảo vệ ngay lập tức\" để có bảo mật tức thì mà không cần thiết lập.\niBrowe Shields: bảo mật bạn kiểm soát, từng cú nhấp chuột. Quản lý cài đặt Shields của bạn bất cứ lúc nào tại ibrowe://settings/shields."
+      },
+      "rewards": {
+        "title": "iBrowe Rewards – Kiếm Phần thưởng Trong khi Bảo vệ Quyền riêng tư của Bạn",
+        "description": "Chỉ cần bật iBrowe Rewards và bắt đầu kiếm IAT (iBrowe Attention Token) bằng cách xem quảng cáo tôn trọng quyền riêng tư của bạn.\n🪙 Kiếm IAT mỗi khi bạn tương tác với quảng cáo bảo vệ quyền riêng tư\n🤝 Sử dụng IAT của bạn để hỗ trợ người tạo nội dung yêu thích\n🎁 Đổi IAT lấy thẻ quà tặng, tài sản kỹ thuật số và các phần thưởng thú vị khác.\nBắt đầu kiếm phần thưởng an toàn và riêng tư ngay hôm nay tại https://ibrowe.com/ibrowe-rewards/"
+      },
+      "wallet": {
+        "title": "iBrowe Wallet – Ví Kỹ thuật số Bạn Hoàn toàn Kiểm soát",
+        "description": "iBrowe Wallet là ví tiền điện tử tự quản lý hoàn toàn cho phép bạn kiểm soát hoàn toàn, không cần tiện ích mở rộng bên ngoài hoặc cài đặt thêm.\nMọi thứ đều được tích hợp sẵn trong trình duyệt iBrowe.\n🔐 Được bảo mật ở cấp độ trình duyệt\n🪪 \"Hộ chiếu\" của bạn đến thế giới Web3\n💼 Hỗ trợ tài sản kỹ thuật số, NFT và tích hợp ứng dụng liền mạch\n🛡️ Được thiết kế với sự chú trọng tối đa về quyền riêng tư và bảo mật.\nBắt đầu tạo ví của bạn ngay hôm nay tại 👉 ibrowe://wallet/"
+      },
+      "news": {
+        "title": "📜 iBrowe News – Tin tức Bạn Chọn, Không có Theo dõi",
+        "description": "Khám phá nguồn cấp tin tức có thể tùy chỉnh trên trang chủ của bạn, được điều chỉnh riêng cho bạn mà không có theo dõi và không có quảng cáo xâm lấn, để bạn có thể tận hưởng trải nghiệm đọc thực sự riêng tư.\n📰 Chọn các danh mục và nguồn tin quan trọng nhất đối với bạn\n🔍 Không có thuật toán theo dõi hành vi\n⚡ Giao diện tải nhanh, không có quảng cáo\nBắt đầu rất đơn giản: chỉ cần mở tab mới trong iBrowe và cuộn xuống để xem tin tức được cá nhân hóa của bạn.\nMuốn tìm hiểu thêm về iBrowe News trải nghiệm tin tức ưu tiên quyền riêng tư?\n👉 Theo dõi các cập nhật."
+      },
+      "playlist": {
+        "title": "🎶 iBrowe Playlist – Lưu Nội dung Bạn Yêu thích để Xem Sau",
+        "description": "Tạo danh sách phát cá nhân của bạn từ video hoặc âm thanh yêu thích trực tiếp trong trình duyệt iBrowe và tận hưởng chúng bất cứ lúc nào ngay cả khi ngoại tuyến.\n🎵 Thu thập tất cả nội dung yêu thích của bạn tại một nơi thuận tiện, cho dù đó là video hay âm thanh từ các trang web khác nhau.\n🚫 Không có quảng cáo làm gián đoạn phát lại của bạn khi ngoại tuyến, hoàn hảo cho việc xem lại, đọc lại hoặc tổ chức nội dung để thưởng thức sau.\nTrên iOS, chỉ cần truy cập trang có video hoặc âm thanh bạn muốn, sau đó nhấn vào biểu tượng \"Thêm vào Danh sách phát\" để lưu ngay lập tức."
+      }
+    },
+    "moreFeatures": {
+      "title": "Cộng thêm Nhiều Tính năng Khác",
+      "features": {
+        "privacy": {
+          "title": "🔐 Quyền riêng tư và Bảo mật Nâng cao",
+          "description": "🌐 Cửa sổ Riêng tư Tor – Duyệt web Không để lại Dấu vết. iBrowe tích hợp Tor (The Onion Router) để mang lại cho bạn quyền riêng tư trực tuyến thực sự bằng cách ẩn địa chỉ IP của bạn một cách hiệu quả, ngăn chặn theo dõi từ trang web, bên thứ ba và thậm chí nhà cung cấp dịch vụ internet của bạn. Nó cũng cho phép bạn truy cập các trang web bị chặn hoặc hạn chế ở một số khu vực. Chỉ cần mở Cửa sổ Riêng tư Tor trong iBrowe, và lưu lượng của bạn sẽ tự động được định tuyến qua mạng Tor, cho phép bạn duyệt web mà không để lại dấu vết. Với iBrowe, bạn hoàn toàn kiểm soát quyền riêng tư của mình, trao quyền cho tự do trực tuyến của bạn."
+        },
+        "customization": {
+          "title": "🎯 Tùy chỉnh Trải nghiệm Duyệt web của Bạn",
+          "description": "🧭 Thanh bên Thông minh Mọi thứ Trong tầm tay. iBrowe cung cấp quyền truy cập nhanh vào các tính năng thiết yếu thông qua Thanh bên Thông minh được thiết kế cho sự thuận tiện và hiệu quả, cho phép bạn truy cập nhanh vào các trang web yêu thích, Danh sách đọc và dấu trang được tổ chức gọn gàng, cùng với việc kích hoạt dễ dàng các công cụ độc đáo như tính năng quyền riêng tư, VPN hoặc AdBlock. Cho dù bạn đang làm việc, nghiên cứu hay thư giãn, thanh bên iBrowe giúp bạn kiểm soát mà không làm gián đoạn luồng công việc của bạn. Duyệt web theo cách của bạn với thanh bên được xây dựng cẩn thận dành riêng cho bạn."
+        },
+        "accessibility": {
+          "title": "🌍 Công cụ Khả năng Truy cập và Khả năng Sử dụng",
+          "description": "🌐 Dịch Tích hợp Với tính năng dịch trang tích hợp của iBrowe, bạn có thể đọc nội dung từ khắp nơi trên thế giới ngay lập tức mà không cần dựa vào các dịch vụ bên ngoài có thể theo dõi dữ liệu của bạn, đảm bảo quyền riêng tư nâng cao vì không có dữ liệu nào được gửi đến máy chủ bên thứ ba, đồng thời tận hưởng hỗ trợ đa ngôn ngữ liền mạch để truy cập bài viết, tin tức hoặc trang web quốc tế chỉ với một cú nhấp chuột, tất cả được dịch ngay lập tức trong chính trình duyệt để có trải nghiệm nhanh, riêng tư và không cần nỗ lực. iBrowe mang đến cho bạn tự do hiểu bất kỳ ngôn ngữ nào trong khi hoàn toàn tôn trọng quyền riêng tư của bạn."
+        },
+        "fingerprint": {
+          "title": "🕵️ Ngẫu nhiên hóa Dấu vân tay",
+          "description": "Tự động bảo vệ danh tính của bạn khỏi theo dõi trực tuyến với công nghệ Ngẫu nhiên hóa Dấu vân tay của iBrowe. Bằng cách liên tục ngẫu nhiên hóa dữ liệu dấu vân tay quan trọng như kích thước màn hình, hệ điều hành, phông chữ và hơn thế nữa mỗi khi bạn truy cập trang web, iBrowe khiến bạn xuất hiện như một người dùng mới mỗi lần. Quá trình bí mật này chạy âm thầm trong nền, ngăn chặn trang web tạo hồ sơ hoặc theo dõi bạn trên toàn bộ web mà không can thiệp vào việc duyệt web của bạn. Không quan trọng bạn đi đâu trực tuyến, iBrowe đảm bảo dấu vân tay kỹ thuật số của bạn vẫn không thể theo dõi, giữ quyền riêng tư của bạn an toàn và nguyên vẹn."
+        },
+        "sync": {
+          "title": "🔄 Đồng bộ hóa Trên các Thiết bị",
+          "description": "An toàn và Riêng tư với Mã hóa End-to-End\niBrowe Sync cho phép bạn đồng bộ hóa dữ liệu thiết yếu của mình trên tất cả các thiết bị một cách dễ dàng trong khi giữ nó được bảo vệ hoàn toàn bằng mã hóa end-to-end.\n🔐 Dữ liệu của bạn vẫn riêng tư và vô hình với mọi người, bao gồm cả chính iBrowe. Đồng bộ hóa dấu trang, mật khẩu, tab đang mở, lịch sử duyệt web và hơn thế nữa một cách liền mạch trên các thiết bị di động, máy tính bảng và máy tính để bàn. Chỉ cần thiết lập Sync với cụm mật khẩu duy nhất của bạn, và tận hưởng trải nghiệm duyệt web an toàn và nhất quán bất cứ lúc nào, bất cứ nơi đâu.\niBrowe Sync bảo mật liền mạch trên tất cả các thiết bị của bạn."
+        },
+        "speedreader": {
+          "title": "⚡ Speedreader",
+          "description": "📖 Đọc Nhanh hơn Với Không có Xao nhãng\niBrowe Speedreader là chế độ đọc đặc biệt loại bỏ sự lộn xộn và tăng tốc độ tải trang:\n📄 Chặn quảng cáo, cửa sổ bật lên và các xao nhãng khác\n🚀 Chỉ tải nội dung chính nhanh chóng tiết kiệm dữ liệu, hoàn hảo cho người dùng di động\n👁️ Giúp bạn tập trung vào những gì quan trọng, như bài viết, tin tức hoặc blog\nKhông chỉ dễ chịu cho mắt của bạn mà còn tiết kiệm pin và dữ liệu di động.\niBrowe Speedreader cho trải nghiệm đọc sạch hơn và nhanh hơn bất cứ lúc nào, bất cứ nơi đâu."
+        },
+        "cookie": {
+          "title": "🍪 Chặn Đồng ý Cookie",
+          "description": "Duyệt web Không có Cửa sổ bật lên Cookie Phiền phức\niBrowe làm cho việc duyệt web của bạn mượt mà hơn bằng cách tự động ẩn hoặc chặn những biểu ngữ đồng ý cookie dai dẳng mà bạn thấy trên hầu hết mọi trang web:\n🚫 Tự động chặn hoặc ẩn cửa sổ bật lên đồng ý\n💬 Không cần nhấp \"Đồng ý\" lặp đi lặp lại\n🔒 Giữ quyền riêng tư của bạn nguyên vẹn mà không bị gián đoạn\nNói lời tạm biệt với biểu ngữ cookie gây xao nhãng và tập trung hoàn toàn vào những gì quan trọng - nội dung.\nVới iBrowe, duyệt web một cách yên tĩnh và liền mạch, không cần đóng thủ công."
+        },
+        "verticalTabs": {
+          "title": "📚 Tab Dọc",
+          "description": "Quản lý Tab Hiệu quả Mọi thứ Được Tổ chức Gọn gàng\nTab dọc của iBrowe giúp bạn quản lý việc duyệt web thông minh và có hệ thống hơn:\n📌 Ghim các tab quan trọng để truy cập nhanh\n🗂️ Nhóm tab theo chủ đề, dự án hoặc chủ đề\n🧰 Sử dụng các công cụ mạnh mẽ như kéo để sắp xếp lại, kéo để tách và ẩn nhóm tab.\nKhông quan trọng bạn mở bao nhiêu tab, hệ thống tab dọc của iBrowe giữ không gian làm việc của bạn gọn gàng để bạn luôn tìm thấy những gì cần, nhanh chóng.\nĐơn giản, trực quan và được thiết kế để giúp bạn chinh phục sự hỗn loạn của tab."
+        },
+        "wayback": {
+          "title": "🕰️ Tích hợp Wayback",
+          "description": "Truy cập Trang web Đã mất Ngay cả khi Gặp Lỗi 404\nGặp \"404 – Không tìm thấy trang\"? Đừng lo lắng. iBrowe tự động tìm kiếm các phiên bản đã lưu trữ của các trang không khả dụng bằng Wayback Machine:\n🔍 Tìm các bản chụp trước đó của các trang không khả dụng\n🕸️ Cho phép bạn duyệt các bản sao đã lưu trữ được lưu trong Internet Archive\n⚙️ Hoạt động liền mạch và tự động không cần thiết lập\nKhi nội dung biến mất, iBrowe giúp bạn lấy lại nó một cách dễ dàng.\niBrowe + Wayback Machine Khám phá lại các trang dường như đã mất vĩnh viễn."
+        },
+        "mobilePrivacy": {
+          "title": "🔐 Trung tâm Quyền riêng tư Di động",
+          "description": "Giám sát Bảo vệ của Bạn Tất cả trong Một Nơi\nBảng điều khiển Quyền riêng tư của iBrowe cung cấp cho bạn cái nhìn thời gian thực về các biện pháp phòng thủ trực tuyến của bạn:\n🚫 Xem có bao nhiêu quảng cáo và trình theo dõi Shields đã tự động chặn\n🔍 Tìm hiểu chi tiết về những gì mỗi trang web đã cố gắng tải và cách iBrowe bảo vệ bạn\n📱 Thiết kế thân thiện với di động cho phép bạn kiểm tra thống kê bảo vệ dễ dàng trên bất kỳ thiết bị nào\nNgoài ra, bạn có thể điều chỉnh cài đặt bảo vệ của mình ngay lập tức từ bảng điều khiển tiện lợi này, điều chỉnh bảo mật duyệt web của bạn chính xác theo cách bạn muốn.\niBrowe Shields Hoạt động âm thầm trong nền, với sự minh bạch bạn có thể tin tưởng."
+        },
+        "extensions": {
+          "title": "🧩 Tiện ích mở rộng",
+          "description": "🧩 Hỗ trợ Mọi thứ Bạn Cần Trực tiếp từ Chrome Web Store\niBrowe hỗ trợ đầy đủ các tiện ích mở rộng trình duyệt, vì vậy bạn có thể tùy chỉnh trải nghiệm duyệt web của mình chính xác theo cách bạn muốn:\n✅ Tương thích đầy đủ với các tiện ích từ Chrome Web Store\n🔄 Hỗ trợ cả Manifest V2 và V3 bao gồm các tiện ích cũ chưa cập nhật\n🛠️ Lý tưởng cho người dùng hàng ngày và nhà phát triển muốn tăng cường khả năng trình duyệt\nCho dù đó là trình chặn quảng cáo, trình quản lý mật khẩu hay công cụ phát triển nâng cao, iBrowe đều có sẵn cho bạn.\nMở khóa tiềm năng đầy đủ của bạn với hàng nghìn tiện ích mở rộng, tất cả mà không cần chuyển đổi trình duyệt."
+        },
+        "ipfs": {
+          "title": "🌐 Tích hợp IPFS",
+          "description": "Truy cập Nội dung Phi tập trung Trực tiếp từ Trình duyệt của Bạn\niBrowe đi kèm với hỗ trợ tích hợp cho IPFS (InterPlanetary File System), cho phép bạn truy cập thông tin mà không cần dựa vào máy chủ tập trung:\n🔗 Mở URI IPFS (ipfs://, ipns://) trực tiếp trong trình duyệt\n📦 Truy cập tệp, tài liệu và ứng dụng phi tập trung từ mạng IPFS, không cần cổng bên ngoài\n🛡️ Tận hưởng nội dung an toàn và chống kiểm duyệt không thể bị xóa hoặc chặn vì nó tồn tại trên mạng phân tán\nVới iBrowe, bước vào thế giới Web3 và khám phá nội dung không bao giờ biến mất. Truy cập thông tin tự do mà không có kiểm soát tập trung nhờ tích hợp IPFS."
+        }
+      },
+      "summary": "iBrowe Mang đến Tất cả những gì Bạn Mong đợi từ một Trình duyệt Hiện đại\nTừ điền tự động và lưu trữ mật khẩu an toàn với trình quản lý mật khẩu tích hợp, đến công cụ nhập khẩu thông minh giúp chuyển đổi từ trình duyệt trước đó của bạn trở nên liền mạch\niBrowe mang đến sự tiện lợi và bảo mật ngay từ khi bắt đầu."
     }
   }
 }
