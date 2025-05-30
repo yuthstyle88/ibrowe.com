@@ -69,8 +69,8 @@ export default function Footer() {
               <h3 className="text-black text-base font-bold mb-6">{t('sections.about')}</h3>
               <div className="space-y-3">
                 <Link href={`/${currentLocale}/about`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.company')}</Link>
-                <Link href="#feature" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.feature')}</Link>
-                <Link href="#news" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.news')}</Link>
+                <Link href={`/${currentLocale}/features`}className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.feature')}</Link>
+                <Link href={`/${currentLocale}/news`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.news')}</Link>
                 <Link href={`/${currentLocale}/wallet`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.wallet')}</Link>
                 <Link href={`/${currentLocale}/block-ad`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.blockAds')}</Link>
                 <Link href={`/${currentLocale}/ibrowe-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.privacyPolicy')}</Link>

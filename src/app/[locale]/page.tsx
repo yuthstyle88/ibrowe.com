@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import Hero from '@/components/Hero'
 import ComparisonSection from '@/components/ComparisonSection'
 import NewsSection from '@/components/NewsSection'

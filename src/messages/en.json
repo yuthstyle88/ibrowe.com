@@ -932,5 +932,251 @@
       },
       "summary": "iBrowe Delivers All You Expect from a Modern Browser\nFrom autofill and secure password storage with its built-in password manager, to an intelligent import tool that makes switching from your previous browser seamless\niBrowe offers convenience and security right out of the box."
     }
+  },
+  "News": {
+    "hero": {
+      "title": "📰 iBrowe News",
+      "description": "Private News You Control — Stay informed without being tracked. Get the latest headlines from hundreds of trusted sources with no tracking and no user profiling.",
+      "highlights": {
+        "title": "💡 Highlights:",
+        "anonymous": "– Read the news anonymously right from your browser",
+        "topics": "– Choose the topics that interest you most Tech, Finance, Lifestyle, and more",
+        "privacy": "– No intrusive ads, and your data is never sold or shared",
+        "availability": "📱 Available now on Desktop, Android, and iOS.",
+        "tagline": "Stay informed. Stay private. Only with iBrowe News."
+      },
+      "download": {
+        "ios": "iOS",
+        "macos": "MacOS",
+        "android": "Android",
+        "windows": "Windows"
+      }
+    },
+    "features": {
+      "personal": {
+        "title": "personal",
+        "heading": "🔒 Personal News, Your Way",
+        "description": "iBrowe News lets you control what you read based on your interests, not on behavior-tracking algorithms.",
+        "keyFeatures": {
+          "title": "✅ Key Features:",
+          "personalized": {
+            "title": "📰 Personalized for You",
+            "description": "– Customize your news feed based on what you care about"
+          },
+          "privacy": {
+            "title": "🔐 Maximum Privacy",
+            "description": [
+              "– All customization happens locally on your device",
+              "– No data is ever sent back to external servers"
+            ]
+          },
+          "sources": {
+            "title": "📌 Follow Your Favorite Sources",
+            "description": "– Choose to follow specific channels, publishers, or topics"
+          },
+          "rss": {
+            "title": "📥 Import Custom RSS Feeds",
+            "description": "– Add feeds from trusted sources you already follow"
+          },
+          "discover": {
+            "title": "🌍 Discover New Sources",
+            "description": "– Explore recommendations without sacrificing privacy"
+          },
+          "conclusion": "🧠 You control your news feed and no one knows what you read."
+        }
+      },
+      "tracking": {
+        "title": "personal",
+        "heading": "🔍 Zero Tracking Not Even a Little",
+        "description": "iBrowe News does not track what you read or click.",
+        "content": {
+          "title": "🛡️ Your news content is selected based on:",
+          "sources": "– The sources you choose to follow",
+          "history": "– Your browsing history stored locally on your device",
+          "noData": [
+            "❌ No data is ever sent externally",
+            "❌ No profiling",
+            "❌ No selling your information"
+          ],
+          "conclusion": "iBrowe News is the first truly private news system designed for real privacy, fully integrated with the powerful protections of the iBrowe browser."
+        }
+      },
+      "browser": {
+        "title": "Safe to use",
+        "heading": "🌍 All Your News, Right in Your Browser",
+        "description": "iBrowe News brings all the stories you care about into one place updated throughout the day, with zero tracking.",
+        "features": {
+          "title": "🔧 News Management Features:",
+          "filter": "– Filter stories by the channels or sources you choose",
+          "rss": "– Easily add custom RSS feeds from trusted outlets",
+          "highlights": "– View top stories and grouped highlights to get a quick overview of the day",
+          "privacy": "– No apps. No accounts. No tracking.",
+          "conclusion": "Just use iBrowe and enjoy personalized, private news instantly."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "questions": {
+        "start": {
+          "question": "How Do I Start Using iBrowe News?",
+          "answer": {
+            "intro": "It's easy — no installation, no sign-up required.",
+            "desktop": {
+              "title": "🖥️ On Desktop:",
+              "steps": [
+                "1. Open a new tab in the iBrowe browser",
+                "2. Scroll up to reveal your private news feed",
+                "3. Don't see news yet?",
+                "– Click \"Customize\" at the bottom of the new tab page",
+                "– Enable iBrowe News"
+              ]
+            },
+            "mobile": {
+              "title": "📱 On Mobile or Tablet:",
+              "steps": [
+                "1. Open the iBrowe app",
+                "2. Go to Settings",
+                "3. Enable iBrowe News under the New Tab Page section",
+                "4. Open a new tab — your personalized news will appear automatically"
+              ]
+            },
+            "conclusion": "📰 Stay informed with the stories you care about without anyone tracking what you read."
+          }
+        },
+        "free": {
+          "question": "Is iBrowe News Free to Use?",
+          "answer": {
+            "intro": "✅ Yes — 100% Free",
+            "description": "You can read news from a wide range of sources at no cost.",
+            "features": [
+              "– No subscriptions",
+              "– No monthly fees",
+              "– No tracking ads",
+              "– No hidden charges"
+            ],
+            "conclusion": "Just the news you choose, delivered in a way that respects your privacy."
+          }
+        },
+        "categories": {
+          "question": "News Categories You'll Find:",
+          "answer": {
+            "categories": [
+              "🌍 Global News & Politics",
+              "💼 Business & Finance",
+              "🎮 Technology & Crypto",
+              "🎭 Entertainment & Lifestyle",
+              "🧘 Health & Fashion",
+              "⚽ Sports and more"
+            ],
+            "sources": {
+              "title": "➕ Add Your Own Sources:",
+              "description": "You can add custom RSS feeds from:",
+              "types": [
+                "– Independent bloggers",
+                "– Local newspapers",
+                "– Niche magazines",
+                "– Or any source that supports RSS"
+              ]
+            },
+            "management": {
+              "title": "🛠️ Manage Your Sources Easily:",
+              "steps": [
+                "– On desktop: Open a new tab in iBrowe and click \"Customize\"",
+                "– On mobile: Go to the Settings menu to enable and configure iBrowe News"
+              ]
+            },
+            "availability": {
+              "title": "iBrowe News is available on:",
+              "platforms": [
+                "✅ Desktop",
+                "✅ Android",
+                "✅ iOS"
+              ]
+            },
+            "conclusion": "Read what matters to you from the sources you trust with no tracking, ever."
+          }
+        },
+        "personalization": {
+          "question": "How Does iBrowe News Personalize Content?",
+          "answer": {
+            "intro": "iBrowe News curates your feed using only the sources you follow, and offers additional recommendations based solely on your on-device activity without compromising your privacy.",
+            "howItWorks": {
+              "title": "📌 How Personalization Works:",
+              "features": [
+                "– News is pulled from publishers and channels you've chosen",
+                "– Recommendations are based on your local browsing history only",
+                "– No data ever leaves your device",
+                "– No tracking by iBrowe or any third parties"
+              ]
+            },
+            "customization": {
+              "title": "🔧 Customize Your Sources Manually:",
+              "steps": [
+                "– On desktop: Click the \"Add\" button in the sidebar to manage sources",
+                "– Or click \"Customize\" via the settings button on the New Tab page",
+                "– Add any RSS feed you like from blogs, niche sites, or trusted publishers"
+              ]
+            },
+            "conclusion": "🔐 Everything happens on your device — no data exports, no profiling, ever."
+          }
+        },
+        "privacy": {
+          "question": "How Does iBrowe News Protect Your Privacy?",
+          "answer": {
+            "intro": "iBrowe News is built with a privacy-first mindset just like the iBrowe browser itself.",
+            "dataProtection": {
+              "title": "🚫 Your data is never sent out:",
+              "items": [
+                "– The sources you follow",
+                "– The articles you read or click",
+                "– Your browsing history"
+              ],
+              "conclusion": "All of it stays on your device always."
+            },
+            "howItWorks": {
+              "title": "📥 How It Works:",
+              "description": "The browser downloads compressed news bundles, containing articles from many sources the same for all users.",
+              "privacy": {
+                "title": "This means iBrowe never knows:",
+                "items": [
+                  "– Which sources you follow",
+                  "– Which articles you read"
+                ],
+                "reason": "Because all personalization and processing happens locally on your device."
+              }
+            },
+            "ranking": {
+              "title": "🧠 Private Article Ranking:",
+              "description": "When you open iBrowe News:",
+              "features": [
+                "– Articles are ranked locally using on-device algorithms",
+                "– Rankings are based on factors like:",
+                "• Your local browsing interests",
+                "• Article freshness and popularity"
+              ],
+              "benefits": {
+                "title": "There is:",
+                "items": [
+                  "– No profile built about you",
+                  "– No data sold",
+                  "– No leak risk because no data is collected to begin with"
+                ]
+              }
+            },
+            "imageLoading": {
+              "title": "🌐 Private Image Loading:",
+              "description": "iBrowe News uses a Private CDN (pCDN) to deliver news images",
+              "features": [
+                "– Hides your IP address from image hosts",
+                "– Uses data padding & request obfuscation",
+                "to prevent observers from knowing which article was requested"
+              ]
+            },
+            "conclusion": "🧬 All learning and customization happens on your device no one knows what you read, except you."
+          }
+        }
+      }
+    }
   }
 }
