@@ -1,4 +1,3 @@
-import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Navigation from '@/components/Navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
@@ -30,7 +29,6 @@ export default function LocaleLayout({
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navigation />
-          <LanguageSwitcher />
           {children}
           <Footer />
         </NextIntlClientProvider>

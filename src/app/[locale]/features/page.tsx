@@ -11,7 +11,7 @@ export default function FeaturesPage() {
     return (
         <main className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-b from-blue-50 to-white p-20" style={{
+            <section className="relative bg-gradient-to-b from-blue-50 to-white p-40" style={{
                 backgroundColor: '#535353',
                 backgroundImage: "url('/images/bg_shade.svg')",
                 backgroundPosition: '0 0',

@@ -15,7 +15,7 @@ export default function NewsHero() {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
         }}>
-            <div className="container mx-auto px-4 space-y-8 text-white">
+            <div className="container pt-12 mx-auto px-4 space-y-8 text-white">
                 <div className="title-wrap-left">
                     <div className="hero-content flex flex-col md:flex-row items-center gap-8">
                         <div className="hero-block-2 flex-1">
