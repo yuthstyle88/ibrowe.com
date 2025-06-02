@@ -7,6 +7,11 @@
 /* Import ibrowe6.webflow.css */
 @import url('/css/ibrowe6.webflow.css');
 
+/* Import Tailwind CSS */
+.title-h1{
+  @apply text-white text-center text-[38px] leading-[44px] mt-[20px] font-bold mb-[10px]
+}
+
 /* Global styles */
 :root {
   --primary-color: #88b5e6;
