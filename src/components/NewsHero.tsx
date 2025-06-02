@@ -1,14 +1,14 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import DownloadButton from './DownloadButton';
 
 export default function NewsHero() {
     const t = useTranslations('News.hero');
 
     return (
-        <div className="section-content" style={{
+        <div className="section-content pt-20" style={{
             backgroundColor: '#535353',
             backgroundImage: "url('/images/bg_shade.svg')",
             backgroundPosition: '0 0',
@@ -40,31 +40,8 @@ export default function NewsHero() {
                                         {t('highlights.tagline')}
                                     </strong>
                                 </p>
-                                <div className="button-wrap-hero flex flex-wrap gap-4">
-                                    <Link
-                                        href="https://apps.apple.com/us/app/ibrowe/id6741485553"
-                                        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-                                    >
-                                        {t('download.ios')}
-                                    </Link>
-                                    <Link
-                                        href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg"
-                                        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-                                    >
-                                        {t('download.macos')}
-                                    </Link>
-                                    <Link
-                                        href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser"
-                                        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-                                    >
-                                        {t('download.android')}
-                                    </Link>
-                                    <Link
-                                        href="#"
-                                        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-                                    >
-                                        {t('download.windows')}
-                                    </Link>
+                                <div className="flex justify-center lg:justify-start">
+                                    <DownloadButton />
                                 </div>
                             </div>
                         </div>

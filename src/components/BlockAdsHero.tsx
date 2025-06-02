@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import DownloadButton from './DownloadButton';
 
 export default function BlockAdsHero() {
   const t = useTranslations('BlockAds.hero')
@@ -20,31 +21,8 @@ export default function BlockAdsHero() {
                   {t('description')}
                 </strong>
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Link
-                  href="https://apps.apple.com/us/app/ibrowe/id6741485553"
-                  className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
-                >
-                  {t('downloadButtons.ios')}
-                </Link>
-                <Link
-                  href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg"
-                  className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
-                >
-                  {t('downloadButtons.macos')}
-                </Link>
-                <Link
-                  href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser"
-                  className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
-                >
-                  {t('downloadButtons.android')}
-                </Link>
-                <Link
-                  href="#"
-                  className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
-                >
-                  {t('downloadButtons.windows')}
-                </Link>
+              <div className="flex justify-center lg:justify-start">
+                <DownloadButton />
               </div>
             </div>
           </div>
