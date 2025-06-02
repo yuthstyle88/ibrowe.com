@@ -1,7 +1,11 @@
+"use client";
+
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 export default function BlockAdsHero() {
+  const t = useTranslations('BlockAds.hero')
   return (
     <div className="header pt-12 bg-[#d3d3d3] text-[#1a3066]">
       <div className="container mx-auto px-4">
@@ -9,16 +13,11 @@ export default function BlockAdsHero() {
           <div className="hero-block md:w-1/2">
             <div className="content-block-hero">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                iBrowe solves the problem of <br />annoying ads
+                {t('title')}
               </h1>
               <p className="text-lg mb-8">
                 <strong>
-                  Less noise. More speed. Total control.
-                  <br />
-                  Powered by smart ad-blocking technology, iBrowe filters unwanted ads in real time.
-                  That means faster load times, lower data usage, and stronger protection all without lifting a finger.
-                  <br />
-                  The web, the way it should be.
+                  {t('description')}
                 </strong>
               </p>
               <div className="flex flex-wrap gap-4">
@@ -26,25 +25,25 @@ export default function BlockAdsHero() {
                   href="https://apps.apple.com/us/app/ibrowe/id6741485553"
                   className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
                 >
-                  iOS
+                  {t('downloadButtons.ios')}
                 </Link>
                 <Link
                   href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg"
                   className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
                 >
-                  MacOS
+                  {t('downloadButtons.macos')}
                 </Link>
                 <Link
                   href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser"
                   className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
                 >
-                  Android
+                  {t('downloadButtons.android')}
                 </Link>
                 <Link
                   href="#"
                   className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
                 >
-                  Windows
+                  {t('downloadButtons.windows')}
                 </Link>
               </div>
             </div>

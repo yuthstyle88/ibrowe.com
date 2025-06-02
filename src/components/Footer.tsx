@@ -72,7 +72,7 @@ export default function Footer() {
                 <Link href={`/${currentLocale}/features`}className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.feature')}</Link>
                 <Link href={`/${currentLocale}/news`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.news')}</Link>
                 <Link href={`/${currentLocale}/wallet`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.wallet')}</Link>
-                <Link href={`/${currentLocale}/block-ad`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.blockAds')}</Link>
+                <Link href={`/${currentLocale}/block-ads`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.blockAds')}</Link>
                 <Link href={`/${currentLocale}/ibrowe-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.privacyPolicy')}</Link>
                 <Link href={`/${currentLocale}/terms-of-use`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.termsOfUse')}</Link>
               </div>

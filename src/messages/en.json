@@ -1178,5 +1178,40 @@
         }
       }
     }
+  },
+  "BlockAds": {
+    "hero": {
+      "title": "iBrowe solves the problem of annoying ads",
+      "description": "Less noise. More speed. Total control.\nPowered by smart ad-blocking technology, iBrowe filters unwanted ads in real time.\nThat means faster load times, lower data usage, and stronger protection all without lifting a finger.\nThe web, the way it should be.",
+      "downloadButtons": {
+        "ios": "iOS",
+        "macos": "MacOS",
+        "android": "Android",
+        "windows": "Windows"
+      }
+    },
+    "features": {
+      "title": "Are ads the most annoying thing online?",
+      "description": "Say goodbye to intrusive pop-ups, slow-loading pages, and cluttered content.\niBrowe uses smart, real-time ad blocking to deliver a faster, safer, and distraction-free internet experience.\nEasy to install. Effortless to use.\nNo tech skills required.",
+      "downloadButton": "DOWNLOAD iBrowe",
+      "items": {
+        "general": {
+          "title": "iBrowe Block ADS",
+          "description": "For those tired of intrusive ads.\nPop-ups, banners, autoplay videos, they clutter your screen and slow everything down. iBrowe blocks them all, instantly.\nJust install it and enjoy faster, cleaner browsing with zero distractions.\n✅ No complicated setup\n✅ Easy to use\n✅ Safer, smoother, ad-free experience\nNo more annoying ads. Just iBrowe."
+        },
+        "youtube": {
+          "title": "iBrowe Block ADS Youtube",
+          "description": "Tired of mid-video ads on YouTube?\niBrowe Block ADS for YouTube gives you seamless, ad-free viewing automatically.\n✅ Auto Ad Blocking: Enjoy your favorite videos without interruptions\n✅ Fast & Easy Setup: Installs in seconds, works with all major browsers\n✅ Time-Saving: Smooth, non-stop streaming for a better experience\n✅ 100% Private: No tracking. No data collection. Just peace of mind.\nDownload iBrowe Block ADS for YouTube today and take back your time."
+        },
+        "tiktok": {
+          "title": "iBrowe Block ADS Tiktok",
+          "description": "Tired of TikTok ads interrupting your flow?\niBrowe Block ADS for TikTok transforms your experience instantly.\n✅ Instant Ad Blocking: Watch non-stop videos with zero interruptions\n✅ One-Click Setup: Works with any browser, ready in seconds\n✅ Save Time: Stay in the moment with seamless, ad-free content\n✅ Private & Secure: No tracking. No data collection. Just peace of mind\nDownload iBrowe Block ADS for TikTok today and scroll freely."
+        },
+        "web": {
+          "title": "iBrowe Block ADS on WEB",
+          "description": "Sick of pop-ups and banner ads while browsing?\niBrowe Block ADS on Web is your ultimate solution for a cleaner, faster, distraction-free internet.\n✅ Blocks All Ads: Instantly removes pop-ups, banners, and autoplay videos\n✅ Faster Browsing: Speeds up page loads for a smoother, seamless experience\n✅ Quick Setup: Works across all platforms — get started in seconds\n✅ Maximum Privacy: No tracking. No data collection. Just peace of mind\nDownload iBrowe Block ADS on Web today and reclaim your internet."
+        }
+      }
+    }
   }
 }

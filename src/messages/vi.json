@@ -1071,5 +1071,40 @@
         }
       }
     }
+  },
+  "BlockAds": {
+    "hero": {
+      "title": "iBrowe giải quyết vấn đề quảng cáo phiền phức",
+      "description": "Ít phiền nhiễu. Tốc độ nhanh hơn. Kiểm soát hoàn toàn.\nĐược hỗ trợ bởi công nghệ chặn quảng cáo thông minh, iBrowe lọc quảng cáo không mong muốn trong thời gian thực.\nĐiều đó có nghĩa là thời gian tải trang nhanh hơn, sử dụng dữ liệu ít hơn và bảo vệ mạnh mẽ hơn mà không cần phải làm gì.\nWeb, đúng như cách nó nên có.",
+      "downloadButtons": {
+        "ios": "iOS",
+        "macos": "MacOS",
+        "android": "Android",
+        "windows": "Windows"
+      }
+    },
+    "features": {
+      "title": "Quảng cáo có phải là điều phiền phức nhất trên internet?",
+      "description": "Tạm biệt các cửa sổ bật lên phiền phức, trang tải chậm và nội dung lộn xộn.\niBrowe sử dụng công nghệ chặn quảng cáo thông minh theo thời gian thực để mang lại trải nghiệm internet nhanh hơn, an toàn hơn và không bị phân tâm.\nDễ cài đặt. Dễ sử dụng.\nKhông cần kỹ năng công nghệ.",
+      "downloadButton": "TẢI XUỐNG iBrowe",
+      "items": {
+        "general": {
+          "title": "iBrowe Chặn Quảng Cáo",
+          "description": "Dành cho những ai mệt mỏi với quảng cáo phiền phức.\nCửa sổ bật lên, biểu ngữ, video tự động phát, chúng làm lộn xộn màn hình của bạn và làm chậm mọi thứ. iBrowe chặn tất cả, ngay lập tức.\nChỉ cần cài đặt và tận hưởng trải nghiệm duyệt web nhanh hơn, sạch hơn mà không bị phân tâm.\n✅ Không cần thiết lập phức tạp\n✅ Dễ sử dụng\n✅ Trải nghiệm an toàn, mượt mà, không quảng cáo\nKhông còn quảng cáo phiền phức. Chỉ có iBrowe."
+        },
+        "youtube": {
+          "title": "iBrowe Chặn Quảng Cáo YouTube",
+          "description": "Mệt mỏi với quảng cáo giữa video trên YouTube?\niBrowe Chặn Quảng Cáo cho YouTube mang lại trải nghiệm xem không quảng cáo một cách tự động.\n✅ Chặn Quảng Cáo Tự Động: Tận hưởng các video yêu thích mà không bị gián đoạn\n✅ Cài Đặt Nhanh & Dễ: Cài đặt trong vài giây, hoạt động với tất cả các trình duyệt lớn\n✅ Tiết Kiệm Thời Gian: Phát trực tuyến mượt mà, không gián đoạn để có trải nghiệm tốt hơn\n✅ Hoàn Toàn Riêng Tư: Không theo dõi. Không thu thập dữ liệu. Chỉ là sự yên tâm.\nTải xuống iBrowe Chặn Quảng Cáo cho YouTube ngay hôm nay và lấy lại thời gian của bạn."
+        },
+        "tiktok": {
+          "title": "iBrowe Chặn Quảng Cáo TikTok",
+          "description": "Mệt mỏi với quảng cáo TikTok làm gián đoạn dòng chảy của bạn?\niBrowe Chặn Quảng Cáo cho TikTok biến đổi trải nghiệm của bạn ngay lập tức.\n✅ Chặn Quảng Cáo Ngay Lập Tức: Xem video liên tục mà không bị gián đoạn\n✅ Cài Đặt Một Lần Nhấn: Hoạt động với mọi trình duyệt, sẵn sàng trong vài giây\n✅ Tiết Kiệm Thời Gian: Đắm chìm trong khoảnh khắc với nội dung không quảng cáo\n✅ Riêng Tư & An Toàn: Không theo dõi. Không thu thập dữ liệu. Chỉ là sự yên tâm.\nTải xuống iBrowe Chặn Quảng Cáo cho TikTok ngay hôm nay và cuộn thoải mái."
+        },
+        "web": {
+          "title": "iBrowe Chặn Quảng Cáo trên Web",
+          "description": "Chán ngán với cửa sổ bật lên và quảng cáo biểu ngữ khi duyệt web?\niBrowe Chặn Quảng Cáo trên Web là giải pháp tối ưu cho một internet sạch sẽ, nhanh chóng và không bị phân tâm.\n✅ Chặn Tất Cả Quảng Cáo: Loại bỏ ngay lập tức cửa sổ bật lên, biểu ngữ và video tự động phát\n✅ Duyệt Web Nhanh Hơn: Tăng tốc độ tải trang để có trải nghiệm mượt mà, liền mạch\n✅ Cài Đặt Nhanh: Hoạt động trên mọi nền tảng — bắt đầu trong vài giây\n✅ Tối Đa Sự Riêng Tư: Không theo dõi. Không thu thập dữ liệu. Chỉ là sự yên tâm.\nTải xuống iBrowe Chặn Quảng Cáo trên Web ngay hôm nay và lấy lại internet của bạn."
+        }
+      }
+    }
   }
 }
