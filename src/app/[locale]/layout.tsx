@@ -5,7 +5,7 @@ import { routing } from '@/i18n/routing';
 import '../globals.css';
 import Footer from '@/components/Footer';
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params
 }: {
@@ -16,7 +16,7 @@ export default function LocaleLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
-  const messages = require(`../../messages/${locale}.json`);
+  const messages = (await import(`../../messages/${locale}.json`)).default;
   return (
     <html lang={locale}>
       <head>
