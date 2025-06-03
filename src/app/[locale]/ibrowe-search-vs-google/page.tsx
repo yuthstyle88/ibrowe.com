@@ -1,124 +1,93 @@
-"use client";
-
-import { useTranslations, useLocale } from 'next-intl';
-import Image from 'next/image';
-import Link from 'next/link';
+import ComparisonPage from "@/components/ComparisonLayout";
+import { HeroCompareSectionData } from "@/components/HeroCompareSection";
+import IbroweVsChromeFaq from "@/components/IbroweVsChromeFaq";
 
 export default function GoogleComparisonPage() {
-  const t = useTranslations('GoogleComparison');
-  const locale = useLocale();
-
-  const getLocalizedPath = (path: string) => {
-    return `/${locale}${path}`;
+  const heroData: HeroCompareSectionData = {
+    heading: "Brave Search vs Google",
+    imageSrc: "/images/3d-icon-design-ibrowe-search-vs-google.png",
+    paragraphs: [
+      "Google เป็นเครื่องมือค้นหาที่ได้รับความนิยมมากที่สุดในโลก แต่การละเมิดความเป็นส่วนตัวและคุณภาพของผลการค้นหาที่ลดลงเริ่มทำให้ผู้ใช้หันไปหาทางเลือกอื่น",
+      "เมื่อพูดถึงความโปร่งใสของผลการค้นหา รวมถึงความเป็นส่วนตัวและความปลอดภัยของตัวเครื่องมือค้นหาเอง Google ไม่สามารถเทียบได้กับ Brave Search แล้วอันไหนเหมาะกับคุณล่ะ?",
+      "มาดูการเปรียบเทียบกันเลย",
+    ],
   };
 
+  const sections = [
+    {
+      title: "Brave Search มีความเป็นส่วนตัวมากกว่า Google หรือไม่?",
+      description:
+        "Google เป็นหนึ่งในเครื่องมือค้นหาแรก ๆ ที่จัดทำดัชนีเว็บไซต์บนอินเทอร์เน็ต พวกเขายังช่วยบุกเบิกการวิเคราะห์ลิงก์และวิธีการจัดอันดับและเรียงลำดับผลการค้นหาใหม่ ซึ่งช่วยสร้างอัลกอริทึมการค้นหาที่เราใช้ในปัจจุบัน แต่ตอนนี้ Google กลายเป็นแพลตฟอร์มโฆษณาไม่ต่างจากเครื่องมือค้นหา รายได้มหาศาลนับพันล้านของพวกเขาส่วนใหญ่มาจากการขายโฆษณา เพื่อขับเคลื่อนโฆษณาเหล่านั้น Google รวบรวมข้อมูลเกี่ยวกับคุณให้ได้มากที่สุดโดยใช้วิธีการติดตามที่ละเมิดความเป็นส่วนตัวและสร้าง “โปรไฟล์” ของคุณเพื่อกำหนดเป้าหมายโฆษณาได้ดียิ่งขึ้น ยิ่ง Google รู้จักคุณมากเท่าไหร่ พวกเขาก็ยิ่งทำเงินได้มากขึ้นเท่านั้น",
+      summary:
+        "ในทางกลับกัน Brave Search ถูกสร้างขึ้นเพื่อให้ผลการค้นหาคุณภาพสูงโดยไม่มีการสร้างโปรไฟล์ของคุณ:",
+      footerNote:
+        "Google ถูกสร้างมาเพื่อการติดตาม เครื่องมือค้นหาของมันอนุญาตให้โฆษณาน่าขนลุก ตัวติดตาม คุกกี้ และอื่น ๆ ติดตามคุณไปทั่วทั้งเว็บ บันทึกทุกสิ่งที่คุณทำ และเชื่อมโยงกิจกรรมเหล่านั้นเข้ากับตัวคุณโดยตรง โดยที่คุณไม่รู้ตัวหรือยินยอม ในขณะเดียวกัน iBrowe มีความเป็นส่วนตัวเป็นค่าเริ่มต้น",
+      comparisonPoints: [
+        {
+          title: "การค้นหาแบบส่วนตัวและไม่ระบุตัวตน",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: "ไม่เก็บข้อมูลส่วนบุคคล",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: "ไม่สร้างโปรไฟล์ผู้ใช้",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: "ได้รับการสนับสนุนจากชุมชนแบบส่วนตัว",
+          ibrowe: true,
+          competitor: false,
+        },
+      ],
+    },
+    {
+      title: "ผลการค้นหาของ Brave Search มีคุณภาพดีกว่า Google หรือไม่?",
+      description:
+        "ทั้ง Brave Search และ Google ใช้ดัชนีเว็บของตัวเองที่พัฒนาขึ้นอย่างอิสระเพื่อให้ผลการค้นหา (หมายความว่าไม่มีฝ่ายใดดึงผลลัพธ์มาจากเครื่องมือค้นหาอื่น) แต่ Google “ปรับแต่งผลการค้นหาให้เป็นส่วนตัว” ตามข้อมูลทั้งหมดที่พวกเขารวบรวมเกี่ยวกับคุณ ในขณะที่ iBrowe Search ใช้แนวทางที่แตกต่างออกไป Brave Search ไม่ปรับแต่งผลการค้นหาให้เป็นส่วนตัว ดังนั้นคำค้นหาเดียวกันจะให้ผลลัพธ์เหมือนกันไม่ว่าใครจะพิมพ์ลงในแถบค้นหา iBrowe Search ยังสร้างดัชนีของมันผ่าน Web Discovery Project ซึ่งใช้ข้อมูลการท่องเว็บแบบไม่ระบุตัวตนจากผู้ใช้จริงเพื่อเข้าใจว่าหน้าเว็บใดที่ผู้คนพบว่ามีประโยชน์มากที่สุด หมายความว่าได้ผลลัพธ์ที่มีคุณภาพสูงกว่าและมีขยะน้อยกว่า Google คุณยังสามารถปรับแต่งประสบการณ์การใช้ iBrowe Search ได้ด้วย Goggles ซึ่งช่วยให้คุณเปลี่ยนลำดับการจัดอันดับผลการค้นหาตามความชอบของคุณเอง (ซึ่ง iBrowe จะไม่ทำแทนคุณ)",
+      summary: "ลองดูการเปรียบเทียบตามคุณภาพผลลัพธ์และความโปร่งใส:",
+      footerNote:
+        "Google ถูกสร้างมาเพื่อการติดตาม เครื่องมือค้นหาของมันอนุญาตให้โฆษณาน่าขนลุก ตัวติดตาม คุกกี้ และอื่น ๆ ติดตามคุณไปทั่วทั้งเว็บ บันทึกทุกสิ่งที่คุณทำ และเชื่อมโยงกิจกรรมเหล่านั้นเข้ากับตัวคุณโดยตรง โดยที่คุณไม่รู้ตัวหรือยินยอม ‍ ในขณะเดียวกัน Brave Search มีความเป็นส่วนตัวเป็นค่าเริ่มต้น",
+      comparisonPoints: [
+        {
+          title: "ขับเคลื่อนโดยอัลกอริธึมการค้นหาอิสระ",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title:
+            "การจัดอันดับและตัวชี้ขั้นเคลื่อนโดยข้อมูลที่ไม่ระบุตัวตนและสมัครใจจากผู้ใช้จริง",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title:
+            "มีตัวเลือกการจัดอันดับที่ปรับแต่งได้และขั้นเคลื่อนโดยชุมชน (Goggles)",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title:
+            "ไม่มีการปรับแต่งผลลัพธ์จากการค้นหาแบบส่วนตัวที่ซ่อนอยู่เบื้องหลัง",
+          ibrowe: true,
+          competitor: false,
+        },
+      ],
+    },
+  ];
+
   return (
-    <main className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section
-        className="py-16"
-        style={{
-          backgroundColor: '#535353',
-          backgroundImage: "url('/images/bg_shade.svg')",
-          backgroundPosition: '0 0',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-        }}
-      >
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              {t('title')}
-            </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              {t('subtitle')}
-            </p>
-            <Link
-              href={getLocalizedPath('/download')}
-              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors mb-12"
-            >
-              {t('downloadButton')}
-            </Link>
-            <div>
-              <Image
-                src="/images/3d-icon-design-ibrowe-search-vs-google-p-800.png"
-                alt="iBrowe Search vs Google"
-                width={800}
-                height={400}
-                className="w-full max-w-2xl mx-auto"
-                priority
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Privacy Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              {t('privacyTitle')}
-            </h2>
-            <p className="text-lg text-gray-600 mb-8">
-              {t('privacyDescription')}
-            </p>
-            <div className="bg-gray-50 p-6 rounded-lg mb-8">
-              <p className="text-lg text-gray-700">
-                {t('privacyConclusion')}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              {t('featuresTitle')}
-            </h2>
-            <p className="text-lg text-gray-600 mb-8">
-              {t('featuresDescription')}
-            </p>
-            <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-              {t('featuresComparison')}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* iBrowe Features */}
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h4 className="text-xl font-semibold text-gray-900 mb-4">iBrowe Search</h4>
-                <ul className="space-y-4">
-                  {Object.entries(t.raw('features.ibrowe')).map(([key, value]) => (
-                    <li key={key} className="flex items-start">
-                      <svg className="h-6 w-6 text-green-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span className="text-gray-600">{value as string}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Google Features */}
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h4 className="text-xl font-semibold text-gray-900 mb-4">Google</h4>
-                <ul className="space-y-4">
-                  {Object.entries(t.raw('features.google')).map(([key, value]) => (
-                    <li key={key} className="flex items-start">
-                      <svg className="h-6 w-6 text-red-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                      <span className="text-gray-600">{value as string}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    <ComparisonPage
+      heroData={heroData}
+      sections={sections}
+      competitorName="Google"
+      ibroweLogo="/images/Asset-37.png"
+      competitorLogo="/images/search-google.png"
+      faqComponent={<IbroweVsChromeFaq />}
+    />
   );
-} 
+}

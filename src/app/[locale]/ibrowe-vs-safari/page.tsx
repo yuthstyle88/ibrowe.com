@@ -1,206 +1,106 @@
-"use client";
-
-import { useTranslations } from 'next-intl';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useLocalizedPath } from '@/utils/path';
+import ComparisonPage from "@/components/ComparisonLayout";
+import { HeroCompareSectionData } from "@/components/HeroCompareSection";
+import IbroweVsChromeFaq from "@/components/IbroweVsChromeFaq";
 
 export default function SafariComparison() {
-  const t = useTranslations('SafariComparison');
-  const getLocalizedPath = useLocalizedPath();
+  const heroData: HeroCompareSectionData = {
+    heading: "iBrowe vs Safari",
+    imageSrc: "/images/3d-icon-design-ibrowe-search-vs-safari.png",
+    paragraphs: [
+      "Safari is the second most-used browser in the world  largely thanks to being the default on Apple devices. It’s generally considered more private than Chrome and is well-optimized for iOS and macOS.But even with Apple’s best efforts, Safari still doesn’t match the speed and privacy of a browser purpose-built for both: iBrowe.iBrowe is faster and more private even on macOS and iOS. And unlike Safari, it works seamlessly across all devices and operating systems.",
+      "‍So which browser is right for you?",
+    ],
+  };
+
+  const sections = [
+    {
+      title: "Is iBrowe more private than Safari?",
+      description:
+        "Apple is one of the most valuable companies in the world but unlike other Big Tech giants like Google or Facebook, Apple doesn’t rely heavily on advertising revenue. Its business is driven by hardware and software, not your personal data. That gives Apple more incentive to protect you and less to track you. That said, Safari still doesn’t go as far as it could when it comes to privacy and online protection. ‍iBrowe goes further.",
+      summary:
+        "It blocks nearly every attempt to track you by default.",
+      footerNote:
+        "As it stands, Safari still allows ads and trackers to appear on the websites you visit. It also permits certain forms of digital fingerprinting and those annoying cookie consent pop-ups? Safari shows them too. iBrowe blocks all of that by default. With Safari, cross-site tracking still happens. Your browsing and search history can be logged and tied back to you often without your awareness or consent. iBrowe is private by design. No hidden settings. No surprises. Just privacy built in.",
+      comparisonPoints: [
+        {
+          title: "Block ads from third parties",
+          ibrowe: true,
+          competitor: false,
+        },
+        { title: "Block cross-site trackers", ibrowe: true, competitor: false },
+        {
+          title: "Block cookies from third parties",
+          ibrowe: true,
+          competitor: true,
+        },
+        {
+          title: "Prevent digital fingerprinting",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: "Block cookie consent banners",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: "Enable global privacy controls",
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: "Auto-upgrade to HTTPS",
+          ibrowe: true,
+          competitor: "partial" as const,
+        },
+        { title: "Isolate network states", ibrowe: true, competitor: false },
+        { title: "Filter search parameters", ibrowe: true, competitor: false },
+        { title: "Block bounce tracking", ibrowe: true, competitor:"partial" as const, },
+      ],
+    },
+    {
+      title: "Does iBrowe have more features than Safari?",
+      description:
+        "iBrowe is built on the open-source Chromium engine the same one that powers Chrome, Edge, Opera, and Vivaldi. Safari, on the other hand, uses Apple’s own open-source WebKit engine.Both browsers offer essential features like bookmarks and tabs. But when it comes to extensions, Safari relies on the Apple App Store, with a limited selection. iBrowe supports a much broader range via the Chrome Web Store. And thanks to iBrowe’s built-in features, you might not even need extensions at all.",
+      summary: "See how they stack up when it comes to search quality and transparency :",
+      footerNote:
+        "Some smaller features like translation and tab groups are available in both browsers. But to match iBrowe’s full functionality, Safari requires multiple extensions. Unfortunately, that can introduce security risks and slow down your browsing experience. When it comes to overall capability, iBrowe outperforms Safari by a wide margin.",
+      comparisonPoints: [
+        { title: "Built-in ad blocker", ibrowe: true, competitor: false },
+        { title: "YouTube ad blocker", ibrowe: true, competitor: false },
+        { title: "AI Assistant", ibrowe: true, competitor: false },
+        { title: "Vertical tabs", ibrowe: true, competitor: false },
+        { title: "Tab groups", ibrowe: true, competitor: true },
+        { title: "Offline media playlists", ibrowe: true, competitor: false },
+        { title: "News and RSS reader", ibrowe: true, competitor: true },
+        { title: "Reading mode", ibrowe: true, competitor: true },
+        { title: "Night mode", ibrowe: true, competitor: true },
+        { title: "Translation", ibrowe: true, competitor: true },
+        { title: "Cross-device profile sync", ibrowe: true, competitor: true },
+        { title: "Private search by default", ibrowe: true, competitor: false },
+        { title: "Built-in VPN", ibrowe: true, competitor: "partial" as const, },
+        { title: "Private video calling", ibrowe: true, competitor: false },
+        { title: "Tor browsing support", ibrowe: true, competitor: false },
+        { title: "WebTorrent integration", ibrowe: true, competitor: false },
+        { title: "Web3", ibrowe: true, competitor: false },
+        {
+          title: "Secure built-in crypto wallet",
+          ibrowe: true,
+          competitor: false,
+        },
+        { title: "Crypto rewards program", ibrowe: true, competitor: false },
+      ],
+    },
+  ];
 
   return (
-    <main className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-b from-blue-50 to-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              {t('title')}
-            </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              {t('subtitle')}
-            </p>
-            <div className="flex justify-center">
-              <Link
-                href={getLocalizedPath('/download')}
-                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors mb-12"
-              >
-                {t('downloadButton')}
-              </Link>
-            </div>
-            <div className="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-300">
-              <Image
-                src="/images/ibrowe-safari-2-p-800.jpg"
-                alt="iBrowe vs Safari"
-                width={800}
-                height={450}
-                className="w-full h-auto object-cover"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Privacy Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              {t('privacyTitle')}
-            </h2>
-            <p className="text-lg text-gray-600 mb-8">
-              {t('privacyDescription')}
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* iBrowe Features */}
-              <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-                <div className="flex flex-col items-center mb-6">
-                  <Image
-                    src="/images/product_logo_256.png"
-                    alt="iBrowe"
-                    width={80}
-                    height={80}
-                    className="mb-4"
-                  />
-                  <h3 className="text-xl font-bold text-gray-900">iBrowe</h3>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.thirdPartyAds')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.crossSiteTracking')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.thirdPartyCookies')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.fingerprinting')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.cookieBanners')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.globalPrivacy')}</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Safari Features */}
-              <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-                <div className="flex flex-col items-center mb-6">
-                  <Image
-                    src="/images/safari.png"
-                    alt="Safari"
-                    width={80}
-                    height={80}
-                    className="mb-4"
-                  />
-                  <h3 className="text-xl font-bold text-gray-900">Safari</h3>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.safari.thirdPartyAds')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.safari.crossSiteTracking')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.safari.thirdPartyCookies')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.safari.fingerprinting')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.safari.cookieBanners')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-red-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.safari.globalPrivacy')}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p className="text-lg text-gray-600 mt-8">
-              {t('privacyConclusion')}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              {t('featuresTitle')}
-            </h2>
-            <p className="text-lg text-gray-600 mb-8">
-              {t('featuresDescription')}
-            </p>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                {t('featuresComparison')}
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="space-y-4">
-                  <h4 className="text-xl font-semibold text-gray-900 mb-4">iBrowe</h4>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.adBlocker')}</span>
-                  </div>
-                  <div className="flex items-start">
-                    <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-600">{t('features.ibrowe.youtubeAdBlocker')}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    <ComparisonPage
+      heroData={heroData}
+      sections={sections}
+      competitorName="Safari"
+      ibroweLogo="/images/Asset-37.png"
+      competitorLogo="/images/safari.png"
+      faqComponent={<IbroweVsChromeFaq />}
+    />
   );
-} 
+}

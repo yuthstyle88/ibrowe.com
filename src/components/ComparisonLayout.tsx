@@ -74,17 +74,18 @@ export default function ComparisonPage({
                 <div className="bg-[#76879d1a] self-stretch h-[1px] mt-auto mb-4" />
                 <ul className="text-left self-stretch mb-auto font-medium leading-[14px] list-none p-0 m-0">
                   {section.comparisonPoints.map((point, index) => (
-                    <li key={index}>
-                      <div
-                        style={{
-                          backgroundImage: `url("${getCheckImage(
-                            point.ibrowe
-                          )}")`,
-                        }}
-                        className="bg-[position:0_0] bg-no-repeat bg-contain self-stretch mt-4 pl-8 text-sm leading-6"
-                      >
-                        {point.title}
-                      </div>
+                    <li
+                      key={index}
+                      className="mt-4 text-sm leading-6 flex items-start gap-2"
+                    >
+                      <Image
+                        src={getCheckImage(point.ibrowe)}
+                        alt="check"
+                        width={20}
+                        height={20}
+                        className="mt-1"
+                      />
+                      <span>{point.title}</span>
                     </li>
                   ))}
                 </ul>
@@ -105,17 +106,18 @@ export default function ComparisonPage({
                 <div className="bg-[#76879d1a] self-stretch h-[1px] mt-auto mb-4" />
                 <ul className="text-left self-stretch mb-auto font-medium leading-[14px] list-none">
                   {section.comparisonPoints.map((point, index) => (
-                    <li key={index}>
-                      <div
-                        style={{
-                          backgroundImage: `url("${getCheckImage(
-                            point.competitor
-                          )}")`,
-                        }}
-                        className="bg-[position:0_0] bg-no-repeat bg-contain self-stretch mt-4 pl-8 text-sm leading-6"
-                      >
-                        {point.title}
-                      </div>
+                    <li
+                      key={index}
+                      className="mt-4 text-sm leading-6 flex items-start gap-2"
+                    >
+                      <Image
+                        src={getCheckImage(point.competitor)}
+                        alt="check"
+                        width={20}
+                        height={20}
+                        className="mt-1"
+                      />
+                      <span>{point.title}</span>
                     </li>
                   ))}
                 </ul>
