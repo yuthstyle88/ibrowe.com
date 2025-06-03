@@ -117,7 +117,7 @@ export default function Navigation() {
 
 
             <Link
-              href="https://marketing.ibrowe.com"
+              href="https://market.ibrowe.com"
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/business') ? 'text-primary' : ''}`}
             >
               {t('business')}
