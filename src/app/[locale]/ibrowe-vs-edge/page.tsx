@@ -1,75 +1,96 @@
+'use client';
+
 import ComparisonPage from "@/components/ComparisonLayout";
 import { HeroCompareSectionData } from "@/components/HeroCompareSection";
 import IbroweVsChromeFaq from "@/components/IbroweVsChromeFaq";
+import { useTranslations } from "next-intl";
 
 export default function EdgeComparison() {
+  const t = useTranslations("EdgeComparison");
+
   const heroData: HeroCompareSectionData = {
-    heading: "iBrowe vs Edge",
+    heading: t("title"),
     imageSrc: "/images/3d-icon-design-ibrowe-browser--logo-head-dog-vs-mi.png",
     paragraphs: [
-      "Microsoft Edge is the successor to Internet Explorer and is now the third most-used browser in the world  and the second on desktop. But much of that usage comes from it being the default browser on Windows devices.",
-      "‍Very few people actively choose Edge on their own. To be fair, Edge includes some nice features and is well-optimized for the Windows operating system.",
-      "‍But when it comes to privacy, performance, and essential features, it still falls short.",
-      "‍‍Let’s see how it compares.",
+      t("subtitle"),
     ],
   };
 
   const sections = [
     {
-      title: "Is iBrowe more private than Edge?",
-      description:
-        "Microsoft is a classic example of Big Tech and one of the most valuable companies in the world. ‍While much of its revenue comes from selling PCs and software like Windows, advertising is also a massive business and most of those ads appear in Edge and Bing. Edge tracks your activity across the web, collecting as much data as possible. Microsoft monetizes that data turning your browsing into highly targeted ads. For Microsoft, Edge is about advertising and profit.iBrowe takes a different path.",
-      summary: "It blocks nearly all attempts to track you by default.",
-      footerNote:
-        "Put simply, Edge was built for tracking. It allows creepy ads, trackers, cookies, and more to follow you across the web recording everything you do and linking it back to you, often without your knowledge or consent. ‍iBrowe is private by default. No tracking. No profiling. No surprises.",
+      title: t("privacyTitle"),
+      description: t("privacyDescription"),
+      summary: t("privacyConclusion"),
+      footerNote: t("privacyConclusion"),
       comparisonPoints: [
         {
-          title: "Block ads from third parties",
+          title: t("features.ibrowe.thirdPartyAds"),
           ibrowe: true,
           competitor: false,
         },
-        { title: "Block cross-site trackers", ibrowe: true, competitor: false },
-        {
-          title: "Block cookies from third parties",
-          ibrowe: true,
-          competitor: false,
+        { 
+          title: t("features.ibrowe.crossSiteTracking"), 
+          ibrowe: true, 
+          competitor: false 
         },
         {
-          title: "Prevent digital fingerprinting",
-          ibrowe: true,
-          competitor: false,
-        },
-        {
-          title: "Block cookie consent banners",
+          title: t("features.ibrowe.thirdPartyCookies"),
           ibrowe: true,
           competitor: false,
         },
         {
-          title: "Enable global privacy controls",
+          title: t("features.ibrowe.fingerprinting"),
           ibrowe: true,
           competitor: false,
         },
-        { title: "Auto-upgrade to HTTPS", ibrowe: true, competitor: true },
         {
-          title: "Isolate network states",
+          title: t("features.ibrowe.cookieBanners"),
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: t("features.ibrowe.globalPrivacy"),
+          ibrowe: true,
+          competitor: false,
+        },
+        { 
+          title: t("features.ibrowe.httpsUpgrade"), 
+          ibrowe: true, 
+          competitor: true 
+        },
+        {
+          title: t("features.ibrowe.networkState"),
           ibrowe: true,
           competitor: "partial" as const,
         },
-        { title: "Filter search parameters", ibrowe: true, competitor: false },
-        { title: "Block bounce tracking", ibrowe: true, competitor: false },
+        { 
+          title: t("features.ibrowe.searchParams"), 
+          ibrowe: true, 
+          competitor: false 
+        },
+        { 
+          title: t("features.ibrowe.bounceTracking"), 
+          ibrowe: true, 
+          competitor: false 
+        },
       ],
     },
     {
-      title: "Does iBrowe have more features than Edge?",
-      description:
-        "Both iBrowe and Edge are built on the open-source Chromium engine, the same core used by Chrome, Opera, and Vivaldi. So yes, you can expect a familiar look and feel. But beyond those similarities, iBrowe includes thoughtful enhancements and privacy-focused features that Edge simply can’t match.",
-      summary:
-        "See how they stack up when it comes to search quality and transparency :",
-      footerNote:
-        "When it comes to useful, built-in features iBrowe stands out. To get similar functionality in Edge, you’d need to install multiple extensions. Each one adds complexity, potential security risks, and can slow down your browser. With iBrowe, everything just works securely, efficiently, and right out of the box.",
+      title: t("featuresTitle"),
+      description: t("featuresDescription"),
+      summary: t("featuresComparison"),
+      footerNote: t("featuresComparison"),
       comparisonPoints: [
-        { title: "Built-in ad blocker", ibrowe: true, competitor: false },
-        { title: "YouTube ad blocker", ibrowe: true, competitor: false },
+        { 
+          title: t("features.ibrowe.adBlocker"), 
+          ibrowe: true, 
+          competitor: false 
+        },
+        { 
+          title: t("features.ibrowe.youtubeAdBlocker"), 
+          ibrowe: true, 
+          competitor: false 
+        },
         { title: "AI Assistant", ibrowe: true, competitor: true },
         { title: "Vertical tabs", ibrowe: true, competitor: true },
         { title: "Tab groups", ibrowe: true, competitor: true },

@@ -106,6 +106,27 @@
         "searchParams": "No search parameter filtering",
         "bounceTracking": "No bounce tracking protection"
       }
+    },
+    "comparisonPoints": {
+      "adBlocker": "Ad Blocker",
+      "youtubeAdBlocker": "YouTube Ad Blocker",
+      "aiAssistant": "AI Assistant",
+      "verticalTabs": "Vertical tabs",
+      "tabGroups": "Tab groups",
+      "offlineMediaPlaylists": "Offline media playlists",
+      "newsAndRssReader": "News and RSS reader",
+      "readingMode": "Reading mode",
+      "nightMode": "Night mode",
+      "translation": "Translation",
+      "crossDeviceProfileSync": "Cross-device profile sync",
+      "privateSearchByDefault": "Private search by default",
+      "builtInVpn": "Built-in VPN",
+      "privateVideoCalling": "Private video calling",
+      "torBrowsingSupport": "Tor browsing support",
+      "webTorrentIntegration": "WebTorrent integration",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Secure built-in crypto wallet",
+      "cryptoRewardsProgram": "Crypto rewards program"
     }
   },
   "GoogleComparison": {
@@ -145,6 +166,27 @@
         "searchParams": "No search parameter filtering",
         "bounceTracking": "No bounce tracking protection"
       }
+    },
+    "comparisonPoints": {
+      "adBlocker": "Ad Blocker",
+      "youtubeAdBlocker": "YouTube Ad Blocker",
+      "aiAssistant": "AI Assistant",
+      "verticalTabs": "Vertical tabs",
+      "tabGroups": "Tab groups",
+      "offlineMediaPlaylists": "Offline media playlists",
+      "newsAndRssReader": "News and RSS reader",
+      "readingMode": "Reading mode",
+      "nightMode": "Night mode",
+      "translation": "Translation",
+      "crossDeviceProfileSync": "Cross-device profile sync",
+      "privateSearchByDefault": "Private search by default",
+      "builtInVpn": "Built-in VPN",
+      "privateVideoCalling": "Private video calling",
+      "torBrowsingSupport": "Tor browsing support",
+      "webTorrentIntegration": "WebTorrent integration",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Secure built-in crypto wallet",
+      "cryptoRewardsProgram": "Crypto rewards program"
     }
   },
   "FirefoxComparison": {
@@ -184,6 +226,27 @@
         "searchParams": "No search parameter filtering",
         "bounceTracking": "No bounce tracking protection"
       }
+    },
+    "comparisonPoints": {
+      "adBlocker": "Ad Blocker",
+      "youtubeAdBlocker": "YouTube Ad Blocker",
+      "aiAssistant": "AI Assistant",
+      "verticalTabs": "Vertical tabs",
+      "tabGroups": "Tab groups",
+      "offlineMediaPlaylists": "Offline media playlists",
+      "newsAndRssReader": "News and RSS reader",
+      "readingMode": "Reading mode",
+      "nightMode": "Night mode",
+      "translation": "Translation",
+      "crossDeviceProfileSync": "Cross-device profile sync",
+      "privateSearchByDefault": "Private search by default",
+      "builtInVpn": "Built-in VPN",
+      "privateVideoCalling": "Private video calling",
+      "torBrowsingSupport": "Tor browsing support",
+      "webTorrentIntegration": "WebTorrent integration",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Secure built-in crypto wallet",
+      "cryptoRewardsProgram": "Crypto rewards program"
     }
   },
   "ComparisonSection": {
@@ -394,7 +457,8 @@
     "privacyConclusion": "While Safari offers basic privacy features, iBrowe provides comprehensive protection against tracking and data collection.",
     "featuresTitle": "Feature Comparison",
     "featuresDescription": "Compare the key features of iBrowe and Safari",
-    "featuresComparison": "Key Features",
+    "featuresComparison": "Browe is built on the open-source Chromium engine the same one that powers Chrome, Edge, Opera, and Vivaldi. Safari, on the other hand, uses Apple’s own open-source WebKit engine.Both browsers offer essential features like  bookmarks and tabs. But when it comes to extensions, Safari relies on the Apple App Store, with a limited selection. iBrowe supports a much broader range via the Chrome Web Store. ",
+    "footerNoteComparison": "Some smaller features like translation and tab groups are available in both browsers. But to match iBrowe’s full functionality, Safari requires multiple extensions. Unfortunately, that can introduce security risks and slow down your browsing experience. When it comes to overall capability, iBrowe outperforms Safari by a wide margin.",
     "features": {
       "ibrowe": {
         "thirdPartyAds": "Blocks third-party ads",
@@ -404,7 +468,11 @@
         "cookieBanners": "Auto-dismisses cookie banners",
         "globalPrivacy": "Global privacy protection",
         "adBlocker": "Built-in ad blocker",
-        "youtubeAdBlocker": "YouTube ad blocker"
+        "youtubeAdBlocker": "YouTube ad blocker",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "Isolate network states",
+        "searchParams": "Filter search parameters",
+        "bounceTracking": "Block bounce tracking"
       },
       "safari": {
         "thirdPartyAds": "Limited ad blocking",
@@ -552,29 +620,64 @@
   },
   "ChromeComparison": {
     "title": "iBrowe vs Chrome",
-    "subtitle": "See why iBrowe is better than Chrome in every aspect - privacy, speed, and security",
+    "subtitle": "Discover why iBrowe is the only browser you'll ever need. Fast, private, effortless. iBrowe was built for users who demand more. We believe browsing should be smooth, secure, and free from hidden agendas. iBrowe isn't just a browser, it's your gateway to a faster, safer, and more independent internet experience. See the difference today. Experience browsing, redefined.",
+    "downloadButton": "Download iBrowe",
+    "privacyTitle": "Does iBrowe offer better privacy than Chrome?",
+    "privacyDescription": "Google is a leading example of 'Big Tech' and one of the most valuable companies in the world. While many think of Google as a magical box, so influential it even inspired the verb 'to google' at its core, Google is an advertising company. The bulk of Google's multi-billion-dollar revenue comes from selling ads. To fuel this system, Chrome and Google Search are designed to collect as much information about you as possible. They then monetize this data by delivering highly targeted ads. The more they know about you, the more money they make.",
+    "privacyConclusion": "In contrast, iBrowe shields you from tracking almost everywhere. Chrome was built with tracking in mind. It allows intrusive ads, trackers, cookies, and more to follow you across the web recording everything you do and often linking it directly to you, without your knowledge or consent. iBrowe, on the other hand, puts your privacy first by default.",
+    "featuresTitle": "Does iBrowe offer more features than Chrome?",
+    "featuresDescription": "Both iBrowe and Chrome are built on Chromium, the open-source browser engine that also powers Edge, Opera, and Vivaldi. As a result, they share a similar look and feel, along with core features like bookmarks and tab management. Any extension that works with Chrome will work with iBrowe too, although iBrowe comes packed with so many built-in features that you might not need extensions at all.",
+    "featuresComparison": "Beyond these shared foundations, iBrowe offers a range of specially tailored features. When it comes to convenience and useful features, iBrowe is far ahead. To achieve the same level of functionality in Chrome, you'd need to install multiple extensions each one potentially slowing down performance and increasing security risks. There's no question: iBrowe wins hands down when it comes to built-in functionality.",
+    "footerNoteComparison": "When it comes to convenience and useful features, iBrowe is far ahead.\nTo achieve the same level of functionality in Chrome, you’d need to install multiple extensions — each one potentially slowing down performance and increasing security risks.\n There's no question: iBrowe wins hands down when it comes to built-in functionality.",
     "features": {
-      "privacy": {
-        "title": "Privacy",
-        "ibrowe": "iBrowe has automatic tracking protection and ad blocking, with no user data collection",
-        "chrome": "Chrome collects usage data and browsing history to serve targeted advertisements"
+      "ibrowe": {
+        "thirdPartyAds": "Blocks third-party ads",
+        "crossSiteTracking": "Blocks cross-site trackers",
+        "thirdPartyCookies": "Blocks third-party cookies",
+        "fingerprinting": "Prevents fingerprinting",
+        "cookieBanners": "Blocks cookie consent banners",
+        "globalPrivacy": "Enables global privacy controls",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "Network state partitioning",
+        "searchParams": "Filters search parameters",
+        "bounceTracking": "Blocks bounce tracking",
+        "adBlocker": "Built-in ad blocker",
+        "youtubeAdBlocker": "YouTube ad blocker"
       },
-      "speed": {
-        "title": "Speed",
-        "ibrowe": "Faster with ad and tracker blocking, loading web pages up to 3x faster",
-        "chrome": "Web page loading speed is reduced due to loading numerous ads and trackers"
-      },
-      "resources": {
-        "title": "Resource Usage",
-        "ibrowe": "Uses less RAM and CPU as it doesn't need to process ads and trackers",
-        "chrome": "Uses more system resources due to processing ads and trackers"
-      },
-      "security": {
-        "title": "Security",
-        "ibrowe": "Advanced malware and tracking protection with secure data encryption",
-        "chrome": "Basic malware protection but still allows third-party tracking"
+      "chrome": {
+        "thirdPartyAds": "Shows targeted ads",
+        "crossSiteTracking": "Tracks across websites",
+        "thirdPartyCookies": "Uses tracking cookies",
+        "fingerprinting": "Collects browser data",
+        "globalPrivacy": "Limited privacy controls",
+        "cookieBanners": "No cookie banner blocking",
+        "httpsUpgrade": "Automatic HTTPS upgrade",
+        "networkState": "No network state partitioning",
+        "searchParams": "No search parameter filtering",
+        "bounceTracking": "No bounce tracking protection"
       }
-    } 
+    },
+    "comparisonPoints": {
+      "adBlocker": "Ad Blocker",
+      "youtubeAdBlocker": "YouTube Ad Blocker",
+      "aiAssistant": "AI Assistant",
+      "verticalTabs": "Vertical tabs",
+      "tabGroups": "Tab groups",
+      "offlineMediaPlaylists": "Offline media playlists",
+      "newsAndRssReader": "News and RSS reader",
+      "readingMode": "Reading mode",
+      "nightMode": "Night mode",
+      "translation": "Translation",
+      "crossDeviceProfileSync": "Cross-device profile sync",
+      "privateSearchByDefault": "Private search by default",
+      "builtInVpn": "Built-in VPN",
+      "privateVideoCalling": "Private video calling",
+      "torBrowsingSupport": "Tor browsing support",
+      "webTorrentIntegration": "WebTorrent integration",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Secure built-in crypto wallet",
+      "cryptoRewardsProgram": "Crypto rewards program"
+    }
   },
   "DownloadCTA": {
     "title": "Start using iBrowe today",

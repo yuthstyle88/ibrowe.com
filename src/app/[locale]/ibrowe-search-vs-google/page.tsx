@@ -1,81 +1,121 @@
+'use client';
+
 import ComparisonPage from "@/components/ComparisonLayout";
 import { HeroCompareSectionData } from "@/components/HeroCompareSection";
 import IbroweVsChromeFaq from "@/components/IbroweVsChromeFaq";
+import { useTranslations } from "next-intl";
 
 export default function GoogleComparisonPage() {
+  const t = useTranslations("GoogleComparison");
+
   const heroData: HeroCompareSectionData = {
-    heading: "Brave Search vs Google",
+    heading: t("title"),
     imageSrc: "/images/3d-icon-design-ibrowe-search-vs-google.png",
     paragraphs: [
-      "Google เป็นเครื่องมือค้นหาที่ได้รับความนิยมมากที่สุดในโลก แต่การละเมิดความเป็นส่วนตัวและคุณภาพของผลการค้นหาที่ลดลงเริ่มทำให้ผู้ใช้หันไปหาทางเลือกอื่น",
-      "เมื่อพูดถึงความโปร่งใสของผลการค้นหา รวมถึงความเป็นส่วนตัวและความปลอดภัยของตัวเครื่องมือค้นหาเอง Google ไม่สามารถเทียบได้กับ Brave Search แล้วอันไหนเหมาะกับคุณล่ะ?",
-      "มาดูการเปรียบเทียบกันเลย",
+      t("subtitle"),
     ],
   };
 
   const sections = [
     {
-      title: "Brave Search มีความเป็นส่วนตัวมากกว่า Google หรือไม่?",
-      description:
-        "Google เป็นหนึ่งในเครื่องมือค้นหาแรก ๆ ที่จัดทำดัชนีเว็บไซต์บนอินเทอร์เน็ต พวกเขายังช่วยบุกเบิกการวิเคราะห์ลิงก์และวิธีการจัดอันดับและเรียงลำดับผลการค้นหาใหม่ ซึ่งช่วยสร้างอัลกอริทึมการค้นหาที่เราใช้ในปัจจุบัน แต่ตอนนี้ Google กลายเป็นแพลตฟอร์มโฆษณาไม่ต่างจากเครื่องมือค้นหา รายได้มหาศาลนับพันล้านของพวกเขาส่วนใหญ่มาจากการขายโฆษณา เพื่อขับเคลื่อนโฆษณาเหล่านั้น Google รวบรวมข้อมูลเกี่ยวกับคุณให้ได้มากที่สุดโดยใช้วิธีการติดตามที่ละเมิดความเป็นส่วนตัวและสร้าง “โปรไฟล์” ของคุณเพื่อกำหนดเป้าหมายโฆษณาได้ดียิ่งขึ้น ยิ่ง Google รู้จักคุณมากเท่าไหร่ พวกเขาก็ยิ่งทำเงินได้มากขึ้นเท่านั้น",
-      summary:
-        "ในทางกลับกัน Brave Search ถูกสร้างขึ้นเพื่อให้ผลการค้นหาคุณภาพสูงโดยไม่มีการสร้างโปรไฟล์ของคุณ:",
-      footerNote:
-        "Google ถูกสร้างมาเพื่อการติดตาม เครื่องมือค้นหาของมันอนุญาตให้โฆษณาน่าขนลุก ตัวติดตาม คุกกี้ และอื่น ๆ ติดตามคุณไปทั่วทั้งเว็บ บันทึกทุกสิ่งที่คุณทำ และเชื่อมโยงกิจกรรมเหล่านั้นเข้ากับตัวคุณโดยตรง โดยที่คุณไม่รู้ตัวหรือยินยอม ในขณะเดียวกัน iBrowe มีความเป็นส่วนตัวเป็นค่าเริ่มต้น",
+      title: t("privacyTitle"),
+      description: t("privacyDescription"),
+      summary: t("privacyConclusion"),
+      footerNote: t("privacyConclusion"),
       comparisonPoints: [
         {
-          title: "การค้นหาแบบส่วนตัวและไม่ระบุตัวตน",
+          title: t("features.ibrowe.thirdPartyAds"),
           ibrowe: true,
           competitor: false,
         },
         {
-          title: "ไม่เก็บข้อมูลส่วนบุคคล",
+          title: t("features.ibrowe.crossSiteTracking"),
           ibrowe: true,
           competitor: false,
         },
         {
-          title: "ไม่สร้างโปรไฟล์ผู้ใช้",
+          title: t("features.ibrowe.thirdPartyCookies"),
           ibrowe: true,
           competitor: false,
         },
         {
-          title: "ได้รับการสนับสนุนจากชุมชนแบบส่วนตัว",
+          title: t("features.ibrowe.fingerprinting"),
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: t("features.ibrowe.cookieBanners"),
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: t("features.ibrowe.globalPrivacy"),
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: t("features.ibrowe.httpsUpgrade"),
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: t("features.ibrowe.networkState"),
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: t("features.ibrowe.searchParams"),
+          ibrowe: true,
+          competitor: false,
+        },
+        {
+          title: t("features.ibrowe.bounceTracking"),
           ibrowe: true,
           competitor: false,
         },
       ],
     },
     {
-      title: "ผลการค้นหาของ Brave Search มีคุณภาพดีกว่า Google หรือไม่?",
-      description:
-        "ทั้ง Brave Search และ Google ใช้ดัชนีเว็บของตัวเองที่พัฒนาขึ้นอย่างอิสระเพื่อให้ผลการค้นหา (หมายความว่าไม่มีฝ่ายใดดึงผลลัพธ์มาจากเครื่องมือค้นหาอื่น) แต่ Google “ปรับแต่งผลการค้นหาให้เป็นส่วนตัว” ตามข้อมูลทั้งหมดที่พวกเขารวบรวมเกี่ยวกับคุณ ในขณะที่ iBrowe Search ใช้แนวทางที่แตกต่างออกไป Brave Search ไม่ปรับแต่งผลการค้นหาให้เป็นส่วนตัว ดังนั้นคำค้นหาเดียวกันจะให้ผลลัพธ์เหมือนกันไม่ว่าใครจะพิมพ์ลงในแถบค้นหา iBrowe Search ยังสร้างดัชนีของมันผ่าน Web Discovery Project ซึ่งใช้ข้อมูลการท่องเว็บแบบไม่ระบุตัวตนจากผู้ใช้จริงเพื่อเข้าใจว่าหน้าเว็บใดที่ผู้คนพบว่ามีประโยชน์มากที่สุด หมายความว่าได้ผลลัพธ์ที่มีคุณภาพสูงกว่าและมีขยะน้อยกว่า Google คุณยังสามารถปรับแต่งประสบการณ์การใช้ iBrowe Search ได้ด้วย Goggles ซึ่งช่วยให้คุณเปลี่ยนลำดับการจัดอันดับผลการค้นหาตามความชอบของคุณเอง (ซึ่ง iBrowe จะไม่ทำแทนคุณ)",
-      summary: "ลองดูการเปรียบเทียบตามคุณภาพผลลัพธ์และความโปร่งใส:",
-      footerNote:
-        "Google ถูกสร้างมาเพื่อการติดตาม เครื่องมือค้นหาของมันอนุญาตให้โฆษณาน่าขนลุก ตัวติดตาม คุกกี้ และอื่น ๆ ติดตามคุณไปทั่วทั้งเว็บ บันทึกทุกสิ่งที่คุณทำ และเชื่อมโยงกิจกรรมเหล่านั้นเข้ากับตัวคุณโดยตรง โดยที่คุณไม่รู้ตัวหรือยินยอม ‍ ในขณะเดียวกัน Brave Search มีความเป็นส่วนตัวเป็นค่าเริ่มต้น",
+      title: t("featuresTitle"),
+      description: t("featuresDescription"),
+      summary: t("featuresComparison"),
+      footerNote: t("featuresComparison"),
       comparisonPoints: [
         {
-          title: "ขับเคลื่อนโดยอัลกอริธึมการค้นหาอิสระ",
+          title: t("features.ibrowe.adBlocker"),
           ibrowe: true,
           competitor: false,
         },
         {
-          title:
-            "การจัดอันดับและตัวชี้ขั้นเคลื่อนโดยข้อมูลที่ไม่ระบุตัวตนและสมัครใจจากผู้ใช้จริง",
+          title: t("features.ibrowe.youtubeAdBlocker"),
           ibrowe: true,
           competitor: false,
         },
+        { title: t("comparisonPoints.aiAssistant"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.verticalTabs"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.tabGroups"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.offlineMediaPlaylists"), ibrowe: true, competitor: false },
         {
-          title:
-            "มีตัวเลือกการจัดอันดับที่ปรับแต่งได้และขั้นเคลื่อนโดยชุมชน (Goggles)",
+          title: t("comparisonPoints.newsAndRssReader"),
           ibrowe: true,
-          competitor: false,
+          competitor: "partial" as const,
         },
+        { title: t("comparisonPoints.readingMode"), ibrowe: true, competitor: true },
+        { title: t("comparisonPoints.nightMode"), ibrowe: true, competitor: true },
+        { title: t("comparisonPoints.translation"), ibrowe: true, competitor: true },
+        { title: t("comparisonPoints.crossDeviceProfileSync"), ibrowe: true, competitor: true },
+        { title: t("comparisonPoints.privateSearchByDefault"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.builtInVpn"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.privateVideoCalling"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.torBrowsingSupport"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.webTorrentIntegration"), ibrowe: true, competitor: false },
+        { title: t("comparisonPoints.web3"), ibrowe: true, competitor: false },
         {
-          title:
-            "ไม่มีการปรับแต่งผลลัพธ์จากการค้นหาแบบส่วนตัวที่ซ่อนอยู่เบื้องหลัง",
+          title: t("comparisonPoints.secureBuiltInCryptoWallet"),
           ibrowe: true,
           competitor: false,
         },
+        { title: t("comparisonPoints.cryptoRewardsProgram"), ibrowe: true, competitor: false },
       ],
     },
   ];

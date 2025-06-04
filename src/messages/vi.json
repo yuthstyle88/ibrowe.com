@@ -31,41 +31,41 @@
     "partnerLogoAlt": "Logo đối tác {num}"
   },
   "EdgeComparison": {
-    "title": "iBrowe vs Edge",
-    "subtitle": "Microsoft Edge là người kế nhiệm của Internet Explorer và là trình duyệt được sử dụng nhiều thứ ba trên thế giới (và thứ hai trên máy tính để bàn). Nhưng điều này chủ yếu là do nó là trình duyệt mặc định trên thiết bị Windows. Rất ít người tự nguyện chuyển sang Edge. Mặc dù Edge có một số tính năng tốt và được tối ưu hóa cho Windows, nhưng khi nói đến quyền riêng tư, hiệu suất và các tính năng quan trọng, Edge còn thiếu nhiều thứ. Hãy so sánh chúng.",
-    "downloadButton": "Tải iBrowe",
-    "privacyTitle": "iBrowe có bảo mật hơn Edge không?",
-    "privacyDescription": "Microsoft là một ví dụ về 'Big Tech' và là một trong những công ty có giá trị nhất thế giới. Mặc dù phần lớn lợi nhuận đến từ việc bán PC và phần mềm như Windows, nhưng quảng cáo cũng là nguồn doanh thu khổng lồ. Và những quảng cáo đó chủ yếu được tìm thấy trong Edge (và công cụ tìm kiếm Bing). Edge theo dõi bạn trên web và thu thập càng nhiều dữ liệu càng tốt. Microsoft 'kiếm tiền' từ dữ liệu này dưới dạng quảng cáo được nhắm mục tiêu cao. Đối với Microsoft, Edge là về quảng cáo và lợi nhuận. Trong khi đó, iBrowe chặn hầu hết các nỗ lực theo dõi bạn:",
-    "privacyConclusion": "Tóm lại, Edge được xây dựng để theo dõi. Nó cho phép quảng cáo đáng sợ, trình theo dõi, cookie và nhiều thứ khác theo dõi bạn trên web, ghi lại mọi thứ bạn làm và liên kết hoạt động đó trực tiếp với bạn. Tất cả mà không có kiến thức hoặc sự đồng ý của bạn. Trong khi đó, iBrowe mặc định là riêng tư.",
+    "title": "iBrowe so với Edge",
+    "subtitle": "Microsoft Edge là phiên bản kế thừa của Internet Explorer và là trình duyệt được sử dụng nhiều thứ ba trên thế giới (và thứ hai trên máy tính để bàn). Nhưng điều này chủ yếu là vì nó là trình duyệt mặc định trên các thiết bị Windows. Rất ít người tự chọn chuyển sang Edge. Mặc dù Edge có một số tính năng tốt và được tối ưu hóa cho Windows, nhưng khi nói đến quyền riêng tư, hiệu suất và các tính năng quan trọng, Edge còn thiếu nhiều. Hãy cùng so sánh.",
+    "downloadButton": "Tải xuống iBrowe",
+    "privacyTitle": "iBrowe có riêng tư hơn Edge không?",
+    "privacyDescription": "Microsoft là một ví dụ điển hình của 'Big Tech' và là một trong những công ty có giá trị nhất trên thế giới. Mặc dù phần lớn lợi nhuận của họ đến từ việc bán PC và phần mềm như Windows, quảng cáo cũng là một nguồn doanh thu khổng lồ. Và những quảng cáo đó chủ yếu được tìm thấy trong Edge (và công cụ tìm kiếm Bing). Edge theo dõi bạn trên khắp web và thu thập càng nhiều dữ liệu càng tốt. Microsoft 'kiếm tiền' từ dữ liệu này dưới dạng các quảng cáo được nhắm mục tiêu cao. Đối với Microsoft, Edge là về quảng cáo và lợi nhuận. Trong khi đó, iBrowe chặn hầu hết mọi nỗ lực theo dõi bạn:",
+    "privacyConclusion": "Tóm lại, Edge được xây dựng để theo dõi. Nó cho phép quảng cáo phiền phức, trình theo dõi, cookie và nhiều thứ khác theo dõi bạn trên khắp web, ghi lại mọi thứ bạn làm và liên kết hoạt động đó trực tiếp với bạn, mà không có sự đồng ý hoặc kiến thức của bạn. Trong khi đó, iBrowe đặt quyền riêng tư làm mặc định.",
     "featuresTitle": "iBrowe có nhiều tính năng hơn Edge không?",
-    "featuresDescription": "Cả iBrowe và Edge đều được xây dựng trên công cụ trình duyệt Chromium mã nguồn mở (giống như được sử dụng trong các trình duyệt khác như Chrome, Opera và Vivaldi). Vì vậy, bạn có thể mong đợi giao diện và chức năng tương tự. Nhưng khi nói đến những thứ vượt quá những điểm tương đồng đó, iBrowe có nhiều tùy chỉnh mà Edge không thể cạnh tranh được.",
-    "featuresComparison": "Hãy xem xét sự so sánh về chất lượng kết quả và tính minh bạch:",
+    "featuresDescription": "Cả iBrowe và Edge đều được xây dựng trên công cụ trình duyệt mã nguồn mở Chromium (cùng công cụ được sử dụng trong các trình duyệt khác như Chrome, Opera và Vivaldi). Vì vậy, bạn có thể mong đợi giao diện và chức năng tương tự. Nhưng khi nói đến những thứ vượt ra ngoài những điểm tương đồng đó, iBrowe có nhiều tùy chỉnh mà Edge không thể cạnh tranh được.",
+    "featuresComparison": "Hãy xem xét sự so sánh dựa trên chất lượng kết quả và tính minh bạch:",
     "features": {
       "ibrowe": {
         "thirdPartyAds": "Chặn quảng cáo bên thứ ba",
-        "crossSiteTracking": "Chặn trình theo dõi liên trang",
+        "crossSiteTracking": "Chặn trình theo dõi liên trang web",
         "thirdPartyCookies": "Chặn cookie bên thứ ba",
-        "fingerprinting": "Ngăn chặn vân tay kỹ thuật số",
-        "cookieBanners": "Chặn biểu ngữ đồng ý cookie",
-        "globalPrivacy": "Bật kiểm soát quyền riêng tư toàn cầu",
+        "fingerprinting": "Ngăn chặn lấy dấu vân tay",
+        "cookieBanners": "Chặn banner đồng ý cookie",
+        "globalPrivacy": "Kích hoạt kiểm soát quyền riêng tư toàn cầu",
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Phân vùng trạng thái mạng",
         "searchParams": "Lọc tham số tìm kiếm",
-        "bounceTracking": "Chặn theo dõi chuyển hướng",
+        "bounceTracking": "Chặn theo dõi kiểu bật lại",
         "adBlocker": "Trình chặn quảng cáo tích hợp",
         "youtubeAdBlocker": "Trình chặn quảng cáo YouTube"
       },
       "edge": {
         "thirdPartyAds": "Chặn quảng cáo bên thứ ba",
-        "crossSiteTracking": "Chặn trình theo dõi liên trang",
+        "crossSiteTracking": "Chặn trình theo dõi liên trang web",
         "thirdPartyCookies": "Chặn cookie bên thứ ba",
-        "fingerprinting": "Ngăn chặn vân tay kỹ thuật số",
-        "globalPrivacy": "Bật kiểm soát quyền riêng tư toàn cầu",
-        "cookieBanners": "Chặn biểu ngữ đồng ý cookie",
+        "fingerprinting": "Ngăn chặn lấy dấu vân tay",
+        "globalPrivacy": "Kích hoạt kiểm soát quyền riêng tư toàn cầu",
+        "cookieBanners": "Chặn banner đồng ý cookie",
         "httpsUpgrade": "Nâng cấp HTTPS tự động",
         "networkState": "Phân vùng trạng thái mạng",
         "searchParams": "Lọc tham số tìm kiếm",
-        "bounceTracking": "Chặn theo dõi chuyển hướng"
+        "bounceTracking": "Chặn theo dõi kiểu bật lại"
       }
     }
   },
@@ -106,6 +106,27 @@
         "searchParams": "Không lọc tham số tìm kiếm",
         "bounceTracking": "Không bảo vệ theo dõi chuyển hướng"
       }
+    },
+    "comparisonPoints": {
+      "adBlocker": "Trình chặn quảng cáo",
+      "youtubeAdBlocker": "Trình chặn quảng cáo YouTube",
+      "aiAssistant": "Trợ lý AI",
+      "verticalTabs": "Tab dọc",
+      "tabGroups": "Nhóm tab",
+      "offlineMediaPlaylists": "Danh sách phát đa phương tiện ngoại tuyến",
+      "newsAndRssReader": "Trình đọc tin tức và RSS",
+      "readingMode": "Chế độ đọc",
+      "nightMode": "Chế độ ban đêm",
+      "translation": "Dịch thuật",
+      "crossDeviceProfileSync": "Đồng bộ hóa hồ sơ trên các thiết bị",
+      "privateSearchByDefault": "Tìm kiếm riêng tư theo mặc định",
+      "builtInVpn": "VPN tích hợp",
+      "privateVideoCalling": "Cuộc gọi video riêng tư",
+      "torBrowsingSupport": "Hỗ trợ duyệt web Tor",
+      "webTorrentIntegration": "Tích hợp WebTorrent",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Ví tiền mã hóa tích hợp an toàn",
+      "cryptoRewardsProgram": "Chương trình phần thưởng tiền mã hóa"
     }
   },
   "GoogleComparison": {
@@ -145,6 +166,27 @@
         "searchParams": "Không lọc tham số tìm kiếm",
         "bounceTracking": "Không bảo vệ theo dõi chuyển hướng"
       }
+    },
+    "comparisonPoints": {
+      "adBlocker": "Trình chặn quảng cáo",
+      "youtubeAdBlocker": "Trình chặn quảng cáo YouTube",
+      "aiAssistant": "Trợ lý AI",
+      "verticalTabs": "Tab dọc",
+      "tabGroups": "Nhóm tab",
+      "offlineMediaPlaylists": "Danh sách phát đa phương tiện ngoại tuyến",
+      "newsAndRssReader": "Trình đọc tin tức và RSS",
+      "readingMode": "Chế độ đọc",
+      "nightMode": "Chế độ ban đêm",
+      "translation": "Dịch thuật",
+      "crossDeviceProfileSync": "Đồng bộ hóa hồ sơ trên các thiết bị",
+      "privateSearchByDefault": "Tìm kiếm riêng tư theo mặc định",
+      "builtInVpn": "VPN tích hợp",
+      "privateVideoCalling": "Cuộc gọi video riêng tư",
+      "torBrowsingSupport": "Hỗ trợ duyệt web Tor",
+      "webTorrentIntegration": "Tích hợp WebTorrent",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Ví tiền mã hóa tích hợp an toàn",
+      "cryptoRewardsProgram": "Chương trình phần thưởng tiền mã hóa"
     }
   },
   "FirefoxComparison": {
@@ -184,6 +226,27 @@
         "searchParams": "Không lọc tham số tìm kiếm",
         "bounceTracking": "Không bảo vệ theo dõi chuyển hướng"
       }
+    },
+    "comparisonPoints": {
+      "adBlocker": "Trình chặn quảng cáo",
+      "youtubeAdBlocker": "Trình chặn quảng cáo YouTube",
+      "aiAssistant": "Trợ lý AI",
+      "verticalTabs": "Tab dọc",
+      "tabGroups": "Nhóm tab",
+      "offlineMediaPlaylists": "Danh sách phát đa phương tiện ngoại tuyến",
+      "newsAndRssReader": "Trình đọc tin tức và RSS",
+      "readingMode": "Chế độ đọc",
+      "nightMode": "Chế độ ban đêm",
+      "translation": "Dịch thuật",
+      "crossDeviceProfileSync": "Đồng bộ hóa hồ sơ trên các thiết bị",
+      "privateSearchByDefault": "Tìm kiếm riêng tư theo mặc định",
+      "builtInVpn": "VPN tích hợp",
+      "privateVideoCalling": "Cuộc gọi video riêng tư",
+      "torBrowsingSupport": "Hỗ trợ duyệt web Tor",
+      "webTorrentIntegration": "Tích hợp WebTorrent",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Ví tiền mã hóa tích hợp an toàn",
+      "cryptoRewardsProgram": "Chương trình phần thưởng tiền mã hóa"
     }
   },
   "ComparisonSection": {
@@ -386,33 +449,38 @@
     "copyright": "© Bản quyền 2025 108Plaza co.,ltd."
   },
   "SafariComparison": {
-    "title": "iBrowe vs Safari: So sánh trình duyệt ưu tiên quyền riêng tư",
+    "title": "iBrowe so với Safari: So sánh trình duyệt ưu tiên quyền riêng tư",
     "subtitle": "Khám phá lý do tại sao iBrowe cung cấp khả năng bảo vệ quyền riêng tư vượt trội so với Safari",
     "downloadButton": "Tải xuống iBrowe",
     "privacyTitle": "So sánh bảo vệ quyền riêng tư",
-    "privacyDescription": "Xem các tính năng bảo mật của iBrowe so với các biện pháp bảo vệ tích hợp của Safari",
-    "privacyConclusion": "Trong khi Safari chỉ cung cấp các tính năng bảo mật cơ bản, iBrowe mang đến khả năng bảo vệ toàn diện chống theo dõi và thu thập dữ liệu.",
+    "privacyDescription": "Xem các tính năng bảo vệ quyền riêng tư của iBrowe so sánh với các biện pháp bảo vệ tích hợp của Safari như thế nào",
+    "privacyConclusion": "Trong khi Safari cung cấp các tính năng bảo vệ quyền riêng tư cơ bản, iBrowe mang lại sự bảo vệ toàn diện chống lại việc theo dõi và thu thập dữ liệu.",
     "featuresTitle": "So sánh tính năng",
     "featuresDescription": "So sánh các tính năng chính của iBrowe và Safari",
-    "featuresComparison": "Tính năng chính",
+    "featuresComparison": "iBrowe được xây dựng trên công cụ Chromium mã nguồn mở, cùng công cụ cung cấp sức mạnh cho Chrome, Edge, Opera và Vivaldi. Trong khi đó, Safari sử dụng công cụ WebKit mã nguồn mở của Apple. Cả hai trình duyệt đều cung cấp các tính năng cơ bản như đánh dấu trang và tab. Nhưng khi nói đến tiện ích mở rộng, Safari phụ thuộc vào Apple App Store, với lựa chọn hạn chế. iBrowe hỗ trợ một phạm vi rộng hơn nhiều qua Chrome Web Store.",
+    "footerNoteComparison": "Một số tính năng nhỏ như dịch thuật và nhóm tab có sẵn ở cả hai trình duyệt. Nhưng để đạt được chức năng đầy đủ của iBrowe, Safari yêu cầu nhiều tiện ích mở rộng. Thật không may, điều này có thể gây ra rủi ro bảo mật và làm chậm trải nghiệm duyệt web của bạn. Khi nói đến khả năng tổng thể, iBrowe vượt trội hơn Safari với một khoảng cách lớn.",
     "features": {
       "ibrowe": {
         "thirdPartyAds": "Chặn quảng cáo bên thứ ba",
-        "crossSiteTracking": "Ngăn chặn theo dõi liên trang",
+        "crossSiteTracking": "Ngăn chặn theo dõi liên trang web",
         "thirdPartyCookies": "Chặn cookie bên thứ ba",
-        "fingerprinting": "Bảo vệ chống vân tay trình duyệt",
-        "cookieBanners": "Tự động đóng thông báo cookie",
+        "fingerprinting": "Bảo vệ chống lại việc lấy dấu vân tay",
+        "cookieBanners": "Tự động bỏ qua banner cookie",
         "globalPrivacy": "Bảo vệ quyền riêng tư toàn cầu",
         "adBlocker": "Trình chặn quảng cáo tích hợp",
-        "youtubeAdBlocker": "Chặn quảng cáo YouTube"
+        "youtubeAdBlocker": "Trình chặn quảng cáo YouTube",
+        "httpsUpgrade": "Nâng cấp HTTPS tự động",
+        "networkState": "Cách ly trạng thái mạng",
+        "searchParams": "Lọc tham số tìm kiếm",
+        "bounceTracking": "Chặn theo dõi kiểu bật lại"
       },
       "safari": {
         "thirdPartyAds": "Chặn quảng cáo hạn chế",
         "crossSiteTracking": "Ngăn chặn theo dõi cơ bản",
         "thirdPartyCookies": "Chặn một số cookie bên thứ ba",
-        "fingerprinting": "Bảo vệ vân tay trình duyệt hạn chế",
-        "cookieBanners": "Không xử lý thông báo cookie",
-        "globalPrivacy": "Bảo vệ theo nền tảng"
+        "fingerprinting": "Bảo vệ chống lấy dấu vân tay hạn chế",
+        "cookieBanners": "Không xử lý banner cookie",
+        "globalPrivacy": "Bảo vệ dành riêng cho nền tảng"
       }
     }
   },
@@ -446,29 +514,63 @@
     }
   },
   "ChromeComparison": {
-    "title": "iBrowe vs Chrome",
-    "subtitle": "Xem tại sao iBrowe vượt trội hơn Chrome về mọi mặt - quyền riêng tư, tốc độ và bảo mật",
+    "title": "iBrowe so với Chrome",
+    "subtitle": "Khám phá lý do tại sao iBrowe là trình duyệt duy nhất bạn cần. Nhanh, riêng tư, dễ dàng. iBrowe được xây dựng cho những người dùng đòi hỏi nhiều hơn. Chúng tôi tin rằng việc duyệt web nên mượt mà, an toàn và không có những mục đích ẩn giấu. iBrowe không chỉ là một trình duyệt, mà là cổng vào trải nghiệm internet nhanh hơn, an toàn hơn và độc lập hơn. Hãy thấy sự khác biệt ngay hôm nay. Trải nghiệm duyệt web, được tái định nghĩa.",
+    "downloadButton": "Tải xuống iBrowe",
+    "privacyTitle": "iBrowe có cung cấp quyền riêng tư tốt hơn Chrome không?",
+    "privacyDescription": "Google là ví dụ điển hình của 'Big Tech' và là một trong những công ty có giá trị nhất trên thế giới. Mặc dù nhiều người nghĩ Google là một chiếc hộp kỳ diệu, có ảnh hưởng đến mức truyền cảm hứng cho động từ 'to google', nhưng cốt lõi của Google là một công ty quảng cáo. Phần lớn doanh thu hàng tỷ đô la của Google đến từ việc bán quảng cáo. Để hỗ trợ hệ thống này, Chrome và Google Search được thiết kế để thu thập càng nhiều thông tin về bạn càng tốt. Sau đó, họ kiếm tiền từ dữ liệu này bằng cách cung cấp các quảng cáo được nhắm mục tiêu cao. Họ càng biết nhiều về bạn, họ càng kiếm được nhiều tiền hơn.",
+    "privacyConclusion": "Ngược lại, iBrowe bảo vệ bạn khỏi việc bị theo dõi gần như ở mọi nơi. Chrome được xây dựng với mục đích theo dõi. Nó cho phép quảng cáo xâm phạm, trình theo dõi, cookie và nhiều thứ khác theo dõi bạn trên khắp web, ghi lại mọi thứ bạn làm và thường liên kết trực tiếp với bạn mà không có sự đồng ý hoặc kiến thức của bạn. Mặt khác, iBrowe đặt quyền riêng tư của bạn lên hàng đầu theo mặc định.",
+    "featuresTitle": "iBrowe có cung cấp nhiều tính năng hơn Chrome không?",
+    "featuresDescription": "Cả iBrowe và Chrome đều được xây dựng trên Chromium, công cụ trình duyệt mã nguồn mở cũng cung cấp năng lượng cho Edge, Opera và Vivaldi. Do đó, chúng có giao diện và cảm giác tương tự, cùng với các tính năng cốt lõi như đánh dấu trang và quản lý tab. Bất kỳ tiện ích mở rộng nào hoạt động với Chrome cũng sẽ hoạt động với iBrowe, mặc dù iBrowe đi kèm với rất nhiều tính năng tích hợp sẵn đến mức bạn có thể không cần tiện ích mở rộng nào cả.",
+    "featuresComparison": "Ngoài những nền tảng chung này, iBrowe cung cấp một loạt các tính năng được thiết kế đặc biệt. Khi nói đến sự tiện lợi và các tính năng hữu ích, iBrowe vượt xa. Để đạt được mức độ chức năng tương tự trong Chrome, bạn sẽ cần cài đặt nhiều tiện ích mở rộng, mỗi cái có thể làm chậm hiệu suất và tăng rủi ro bảo mật. Không có gì phải bàn cãi: iBrowe vượt trội hoàn toàn khi nói đến chức năng tích hợp sẵn.",
     "features": {
-      "privacy": {
-        "title": "Quyền riêng tư",
-        "ibrowe": "iBrowe có hệ thống chống theo dõi và chặn quảng cáo tự động, không thu thập dữ liệu người dùng",
-        "chrome": "Chrome thu thập dữ liệu sử dụng và lịch sử duyệt web để phục vụ quảng cáo nhắm đối tượng"
+      "ibrowe": {
+        "thirdPartyAds": "Chặn quảng cáo bên thứ ba",
+        "crossSiteTracking": "Chặn trình theo dõi liên trang web",
+        "thirdPartyCookies": "Chặn cookie bên thứ ba",
+        "fingerprinting": "Ngăn chặn lấy dấu vân tay",
+        "cookieBanners": "Chặn banner đồng ý cookie",
+        "globalPrivacy": "Kích hoạt kiểm soát quyền riêng tư toàn cầu",
+        "httpsUpgrade": "Nâng cấp HTTPS tự động",
+        "networkState": "Phân vùng trạng thái mạng",
+        "searchParams": "Lọc tham số tìm kiếm",
+        "bounceTracking": "Chặn theo dõi kiểu bật lại",
+        "adBlocker": "Trình chặn quảng cáo tích hợp",
+        "youtubeAdBlocker": "Trình chặn quảng cáo YouTube"
       },
-      "speed": {
-        "title": "Tốc độ",
-        "ibrowe": "Nhanh hơn nhờ chặn quảng cáo và trình theo dõi, tải trang web nhanh hơn đến 3 lần",
-        "chrome": "Tốc độ tải trang web bị giảm do phải tải nhiều quảng cáo và trình theo dõi"
-      },
-      "resources": {
-        "title": "Sử dụng tài nguyên",
-        "ibrowe": "Sử dụng ít RAM và CPU hơn vì không cần xử lý quảng cáo và trình theo dõi",
-        "chrome": "Sử dụng nhiều tài nguyên hệ thống hơn do phải xử lý quảng cáo và trình theo dõi"
-      },
-      "security": {
-        "title": "Bảo mật",
-        "ibrowe": "Bảo vệ nâng cao chống phần mềm độc hại và theo dõi, với mã hóa dữ liệu an toàn",
-        "chrome": "Bảo vệ cơ bản chống phần mềm độc hại nhưng vẫn cho phép theo dõi từ bên thứ ba"
+      "chrome": {
+        "thirdPartyAds": "Hiển thị quảng cáo nhắm mục tiêu",
+        "crossSiteTracking": "Theo dõi liên trang web",
+        "thirdPartyCookies": "Sử dụng cookie theo dõi",
+        "fingerprinting": "Thu thập dữ liệu trình duyệt",
+        "globalPrivacy": "Kiểm soát quyền riêng tư hạn chế",
+        "cookieBanners": "Không chặn banner cookie",
+        "httpsUpgrade": "Nâng cấp HTTPS tự động",
+        "networkState": "Không phân vùng trạng thái mạng",
+        "searchParams": "Không lọc tham số tìm kiếm",
+        "bounceTracking": "Không bảo vệ chống theo dõi kiểu bật lại"
       }
+    },
+    "comparisonPoints": {
+      "adBlocker": "Trình chặn quảng cáo",
+      "youtubeAdBlocker": "Trình chặn quảng cáo YouTube",
+      "aiAssistant": "Trợ lý AI",
+      "verticalTabs": "Tab dọc",
+      "tabGroups": "Nhóm tab",
+      "offlineMediaPlaylists": "Danh sách phát đa phương tiện ngoại tuyến",
+      "newsAndRssReader": "Trình đọc tin tức và RSS",
+      "readingMode": "Chế độ đọc",
+      "nightMode": "Chế độ ban đêm",
+      "translation": "Dịch thuật",
+      "crossDeviceProfileSync": "Đồng bộ hóa hồ sơ trên các thiết bị",
+      "privateSearchByDefault": "Tìm kiếm riêng tư theo mặc định",
+      "builtInVpn": "VPN tích hợp",
+      "privateVideoCalling": "Cuộc gọi video riêng tư",
+      "torBrowsingSupport": "Hỗ trợ duyệt web Tor",
+      "webTorrentIntegration": "Tích hợp WebTorrent",
+      "web3": "Web3",
+      "secureBuiltInCryptoWallet": "Ví tiền mã hóa tích hợp an toàn",
+      "cryptoRewardsProgram": "Chương trình phần thưởng tiền mã hóa"
     }
   },
   "DownloadCTA": {
