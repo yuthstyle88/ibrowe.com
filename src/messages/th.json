@@ -369,6 +369,35 @@
       }
     ]
   },
+  "Download": {
+    "title": "ดาวน์โหลด iBrowe สำหรับทุกแพลตฟอร์ม",
+    "description": "เลือกดาวน์โหลด iBrowe สำหรับอุปกรณ์ของคุณเพื่อประสบการณ์การท่องเว็บที่รวดเร็ว ปลอดภัย และเป็นส่วนตัวมากขึ้น",
+    "windows": {
+      "alt": "Windows",
+      "title": "Windows",
+      "description": "สำหรับ Windows 10 และใหม่กว่า",
+      "downloadButton": "ดาวน์โหลด"
+    },
+    "macos": {
+      "alt": "macOS",
+      "title": "macOS",
+      "description": "สำหรับ macOS 10.15 และใหม่กว่า",
+      "downloadButton": "ดาวน์โหลด"
+    },
+    "linux": {
+      "alt": "Linux",
+      "title": "Linux",
+      "description": "สำหรับ Ubuntu และ Debian",
+      "downloadButton": "ดาวน์โหลด"
+    },
+    "mobile": {
+      "alt": "มือถือ",
+      "title": "มือถือ",
+      "description": "สำหรับ iOS และ Android",
+      "appStore": "App Store",
+      "playStore": "Play Store"
+    }
+  },
   "FaqSection": {
     "title": "คำถามที่พบบ่อย",
     "faqs": [
