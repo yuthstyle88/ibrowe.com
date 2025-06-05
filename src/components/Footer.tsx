@@ -71,11 +71,10 @@ export default function Footer() {
                 <Link href={`/${currentLocale}`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.company')}</Link>
                 <Link href={`/${currentLocale}/features`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.feature')}</Link>
                 <Link href={`/${currentLocale}/news`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.news')}</Link>
-                <Link href={`/${currentLocale}/rewards`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">iBrowe Rewards</Link>
+                <Link href={`/${currentLocale}/ibrowe-rewards`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.rewards')}</Link>
                 <Link href={`/${currentLocale}/wallet`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.wallet')}</Link>
-                <Link href={`/${currentLocale}/shields`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">iBrowe Shields</Link>
+                <Link href={`/${currentLocale}/shields`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.shields')}</Link>
                 <Link href={`/${currentLocale}/block-ads`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.blockAds')}</Link>
-
               </div>
             </div>
 
@@ -142,7 +141,7 @@ export default function Footer() {
               <div className="space-y-3">
                 <Link href={`/${currentLocale}/ibrowe-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.privacyPolicy')}</Link>
                 <Link href={`/${currentLocale}/terms-of-use`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.termsOfUse')}</Link>
-                <Link href="#" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">Advance Privacy</Link>
+                <Link href={`/${currentLocale}/advanced-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.advancedPrivacy')}</Link>
               </div>
             </div>
 

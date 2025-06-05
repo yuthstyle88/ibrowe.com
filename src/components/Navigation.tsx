@@ -167,22 +167,55 @@ export default function Navigation() {
           >
             {t('features')}
           </Link>
+          <div className="relative">
+            <button
+              onClick={() => setIsCompareOpen(!isCompareOpen)}
+              className={`w-full text-left px-3 py-2 rounded-md text-base font-medium flex items-center justify-between ${isActive('/compare') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
+            >
+              {t('compare')}
+              <svg
+                className={`w-5 h-5 transition-transform duration-200 ${isCompareOpen ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {isCompareOpen && (
+              <div className="pl-4 mt-1 space-y-1">
+                {[
+                  { href: '/ibrowevschome', text: 'iBrowe vs Chrome', image: '/images/chrome-p-130x130q80.png' },
+                  { href: '/ibrowe-vs-firefox', text: 'iBrowe vs Firefox', image: '/images/firefox-p-130x130q80.png' },
+                  { href: '/ibrowe-search-vs-google', text: 'iBrowe vs Google', image: '/images/search-google-p-130x130q80.png' },
+                  { href: '/ibrowe-search-vs-duckduckgo', text: 'iBrowe Search vs DuckDuckGo', image: '/images/icons8-duckduckgo.svg' },
+                  { href: '/ibrowe-vs-safari', text: 'iBrowe vs Safari', image: '/images/safari-p-130x130q80.png' },
+                  { href: '/ibrowe-vs-edge', text: 'iBrowe vs Edge', image: '/images/microsoft-p-130x130q80.png' }
+                ].map((item) => (
+                  <Link
+                    key={item.href}
+                    href={getLocalizedPath(item.href)}
+                    onClick={() => {
+                      setIsCompareOpen(false);
+                      setIsMobileMenuOpen(false);
+                    }}
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
+                  >
+                    {item.text}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
           <Link
-            href={getLocalizedPath('/compare')}
-            className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/compare') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            {t('compare')}
-          </Link>
-          <Link
-            href="/business"
+            href="https://market.ibrowe.com"
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/business') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
             {t('business')}
           </Link>
           <Link
-            href="/support"
+            href="https://support.ibrowe.com"
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/support') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
