@@ -445,8 +445,8 @@
     "download": {
       "macos": "For MacOS",
       "windows": "For Windows",
-      "ios": "iOS",
-      "android": "Android",
+      "ios": "For iOS",
+      "android": "For Android",
       "linux": "For Linux"
     },
     "copyright": "© Copyright 2025 108Plaza co.,ltd."
