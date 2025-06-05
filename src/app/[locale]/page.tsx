@@ -9,11 +9,13 @@ import FeatureSection from '@/components/FeatureSection'
 import FaqSection from '@/components/FaqSection'
 import AboutSection from '@/components/AboutSection'
 
-export default function HomePage({
-  params: { locale }
+export default async function HomePage({
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }

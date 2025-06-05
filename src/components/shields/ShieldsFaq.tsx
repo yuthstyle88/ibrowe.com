@@ -1,11 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, ReactNode } from 'react';
 import { useTranslations } from 'next-intl';
 
 interface FaqItemProps {
   question: string;
-  answer: string;
+  answer: string | ReactNode;
 }
 
 function FaqItem({ question, answer }: FaqItemProps) {
