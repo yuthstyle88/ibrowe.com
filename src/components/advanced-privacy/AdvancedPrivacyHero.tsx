@@ -6,50 +6,39 @@ import { useTranslations } from 'next-intl';
 import DownloadButton from '@/components/DownloadButton';
 
 export default function AdvancedPrivacyHero() {
-  const t = useTranslations('AdvancedPrivacy');
+    const t = useTranslations('AdvancedPrivacy');
 
-  return (
-    <div className="relative bg-[#535353] overflow-hidden">
-      <div className="container mx-auto px-5 py-16 lg:py-24">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          <div className="flex-1 text-center lg:text-left">
-            <div className="max-w-2xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight">
-                {t('hero.title')}
-              </h1>
-              <p className="text-lg md:text-xl text-white mb-8 whitespace-pre-line">
-                {t('hero.description')}
-              </p>
-              <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-                <a href="https://apps.apple.com/us/app/ibrowe/id6741485553" className="button-ios">
-                  iOS
-                </a>
-                <a href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg" className="button-macos">
-                  MacOS
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser" className="button-android">
-                  Android
-                </a>
-                <a href="#" className="button-windows">
-                  Windows
-                </a>
-              </div>
+    return (
+        <div className="relative bg-[#535353] overflow-hidden">
+            <div className="container mx-auto px-5 py-16 lg:py-24">
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+                    <div className="flex-1 text-center lg:text-left">
+                        <div className="max-w-2xl">
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight">
+                                {t('hero.title')}
+                            </h1>
+                            <p className="text-lg md:text-xl text-white mb-8 whitespace-pre-line">
+                                {t('hero.description')}
+                            </p>
+                            <div className="flex justify-center lg:justify-start">
+                                <DownloadButton />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex-1 relative">
+                        <div className="relative w-full aspect-[1024/1024]">
+                            <Image
+                                src="/images/design-3d-icon-advanced-privacy-tranparent.png"
+                                alt={t('hero.imageAlt')}
+                                fill
+                                className="object-contain"
+                                sizes="(max-width: 1024px) 100vw, 1024px"
+                                priority
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div className="flex-1 relative">
-            <div className="relative w-full aspect-[1024/1024]">
-              <Image
-                src="/images/design-3d-icon-advanced-privacy-tranparent.png"
-                alt={t('hero.imageAlt')}
-                fill
-                className="object-contain"
-                sizes="(max-width: 1024px) 100vw, 1024px"
-                priority
-              />
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 } 
