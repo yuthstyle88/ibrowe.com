@@ -1,6 +1,5 @@
 import Navigation from '@/components/Navigation';
-import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { routing } from '@/i18n/routing';
+import { NextIntlClientProvider } from 'next-intl';
 import '../globals.css';
 import Footer from '@/components/Footer';
 

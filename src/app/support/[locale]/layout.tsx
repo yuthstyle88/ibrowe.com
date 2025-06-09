@@ -1,22 +1,16 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
-import '../../../globals.css';
+import { NextIntlClientProvider } from 'next-intl';
+import '../../../app/globals.css';
 
 export default async function SupportLayout({
     children,
     params
 }: {
     children: React.ReactNode;
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }) {
-    const { locale } = params;
-
-    if (!hasLocale(routing.locales, locale)) {
-        notFound();
-    }
+    const { locale } = await (params as any);
 
     const messages = (await import(`@/messages/${locale}.json`)).default;
 
