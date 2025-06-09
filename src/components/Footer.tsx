@@ -82,7 +82,7 @@ export default function Footer() {
             <div>
               <h3 className="text-black text-base font-bold mb-6">{t('sections.download')}</h3>
               <div className="space-y-3">
-                <Link href="https://laptop-updates.brave.com/latest/osx" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/mac-os-logo.png"
                     alt="MacOS"
@@ -92,7 +92,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.macos')}</strong>
                 </Link>
-                <Link href="https://laptop-updates.brave.com/latest/winx64" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="#" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/windows.png"
                     alt="Windows"
@@ -102,7 +102,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.windows')}</strong>
                 </Link>
-                <Link href="https://laptop-updates.brave.com/download/ios/BRV002" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="https://apps.apple.com/us/app/ibrowe/id6741485553" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/app-store.png"
                     alt="iOS"
@@ -112,7 +112,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.ios')}</strong>
                 </Link>
-                <Link href="https://laptop-updates.brave.com/download/android/BRV002" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/apps-android.png"
                     alt="Android"

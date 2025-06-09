@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import PlatformLinks from "./PlatformLinks";
 
 export interface HeroCompareSectionData {
   heading: string;
@@ -40,32 +41,7 @@ export default function HeroCompareSection({
                       ))}
                     </strong>
                   </p>
-                  <div className="grid grid-cols-2 gap-4 md:flex items-center justify-start mt-[35px] text-[12px] ">
-                    <Link
-                      href="#"
-                      className="bg-[#22a1d3] rounded-[45px] mr-[15px] py-[10px] px-[35px] text-sm text-white "
-                    >
-                      iOS
-                    </Link>
-                    <Link
-                      href="#"
-                      className="bg-[#22a1d3] rounded-[45px] mr-[15px] py-[10px] px-[35px] text-sm text-white "
-                    >
-                      MacOS
-                    </Link>
-                    <Link
-                      href="#"
-                      className="bg-[#22a1d3] rounded-[45px] mr-[15px] py-[10px] px-[35px] text-sm text-white "
-                    >
-                      Android
-                    </Link>
-                    <Link
-                      href="#"
-                      className="bg-[#22a1d3] rounded-[45px] mr-[15px] py-[10px] px-[35px] text-sm text-white "
-                    >
-                      windows
-                    </Link>
-                  </div>
+                  <PlatformLinks />
                 </div>
               </div>
               <div className="flex-1 justify-center items-center w-full min-h-[350px] p-0 relative">

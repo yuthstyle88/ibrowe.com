@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import DownloadButton from '@/components/DownloadButton';
+import PlatformLinks from '../PlatformLinks';
 
 export default function AdvancedPrivacyHero() {
     const t = useTranslations('AdvancedPrivacy');
@@ -20,9 +21,7 @@ export default function AdvancedPrivacyHero() {
                             <p className="text-lg md:text-xl text-white mb-8 whitespace-pre-line">
                                 {t('hero.description')}
                             </p>
-                            <div className="flex justify-center lg:justify-start">
-                                <DownloadButton />
-                            </div>
+                            <PlatformLinks />
                         </div>
                     </div>
                     <div className="flex-1 relative">
