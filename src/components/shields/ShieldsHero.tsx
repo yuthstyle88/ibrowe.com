@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import DownloadButton from '@/components/DownloadButton';
+import PlatformLinks from '../PlatformLinks';
 
 export default function ShieldsHero() {
   const t = useTranslations('Shields');
@@ -26,7 +27,7 @@ export default function ShieldsHero() {
               {t('hero.description')}
             </p>
             <div className="mt-8">
-              <DownloadButton />
+              <PlatformLinks />
             </div>
           </div>
           <div className="lg:w-1/2">

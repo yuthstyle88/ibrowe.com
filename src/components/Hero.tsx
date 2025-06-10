@@ -3,7 +3,6 @@
 import React from 'react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-import DownloadButton from './DownloadButton'
 import PlatformLinks from './PlatformLinks';
 
 export default function Hero() {

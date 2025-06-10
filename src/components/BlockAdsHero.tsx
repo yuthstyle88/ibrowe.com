@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import DownloadButton from './DownloadButton';
+import PlatformLinks from './PlatformLinks';
 
 export default function BlockAdsHero() {
   const t = useTranslations('BlockAds.hero')
@@ -21,9 +22,7 @@ export default function BlockAdsHero() {
                   {t('description')}
                 </strong>
               </p>
-              <div className="flex justify-center lg:justify-start">
-                <DownloadButton />
-              </div>
+              <PlatformLinks />
             </div>
           </div>
           <div className="hero-image-wrap md:w-1/2 mt-8 md:mt-0">

@@ -1,9 +1,8 @@
 'use client';
 
-import DownloadButton from '@/components/DownloadButton';
+import PlatformLinks from '@/components/PlatformLinks';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function FeaturesPage() {
     const t = useTranslations('FeaturesPage');
@@ -28,9 +27,7 @@ export default function FeaturesPage() {
                             <p className="text-base text-white mb-12 whitespace-pre-line">
                                 {t('hero.description')}
                             </p>
-                            <div className="flex justify-center lg:justify-start">
-                                <DownloadButton />
-                            </div>
+                            <PlatformLinks />
                         </div>
                         <div className="flex-1">
                             <Image
