@@ -44,8 +44,16 @@ export default function ShieldsFaq() {
     {
       question: t('faq.storage.question'),
       answer: t.rich('faq.storage.answer', {
-        p: (chunks) => <p className="mb-4">{chunks}</p>,
+        p: (chunks) => <p>{chunks}</p>,
+        ul: (chunks) => <ul>{chunks}</ul>,
+        li: (chunks) => <li>{chunks}</li>,
+        h3: (chunks) => <h3>{chunks}</h3>,
+        h4: (chunks) => <h4>{chunks}</h4>,
+        strong: (chunks) => <strong>{chunks}</strong>,
+        code: (chunks) => <code>{chunks}</code>,
+        br: () => <br />,
       }),
+
     },
     {
       question: t('faq.disable.question'),

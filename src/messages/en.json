@@ -1512,5 +1512,58 @@
     "title": "Page Not Found",
     "description": "The page you're looking for doesn't exist or has been moved.",
     "backHome": "Back to Home"
+  },
+  "Support": {
+    "hero": {
+      "title": "iBrowe Support Your Reliable Tech Companion!",
+      "description": "From IT troubleshooting to professional technology consultation, iBrowe Support is here to keep your work seamless and efficient. Our expert team offers fast, friendly, and dependable service whenever you need it.\n✅ Quick IT issue resolution\n✅ Expert advice you can trust\n✅ Support that's always on your side\n📞 Get in touch today and experience top-tier assistance with iBrowe Support!",
+      "downloadButton": "download iBrowe",
+      "imageAlt": "iBrowe Support Team"
+    },
+    "categories": {
+      "title": "iBrowe support",
+      "subtitle": "Friendly, dedicated support always here for you.",
+      "desktop": {
+        "title": "Desktop Browser"
+      },
+      "shields": {
+        "title": "Shields"
+      },
+      "rewards": {
+        "title": "Rewards"
+      },
+      "sync": {
+        "title": "Sync"
+      },
+      "mobile": {
+        "title": "Mobile"
+      },
+      "wallet": {
+        "title": "iBrowe wallet"
+      }
+    },
+    "faq": {
+      "title": "Suggested Reads",
+      "translation": {
+        "question": "Would You Like to Use iBrowe for Translation?",
+        "answer": "iBrowe Browser now offers a built-in translation feature for both desktop and Android users (iOS support is coming in future updates) iBrowe has partnered with Lingvanex to deliver fast, seamless translation services making it easier than ever to browse content in multiple languages."
+      },
+      "tor": {
+        "question": "Private Browsing with Tor",
+        "answer": "In \"Private Window with Tor\" mode, iBrowe Browser routes your connection through three layers of volunteer-run servers in the Tor network, instead of connecting directly to websites. This multi-layered approach enhances your privacy and anonymity while you browse."
+      },
+      "sync": {
+        "question": "How to Set Up Sync",
+        "answer": "Sync lets you effortlessly connect and synchronize your browsing data across multiple devices using iBrowe. With just a few steps, you can keep your bookmarks, passwords, browsing history, and settings perfectly aligned across your desktop, mobile, and beyond making your browsing experience smoother, faster, and more personalized."
+      },
+      "security": {
+        "question": "Security That Works Instantly. 🔒",
+        "answer": "iBrowe is ready from the moment you install no complicated setup, no extensions, and no tech skills needed. 🚀"
+      },
+      "ads": {
+        "question": "iBrowe Ads: Frequently Asked Questions ⚡",
+        "answer": "Here's everything you need to know about iBrowe Ads. How are iBrowe Ads different from ads in other browsers and why should you choose to view them? iBrowe Ads stand out in several important ways"
+      }
+    }
   }
 }
