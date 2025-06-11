@@ -8,22 +8,31 @@ const intlMiddleware = createMiddleware({
   defaultLocale: 'en'
 });
 
-// Add support for subdomain routing
 export default function middleware(request: NextRequest) {
   const hostname = request.headers.get('host') || '';
   const subdomain = hostname.split('.')[0];
 
-  // Handle "support" subdomain by rewriting to /support
+  // Clone URL to mutate pathname
+  const url = request.nextUrl.clone();
+
+  // 💡 Skip static files (already handled in matcher below)
+  if (url.pathname.includes('.') || url.pathname.startsWith('/_next')) {
+    return NextResponse.next();
+  }
+
+  // ✨ Rewrite for support.ibrowe.com to /support/*
   if (subdomain === 'support') {
-    const url = request.nextUrl.clone();
     url.pathname = `/support${url.pathname === '/' ? '' : url.pathname}`;
     return NextResponse.rewrite(url);
   }
 
-  // Fallback to intl middleware for other domains/subdomains
+  // 🌐 Fallback to default locale-based routing
   return intlMiddleware(request);
 }
 
 export const config = {
-  matcher: ['/((?!api|trpc|_next|_vercel|.*\\..*).*)']
+  matcher: [
+    // Match everything except _next, api, static assets
+    '/((?!api|_next|_vercel|.*\\..*).*)'
+  ]
 };
