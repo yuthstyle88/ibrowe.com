@@ -13,7 +13,7 @@ export default function middleware(request: NextRequest) {
   const subdomain = hostname.split('.')[0];
   const url = request.nextUrl.clone();
 
-  // 1. Support subdomain: rewrite to /support/en/... only if needed
+  // 1. Support subdomain: rewrite to /support/en/...
   if (subdomain === 'support') {
     // If already prefixed with /support/en, skip
     if (!url.pathname.startsWith('/support/en')) {
@@ -21,7 +21,6 @@ export default function middleware(request: NextRequest) {
       url.pathname = `/support/en${restPath}`;
       return NextResponse.rewrite(url);
     }
-
     return NextResponse.next();
   }
 
