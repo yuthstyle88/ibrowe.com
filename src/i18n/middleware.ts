@@ -4,30 +4,26 @@ import { routing } from './routing';
 
 const intlMiddleware = createMiddleware({
   ...routing,
-  localePrefix: 'always',  // ensures /en is always added
+  localePrefix: 'always',
   defaultLocale: 'en'
 });
 
+// Add support for subdomain routing
 export default function middleware(request: NextRequest) {
   const hostname = request.headers.get('host') || '';
   const subdomain = hostname.split('.')[0];
-  const url = request.nextUrl.clone();
 
-  // 1. Support subdomain: rewrite to /support/en/...
+  // Handle "support" subdomain by rewriting to /support
   if (subdomain === 'support') {
-    // If already prefixed with /support/en, skip
-    if (!url.pathname.startsWith('/support/en')) {
-      const restPath = url.pathname === '/' ? '' : url.pathname;
-      url.pathname = `/support/en${restPath}`;
-      return NextResponse.rewrite(url);
-    }
-    return NextResponse.next();
+    const url = request.nextUrl.clone();
+    url.pathname = `/support${url.pathname === '/' ? '' : url.pathname}`;
+    return NextResponse.rewrite(url);
   }
 
-  // 2. All other domains go through intlMiddleware
+  // Fallback to intl middleware for other domains/subdomains
   return intlMiddleware(request);
 }
 
 export const config = {
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']  // Avoid matching assets and internal paths
+  matcher: ['/((?!api|trpc|_next|_vercel|.*\\..*).*)']
 };

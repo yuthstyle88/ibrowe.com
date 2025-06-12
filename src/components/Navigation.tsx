@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Lottie from 'lottie-react'
 import dropdownAnimation from '../animations/Drop-lottie.json'
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { useLocalizedPath } from '@/utils/path'
 
@@ -14,7 +14,6 @@ export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const t = useTranslations('nav')
   const pathname = usePathname()
-  const locale = useLocale()
   const getLocalizedPath = useLocalizedPath()
 
   const toggleMobileMenu = () => {
