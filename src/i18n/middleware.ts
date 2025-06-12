@@ -25,5 +25,14 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|trpc|_next|_vercel|.*\\..*).*)']
+  matcher: [
+    // Match all paths except:
+    // - api
+    // - _next
+    // - static files (e.g. .png, .jpg, .css, .js)
+    // - vercel
+    // - favicon.ico
+    '/((?!_next|favicon.ico|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|css|js|woff2?)$).*)',
+  ],
 };
+
