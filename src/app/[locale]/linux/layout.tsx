@@ -4,12 +4,14 @@ import { metadataConfig } from '@/config/metadata';
 import PageLayout from '@/components/layouts/PageLayout';
 
 type Props = {
-  params: { locale: string }
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
   return generateMultilingualMetadata(
-    { params },
+    { params: resolvedParams },
     metadataConfig.linux
   );
 }
@@ -17,11 +19,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function LinuxLayout({
     children,
     params
-}: {
-    children: React.ReactNode;
-    params: { locale: string };
-}) {
-    const locale = params.locale;
+}: Props) {
+    const resolvedParams = await params;
+    const locale = resolvedParams.locale;
     const messages = (await import(`@/messages/${locale}.json`)).default;
     
     return (

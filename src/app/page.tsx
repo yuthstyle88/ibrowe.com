@@ -1,3 +1,5 @@
+import { redirect } from 'next/navigation';
+import { routing } from '@/i18n/routing';
 import Hero from '@/components/Hero'
 import ComparisonSection from '@/components/ComparisonSection'
 import NewsSection from '@/components/NewsSection'
@@ -7,15 +9,5 @@ import FaqSection from '@/components/FaqSection'
 import AboutSection from '@/components/AboutSection'
 
 export default function RootPage() {
-  return (
-    <main className="min-h-screen">
-      <Hero />
-      <ComparisonSection />
-      <NewsSection />
-      <FeaturesSection />
-      <FeatureSection />
-      <FaqSection />
-      <AboutSection />
-    </main>
-  )
+  redirect(`/${routing.defaultLocale}`);
 } 

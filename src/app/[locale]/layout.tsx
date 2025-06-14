@@ -3,13 +3,15 @@ import '../globals.css';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
+type LayoutProps = {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}
+
 export default async function LocaleLayout({
   children,
   params
-}: {
-  children: React.ReactNode;
-  params: Promise<{ locale: string }>;
-}) {
+}: LayoutProps) {
   const { locale } = await params;
   const messages = (await import(`../../messages/${locale}.json`)).default;
   
