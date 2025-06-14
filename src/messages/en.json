@@ -1571,5 +1571,94 @@
         "answer": "Here's everything you need to know about iBrowe Ads. How are iBrowe Ads different from ads in other browsers and why should you choose to view them? iBrowe Ads stand out in several important ways"
       }
     }
+  },
+  "Marketing": {
+    "hero": {
+      "title": "Advertising on iBrowe's browser and search engine",
+      "description": "Reach millions of iBrowe users and turn them into loyal customers with high-performing ads tailored to meet your every marketing goal.",
+      "imageAlt": "iBrowe advertising platform"
+    },
+    "features": {
+      "title": "Why choose iBrowe for your advertising?",
+      "description": "Because we help you reach your target audience with precision powered by cutting-edge technology and optimized ad placements that deliver maximum ROI for your business.",
+      "tabs": {
+        "newAudiences": {
+          "title": "New Audiences Unlocked",
+          "description": "Unlock access to audiences you can't reach through other platforms."
+        },
+        "lowCompetition": {
+          "title": "Low Competition, High Impact",
+          "description": "Unique ad formats that haven't been used before."
+        },
+        "fastGrowing": {
+          "title": "Fast-Growing",
+          "description": "Built on the world's fastest-growing browsers and machines."
+        },
+        "brandSafe": {
+          "title": "Brand-Safe",
+          "description": "Premium ad placements without disruption."
+        }
+      }
+    },
+    "brands": {
+      "title": "Bold brands grow with iBrowe Market"
+    },
+    "subscribe": {
+      "title": "Subscribe to get the latest updates from iBrowe Market.",
+      "description": "Stay informed about new advertising opportunities and platform updates.",
+      "emailPlaceholder": "Email address",
+      "button": "Subscribe",
+      "successMessage": "Thank you for subscribing to our updates!",
+      "errorMessage": "Oops! Something went wrong while submitting the form."
+    }
+  },
+  "linux": {
+    "hero": {
+      "title": "Install iBrowe on Linux",
+      "subtitle": "🌟 Download iBrowe Browser today! 🌟",
+      "features": [
+        "🔹 Smart ad blocking browse without distractions",
+        "🔹 Ultimate privacy protect your data and stay private",
+        "🔹 Modern, easy-to-use interface works seamlessly across all your devices",
+        "🚀 Upgrade your browsing experience fast, private, and effortless!"
+      ]
+    },
+    "installation": {
+      "title": "Install iBrowe on Linux",
+      "viewSource": "View source",
+      "verifySignature": "or verify the signature",
+      "systemRequirements": "System Requirements: 64-bit Linux distribution with glibc 2.28 or later",
+      "signingKeys": "Signing Keys: All packages are signed with our GPG key. You can verify the signatures using our public key.",
+      "channels": {
+        "release": "Release Channel",
+        "beta": "Beta Channel",
+        "nightly": "Nightly Channel",
+        "releaseDescription": "The stable release channel is recommended for most users. It receives regular updates with bug fixes and security patches.",
+        "betaDescription": "The beta channel is for users who want to test new features before they are released to the stable channel. It may contain bugs and is not recommended for production use.",
+        "nightlyDescription": "The nightly channel contains the latest development builds. It is updated daily and may be unstable. Only use this if you want to test the latest features and don't mind potential issues."
+      },
+      "distributions": {
+        "debian": "Debian/Ubuntu",
+        "fedora": "Fedora",
+        "opensuse": "openSUSE",
+        "arch": "Arch Linux",
+        "flatpak": "Flatpak",
+        "snap": "Snap",
+        "github": "GitHub Releases",
+        "unofficial": "Community-Maintained Packages",
+        "manjaro": "Manjaro Linux",
+        "solus": "Solus Linux"
+      },
+      "aurHelper": "Using an AUR helper like yay:",
+      "flatpakDescription": "Flatpak is a universal package format that works on any Linux distribution. It provides a sandboxed environment for applications.",
+      "snapDescription": "Snap is a universal package format that works on any Linux distribution. It provides automatic updates and rollback capabilities.",
+      "githubDescription": "You can download the latest release directly from our GitHub repository. This is useful if you want to install iBrowe on an unsupported distribution.",
+      "unofficialDescription": "These distributions are not officially supported by iBrowe, but community members maintain packages for them. While we don't provide direct support, these packages are generally well-maintained and reliable.",
+      "troubleshooting": {
+        "title": "Common Issues and Solutions",
+        "description": "If you encounter any issues during installation or while using iBrowe, try these solutions:",
+        "commands": "# Update your system first\nsudo apt update && sudo apt upgrade  # For Debian/Ubuntu\nsudo dnf update  # For Fedora\nsudo zypper update  # For openSUSE\nsudo pacman -Syu  # For Arch Linux\n\n# If the package manager reports errors, try:\nsudo apt clean && sudo apt update  # For Debian/Ubuntu\nsudo dnf clean all && sudo dnf update  # For Fedora\nsudo zypper clean && sudo zypper update  # For openSUSE\nsudo pacman -Scc && sudo pacman -Syu  # For Arch Linux"
+      }
+    }
   }
 }

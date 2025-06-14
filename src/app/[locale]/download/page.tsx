@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Navigation from '@/components/Navigation'
 import { useTranslations } from 'next-intl'
+import PlatformLinks, { PLATFORM_LINKS } from '@/components/PlatformLinks'
 
 export default function Download() {
   const t = useTranslations('Download')
@@ -32,9 +33,9 @@ export default function Download() {
               />
               <h3 className="text-lg font-semibold mb-2">{t('windows.title')}</h3>
               <p className="text-gray-600 mb-4">{t('windows.description')}</p>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              <a href={PLATFORM_LINKS.windows} className="inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
                 {t('windows.downloadButton')}
-              </button>
+              </a>
             </div>
 
             {/* macOS */}
@@ -48,9 +49,9 @@ export default function Download() {
               />
               <h3 className="text-lg font-semibold mb-2">{t('macos.title')}</h3>
               <p className="text-gray-600 mb-4">{t('macos.description')}</p>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              <a href={PLATFORM_LINKS.macos} className="inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
                 {t('macos.downloadButton')}
-              </button>
+              </a>
             </div>
 
             {/* Linux */}
@@ -64,9 +65,9 @@ export default function Download() {
               />
               <h3 className="text-lg font-semibold mb-2">{t('linux.title')}</h3>
               <p className="text-gray-600 mb-4">{t('linux.description')}</p>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              <a href={PLATFORM_LINKS.linux} className="inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
                 {t('linux.downloadButton')}
-              </button>
+              </a>
             </div>
 
             {/* Mobile */}
@@ -81,12 +82,12 @@ export default function Download() {
               <h3 className="text-lg font-semibold mb-2">{t('mobile.title')}</h3>
               <p className="text-gray-600 mb-4">{t('mobile.description')}</p>
               <div className="space-y-2">
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors w-full">
+                <a href={PLATFORM_LINKS.appStore} className="inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors w-full">
                   {t('mobile.appStore')}
-                </button>
-                <button className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition-colors w-full">
+                </a>
+                <a href={PLATFORM_LINKS.playStore} className="inline-block bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition-colors w-full">
                   {t('mobile.playStore')}
-                </button>
+                </a>
               </div>
             </div>
           </div>

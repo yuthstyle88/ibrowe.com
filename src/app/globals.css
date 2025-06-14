@@ -256,3 +256,111 @@ body {
 .bg-dark-grey-80-80 {
   background-color: #2e3642;
 }
+
+/* Linux page specific styles */
+.section-content {
+  @apply py-16;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+.space-below {
+  @apply mb-16;
+}
+
+.hero-content {
+  @apply flex flex-col md:flex-row items-center justify-between gap-8;
+}
+
+.hero-block {
+  @apply flex-1;
+}
+
+.content-block-hero {
+  @apply max-w-2xl;
+}
+
+.head-ibrowe-vs-duckduckgo {
+  @apply text-4xl md:text-5xl font-bold mb-6;
+}
+
+.linux-download {
+  @apply text-lg mb-8;
+}
+
+.button-wrap-hero {
+  @apply flex flex-wrap gap-4;
+}
+
+.button-ios,
+.button-macos,
+.button-android,
+.button-windows {
+  @apply px-6 py-3 rounded-lg font-semibold transition-colors;
+}
+
+.button-ios {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.button-macos {
+  @apply bg-gray-800 text-white hover:bg-gray-900;
+}
+
+.button-android {
+  @apply bg-green-600 text-white hover:bg-green-700;
+}
+
+.button-windows {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.hero-image-wrap {
+  @apply flex-1 flex justify-center;
+}
+
+.hero-image-search {
+  @apply max-w-full h-auto;
+}
+
+.pricing-comparison {
+  @apply py-16 bg-gray-50;
+}
+
+.container-16 {
+  @apply max-w-7xl mx-auto px-4 mb-8;
+}
+
+.heading-23 {
+  @apply text-3xl font-bold mb-8;
+}
+
+.getibrowe {
+  @apply mb-8;
+}
+
+.ibrowe-on-linux {
+  @apply bg-white p-6 rounded-lg shadow-sm;
+}
+
+.pricing-title {
+  @apply text-lg font-mono;
+}
+
+.paragraph-9 {
+  @apply text-gray-600 mb-4;
+}
+
+.paragraph-9-copy {
+  @apply text-xl font-semibold mb-4;
+}
+
+.paragraph-11 {
+  @apply text-gray-600 mb-4;
+}
+
+.code {
+  @apply block bg-gray-100 p-4 rounded-lg overflow-x-auto;
+}

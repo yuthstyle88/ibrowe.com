@@ -9,10 +9,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return generateMultilingualMetadata({ params: { locale } }, metadataConfig.support);
+  return generateMultilingualMetadata({ params: { locale } }, metadataConfig.terms);
 }
 
-export default async function SupportLayout({
+export default async function TermsOfUseLayout({
     children,
     params
 }: {
@@ -27,4 +27,4 @@ export default async function SupportLayout({
             {children}
         </PageLayout>
     );
-}
+} 

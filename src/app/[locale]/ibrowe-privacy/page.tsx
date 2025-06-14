@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
-export default function PrivacyPolicy() {
+export default function PrivacyPage() {
   const t = useTranslations('Privacy');
 
   return (
