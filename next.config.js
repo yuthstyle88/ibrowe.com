@@ -7,6 +7,7 @@ const nextConfig = {
   async rewrites() {
     return {
       beforeFiles: [
+        // Support domain rewrites
         {
           source: '/:path*',
           has: [
@@ -16,6 +17,17 @@ const nextConfig = {
             },
           ],
           destination: '/support/en/:path*',
+        },
+        // Marketing domain rewrites
+        {
+          source: '/:path*',
+          has: [
+            {
+              type: 'host',
+              value: 'marketing.ibrowe.com',
+            },
+          ],
+          destination: '/marketing/en/:path*',
         },
       ],
     };

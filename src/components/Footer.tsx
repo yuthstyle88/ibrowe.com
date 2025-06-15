@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from '@/components/Link';
 import { useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 
@@ -28,18 +28,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Large Column */}
           <div className="lg:col-span-2 lg:pr-16">
-            <Image
-              src="/images/Asset-47.png"
-              alt="iBrowe Logo"
-              width={130}
-              height={130}
-              className="mb-6"
-            />
+            <Link href="/">
+              <Image
+                src="/images/Asset-47.png"
+                alt="iBrowe Logo"
+                width={130}
+                height={130}
+                className="mb-6"
+              />
+            </Link>
             <p className="text-[#4e5d78] text-base font-bold mb-6">
               {t('tagline')}
             </p>
             <div className="space-y-4">
-              <Link href="mailto:support@ibrowe.com" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+              <Link href="mailto:support@ibrowe.com" isExternal className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                 <Image
                   src="https://uploads-ssl.webflow.com/5d01778cda7c6cc8a63e0b64/5d1324fd4b05c818c6fbecc1_mail.svg"
                   alt="Email"
@@ -49,7 +51,7 @@ export default function Footer() {
                 />
                 <span>{t('email')}</span>
               </Link>
-              <Link href="#" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+              <Link href="#" isExternal className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                 <Image
                   src="https://uploads-ssl.webflow.com/5d01778cda7c6cc8a63e0b64/5d1324fd4b05c84f5afbecc0_communication%20(1).svg"
                   alt="Livechat"
@@ -68,13 +70,13 @@ export default function Footer() {
             <div>
               <h3 className="text-black text-base font-bold mb-6">{t('sections.about')}</h3>
               <div className="space-y-3">
-                <Link href={`/${currentLocale}`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.company')}</Link>
-                <Link href={`/${currentLocale}/features`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.feature')}</Link>
-                <Link href={`/${currentLocale}/news`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.news')}</Link>
-                <Link href={`/${currentLocale}/ibrowe-rewards`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.rewards')}</Link>
-                <Link href={`/${currentLocale}/wallet`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.wallet')}</Link>
-                <Link href={`/${currentLocale}/shields`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.shields')}</Link>
-                <Link href={`/${currentLocale}/block-ads`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.blockAds')}</Link>
+                <Link href="/" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.company')}</Link>
+                <Link href="/features" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.feature')}</Link>
+                <Link href="/news" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.news')}</Link>
+                <Link href="/ibrowe-rewards" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.rewards')}</Link>
+                <Link href="/wallet" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.wallet')}</Link>
+                <Link href="/shields" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.shields')}</Link>
+                <Link href="/block-ads" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.blockAds')}</Link>
               </div>
             </div>
 
@@ -82,7 +84,7 @@ export default function Footer() {
             <div>
               <h3 className="text-black text-base font-bold mb-6">{t('sections.download')}</h3>
               <div className="space-y-3">
-                <Link href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg" isExternal className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/mac-os-logo.png"
                     alt="MacOS"
@@ -92,7 +94,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.macos')}</strong>
                 </Link>
-                <Link href="#" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="#" isExternal className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/windows.png"
                     alt="Windows"
@@ -102,7 +104,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.windows')}</strong>
                 </Link>
-                <Link href="https://apps.apple.com/us/app/ibrowe/id6741485553" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="https://apps.apple.com/us/app/ibrowe/id6741485553" isExternal className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/app-store.png"
                     alt="iOS"
@@ -112,7 +114,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.ios')}</strong>
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser" isExternal className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/apps-android.png"
                     alt="Android"
@@ -139,9 +141,9 @@ export default function Footer() {
             <div>
               <h3 className="text-black text-base font-bold mb-6">{t('sections.news')}</h3>
               <div className="space-y-3">
-                <Link href={`/${currentLocale}/ibrowe-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.privacyPolicy')}</Link>
-                <Link href={`/${currentLocale}/terms-of-use`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.termsOfUse')}</Link>
-                <Link href={`/${currentLocale}/advanced-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.advancedPrivacy')}</Link>
+                <Link href="/ibrowe-privacy" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.privacyPolicy')}</Link>
+                <Link href="/terms-of-use" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.termsOfUse')}</Link>
+                <Link href="/advanced-privacy" className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.advancedPrivacy')}</Link>
               </div>
             </div>
 
@@ -149,19 +151,19 @@ export default function Footer() {
             <div>
               <h3 className="text-black text-base font-bold mb-6">{t('sections.contact')}</h3>
               <div className="flex space-x-4">
-                <Link href="#" className="hover:opacity-80 transition-opacity">
+                <Link href="#" isExternal className="hover:opacity-80 transition-opacity">
                   <Image src="/images/twitter-bw.png" alt="Twitter" width={30} height={30} />
                 </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
+                <Link href="#" isExternal className="hover:opacity-80 transition-opacity">
                   <Image src="/images/facebook-bw.png" alt="Facebook" width={30} height={30} />
                 </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
+                <Link href="#" isExternal className="hover:opacity-80 transition-opacity">
                   <Image src="/images/instagram-bw.png" alt="Instagram" width={30} height={30} />
                 </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
+                <Link href="#" isExternal className="hover:opacity-80 transition-opacity">
                   <Image src="/images/youtube-bw.png" alt="YouTube" width={30} height={30} />
                 </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
+                <Link href="#" isExternal className="hover:opacity-80 transition-opacity">
                   <Image src="/images/tiktok-bw.png" alt="TikTok" width={30} height={30} />
                 </Link>
               </div>

@@ -8,6 +8,7 @@ import dropdownAnimation from '../animations/Drop-lottie.json'
 import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { useLocalizedPath } from '@/utils/path'
+import { getDomainUrl } from '@/utils/url'
 
 export default function Navigation() {
   const [isCompareOpen, setIsCompareOpen] = useState(false)
@@ -29,7 +30,7 @@ export default function Navigation() {
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <Link href={getLocalizedPath('/')} className="flex-shrink-0 flex items-center">
+            <Link href={getDomainUrl(getLocalizedPath('/'))} className="flex-shrink-0 flex items-center">
               <Image
                 src="/images/brave-logo.svg"
                 alt="iBrowe Logo"
@@ -42,14 +43,14 @@ export default function Navigation() {
 
           <div className="hidden md:flex space-x-8">
             <Link
-              href={getLocalizedPath('/')}
+              href={getDomainUrl(getLocalizedPath('/'))}
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/') ? 'text-primary' : ''}`}
             >
               {t('home')}
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
             </Link>
             <Link
-              href={getLocalizedPath('/features')}
+              href={getDomainUrl(getLocalizedPath('/features'))}
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/features') ? 'text-primary' : ''}`}
             >
               {t('features')}
@@ -92,7 +93,7 @@ export default function Navigation() {
                     ].map((item) => (
                       <Link
                         key={item.href}
-                        href={getLocalizedPath(item.href)}
+                        href={getDomainUrl(getLocalizedPath(item.href))}
                         onClick={() => setIsCompareOpen(false)}
                         className="flex items-center gap-2 px-5 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-all duration-200 rounded-md group relative"
                       >
@@ -114,7 +115,6 @@ export default function Navigation() {
               )}
             </div>
 
-
             <Link
               href="https://market.ibrowe.com"
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/business') ? 'text-primary' : ''}`}
@@ -130,7 +130,7 @@ export default function Navigation() {
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
             </Link>
             <Link
-              href={getLocalizedPath('/download')}
+              href={getDomainUrl(getLocalizedPath('/download'))}
               className="inline-flex items-center px-6 py-2.5 border border-white text-sm font-medium rounded-md text-white bg-transparent hover:bg-white hover:text-navbar transition-colors duration-200 shadow-sm hover:shadow-md"
             >
               {t('download')}
@@ -153,14 +153,14 @@ export default function Navigation() {
       <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} transition-all duration-300 ease-in-out`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg rounded-b-lg">
           <Link
-            href={getLocalizedPath('/')}
+            href={getDomainUrl(getLocalizedPath('/'))}
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
             {t('home')}
           </Link>
           <Link
-            href={getLocalizedPath('/features')}
+            href={getDomainUrl(getLocalizedPath('/features'))}
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/features') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -193,7 +193,7 @@ export default function Navigation() {
                 ].map((item) => (
                   <Link
                     key={item.href}
-                    href={getLocalizedPath(item.href)}
+                    href={getDomainUrl(getLocalizedPath(item.href))}
                     onClick={() => {
                       setIsCompareOpen(false);
                       setIsMobileMenuOpen(false);
@@ -221,8 +221,8 @@ export default function Navigation() {
             {t('support')}
           </Link>
           <Link
-            href={getLocalizedPath('/download')}
-            className="block px-3 py-2 rounded-md text-base font-medium text-white bg-primary hover:bg-primary-dark transition-all duration-200"
+            href={getDomainUrl(getLocalizedPath('/download'))}
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             {t('download')}
