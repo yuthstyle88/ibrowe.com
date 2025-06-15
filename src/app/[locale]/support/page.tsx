@@ -200,4 +200,4 @@ export default function SupportPage() {
             </section>
         </main>
     );
-}
+} 
