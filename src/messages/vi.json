@@ -1180,7 +1180,7 @@
   "BlockAds": {
     "hero": {
       "title": "iBrowe giải quyết vấn đề quảng cáo phiền phức",
-      "description": "Ít phiền nhiễu. Tốc độ nhanh hơn. Kiểm soát hoàn toàn.\nĐược hỗ trợ bởi công nghệ chặn quảng cáo thông minh, iBrowe lọc quảng cáo không mong muốn trong thời gian thực.\nĐiều đó có nghĩa là thời gian tải trang nhanh hơn, sử dụng dữ liệu ít hơn và bảo vệ mạnh mẽ hơn mà không cần phải làm gì.\nWeb, đúng như cách nó nên có.",
+      "description": "Ít phiền toái hơn. Tốc độ cao hơn. Kiểm soát hoàn toàn.\nVới công nghệ chặn quảng cáo thông minh, iBrowe lọc các quảng cáo không mong muốn theo thời gian thực.\nĐiều đó có nghĩa là thời gian tải trang nhanh hơn, ít tốn dữ liệu hơn và bảo vệ tốt hơn — tất cả mà bạn không cần làm gì cả.\nTrải nghiệm web như cách nó nên là.",
       "downloadButtons": {
         "ios": "iOS",
         "macos": "MacOS",
@@ -1189,27 +1189,33 @@
       }
     },
     "features": {
-      "title": "Quảng cáo có phải là điều phiền phức nhất trên internet?",
-      "description": "Tạm biệt các cửa sổ bật lên phiền phức, trang tải chậm và nội dung lộn xộn.\niBrowe sử dụng công nghệ chặn quảng cáo thông minh theo thời gian thực để mang lại trải nghiệm internet nhanh hơn, an toàn hơn và không bị phân tâm.\nDễ cài đặt. Dễ sử dụng.\nKhông cần kỹ năng công nghệ.",
-      "downloadButton": "TẢI XUỐNG iBrowe",
+      "title": "Quảng cáo có phải là điều phiền toái nhất trên mạng?",
+      "description": "Tạm biệt các cửa sổ bật lên gây khó chịu, các trang tải chậm và nội dung lộn xộn.\niBrowe sử dụng công nghệ chặn quảng cáo thông minh, theo thời gian thực để mang đến trải nghiệm internet nhanh hơn, an toàn hơn và không bị phân tâm.\nDễ cài đặt. Dễ sử dụng.\nKhông cần kỹ năng kỹ thuật.",
+      "downloadButton": "TẢI iBrowe",
       "items": {
         "general": {
           "title": "iBrowe Chặn Quảng Cáo",
-          "description": "Dành cho những ai mệt mỏi với quảng cáo phiền phức.\nCửa sổ bật lên, biểu ngữ, video tự động phát, chúng làm lộn xộn màn hình của bạn và làm chậm mọi thứ. iBrowe chặn tất cả, ngay lập tức.\nChỉ cần cài đặt và tận hưởng trải nghiệm duyệt web nhanh hơn, sạch hơn mà không bị phân tâm.\n✅ Không cần thiết lập phức tạp\n✅ Dễ sử dụng\n✅ Trải nghiệm an toàn, mượt mà, không quảng cáo\nKhông còn quảng cáo phiền phức. Chỉ có iBrowe."
+          "description": "Dành cho những ai mệt mỏi với quảng cáo phiền toái.\nCửa sổ bật lên, biểu ngữ, video tự động phát — tất cả làm rối mắt và chậm máy. iBrowe chặn hết, ngay lập tức.\nChỉ cần cài đặt và tận hưởng trình duyệt sạch sẽ, nhanh hơn mà không bị làm phiền.\n✅ Không cần cấu hình phức tạp\n✅ Dễ sử dụng\n✅ Trải nghiệm an toàn, mượt mà, không quảng cáo\nKhông còn quảng cáo khó chịu. Chỉ còn iBrowe."
         },
         "youtube": {
           "title": "iBrowe Chặn Quảng Cáo YouTube",
-          "description": "Mệt mỏi với quảng cáo giữa video trên YouTube?\niBrowe Chặn Quảng Cáo cho YouTube mang lại trải nghiệm xem không quảng cáo một cách tự động.\n✅ Chặn Quảng Cáo Tự Động: Tận hưởng các video yêu thích mà không bị gián đoạn\n✅ Cài Đặt Nhanh & Dễ: Cài đặt trong vài giây, hoạt động với tất cả các trình duyệt lớn\n✅ Tiết Kiệm Thời Gian: Phát trực tuyến mượt mà, không gián đoạn để có trải nghiệm tốt hơn\n✅ Hoàn Toàn Riêng Tư: Không theo dõi. Không thu thập dữ liệu. Chỉ là sự yên tâm.\nTải xuống iBrowe Chặn Quảng Cáo cho YouTube ngay hôm nay và lấy lại thời gian của bạn."
+          "description": "Mệt mỏi với quảng cáo giữa video trên YouTube?\niBrowe Chặn Quảng Cáo cho YouTube mang đến trải nghiệm xem không quảng cáo hoàn toàn tự động.\n✅ Tự động chặn quảng cáo: Xem video yêu thích mà không bị gián đoạn\n✅ Cài đặt nhanh & dễ: Cài trong vài giây, hỗ trợ mọi trình duyệt phổ biến\n✅ Tiết kiệm thời gian: Trải nghiệm xem mượt mà, liền mạch hơn\n✅ 100% riêng tư: Không theo dõi. Không thu thập dữ liệu. Hoàn toàn an tâm.\nTải iBrowe Chặn Quảng Cáo cho YouTube ngay hôm nay để tiết kiệm thời gian của bạn."
         },
         "tiktok": {
           "title": "iBrowe Chặn Quảng Cáo TikTok",
-          "description": "Mệt mỏi với quảng cáo TikTok làm gián đoạn dòng chảy của bạn?\niBrowe Chặn Quảng Cáo cho TikTok biến đổi trải nghiệm của bạn ngay lập tức.\n✅ Chặn Quảng Cáo Ngay Lập Tức: Xem video liên tục mà không bị gián đoạn\n✅ Cài Đặt Một Lần Nhấn: Hoạt động với mọi trình duyệt, sẵn sàng trong vài giây\n✅ Tiết Kiệm Thời Gian: Đắm chìm trong khoảnh khắc với nội dung không quảng cáo\n✅ Riêng Tư & An Toàn: Không theo dõi. Không thu thập dữ liệu. Chỉ là sự yên tâm.\nTải xuống iBrowe Chặn Quảng Cáo cho TikTok ngay hôm nay và cuộn thoải mái."
+          "description": "Chán quảng cáo làm gián đoạn trên TikTok?\niBrowe Chặn Quảng Cáo cho TikTok giúp bạn tận hưởng trải nghiệm trọn vẹn ngay lập tức.\n✅ Chặn quảng cáo tức thì: Xem video không bị gián đoạn\n✅ Cài đặt một lần: Tương thích với mọi trình duyệt, sẵn sàng trong vài giây\n✅ Tiết kiệm thời gian: Tận hưởng nội dung liền mạch, không quảng cáo\n✅ Riêng tư & an toàn: Không theo dõi. Không thu thập dữ liệu. Hoàn toàn yên tâm\nTải iBrowe Chặn Quảng Cáo cho TikTok ngay hôm nay và lướt không giới hạn."
         },
         "web": {
-          "title": "iBrowe Chặn Quảng Cáo trên Web",
-          "description": "Chán ngán với cửa sổ bật lên và quảng cáo biểu ngữ khi duyệt web?\niBrowe Chặn Quảng Cáo trên Web là giải pháp tối ưu cho một internet sạch sẽ, nhanh chóng và không bị phân tâm.\n✅ Chặn Tất Cả Quảng Cáo: Loại bỏ ngay lập tức cửa sổ bật lên, biểu ngữ và video tự động phát\n✅ Duyệt Web Nhanh Hơn: Tăng tốc độ tải trang để có trải nghiệm mượt mà, liền mạch\n✅ Cài Đặt Nhanh: Hoạt động trên mọi nền tảng — bắt đầu trong vài giây\n✅ Tối Đa Sự Riêng Tư: Không theo dõi. Không thu thập dữ liệu. Chỉ là sự yên tâm.\nTải xuống iBrowe Chặn Quảng Cáo trên Web ngay hôm nay và lấy lại internet của bạn."
+          "title": "iBrowe Chặn Quảng Cáo Trên Web",
+          "description": "Chán nản với pop-up và quảng cáo biểu ngữ khi lướt web?\niBrowe Chặn Quảng Cáo Trên Web là giải pháp tối ưu cho trải nghiệm internet sạch sẽ, nhanh hơn và không bị phân tâm.\n✅ Chặn mọi quảng cáo: Loại bỏ ngay lập tức các pop-up, biểu ngữ và video tự động phát\n✅ Duyệt web nhanh hơn: Tăng tốc độ tải trang cho trải nghiệm mượt mà hơn\n✅ Cài đặt nhanh: Hoạt động trên mọi nền tảng — bắt đầu trong vài giây\n✅ Tối đa hóa quyền riêng tư: Không theo dõi. Không thu thập dữ liệu. Chỉ đơn giản là sự yên tâm\nTải iBrowe Chặn Quảng Cáo Trên Web ngay hôm nay và làm chủ internet của bạn."
         }
       }
+    },
+    "safeToUse": {
+      "title": "Một trình duyệt được thiết kế để tiết kiệm thời gian của bạn, không phải thu thập dữ liệu cá nhân.",
+      "subtitle": "An Toàn Khi Sử Dụng",
+      "description": "<p><strong>Hiện đã có mặt trên Android, iOS, Linux, macOS và Windows.</strong><br><strong>iBrowe: Nhanh. Riêng tư. Dễ dàng.</strong></p>",
+      "downloadButton": "TẢI iBrowe"
     }
   },
   "Rewards": {
@@ -1276,6 +1282,269 @@
       "revenue": {
         "question": "iBrowe Chia Sẻ Doanh Thu Quảng Cáo Với Người Dùng Như Thế Nào?",
         "answer": "Tại iBrowe, chúng tôi tin rằng bạn – không phải Big Tech –\nnên được hưởng lợi trực tiếp từ trải nghiệm duyệt web của mình.\nĐó là lý do tại sao chúng tôi chia sẻ doanh thu quảng cáo với bạn, thay vì giữ hết cho mình.\n📊 Phần Doanh Thu Của Bạn\nBạn có thể kiếm được tới 70% doanh thu từ quảng cáo tôn trọng quyền riêng tư được hiển thị qua iBrowe.\n💎 Thanh Toán Bằng IAT\nThu nhập của bạn được thanh toán bằng IAT (iBrowe Attention Token) qua hệ thống Phần Thưởng iBrowe.\n❤️ Giữ Lại Hoặc Chia Sẻ, Bạn Quyết Định\nVới IAT của bạn, bạn có thể:\n– 💼 Lưu trữ trong ví số của bạn\n– 🎁 Đổi lấy thẻ quà tặng hoặc chuyển đổi sang các loại tiền tệ khác\n– 🙌 Chia sẻ một phần với các trang web hoặc nhà sáng tạo bạn yêu thích (hoàn toàn tùy chọn)\n🔐 iBrowe = Minh Bạch. Công Bằng. Ưu Tiên Người Dùng.\nBạn không còn là sản phẩm\nBạn giờ đây là chủ sở hữu giá trị của mình, được thưởng cho những gì bạn chọn xem."
+      }
+    }
+  },
+  "Shields": {
+    "hero": {
+      "title": "🛡️ iBrowe Shields",
+      "description": "🔐 Bảo Vệ Thông Minh — Luôn Bật, Mọi Nơi Bạn Duyệt\n\niBrowe Shields là lớp bảo mật thời gian thực luôn bật, được kích hoạt tự động trên mọi trang web bạn truy cập. Nó hoạt động âm thầm trong nền để bảo vệ trải nghiệm duyệt web của bạn ngay từ khi trang tải.\n\niBrowe Shields Làm Gì:\n🚫 Chặn quảng cáo phiền toái và trình theo dõi giữa các trang\n🛡️ Ngăn mã độc và mối đe dọa từ website\n⚙️ Kích hoạt ngay lập tức, không cần cài đặt hoặc tiện ích mở rộng\n✅ Luôn bật. Luôn an toàn. Được cung cấp bởi iBrowe.\n\nVới iBrowe Shields, quyền riêng tư và bảo vệ của bạn không phải là tùy chọn. Chúng được tích hợp sẵn. Vì bạn không nên đánh đổi dữ liệu cá nhân chỉ để sử dụng internet.",
+      "imageAlt": "iBrowe Shields - Bảo vệ thông minh"
+    },
+    "features": {
+      "tracking": {
+        "title": "🛡️ Bảo Vệ Chống Theo Dõi Trực Tuyến",
+        "description": "🛡 iBrowe Shields, Bảo Vệ Thời Gian Thực, Tích Hợp Sẵn\nMỗi khi bạn mở một trang web, iBrowe Shields sẽ tự động hoạt động — bảo vệ quyền riêng tư và bảo mật của bạn mà không cần thiết lập gì.\n\n🔍 Chặn Ngay Các Mối Đe Dọa Theo Dõi Bao Gồm:\n🕵️ Trình theo dõi hành vi và theo dõi giữa các trang\n🍪 Cookie theo dõi\n🎯 Nỗ lực giả mạo (phishing)\n🧬 Dấu vân tay trình duyệt\n🚫 Và nhiều hình thức giám sát kỹ thuật số khác\n\n🔐 Quyền riêng tư trên mọi trang — Không cần thiết lập, không cần tiện ích mở rộng\nVới iBrowe Shields, quyền riêng tư là mặc định.\nChỉ cần mở iBrowe, duyệt web như bình thường, và tận hưởng sự bảo vệ trên mọi trang — không cần nhấp chuột, không cần cấu hình, không thỏa hiệp.",
+        "imageAlt": "Bảo vệ khỏi theo dõi trực tuyến"
+      },
+      "privacy": {
+        "title": "🛡️ Bảo Vệ Quyền Riêng Tư Mặc Định — Không Cần Thiết Lập",
+        "description": "🛡 iBrowe Shields — Luôn Bật\nĐược tích hợp trực tiếp trong trình duyệt iBrowe. Không cần tiện ích mở rộng. Không rắc rối.\n\n✅ Không cần tải thêm\n✅ Không cần thiết lập thủ công\n✅ Hoạt động ngay từ khi khởi chạy\n\nNgay từ giây đầu tiên, iBrowe Shields chặn:\n🚫 Trình theo dõi\n🍪 Cookie giữa các trang\n🎯 Phishing\n🧬 Dấu vân tay trình duyệt và nhiều hơn nữa\n\nChỉ cần cài đặt iBrowe và bắt đầu duyệt web một cách an toàn, riêng tư, và dễ dàng.",
+        "imageAlt": "iBrowe Shields - Lớp bảo vệ đầu tiên"
+      },
+      "realTime": {
+        "title": "🛡️ Xem iBrowe Shields Hoạt Động — Bảo Vệ Thời Gian Thực",
+        "description": "👁️ Xem Ngay Điều Đang Bị Chặn Với iBrowe Shields\nBạn có thể không thấy ai đang theo dõi bạn — nhưng iBrowe Shields thì thấy, và nó sẽ chặn chúng tự động.\n\n🔍 Muốn biết điều gì đang diễn ra sau hậu trường?\nChỉ cần nhấp vào biểu tượng Shields trên thanh địa chỉ để xem:\n🚫 Trình theo dõi đã bị chặn\n🍪 Cookie giữa các trang đã bị chặn\n🧬 Chống dấu vân tay\n🎯 Chống phishing… và nhiều mối đe dọa bạn chưa từng biết đến\n\n🛡️ Bảo vệ thời gian thực minh bạch — bạn hoàn toàn kiểm soát được.\nVì quyền riêng tư không nên là điều vô hình.\n\n👉 Nhấp vào biểu tượng Shields ngay và khám phá những gì iBrowe đang làm để bảo vệ bạn.",
+        "imageAlt": "iBrowe Shields đang hoạt động"
+      },
+      "control": {
+        "title": "🔐 Quyền Riêng Tư Do Bạn Kiểm Soát",
+        "description": "🛡️ iBrowe Shields — Tự Động Bảo Vệ, Dễ Dàng Điều Chỉnh\n\niBrowe Shields được bật tự động trên mọi trang bạn truy cập, chặn trình theo dõi, cookie giữa các trang và giám sát trực tuyến mà không cần thiết lập gì.\n\n⚙️ Nhưng Quyền Kiểm Soát Luôn Trong Tay Bạn\nNếu một trang web không tải đúng hoặc một số chức năng không hiển thị, bạn không cần phải tắt toàn bộ bảo vệ trình duyệt.\n\n✅ Điều chỉnh Shields theo từng trang — chỉ với một cú nhấp\n✅ Không cần đổi trình duyệt hoặc vô hiệu toàn bộ bảo vệ\n✅ Duy trì quyền riêng tư toàn hệ thống trong khi linh hoạt cho từng trang cụ thể\n\niBrowe = Quyền riêng tư không giới hạn + Quyền kiểm soát trong tay bạn\nBảo vệ mọi trang. Tùy chỉnh mọi trải nghiệm.\nKhông thỏa hiệp. Chỉ duyệt web thông minh và an toàn hơn.",
+        "imageAlt": "Kiểm soát quyền riêng tư"
+      }
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "trackers": {
+        "question": "iBrowe Chặn Trình Theo Dõi, Script Và Tài Nguyên Không Mong Muốn Như Thế Nào?",
+        "answer": "🛡 iBrowe Shields — Bảo Vệ Quyền Riêng Tư Thông Minh, Thời Gian Thực\n\niBrowe Shields sử dụng danh sách lọc mạnh mẽ và phân tích thông minh để tự động chặn mối đe dọa và trình theo dõi.\n\n📋 Nguồn Chặn Chính:\n🔹 EasyList & EasyPrivacy\n– Danh sách phổ biến nhất để chặn quảng cáo và trình theo dõi trên web\n🔹 uBlock Origin Project\n– Dự án mã nguồn mở uy tín với khả năng chặn nội dung chính xác và tùy chỉnh\n🔹 Bộ luật riêng của iBrowe\n– Phát triển nội bộ để phát hiện và chặn những trình theo dõi vượt qua danh sách công khai, được tối ưu cho thực tế\n\n🧠 Hơn Cả Danh Sách — Bảo Vệ Dựa Trên Hành Vi\nMột số trình theo dõi không có trong danh sách công khai.\nĐó là lý do iBrowe còn phân tích hành vi thời gian thực để phát hiện và chặn mã hoặc script có hành vi theo dõi ngay cả khi chưa được phát hiện bởi danh sách công khai.\n\n💪 Hỗ Trợ Cộng Đồng Quyền Riêng Tư\niBrowe không chỉ sử dụng danh sách mã nguồn mở — chúng tôi còn đóng góp và duy trì các danh sách này để giúp web an toàn hơn cho mọi người.\n\n✨ Kết Quả: Chặn Thông Minh, Sâu Hơn và Chính Xác Hơn\nSo với trình duyệt truyền thống, iBrowe cung cấp mức bảo vệ:\n– Chính xác hơn\n– Thích ứng hơn\n– Cam kết mạnh mẽ hơn với quyền riêng tư người dùng"
+      },
+      "fingerprinting": {
+        "question": "Ngẫu Nhiên Hóa Dấu Vân Tay Hoạt Động Thế Nào?",
+        "answer": "Mỗi lần bạn duyệt web, trình duyệt của bạn sẽ tiết lộ các chi tiết như:\n– Phần cứng đồ họa (GPU)\n– Phần cứng âm thanh\n– Hệ điều hành\n– Ngôn ngữ và font cài đặt\n– Kích thước màn hình\n– Phiên bản trình duyệt\n\nKhi kết hợp, các giá trị này tạo thành một “dấu vân tay số” mà các trang web có thể dùng để theo dõi bạn, ngay cả khi không có cookie.\n\n🔐 iBrowe Bảo Vệ Bạn Với Ngẫu Nhiên Hóa Dấu Vân Tay\n\nMặc định, iBrowe Shields sử dụng các kỹ thuật như:\n✅ Ngẫu nhiên hóa các thông tin nhận diện chính (WebGL, Canvas, AudioContext...)\n✅ Giới hạn truy cập vào thông tin nhận dạng\n✅ Tạo danh tính mới mỗi khi bạn khởi động lại trình duyệt\n✅ Khiến trình duyệt của bạn trông khác nhau với mỗi trang web\n\n🚫 Kết Quả:\nCác trang web không thể liên kết bạn giữa các phiên hoặc nhận diện trình duyệt theo thời gian.\n\n🧪 Muốn Thử?\nHãy thử Panopticlick từ EFF để kiểm tra mức bảo vệ dấu vân tay.\n\n✨ iBrowe = Bảo vệ cả những gì bạn không thể thấy"
+      },
+      "storage": {
+        "question": "Điểm Khác Biệt Trong Việc Chặn Lưu Trữ Bên Thứ Ba Của iBrowe Là Gì?",
+        "answer": "<p>Hầu hết trình duyệt tập trung vào quyền riêng tư chỉ chặn cookie bên thứ ba, nhưng iBrowe đi xa hơn: chặn tất cả các hình thức lưu trữ bên thứ ba, bao gồm:</p><ul><li>✅ Cookie bên thứ ba</li><li>✅ Các cơ chế lưu trữ như LocalStorage, IndexedDB, và những bộ nhớ khác trong <code>&lt;iframe&gt;</code> hoặc script bên thứ ba</li></ul><h3>🔐 Điểm Khác Biệt: Lưu Trữ Phân Mảnh Tạm Thời</h3><p>iBrowe sử dụng một hệ thống gọi là <strong>Ephemeral Partitioned Storage</strong> — cô lập và tự động xóa lưu trữ bên thứ ba khi kết thúc phiên.</p><h4>✨ Cách Hoạt Động:</h4><ul><li>Lưu trữ được phân tách với trang chính</li><li>Dữ liệu bên thứ ba chỉ tồn tại trong thời gian tab hoặc phiên hoạt động</li><li>Khi đóng tab hoặc trình duyệt, dữ liệu bị xóa sạch</li></ul><h4>🛡️ Kết Quả:</h4><ul><li>Trình theo dõi không thể tạo hồ sơ dài hạn</li><li>Giảm đáng kể việc theo dõi hành vi</li><li>Ngay cả khi một trình theo dõi lọt qua bộ lọc, vẫn còn lớp bảo vệ cấu trúc</li></ul><p>✨ <strong>iBrowe = Quyền Riêng Tư Vượt Xa Việc Chặn</strong><br/>Không chỉ là bộ lọc, mà là kiến trúc bảo vệ tận gốc.</p>"
+      },
+      "disable": {
+        "question": "Một Trang Web Không Hoạt Động — Tôi Có Thể Tắt iBrowe Shields Không?",
+        "answer": "Câu trả lời là: Có, nhưng hãy cẩn trọng.\n\nKhi bạn tắt iBrowe Shields, các bảo vệ quyền riêng tư trên trang đó sẽ bị tạm ngưng. Điều này có nghĩa là:\n– Trình theo dõi có thể được tải\n– Cookie giữa các trang có thể hoạt động\n– Script bên thứ ba có thể chạy bình thường\n\n✅ Nếu Bạn Cần Tắt Shields:\n- Đảm bảo trang web đó đáng tin cậy\n- Nhấp vào biểu tượng iBrowe Shields 🛡️ trên thanh địa chỉ\n- Gạt công tắc để “Tắt bảo vệ cho trang này”\n\nNếu trang hoạt động đúng sau khi tắt Shields, bạn có thể nhấn “Báo cáo sự cố trang” để thông báo cho nhóm iBrowe.\nChúng tôi sẽ xem xét và cải thiện khả năng tương thích trong các bản cập nhật tương lai.\n\nℹ️ Lưu ý:\nViệc tắt Shields chỉ ảnh hưởng đến trang đó.\nCác tab và trang khác vẫn được bảo vệ đầy đủ bởi iBrowe Shields.\n\n🛡️ iBrowe mang đến quyền kiểm soát mà không đánh đổi sự an toàn."
+      },
+      "modes": {
+        "question": "Sự Khác Biệt Giữa Chế Độ Chuẩn Và Chế Độ Mạnh Trong iBrowe Shields Là Gì?",
+        "answer": "iBrowe Shields cung cấp hai chế độ bảo vệ chính, cho phép bạn chọn mức độ riêng tư phù hợp:\n\n🔰 Chế Độ Chuẩn (Mặc định)\nĐây là thiết lập mặc định, cân bằng giữa bảo vệ và trải nghiệm:\n– Chặn quảng cáo phổ biến, trình theo dõi và script xâm phạm riêng tư\n– Giữ tương thích tối đa với hầu hết các trang web\n– Phù hợp với người dùng thông thường muốn riêng tư mà không làm hỏng trang\n\n👍 Phù hợp với: Người dùng phổ thông cần duyệt web mượt mà và được bảo vệ tốt\n\n🔒 Chế Độ Mạnh\nChế độ này tăng cường bảo vệ, bao gồm:\n– Chặn script bên thứ ba và tài nguyên theo dõi nâng cao\n– Có thể khiến một số trang web tải sai hoặc một số tính năng không hoạt động\n\n💡 Dù iBrowe cố gắng duy trì hoạt động trang, vẫn có thể xảy ra lỗi hiển thị\n\n🔐 Phù hợp với: Người dùng ưu tiên quyền riêng tư tối đa và không ngại sự cố nhỏ\n\n✨ Chuyển Đổi Dễ Dàng:\nVào: Cài đặt > iBrowe Shields > Mức Bảo Vệ\nSau đó chọn chế độ phù hợp với phong cách riêng tư của bạn."
+      }
+    }
+  },
+  "AdvancedPrivacy": {
+    "hero": {
+      "title": "Bảo mật Nâng cao bởi iBrowe",
+      "description": "Tại iBrowe, chúng tôi cam kết mang lại trải nghiệm duyệt web an toàn, minh bạch và ưu tiên quyền riêng tư.\nChúng tôi không chỉ chặn quảng cáo và trình theo dõi, chúng tôi sử dụng các công nghệ tiên tiến để bảo vệ dữ liệu cá nhân của bạn với mỗi cú nhấp chuột.\nBởi vì quyền riêng tư không phải là xa xỉ; đó là quyền cơ bản.\nMọi thành phần của iBrowe được xây dựng để giữ thông tin của bạn chỉ thuộc về bạn.",
+      "imageAlt": "Bảo mật Nâng cao"
+    },
+    "features": {
+      "safeToUse": "An toàn để sử dụng",
+      "privacyByDefault": {
+        "title": "🛡️ Quyền riêng tư theo Mặc định",
+        "description": "Bảo vệ ngay từ khi bạn bắt đầu, không cần cài đặt. iBrowe được xây dựng với thiết kế ưu tiên quyền riêng tư làm cốt lõi. Ngay khi bạn mở iBrowe, bạn đã được bảo vệ mà không cần plugin, không cần cấu hình, không cần bước bổ sung. Chỉ cần mở iBrowe, bạn sẽ ngay lập tức được bảo vệ khỏi các trình theo dõi.",
+        "content": "🔒 <strong>Ba Lớp Bảo vệ của iBrowe</strong>\n\niBrowe bảo vệ quyền riêng tư của bạn thông qua <strong>ba lớp bảo vệ mạnh mẽ, tích hợp</strong>:\n\n🧩 <strong>Lớp 1: Chặn Trình theo dõi</strong>\nChặn các trình theo dõi và tập lệnh bên thứ ba từ các mạng quảng cáo và nền tảng xã hội (như Facebook Pixel hoặc Google Analytics).\n✅ Ngăn chặn theo dõi liên trang\n✅ Giảm nguy cơ bị định dạng mà không biết\n\n🔐 <strong>Lớp 2: Bảo vệ Chống Định dạng Kỹ thuật số</strong>\nẨn các chi tiết kỹ thuật của thiết bị của bạn, như:\n- Hệ điều hành\n- Kích thước màn hình\n- Phông chữ\n- Plugin đã cài đặt\nĐiều này khiến các trang web gần như không thể tạo ra <strong>dấu vân tay kỹ thuật số độc đáo</strong> để theo dõi hoặc nhận diện bạn.\n\n🔄 <strong>Lớp 3: Kiểm soát Cookie & Nội dung</strong>\nTự động chặn <strong>cookie bên thứ ba</strong>\nNgăn chặn tải <strong>nội dung nhúng</strong> từ các trang web khác có thể theo dõi bạn (ví dụ: video YouTube nhúng, nút Like của Facebook)\nNgăn nội dung xâm phạm quyền riêng tư tải trừ khi bạn cho phép"
+      },
+      "shields": {
+        "title": "🛡️ Lá chắn iBrowe — Tuyến Phòng thủ Đầu tiên về Quyền riêng tư",
+        "description": "Lá chắn iBrowe là lớp bảo vệ quyền riêng tư tự động đầu tiên của bạn, được thiết kế để bảo vệ hoạt động duyệt web của bạn trong thời gian thực mà không cần thiết lập thủ công.",
+        "content": "💡 <strong>Lá chắn iBrowe làm gì?</strong>\n\n🚫 Chặn Trình theo dõi\nNgăn các trang web và mạng quảng cáo theo dõi các trang bạn truy cập và hành động của bạn trực tuyến.\n\n🍪 Chặn Cookie Liên trang\nNgăn cookie từ một trang web theo dõi bạn sang trang khác, ngăn chặn hiệu quả việc theo dõi trên toàn web.\n\n🧬 Bảo vệ Chống Định dạng Kỹ thuật số\nẨn các chi tiết cụ thể của thiết bị và trình duyệt (như kích thước màn hình, ngôn ngữ, plugin, v.v.) để <strong>ngăn chặn định dạng kỹ thuật số</strong> có thể nhận diện bạn một cách độc đáo.\n\n🔐 Các Tính năng Bảo vệ Khác\n- Chặn các tập lệnh không an toàn hoặc độc hại\n- Bảo vệ chống lại phần mềm độc hại và các nỗ lực lừa đảo\n- Áp dụng kết nối HTTPS để duyệt web an toàn\n\n👁️ <strong>Xem Những Gì Đang Bị Chặn — Ngay Lập tức</strong>\n\nMuốn biết Lá chắn iBrowe đang làm gì cho bạn trên một trang cụ thể?\n\n🔍 Chỉ cần nhấp vào <strong>biểu tượng Lá chắn</strong> trong <strong>thanh địa chỉ</strong> của trình duyệt để xem thống kê bảo vệ theo thời gian thực:\n- Số lượng trình theo dõi bị chặn\n- Các tập lệnh hoặc quảng cáo bị chặn\n- Mức độ bảo vệ hiện tại được kích hoạt"
+      },
+      "advancedProtections": {
+        "title": "🛡️ Bảo vệ Nâng cao",
+        "description": "Lớp Thứ hai của Hệ thống Phòng thủ Quyền riêng tư của iBrowe. Sau khi Lá chắn iBrowe (lớp đầu tiên) chặn các trình theo dõi cơ bản, Bảo vệ Nâng cao của iBrowe tiếp quản, hoạt động sâu trong lõi trình duyệt để bảo vệ chống lại các kỹ thuật theo dõi phức tạp và hiện đại hơn.",
+        "content": "🔧 <strong>Cách Hoạt động?</strong>\n\nNhững bảo vệ nâng cao này được thực hiện thông qua:\n- <strong>Sửa đổi trực tiếp động cơ Chromium</strong>\n- Giảm <strong>lỗ hổng cấp mạng</strong>\n- <strong>Cách ly dữ liệu thông minh</strong> và các biện pháp đối phó với theo dõi tinh vi\n\n🔍 Các Tính năng Chính của Bảo vệ Quyền riêng tư Nâng cao của iBrowe\n\n<strong>📉 1. Giảm Gọi Mạng</strong>\niBrowe giới hạn các yêu cầu không cần thiết đến máy chủ bên ngoài, giảm thiểu rò rỉ dữ liệu và tiết lộ ít hơn về hành vi trực tuyến của bạn.\n\n<strong>🧱 2. Phân vùng Dữ liệu Chi tiết</strong>\nMỗi trang web chạy trong một vùng chứa riêng tư riêng—không có cookie, bộ nhớ đệm hoặc lưu trữ được chia sẻ giữa các trang. Trang web A không thể truy cập dữ liệu từ Trang web B, ngăn chặn theo dõi liên trang.\n\n<strong>🚫 3. Ngăn chặn Theo dõi Chuyển hướng</strong>\nChặn các kỹ thuật theo dõi chuyển hướng theo dõi bạn qua các liên kết theo dõi trung gian. iBrowe loại bỏ các đường dẫn theo dõi để giữ cho việc điều hướng của bạn riêng tư.\n\n<strong>🔒 4. Các Bảo vệ Tích hợp Bổ sung</strong>\nBao gồm các tính năng bảo mật cấp trình duyệt như:\n- Chặn tìm nạp trước DNS\n- Bảo vệ rò rỉ địa chỉ IP\n- Ngăn chặn các tiêu đề và tín hiệu được sử dụng để định dạng"
+      },
+      "policies": {
+        "title": "📜 Chính sách & Thực tiễn",
+        "description": "Lớp 3: Chúng tôi Không Bảo vệ Dữ liệu của Bạn — Vì Chúng tôi Không Thu thập Nó. Tại iBrowe, quyền riêng tư không chỉ là một tính năng, mà là một nguyên tắc cốt lõi. Ngoài các công cụ và lá chắn, chúng tôi có một lập trường đạo đức rõ ràng: cách tốt nhất để bảo vệ dữ liệu của bạn là không thu thập nó.",
+        "content": "🛑 <strong>1. Không Thu thập Dữ liệu = Không Cần Bảo vệ</strong>\n\n<em>'Cách tốt nhất để bảo vệ dữ liệu của bạn là không thu thập nó ngay từ đầu.'</em>\n\niBrowe được xây dựng để hoạt động mà không biết <strong>bạn là ai</strong>.\n\nChúng tôi <strong>không thu thập</strong>:\n- Lịch sử duyệt web\n- Truy vấn tìm kiếm\n- Vị trí\n- Dữ liệu hành vi\n\nKhông có gì được lưu trữ trên máy chủ của chúng tôi có thể được sử dụng để nhận diện hoặc định dạng bạn.\n\n⚖️ <strong>2. Vượt Qua Các Luật Quyền riêng tư Toàn cầu</strong>\n\nChúng tôi tuân thủ đầy đủ và thường vượt qua các quy định quyền riêng tư nghiêm ngặt nhất trên thế giới:\n- <strong>GDPR</strong> (Liên minh Châu Âu)\n- <strong>CCPA</strong> (California, Hoa Kỳ)\n\nCách tiếp cận của chúng tôi bao gồm:\n- Cung cấp cho người dùng quyền <strong>truy cập, sửa chữa hoặc xóa</strong> bất kỳ dữ liệu nào (nếu có)\n- Cho phép sử dụng iBrowe đầy đủ <strong>mà không yêu cầu thông tin cá nhân</strong>\n\n🌍 <strong>3. Hỗ trợ Phong trào Quyền riêng tư Toàn cầu</strong>\n\niBrowe không đơn độc trong sứ mệnh này. Chúng tôi:\n- Góp phần vào <strong>các dự án mã nguồn mở về quyền riêng tư</strong>\n- Hợp tác với <strong>các tổ chức phi lợi nhuận</strong> để định hình một web công bằng, đạo đức hơn\n- <strong>Giáo dục người dùng một cách minh bạch</strong> về quyền riêng tư và quyền số\n\nVới Lớp 3, quyền riêng tư không chỉ được bảo vệ, nó được <strong>định nghĩa lại</strong>. iBrowe trao quyền cho người dùng mà không có giám sát, định dạng hoặc thỏa hiệp."
+      }
+    },
+    "faq": {
+      "title": "Bảo vệ Nâng cao của iBrowe Được Tích hợp Trong Trình duyệt",
+      "chromium": {
+        "question": "Chromium, Được Tinh chỉnh cho Quyền riêng tư",
+        "answer": "Dựa trên Chromium. Được cải tiến bởi iBrowe.<br>iBrowe là trình duyệt ưu tiên quyền riêng tư dựa trên động cơ mã nguồn mở Chromium, nền tảng được sử dụng bởi Google Chrome, Microsoft Edge và Vivaldi. Mặc dù Chromium cung cấp bảo mật mạnh mẽ, nhiều trình duyệt dựa trên nó <strong>không</strong> ưu tiên quyền riêng tư của người dùng theo mặc định. Đó là điểm khác biệt của iBrowe. Với mỗi bản cập nhật, iBrowe loại bỏ các tính năng theo dõi và xây dựng lại các lớp bảo vệ quyền riêng tư.<br>🔧 Những gì iBrowe thay đổi trong Chromium:<br>1. <strong>Chuyển hướng Tất cả Kết nối Google</strong><br>iBrowe chặn và chuyển hướng tất cả giao tiếp thường đi đến các dịch vụ Google.<br>✅ Thay vì kết nối trực tiếp với Google, dữ liệu đi qua các máy chủ của iBrowe, giữ thông tin của bạn riêng tư khỏi Google.<br>2. <strong>Đồng bộ Mã hóa Phía Máy khách</strong><br>Tính năng đồng bộ của chúng tôi mã hóa dữ liệu của bạn từ đầu đến cuối trên thiết bị của bạn.<br>🔐 Thông tin được đồng bộ của bạn không bao giờ chạm đến máy chủ Google và không thể đọc được bởi iBrowe.<br>3. <strong>Loại bỏ Các Tính năng Xâm phạm Quyền riêng tư của Chromium</strong><br>iBrowe vô hiệu hóa hoặc loại bỏ các hệ thống theo dõi bao gồm:<br>❌ Google Topics (theo dõi sở thích quảng cáo)<br>❌ API Trạng thái Mạng (dữ liệu hành vi mạng)<br>❌ FLoC (Học tập Liên kết của Nhóm – định dạng nhóm)<br>❌ FLEDGE (hệ thống nhắm mục tiêu quảng cáo giám sát hành vi người dùng)<br>Các công nghệ này thay thế cookie truyền thống nhưng vẫn đe dọa quyền riêng tư, iBrowe loại bỏ chúng hoàn toàn."
+      },
+      "deamping": {
+        "question": "DeAMPing: Tránh Google AMP để Bảo vệ Quyền riêng tư Thực sự",
+        "answer": "<strong>AMP (Trang Di động Tăng tốc)</strong> là định dạng web được tạo và quảng bá bởi Google, nhằm giúp các trang di động tải nhanh hơn.<br>Mặc dù nghe như là một cải tiến hiệu suất, thực tế AMP thường <strong>tăng cường quyền kiểm soát của Google đối với web</strong>, bởi vì:<br>- ⚠️ Các trang AMP thường được <strong>phục vụ từ máy chủ của Google</strong> thay vì trang web gốc<br>- ⚠️ Điều này cho phép Google <strong>theo dõi hành vi người dùng sâu hơn và liên tục hơn<br>- </strong>⚠️ Các trang web không sử dụng AMP có thể bị <strong>xếp hạng thấp hơn</strong> trong Tìm kiếm Google theo mặc định<br><br>🛡️ <strong>iBrowe Bảo vệ Bạn Như Thế Nào: Tự động DeAMP<br>‍</strong>Giống như Brave, <strong>iBrowe tự động “DeAMP” các trang web</strong> để đặt người dùng, không phải Google, vào vị trí kiểm soát.<br>Điều này có nghĩa là:<br>✅ iBrowe <strong>tr部分 tránh tải các phiên bản AMP</strong> của trang<br>✅ Chuyển hướng bạn đến <strong>URL trang web gốc (canonical)<br>‍</strong>✅ Đảm bảo bạn xem <strong>nội dung xác thực trực tiếp</strong> từ nhà xuất bản, không qua proxy của Google<br><br>Bằng cách bỏ qua AMP, iBrowe bảo vệ:<br>- <strong>Quyền riêng tư của bạn<br>- </strong><strong>Web mở<br>- </strong>Và <strong>quyền kết nối trực tiếp</strong> với các trang web bạn chọn<br>Với iBrowe, bạn không chỉ duyệt nhanh hơn, bạn duyệt <strong>tự do</strong>."
+      },
+      "networkRequests": {
+        "question": "Giới hạn Yêu cầu Mạng",
+        "answer": "iBrowe giảm thiểu giao tiếp nền theo thiết kế.<br>‍</strong>Hầu hết các trình duyệt web bắt đầu <strong>kết nối với nhiều máy chủ ngay lập tức</strong> khi khởi động để kiểm tra cập nhật, lấy dữ liệu nền, hoặc liên lạc với các dịch vụ bên thứ ba.<br>Nhưng <strong>iBrowe</strong>, giống như Brave, được thiết kế có chủ đích để <strong>giảm các yêu cầu mạng này</strong>, đặc biệt là những yêu cầu đến <strong>cơ sở hạ tầng riêng của nó</strong>.<br>🔧 <strong>Nguyên tắc Chính của Cách tiếp cận iBrowe:<br>‍</strong>🧭 <strong>Giới hạn tần suất và khối lượng</strong> giao tiếp máy chủ<br>🚫 <strong>Tránh kết nối với các dịch vụ không cần thiết<br>‍</strong>🔒 <strong>Không gửi dữ liệu cá nhân trong nền</strong> mà không có sự đồng ý của người dùng<br><br>📊 <strong>Được Hỗ trợ bởi Nghiên cứu Độc lập<br>‍</strong>Các nghiên cứu của các nhà nghiên cứu bên thứ ba đã chỉ ra rằng:<br>‍<strong>iBrowe (Brave)</strong> thực hiện <strong>ít kết nối nền hơn</strong> so với bất kỳ trình duyệt lớn nào khác được thử nghiệm.<br>Điều này dẫn đến:<br>✅ <strong>Không truyền dữ liệu không cần thiết<br>‍</strong>✅ <strong>Giảm nguy cơ bị chặn hoặc giám sát</strong> bởi bên thứ ba<br>✅ <strong>Tính minh bạch và tin cậy cao hơn</strong> trong cách trình duyệt hoạt động<br>Bằng cách giữ im lặng khi những người khác nói,<br><strong>iBrowe bảo vệ dữ liệu của bạn ngay cả khi bạn không để ý.</strong>"
+      },
+      "queryParameters": {
+        "question": "Lọc Tham số Truy vấn",
+        "answer": "<strong>URL Sạch. Ít Theo dõi. Nhiều Quyền riêng tư hơn.<br>‍</strong>🔍 <strong>Vấn đề là gì?</strong><br>Các trình theo dõi thường ẩn trong các tham số URL như <code>?utm_source=...</code> hoặc <code>&fbclid=...</code> để theo dõi:<br>- Bạn là ai<br>- Bạn đến từ đâu<br>- Bạn đã nhấp vào gì<br>Các tham số này có thể trông vô hại, nhưng chúng có thể âm thầm <strong>xây dựng hồ sơ về bạn</strong> ngay cả khi không có cookie.<br><br>🛡️ <strong>iBrowe Bảo vệ Bạn Như Thế Nào<br>‍</strong>✂️ <strong>Loại bỏ các tham số theo dõi</strong> khỏi URL tự động<br>🔒 <strong>Chặn theo dõi ngay cả khi cookie/tập lệnh không hoạt động<br>‍</strong>🔄 <strong>Giữ danh sách cập nhật</strong> các tham số theo dõi mới<br>🚫 <strong>Ngăn chặn rò rỉ dữ liệu âm thầm</strong> đến các nhà quảng cáo và bên thứ ba<br>📌 <strong>Ví dụ</strong><br>Bạn nhấp vào liên kết này:<br><code>https://example.com/article?utm_source=facebook&ref=trackingid123</code>iBrowe tự động tải:<br><code>https://example.com/article<br>‍</code>✅ Kết quả: Nội dung thực sự, không có theo dõi vô hình.<br>🧠 <strong>Bạn thấy một liên kết sạch. Các trình theo dõi không thấy gì.</strong>"
+      },
+      "partitioning": {
+        "question": "Phân vùng Tốt hơn cho Quyền riêng tư Nâng cao",
+        "answer": "<strong>Cách ly dữ liệu. Loại bỏ theo dõi liên trang.<br>‍</strong>🔒 <strong>Phân vùng là gì?</strong><br>iBrowe cải tiến <strong>các tính năng phân vùng tích hợp của Chromium</strong> để bảo vệ quyền riêng tư của bạn ở mức sâu hơn. Thay vì để các trang web chia sẻ dữ liệu về bạn một cách âm thầm, iBrowe sử dụng <strong>Phân vùng Trạng thái Mạng</strong> để tách biệt mọi thứ theo trang web.<br><br>🛠️ <strong>Cách Hoạt động<br>‍</strong>🌐 <strong>Phân vùng Trạng thái Mạng</strong><br>iBrowe phân vùng trạng thái DOM, dữ liệu mạng và lưu trữ nội bộ <strong>theo từng trang web</strong>, đảm bảo dữ liệu từ một trang không thể được sử dụng lại để theo dõi bạn trên trang khác.<br>🧩 <strong>Mở rộng Phân vùng Ngoài DOM</strong><br>Ngoài phân vùng truyền thống, iBrowe cũng áp dụng sự tách biệt này cho <strong>các cơ chế lưu trữ trình duyệt</strong> như bộ nhớ đệm, cookie và nhân viên dịch vụ.<br>🚫 <strong>Chặn Các Tấn công Tài nguyên Chia sẻ</strong><br>Ngăn chặn các kỹ thuật theo dõi và định dạng kỹ thuật số tiên tiến dựa vào việc tải nội dung được chia sẻ (như phông chữ hoặc tập lệnh) trên nhiều trang web.<br>✅ <strong>Tại sao Điều này Quan trọng</strong>Không còn rò rỉ dữ liệu ẩn giữa các trang webNgăn bên thứ ba liên kết danh tính của bạnVô hiệu hóa các kỹ thuật định dạng kỹ thuật số tinh viGiữ mỗi trang web trong <strong>hộp cát quyền riêng tư riêng của nó<br>‍</strong>🛡️ <strong>Hoạt động của bạn ở đúng nơi thuộc về bạn.</strong>"
+      },
+      "socialMedia": {
+        "question": "Chặn Mạng Xã hội",
+        "answer": "<strong>Ít lộn xộn hơn. Nhiều quyền riêng tư hơn. Kiểm soát hoàn toàn. </strong>Nhiều trang web nhúng nội dung từ các nền tảng xã hội hoặc cho phép đăng nhập bằng tài khoản bên thứ ba như:<br>🔵 Google<br>🔵 Facebook<br>🔵 LinkedIn<br>🔵 X (trước đây là Twitter)Những tích hợp này thường đi kèm với <strong>các trình theo dõi vô hình</strong> ngay cả khi bạn không đăng nhập.<br><br>🛡️ <strong>iBrowe Bảo vệ Bạn Như Thế Nào<br>‍</strong>iBrowe tự động:<br>- Chặn <strong>nội dung mạng xã hội nhúng<br>- </strong>Ẩn <strong>nút đăng nhập</strong> từ các nền tảng như Facebook hoặc Google<br>- Ngăn các nền tảng đó <strong>theo dõi bạn trên toàn web<br>‍</strong>⚙️ <strong>Bạn Kiểm soát<br>‍</strong>Bạn có thể dễ dàng quản lý cài đặt chặn mạng xã hội:<br>📍 Truy cập <code>iBrowe://settings/socialBlocking</code><br>Từ đó, bạn có thể bật hoặc tắt chặn cho:<br>- Nhúng Facebook<br>- Nút đăng nhập Google<br>- Tweet Twitter/XLinkedIn widget<br>...và nhiều hơn nữa<br>🎯 <strong>Giữ tập trung. Giữ riêng tư. Chặn những gì bạn không cần.</strong><br>"
+      },
+      "bounceTracking": {
+        "question": "Bảo vệ Chống Theo dõi Chuyển hướng",
+        "answer": "<strong>Chuyển hướng thông minh hơn. Không theo dõi.<br>‍</strong>Mặc dù hầu hết các trình duyệt hiện đại chặn các trình theo dõi quảng cáo tiêu chuẩn, <strong>các công ty công nghệ quảng cáo đã phát triển các phương pháp tiên tiến hơn</strong> để vượt qua các bảo vệ này, một trong số đó được gọi là <strong>Theo dõi Chuyển hướng</strong>.<br><br>🕵️<strong>Theo dõi Chuyển hướng là gì?<br>‍</strong>Theo dõi chuyển hướng hoạt động bằng cách ẩn ID theo dõi trong các liên kết bạn nhấp, như:<br>www.sitename.com/article123abc?tracker_id=XYZ<br>Những liên kết này chuyển hướng bạn qua <strong>các miền theo dõi trung gian</strong> trước khi đưa bạn đến đích thực sự, thường mà bạn không biết.<br><br>🛡️ <strong>iBrowe Bảo vệ Bạn Như Thế Nào<br>‍</strong>iBrowe tự động:<br>✂️ <strong>Loại bỏ tham số theo dõi</strong> khỏi các liên kết chuyển hướng<br>📋 Sử dụng <strong>danh sách bộ lọc</strong> để nhận diện và chặn các chuyển hướng dựa trên theo dõi đã biết<br>🔄 Hỗ trợ <strong>“Chuyển hướng Không Liên kết”</strong>:<br>Tạo <strong>lưu trữ trình duyệt tạm thời, cách ly</strong> khi truy cập các trang web chuyển hướng đáng ngờ để không rò rỉ dữ liệu cá nhân<br>🚀 Tính năng <strong>Bỏ qua Chuyển hướng</strong>: Phát hiện và <strong>bỏ qua các miền theo dõi đã biết</strong>, đưa bạn trực tiếp đến <strong>đích thực</strong> ngay lập tức<br><br>✅ <strong>Kết quả<br>- </strong>Không định dạng hành vi<br>- Không có chuyển hướng ẩn<br>- Không làm chậm hoặc đánh đổi quyền riêng tư<br>🔐 <strong>Với iBrowe, mỗi cú nhấp chuột đều tôn trọng quyền riêng tư của bạn.</strong>"
+      },
+      "cookieLifetime": {
+        "question": "Giới hạn Thời gian Sống của Cookie 7 Ngày",
+        "answer": "<strong>Thời gian sống cookie ngắn hơn. Quyền riêng tư mạnh hơn.<br>‍</strong>Để bảo vệ quyền riêng tư của bạn, <strong>iBrowe tự động giới hạn thời gian sống của cookie được đặt qua JavaScript xuống 7 ngày</strong>.<br><br>⏳ <strong>Điều này Có nghĩa là Gì<br>- </strong>Bất kỳ <strong>cookie được đặt qua JavaScript</strong> sẽ tự động bị xóa sau <strong>7 ngày</strong>, trừ khi được làm mới bởi tương tác với trang.<br>- Điều này giúp ngăn chặn theo dõi lâu dài bởi các trang web và nhà quảng cáo bên thứ ba.<br>⚙️ <strong>Quản lý Cài đặt Cookie của Bạn<br>‍</strong>Bạn có thể tùy chỉnh cách xử lý cookie bằng cách truy cập:<br>🔗 <code>iBrowe://settings/cookies</code>Tại đó, bạn có thể:<br>🧹 <strong>Xóa cookie thủ công bất kỳ lúc nào<br>‍</strong>🛠️ Đặt các quy tắc tùy chỉnh cho <strong>khi nào và cách xóa cookie<br>‍</strong>🔐 Cải thiện quyền riêng tư bằng cách <strong>giảm thiểu sự tồn tại của theo dõi<br>‍</strong>🧠 <strong>Cookie biết càng ít, bạn càng ngủ ngon.</strong>"
+      },
+      "privateWindow": {
+        "question": "Cửa sổ Riêng tư với Tor",
+        "answer": "<strong>Ẩn danh nâng cao. Tích hợp trực tiếp vào iBrowe.<br>‍</strong>iBrowe bao gồm một <strong>Cửa sổ Riêng tư với Tor</strong> tùy chọn, được thiết kế để mang lại <strong>quyền riêng tư tối đa</strong> khi duyệt web.<br><br>🔐 <strong>Cách Hoạt động<br>‍</strong>Khi bạn mở một trang trong Cửa sổ Riêng tư với Tor:<br>- Kết nối của bạn được <strong>định tuyến qua nhiều nút Tor (rơle)<br>‍</strong><strong>Địa chỉ IP của bạn được ẩn</strong> hiệu quảBạn trở nên <strong>khó theo dõi hoặc nhận diện</strong> trực tuyến hơn nhiều<br><br>🛡️ <strong>Tại sao Sử dụng Tor trong iBrowe?<br>‍</strong>🚫 Ngăn các trang web thấy địa chỉ IP thực của bạn<br>🔒 Bảo vệ chống <strong>giám sát cấp mạng<br>‍</strong>🧭 Hữu ích cho <strong>truy cập nội dung ẩn danh</strong> hoặc tránh kiểm duyệt<br>🧹 Giới hạn theo dõi và định dạng kỹ thuật số lâu dài<br><br>⚠️ <strong>Lưu ý:</strong> Vì lưu lượng được định tuyến qua nhiều rơle Tor, <strong>tốc độ duyệt web có thể chậm hơn</strong> bình thường. Nhưng đổi lại, bạn có được <strong>quyền ẩn danh và riêng tư cao hơn</strong>.<br><br>🌐 <strong>Đi riêng tư. Đi vô hình. Đi Tor.</strong><br>"
+      }
+    }
+  },
+  "Support": {
+    "hero": {
+      "title": "Hỗ trợ iBrowe – Người bạn đồng hành công nghệ đáng tin cậy!",
+      "description": "Từ việc khắc phục sự cố IT đến tư vấn công nghệ chuyên nghiệp, iBrowe Support luôn sẵn sàng giúp bạn làm việc mượt mà và hiệu quả. Đội ngũ chuyên gia của chúng tôi mang đến dịch vụ nhanh chóng, thân thiện và đáng tin cậy bất cứ khi nào bạn cần.\n✅ Giải quyết sự cố IT nhanh chóng\n✅ Tư vấn chuyên môn đáng tin cậy\n✅ Luôn đồng hành cùng bạn\n📞 Liên hệ ngay để trải nghiệm dịch vụ hỗ trợ hàng đầu từ iBrowe!",
+      "downloadButton": "tải iBrowe",
+      "imageAlt": "Đội ngũ hỗ trợ iBrowe"
+    },
+    "categories": {
+      "title": "Hỗ trợ iBrowe",
+      "subtitle": "Hỗ trợ tận tâm và thân thiện luôn sẵn sàng cho bạn.",
+      "desktop": {
+        "title": "Trình duyệt máy tính"
+      },
+      "shields": {
+        "title": "Lá chắn"
+      },
+      "rewards": {
+        "title": "Phần thưởng"
+      },
+      "sync": {
+        "title": "Đồng bộ hóa"
+      },
+      "mobile": {
+        "title": "Di động"
+      },
+      "wallet": {
+        "title": "Ví iBrowe"
+      }
+    },
+    "faq": {
+      "title": "Gợi ý bài viết",
+      "translation": {
+        "question": "Bạn có muốn sử dụng iBrowe để dịch không?",
+        "answer": "Trình duyệt iBrowe hiện đã tích hợp tính năng dịch ngôn ngữ cho cả người dùng máy tính và Android (hỗ trợ iOS sẽ có trong các bản cập nhật tương lai). iBrowe hợp tác cùng Lingvanex để mang đến dịch vụ dịch thuật nhanh chóng và liền mạch, giúp bạn dễ dàng duyệt nội dung đa ngôn ngữ hơn bao giờ hết."
+      },
+      "tor": {
+        "question": "Duyệt web riêng tư với Tor",
+        "answer": "Trong chế độ \"Cửa sổ riêng tư với Tor\", trình duyệt iBrowe sẽ chuyển kết nối của bạn qua ba lớp máy chủ do cộng đồng Tor vận hành thay vì kết nối trực tiếp tới trang web. Phương pháp nhiều lớp này giúp tăng cường quyền riêng tư và ẩn danh khi duyệt web."
+      },
+      "sync": {
+        "question": "Cách thiết lập Đồng bộ hóa",
+        "answer": "Tính năng Đồng bộ giúp bạn kết nối và đồng bộ hóa dữ liệu duyệt web một cách dễ dàng trên nhiều thiết bị sử dụng iBrowe. Chỉ với vài bước đơn giản, bạn có thể giữ cho dấu trang, mật khẩu, lịch sử duyệt web và cài đặt luôn được đồng bộ hoàn hảo giữa máy tính, điện thoại và các thiết bị khác – mang đến trải nghiệm duyệt web mượt mà, nhanh chóng và cá nhân hóa hơn."
+      },
+      "security": {
+        "question": "Bảo mật hoạt động ngay lập tức. 🔒",
+        "answer": "iBrowe sẵn sàng bảo vệ bạn ngay khi cài đặt – không cần cài thêm tiện ích, không cần thiết lập phức tạp, không cần kỹ năng công nghệ. 🚀"
+      },
+      "ads": {
+        "question": "Quảng cáo iBrowe: Những câu hỏi thường gặp ⚡",
+        "answer": "Tất cả những gì bạn cần biết về Quảng cáo iBrowe. Quảng cáo iBrowe khác biệt gì so với quảng cáo trên các trình duyệt khác và vì sao bạn nên chọn xem chúng? Quảng cáo iBrowe nổi bật ở nhiều điểm quan trọng."
+      }
+    }
+  },
+  "Marketing": {
+    "hero": {
+      "title": "Quảng cáo trên trình duyệt và công cụ tìm kiếm của iBrowe",
+      "description": "Tiếp cận hàng triệu người dùng iBrowe và biến họ thành khách hàng trung thành với quảng cáo hiệu quả cao phù hợp với mọi mục tiêu tiếp thị của bạn.",
+      "imageAlt": "Nền tảng quảng cáo iBrowe"
+    },
+    "features": {
+      "title": "Vì sao nên chọn iBrowe cho chiến dịch quảng cáo của bạn?",
+      "description": "Vì chúng tôi giúp bạn tiếp cận đúng đối tượng bằng công nghệ tiên tiến và vị trí hiển thị quảng cáo được tối ưu để mang lại ROI tối đa cho doanh nghiệp.",
+      "tabs": {
+        "newAudiences": {
+          "title": "Tiếp cận nhóm đối tượng mới",
+          "description": "Tiếp cận các đối tượng bạn không thể tìm thấy ở các nền tảng khác."
+        },
+        "lowCompetition": {
+          "title": "Cạnh tranh thấp, hiệu quả cao",
+          "description": "Định dạng quảng cáo độc đáo chưa từng có trên thị trường."
+        },
+        "fastGrowing": {
+          "title": "Tăng trưởng nhanh",
+          "description": "Xây dựng trên trình duyệt và thiết bị phát triển nhanh nhất thế giới."
+        },
+        "brandSafe": {
+          "title": "An toàn thương hiệu",
+          "description": "Vị trí quảng cáo cao cấp, không gây phiền nhiễu."
+        }
+      }
+    },
+    "brands": {
+      "title": "Các thương hiệu táo bạo phát triển cùng iBrowe Market"
+    },
+    "subscribe": {
+      "title": "Đăng ký nhận thông tin mới nhất từ iBrowe Market.",
+      "description": "Luôn cập nhật cơ hội quảng cáo mới và các tin tức từ nền tảng.",
+      "emailPlaceholder": "Địa chỉ email",
+      "button": "Đăng ký",
+      "successMessage": "Cảm ơn bạn đã đăng ký nhận thông báo!",
+      "errorMessage": "Rất tiếc! Đã xảy ra lỗi khi gửi biểu mẫu."
+    }
+  },
+  "linux": {
+    "hero": {
+      "title": "Cài đặt iBrowe trên Linux",
+      "subtitle": "🌟 Tải trình duyệt iBrowe ngay hôm nay! 🌟",
+      "features": [
+        "🔹 Chặn quảng cáo thông minh – duyệt web không bị làm phiền",
+        "🔹 Bảo mật tối đa – bảo vệ dữ liệu và quyền riêng tư của bạn",
+        "🔹 Giao diện hiện đại, dễ sử dụng – hoạt động mượt mà trên mọi thiết bị",
+        "🚀 Nâng tầm trải nghiệm duyệt web – nhanh chóng, riêng tư và dễ dàng!"
+      ]
+    },
+    "installation": {
+      "title": "Cài đặt iBrowe trên Linux",
+      "viewSource": "Xem mã nguồn",
+      "verifySignature": "hoặc xác minh chữ ký",
+      "systemRequirements": "Yêu cầu hệ thống: Bản phân phối Linux 64-bit với glibc 2.28 trở lên",
+      "signingKeys": "Khóa ký: Tất cả các gói đều được ký bằng khóa GPG của chúng tôi. Bạn có thể xác minh chữ ký bằng khóa công khai của chúng tôi.",
+      "channels": {
+        "release": "Kênh ổn định",
+        "beta": "Kênh beta",
+        "nightly": "Kênh hàng ngày",
+        "releaseDescription": "Kênh ổn định được khuyến nghị cho hầu hết người dùng. Nhận cập nhật định kỳ với các bản sửa lỗi và bản vá bảo mật.",
+        "betaDescription": "Kênh beta dành cho người dùng muốn thử nghiệm các tính năng mới trước khi chúng được phát hành chính thức. Có thể chứa lỗi và không phù hợp cho môi trường sản xuất.",
+        "nightlyDescription": "Kênh hàng ngày chứa bản dựng mới nhất trong quá trình phát triển. Được cập nhật hàng ngày và có thể không ổn định. Chỉ nên dùng nếu bạn muốn thử các tính năng mới và không ngại gặp lỗi."
+      },
+      "distributions": {
+        "debian": "Debian/Ubuntu",
+        "fedora": "Fedora",
+        "opensuse": "openSUSE",
+        "arch": "Arch Linux",
+        "flatpak": "Flatpak",
+        "snap": "Snap",
+        "github": "Phát hành trên GitHub",
+        "unofficial": "Gói do cộng đồng duy trì",
+        "manjaro": "Manjaro Linux",
+        "solus": "Solus Linux"
+      },
+      "aurHelper": "Sử dụng AUR helper như yay:",
+      "flatpakDescription": "Flatpak là định dạng gói ứng dụng đa nền tảng hoạt động trên bất kỳ bản phân phối Linux nào. Nó cung cấp môi trường cách ly an toàn cho ứng dụng.",
+      "snapDescription": "Snap là định dạng gói ứng dụng đa nền tảng hoạt động trên bất kỳ bản phân phối Linux nào. Hỗ trợ cập nhật tự động và hoàn tác.",
+      "githubDescription": "Bạn có thể tải bản phát hành mới nhất trực tiếp từ kho GitHub của chúng tôi. Hữu ích khi muốn cài đặt iBrowe trên bản phân phối không chính thức.",
+      "unofficialDescription": "Các bản phân phối này không được iBrowe hỗ trợ chính thức, nhưng cộng đồng vẫn duy trì các gói cho chúng. Dù không được hỗ trợ trực tiếp, các gói này thường rất đáng tin cậy.",
+      "troubleshooting": {
+        "title": "Sự cố phổ biến và cách khắc phục",
+        "description": "Nếu gặp sự cố khi cài đặt hoặc sử dụng iBrowe, hãy thử các giải pháp sau:",
+        "commands": "# Cập nhật hệ thống trước\nsudo apt update && sudo apt upgrade  # Dành cho Debian/Ubuntu\nsudo dnf update  # Dành cho Fedora\nsudo zypper update  # Dành cho openSUSE\nsudo pacman -Syu  # Dành cho Arch Linux\n\n# Nếu trình quản lý gói báo lỗi, hãy thử:\nsudo apt clean && sudo apt update  # Debian/Ubuntu\nsudo dnf clean all && sudo dnf update  # Fedora\nsudo zypper clean && sudo zypper update  # openSUSE\nsudo pacman -Scc && sudo pacman -Syu  # Arch Linux"
       }
     }
   }

@@ -179,7 +179,7 @@ export default function BlockAds() {
             </div>
             <div className="lg:w-1/2">
               <div className="space-y-6">
-                <p className="text-xl text-white">{t('safeToUse.subtitle')}</p>
+                <p className="text-xl text-white">{t.raw('safeToUse.subtitle')}</p>
                 <h2 className="text-3xl font-bold text-white">{t('safeToUse.title')}</h2>
                 <div
                   className="text-lg text-white whitespace-pre-line"
