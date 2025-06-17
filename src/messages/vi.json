@@ -24,11 +24,11 @@
   },
   "logo_alt": "Logo iBrowe",
   "Hero": {
-    "title": "iBrowe - Trình duyệt Quan Tâm Đến Bạn",
-    "description": "Trình duyệt không quảng cáo tối ưu, an toàn khỏi lừa đảo. Hãy chuyển sang iBrowe!",
+    "title": "<strong>iBrowe</strong> Định Nghĩa Lại Trải Nghiệm Internet Của Bạn",
+    "description": "Bước vào một thế giới trực tuyến sạch hơn, nhanh hơn và an toàn hơn.<br>iBrowe chặn phiền nhiễu, bảo vệ quyền riêng tư<br>và che chắn bạn khỏi lừa đảo và phần mềm độc hại một cách dễ dàng.<br>Dù bạn đang xem phim, làm việc hay mua sắm, từng<br>cú nhấp đều mượt mà hơn, từng khoảnh khắc đều an toàn hơn.<br><strong>Đây là duyệt web như nó nên có: Riêng tư, Mượt mà, Hoàn toàn<br>thuộc về bạn.<br>iBrowe được tạo ra cho những ai kỳ vọng nhiều hơn.</strong> 🚀",
     "downloadButton": "Tải iBrowe",
     "imageAlt": "Giao diện trình duyệt iBrowe",
-    "partnerLogoAlt": "Logo đối tác {num}"
+    "partnerLogoAlt": "Logo Đối Tác {num}"
   },
   "EdgeComparison": {
     "title": "iBrowe so với Edge",

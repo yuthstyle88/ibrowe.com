@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import DownloadButton from '@/components/DownloadButton';
+import PlatformLinks from '@/components/PlatformLinks';
 
 export default function SupportPage() {
     const t = useTranslations('Support');
@@ -54,7 +54,7 @@ export default function SupportPage() {
                                 {t('hero.description')}
                             </p>
                             <div className="mt-8">
-                                <DownloadButton />
+                                <PlatformLinks />
                             </div>
                         </div>
                         <div className="lg:w-1/2">
@@ -168,7 +168,7 @@ export default function SupportPage() {
             <section className="py-16 bg-[#535353]">
                 <div className="container mx-auto px-5">
                     <h2 className="text-3xl font-bold text-center text-white mb-12">{t('faq.title')}</h2>
-                    
+
                     <div className="max-w-4xl mx-auto space-y-4">
                         {faqs.map((faq, index) => (
                             <div key={index} className="bg-white/10 rounded-xl overflow-hidden">
@@ -186,10 +186,9 @@ export default function SupportPage() {
                                         </div>
                                     </div>
                                 </button>
-                                <div 
-                                    className={`px-6 transition-all duration-300 ease-in-out overflow-hidden ${
-                                        activeFAQ === index ? 'max-h-96 py-4' : 'max-h-0'
-                                    }`}
+                                <div
+                                    className={`px-6 transition-all duration-300 ease-in-out overflow-hidden ${activeFAQ === index ? 'max-h-96 py-4' : 'max-h-0'
+                                        }`}
                                 >
                                     <p className="text-white whitespace-pre-line">{faq.answer}</p>
                                 </div>

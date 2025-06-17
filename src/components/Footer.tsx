@@ -149,20 +149,8 @@ export default function Footer() {
             <div>
               <h3 className="text-black text-base font-bold mb-6">{t('sections.contact')}</h3>
               <div className="flex space-x-4">
-                <Link href="#" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/twitter-bw.png" alt="Twitter" width={30} height={30} />
-                </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/facebook-bw.png" alt="Facebook" width={30} height={30} />
-                </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/instagram-bw.png" alt="Instagram" width={30} height={30} />
-                </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/youtube-bw.png" alt="YouTube" width={30} height={30} />
-                </Link>
-                <Link href="#" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/tiktok-bw.png" alt="TikTok" width={30} height={30} />
+                <Link href="https://community.ibrowe.com" rel="noopener noreferrer" target="_blank" className="hover:opacity-80 transition-opacity">
+                  <Image src="/images/iBrowe-community.png" alt="community" width={40} height={40} />
                 </Link>
               </div>
             </div>

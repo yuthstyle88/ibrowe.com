@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import DownloadButton from '@/components/DownloadButton';
+import PlatformLinks from '@/components/PlatformLinks';
 
 export default function BlockAds() {
   const t = useTranslations('BlockAds');
@@ -29,7 +30,7 @@ export default function BlockAds() {
                 {t('hero.description')}
               </p>
               <div className="mt-8">
-                <DownloadButton />
+                <PlatformLinks />
               </div>
             </div>
             <div className="lg:w-1/2">

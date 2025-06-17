@@ -1,9 +1,7 @@
 "use client";
 
 import Image from 'next/image'
-import Link from 'next/link'
 import { useTranslations } from 'next-intl'
-import DownloadButton from './DownloadButton';
 import PlatformLinks from './PlatformLinks';
 
 export default function BlockAdsHero() {
