@@ -1406,6 +1406,11 @@
       }
     }
   },
+  "NotFound": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",
+    "backHome": "Quay về trang chủ"
+  },
   "Support": {
     "hero": {
       "title": "Hỗ trợ iBrowe – Người bạn đồng hành công nghệ đáng tin cậy!",

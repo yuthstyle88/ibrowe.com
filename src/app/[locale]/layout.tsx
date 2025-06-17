@@ -13,7 +13,7 @@ export default async function LocaleLayout({
   params
 }: LayoutProps) {
   const { locale } = await params;
-  const messages = (await import(`../../messages/${locale}.json`)).default;
+  const messages = (await import(`@/messages/${locale}.json`)).default;
   
   return (
     <html lang={locale}>
