@@ -9,7 +9,7 @@ export default function ShieldsHero() {
   const t = useTranslations('Shields');
 
   return (
-    <section className="py-28" style={{
+    <section className="pt-24 md:pt-28 pb-16 md:pb-28 min-h-[400px]" style={{
       backgroundColor: '#535353',
       backgroundImage: "url('/images/bg_shade.svg')",
       backgroundPosition: '0 0',
@@ -29,13 +29,13 @@ export default function ShieldsHero() {
               <PlatformLinks />
             </div>
           </div>
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 flex justify-center items-center w-full min-h-[180px] md:min-h-[320px]">
             <Image
               src="/images/design-3d-icon--ibrowe-shields---smart-shields---t.png"
               alt={t('hero.imageAlt')}
               width={512}
               height={512}
-              className="w-full h-auto"
+              className="w-auto h-40 sm:h-56 md:h-72 lg:h-96"
             />
           </div>
         </div>

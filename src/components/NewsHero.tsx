@@ -8,7 +8,7 @@ export default function NewsHero() {
     const t = useTranslations('News.hero');
 
     return (
-        <div className="section-content pt-20" style={{
+        <div className="py-28 min-h-[400px]" style={{
             backgroundColor: '#535353',
             backgroundImage: "url('/images/bg_shade.svg')",
             backgroundPosition: '0 0',
@@ -45,13 +45,13 @@ export default function NewsHero() {
                                 </div>
                             </div>
                         </div>
-                        <div className="hero-image-wrap-2 flex-1">
+                        <div className="hero-image-wrap-2 flex-1 flex justify-center items-center w-full min-h-[180px] md:min-h-[320px]">
                             <Image
                                 src="/images/design-3d-icon-ibrowe-news-digitals-news.png"
                                 alt="iBrowe News"
                                 width={1024}
                                 height={1024}
-                                className="w-full h-auto"
+                                className="w-auto h-40 sm:h-56 md:h-72 lg:h-96"
                                 priority
                             />
                         </div>

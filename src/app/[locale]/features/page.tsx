@@ -10,16 +10,16 @@ export default function FeaturesPage() {
     return (
         <main className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-b from-blue-50 to-white p-40" style={{
+            <section className="relative bg-gradient-to-b from-blue-50 to-white pt-24 pb-12 px-4 md:pt-32 md:pb-20 md:px-8" style={{
                 backgroundColor: '#535353',
                 backgroundImage: "url('/images/bg_shade.svg')",
                 backgroundPosition: '0 0',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
             }}>
-                <div className="container mx-auto px-4 py-16">
+                <div className="container mx-auto px-0 md:px-4 py-0 md:py-4">
                     <div className="flex flex-col md:flex-row items-center gap-8">
-                        <div className="flex-1">
+                        <div className="flex-1 w-full text-center md:text-left mb-8 md:mb-0">
                             <h1
                                 className="text-4xl md:text-5xl font-bold mb-8 text-white"
                                 dangerouslySetInnerHTML={{ __html: t.raw('hero.title') }}
@@ -29,13 +29,13 @@ export default function FeaturesPage() {
                             </p>
                             <PlatformLinks />
                         </div>
-                        <div className="flex-1">
+                        <div className="flex-1 flex justify-center items-center w-full min-h-[180px] md:min-h-[320px]">
                             <Image
                                 src="/images/design-3d-icon-ibrowe---a-browser-that--protects--.png"
                                 alt="iBrowe Browser"
                                 width={500}
                                 height={500}
-                                className="w-full h-auto"
+                                className="w-auto h-40 sm:h-56 md:h-72 lg:h-96"
                             />
                         </div>
                     </div>

@@ -10,7 +10,7 @@ export default function TermsOfUse() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="py-16"
+      <div className="py-28"
         style={{
           backgroundColor: '#535353',
           backgroundImage: "url('/images/bg_shade.svg')",

@@ -36,7 +36,7 @@ export default function SupportPage() {
     return (
         <main className="min-h-screen">
             {/* Hero Section */}
-            <section className="py-16"
+            <section className="pt-[96px]"
                 style={{
                     backgroundColor: '#535353',
                     backgroundImage: "url('/images/bg_shade.svg')",

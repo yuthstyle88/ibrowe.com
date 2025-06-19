@@ -23,22 +23,22 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-white py-16">
-      <div className="container mx-auto px-5">
+    <footer className="bg-white py-10 md:py-16">
+      <div className="container mx-auto px-4 sm:px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Large Column */}
-          <div className="lg:col-span-2 lg:pr-16">
+          <div className="lg:col-span-2 lg:pr-16 flex flex-col items-center lg:items-start text-center lg:text-left">
             <Image
               src="/images/Asset-47.png"
               alt="iBrowe Logo"
               width={130}
               height={130}
-              className="mb-6"
+              className="mb-6 w-24 h-auto md:w-32"
             />
-            <p className="text-[#4e5d78] text-base font-bold mb-6">
+            <p className="text-[#4e5d78] text-base font-bold mb-6 max-w-xs">
               {t('tagline')}
             </p>
-            <div className="space-y-4">
+            <div className="space-y-4 w-full flex flex-col items-center lg:items-start">
               <Link href="mailto:support@ibrowe.com" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                 <Image
                   src="https://uploads-ssl.webflow.com/5d01778cda7c6cc8a63e0b64/5d1324fd4b05c818c6fbecc1_mail.svg"
@@ -63,9 +63,9 @@ export default function Footer() {
           </div>
 
           {/* Right Columns Container */}
-          <div className="lg:col-span-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div className="lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* About Column */}
-            <div>
+            <div className="mb-8 sm:mb-0">
               <h3 className="text-black text-base font-bold mb-6">{t('sections.about')}</h3>
               <div className="space-y-3">
                 <Link href={`/${currentLocale}`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.company')}</Link>
@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
 
             {/* Download Column */}
-            <div>
+            <div className="mb-8 sm:mb-0">
               <h3 className="text-black text-base font-bold mb-6">{t('sections.download')}</h3>
               <div className="space-y-3">
                 <Link href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
@@ -88,7 +88,7 @@ export default function Footer() {
                     alt="MacOS"
                     width={20}
                     height={20}
-                    className="mr-3"
+                    className="mr-3 w-5 h-5"
                   />
                   <strong>{t('download.macos')}</strong>
                 </Link>
@@ -98,7 +98,7 @@ export default function Footer() {
                     alt="Windows"
                     width={20}
                     height={20}
-                    className="mr-3"
+                    className="mr-3 w-5 h-5"
                   />
                   <strong>{t('download.windows')}</strong>
                 </Link>
@@ -108,7 +108,7 @@ export default function Footer() {
                     alt="iOS"
                     width={20}
                     height={20}
-                    className="mr-3"
+                    className="mr-3 w-5 h-5"
                   />
                   <strong>{t('download.ios')}</strong>
                 </Link>
@@ -118,7 +118,7 @@ export default function Footer() {
                     alt="Android"
                     width={20}
                     height={20}
-                    className="mr-3"
+                    className="mr-3 w-5 h-5"
                   />
                   <strong>{t('download.android')}</strong>
                 </Link>
@@ -128,7 +128,7 @@ export default function Footer() {
                     alt="Linux"
                     width={20}
                     height={20}
-                    className="mr-3"
+                    className="mr-3 w-5 h-5"
                   />
                   <strong>{t('download.linux')}</strong>
                 </Link>
@@ -136,7 +136,7 @@ export default function Footer() {
             </div>
 
             {/* News Column */}
-            <div>
+            <div className="mb-8 sm:mb-0">
               <h3 className="text-black text-base font-bold mb-6">{t('sections.news')}</h3>
               <div className="space-y-3">
                 <Link href={`/${currentLocale}/ibrowe-privacy`} className="block text-[#4e5d78] hover:text-primary transition-colors text-sm">{t('links.privacyPolicy')}</Link>
@@ -146,11 +146,11 @@ export default function Footer() {
             </div>
 
             {/* Social Links Column */}
-            <div>
+            <div className="flex flex-col items-center sm:items-start">
               <h3 className="text-black text-base font-bold mb-6">{t('sections.contact')}</h3>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 justify-center sm:justify-start">
                 <Link href="https://community.ibrowe.com" rel="noopener noreferrer" target="_blank" className="hover:opacity-80 transition-opacity">
-                  <Image src="/images/iBrowe-community.png" alt="community" width={40} height={40} />
+                  <Image src="/images/iBrowe-community.png" alt="community" width={40} height={40} className="w-10 h-10" />
                 </Link>
               </div>
             </div>
@@ -158,14 +158,14 @@ export default function Footer() {
         </div>
 
         {/* Copyright and Language Selector */}
-        <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-[#4e5d78] text-sm">{t('copyright')}</p>
-          <div className="flex items-center space-x-6 mt-4 md:mt-0">
+        <div className="mt-10 md:mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+          <p className="text-[#4e5d78] text-sm text-center md:text-left">{t('copyright')}</p>
+          <div className="flex items-center space-x-4 md:space-x-6">
             {/* Language Selector */}
             <select
               value={currentLocale}
               onChange={(e) => handleLanguageChange(e.target.value)}
-              className="bg-white text-[#4e5d78] border border-gray-300 rounded px-3 py-1 focus:outline-none focus:border-primary text-sm"
+              className="bg-white text-[#4e5d78] border border-gray-300 rounded px-3 py-1 focus:outline-none focus:border-primary text-sm w-32"
             >
               <option value="en">English</option>
               <option value="th">ภาษาไทย</option>

@@ -9,7 +9,7 @@ export default function RewardsHero() {
   const t = useTranslations('Rewards');
 
   return (
-    <section className="relative py-20 bg-gradient-to-b from-blue-50 to-white  pt-40"
+    <section className="relative pt-24 md:pt-32 pb-16 md:pb-24 min-h-[400px] bg-gradient-to-b from-blue-50 to-white"
       style={{
         backgroundColor: '#535353',
         backgroundImage: "url('/images/bg_shade.svg')",
@@ -30,13 +30,13 @@ export default function RewardsHero() {
               <DownloadButton />
             </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 flex justify-center items-center w-full min-h-[180px] md:min-h-[320px]">
             <Image
               src="/images/design-3d-icon--ibrowe-rewards---browse-and-get-re.png"
               alt="iBrowe Rewards"
               width={1024}
               height={1024}
-              className="w-full h-auto"
+              className="w-auto"
               priority
             />
           </div>

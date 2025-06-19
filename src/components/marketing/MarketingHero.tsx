@@ -9,7 +9,7 @@ export default function MarketingHero() {
   const t = useTranslations('Marketing');
 
   return (
-    <section className="py-16 pt-28"
+    <section className="pt-24 md:pt-28 pb-16 md:pb-24"
       style={{
         backgroundColor: '#535353',
         backgroundImage: "url('/images/bg_shade.svg')",
@@ -30,7 +30,7 @@ export default function MarketingHero() {
               <DownloadButton />
             </div>
           </div>
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 min-h-[180px] md:min-h-[320px] flex items-center">
             <Image
               src="/images/3d-icon-ads-on-ibrowe-browsers-and-search-engines.png"
               alt={t('hero.imageAlt')}
