@@ -223,7 +223,7 @@ export default function Navigation() {
             {t('business')}
           </Link>
           <Link
-            href={getLocalizedPath('/support')}
+            href="https://support.ibrowe.com"
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/support') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
