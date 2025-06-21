@@ -16,6 +16,8 @@ export default function Navigation() {
   const pathname = usePathname()
   const getLocalizedPath = useLocalizedPath()
 
+  const currentLocale = pathname.split('/')[1] || 'en';
+
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
   }
@@ -123,7 +125,7 @@ export default function Navigation() {
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
             </Link>
             <Link
-              href="https://support.ibrowe.com"
+              href={`https://support.ibrowe.com/${currentLocale}`}
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/support') ? 'text-primary' : ''}`}
             >
               {t('support')}
@@ -223,7 +225,7 @@ export default function Navigation() {
             {t('business')}
           </Link>
           <Link
-            href="https://support.ibrowe.com"
+            href={`https://support.ibrowe.com/${currentLocale}`}
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/support') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
