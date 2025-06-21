@@ -118,7 +118,7 @@ export default function Navigation() {
 
 
             <Link
-              href={getLocalizedPath('/marketing')}
+              href={`https://market.ibrowe.com/${currentLocale}`}
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/business') ? 'text-primary' : ''}`}
             >
               {t('business')}
@@ -218,7 +218,7 @@ export default function Navigation() {
             )}
           </div>
           <Link
-            href={getLocalizedPath('/marketing')}
+            href={`https://market.ibrowe.com/${currentLocale}`}
             className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/business') ? 'text-primary bg-gray-50' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
