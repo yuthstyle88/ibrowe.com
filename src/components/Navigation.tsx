@@ -123,7 +123,7 @@ export default function Navigation() {
               <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
             </Link>
             <Link
-              href={getLocalizedPath('/support')}
+              href="https://support.ibrowe.com"
               className={`relative text-white hover:text-blue-600 text-sm font-medium py-2 transition-colors duration-200 group ${isActive('/support') ? 'text-primary' : ''}`}
             >
               {t('support')}
