@@ -25,7 +25,7 @@
   "logo_alt": "Logo iBrowe",
   "Hero": {
     "title": "<strong>iBrowe</strong> Định nghĩa lại cách bạn trải nghiệm Internet",
-    "description": "Bước vào một thế giới trực tuyến sạch hơn, nhanh hơn và an toàn hơn.<br>iBrowe chặn mọi phiền nhiễu, bảo vệ quyền riêng tư của bạn và<br>che ngăn chặn bạn khỏi các trò lừa đảo và phần mềm độc hại một cách dễ dàng.<br>Dù bạn đang xem phim, làm việc hay mua sắm, mỗi<br>cú nhấp chuột đều mượt mà hơn, mỗi khoảnh khắc đều bảo vệ tối ưu.<br><strong>Đây là trình duyệt mà bạn xứng đáng có được: Riêng tư, Mượt mà, và Hoàn toàn <br>thuộc về bạn.<br>iBrowe được xây dựng cho những người đặt kỳ vọng nhiều hơn vào một trình duyệt.</strong> 🚀",
+    "description": "Bước vào một thế giới trực tuyến sạch hơn, nhanh hơn và an toàn hơn.<br>iBrowe chặn mọi phiền nhiễu, bảo vệ quyền riêng tư của bạn và ngăn chặn bạn khỏi các trò lừa đảo và phần mềm độc hại một cách dễ dàng.<br>Dù bạn đang xem phim, làm việc hay mua sắm, mỗi cú nhấp chuột đều mượt mà hơn, mỗi khoảnh khắc đều bảo vệ tối ưu.<br><strong>Đây là trình duyệt mà bạn xứng đáng có được: Riêng tư, Mượt mà, và Hoàn toàn thuộc về bạn.<br>iBrowe được xây dựng cho những người đặt kỳ vọng nhiều hơn vào một trình duyệt.</strong> 🚀",
     "downloadButton": "Tải iBrowe",
     "imageAlt": "Giao diện Trình duyệt iBrowe",
     "partnerLogoAlt": "Logo Đối tác {num}"
@@ -443,7 +443,7 @@
       "pressRelease": "Thông cáo báo chí"
     },
     "download": {
-      "macos": "Cho MacOS",
+      "macos": "Cho macOS",
       "windows": "Cho Windows",
       "ios": "Cho iOS",
       "android": "Cho Android",
@@ -630,7 +630,7 @@
     "privacyConclusion": "Ngược lại, iBrowe bảo vệ bạn khỏi việc bị theo dõi ở gần như mọi nơi. Chrome được thiết kế với mục tiêu theo dõi người dùng — cho phép quảng cáo xâm nhập, trình theo dõi, cookie và nhiều công nghệ khác bám theo bạn trên khắp web, ghi lại mọi hoạt động của bạn và thường xuyên liên kết trực tiếp với danh tính của bạn mà không có sự cho phép hay biết trước của bạn. Trong khi đó, iBrowe ưu tiên quyền riêng tư của bạn ngay từ mặc định.",
     "featuresTitle": "iBrowe có cung cấp nhiều tính năng hơn Chrome không?",
     "featuresDescription": "Cả iBrowe và Chrome đều được xây dựng trên Chromium, công cụ trình duyệt mã nguồn mở cũng cùng là nền tảng cho Edge, Opera và Vivaldi. Do đó, chúng có giao diện và cảm giác tương tự, cùng với các tính năng cốt lõi như dấu trang và quản lý tab. Bất kỳ tiện ích mở rộng nào hoạt động với Chrome cũng sẽ hoạt động với iBrowe, mặc dù iBrowe được tích hợp sẵn rất nhiều tính năng đến mức bạn có thể không cần đến tiện ích mở rộng nào cả.",
-    "featuresComparison": "Ngoài những nền tảng chung này, iBrowe cung cấp một loạt các tính năng được thiết kế đặc biệt. Khi nói đến sự tiện lợi và các tính năng hữu ích, iBrowe vượt xa. Để đạt được cùng một mức độ chức năng trong Chrome, bạn sẽ cần cài đặt nhiều tiện ích mở rộng, mỗi tiện ích có khả năng làm chậm hiệu suất và tăng rủi ro bảo mật. Không có gì phải bàn cãi: iBrowe thắng tuyệt đối khi nói đến chức năng tích hợp.",
+    "featuresComparison": "Ngoài những nền tảng chung này, iBrowe cung cấp một loạt các tính năng được thiết kế đặc biệt. Khi nói đến sự tiện lợi và các tính năng hữu ích, iBrowe vượt xa. Để đạt được cùng một mức độ chức năng trong Chrome, bạn sẽ cần cài đặt nhiều tiện ích mở rộng, mỗi tiện ích có khả năng làm chậm hiệu suất và tăng rủi ro bảo mật.\nKhông có gì phải bàn cãi: iBrowe thắng tuyệt đối khi nói đến chức năng tích hợp.",
     "footerNoteComparison": "Khi nói đến sự tiện lợi và các tính năng hữu ích, iBrowe vượt xa.\nĐể đạt được cùng một mức độ chức năng trong Chrome, bạn sẽ cần cài đặt nhiều tiện ích mở rộng — mỗi tiện ích có khả năng làm chậm hiệu suất và tăng rủi ro bảo mật.\nKhông có gì phải bàn cãi: iBrowe thắng tuyệt đối khi nói đến chức năng tích hợp.",
     "features": {
       "ibrowe": {
@@ -811,7 +811,7 @@
     "features": {
       "newWallet": {
         "title": "Một loại ví tiền mã hóa mới.",
-        "description": "HHầu hết các ví tiền mã hóa hiện nay đều dựa vào trình duyệt tích hợp đơn giản trong ứng dụng để truy cập Web3, điều này thường gây ảnh hưởng đến hiệu năng, quyền riêng tư hoặc bảo mật. iBrowe thì khác. Đây không chỉ là một ví. iBrowe là một trình duyệt riêng tư hoàn chỉnh được tích hợp cùng ví tiền mã hóa đẳng cấp thế giới trong một trải nghiệm liền mạch. Không đánh đổi. Không giới hạn. Chỉ đơn giản là tự do hoàn toàn để duyệt web, giao dịch và kết nối với Web3 một cách an toàn, riêng tư và dễ dàng."
+        "description": "Hầu hết các ví tiền mã hóa hiện nay đều dựa vào trình duyệt tích hợp đơn giản trong ứng dụng để truy cập Web3, điều này thường gây ảnh hưởng đến hiệu năng, quyền riêng tư hoặc bảo mật. iBrowe thì khác. Đây không chỉ là một ví. iBrowe là một trình duyệt riêng tư hoàn chỉnh được tích hợp cùng ví tiền mã hóa đẳng cấp thế giới trong một trải nghiệm liền mạch. Không đánh đổi. Không giới hạn. Chỉ đơn giản là tự do hoàn toàn để duyệt web, giao dịch và kết nối với Web3 một cách an toàn, riêng tư và dễ dàng."
       },
       "allInOne": {
         "title": "Làm được nhiều hơn với ví của bạn. Tất cả ở một nơi.",
@@ -928,7 +928,7 @@
         "signature": "Chữ ký vật lý hoặc điện tử của người được ủy quyền đại diện cho chủ sở hữu bản quyền có quyền bị cho là đã bị vi phạm",
         "identification": "Xác định tác phẩm hoặc tài liệu có bản quyền được cho là đã bị vi phạm",
         "location": "Xác định nội dung bị cho là vi phạm, bao gồm thông tin đầy đủ và hợp lý để iBrowe có thể định vị và xác minh sự tồn tại của nội dung đó (ví dụ: URL hoặc thông tin vị trí chi tiết)",
-        "contact": "Thông tin liên hệ của bên khiếu nại, bao gồm địa chỉ thực, số điện thoại và, nếu có, địa chỉ email",
+        "contact": "Thông tin liên hệ của bên khiếu nại, bao gồm địa chỉ thực, số điện thoại và  địa chỉ email (nếu có)",
         "statement": "Một tuyên bố rằng bên khiếu nại có lý do chính đáng để tin rằng việc sử dụng nội dung theo cách bị khiếu nại là không được sự cho phép của chủ sở hữu bản quyền, đại diện được ủy quyền của họ hoặc pháp luật.",
         "accuracy": "Một tuyên bố, được đưa ra dưới hình thức cam kết chịu phạt nếu khai man, xác nhận rằng các thông tin trong thông báo là chính xác và bên khiếu nại được ủy quyền hợp pháp để hành động thay mặt cho chủ sở hữu bản quyền."
       },
@@ -943,7 +943,7 @@
         "signature": "Chữ ký vật lý hoặc điện tử của nhà cung cấp nội dung, thành viên hoặc người dùng",
         "identification": "Xác định nội dung đã bị xóa hoặc quyền truy cập đã bị vô hiệu hóa, và vị trí mà nội dung đã xuất hiện trước khi nó bị xóa hoặc vô hiệu hóa",
         "statement": "Một tuyên bố được đưa ra với thiện chí rằng nội dung đã bị gỡ bỏ hoặc vô hiệu hóa do nhầm lẫn hoặc nhận dạng sai.",
-        "contact": "Tên, địa chỉ, số điện thoại và, nếu có, địa chỉ email của nhà cung cấp nội dung, thành viên hoặc người dùng, cùng với một tuyên bố rằng người hoặc tổ chức đó đồng ý với quyền tài phán của tòa án liên bang đặt tại quận nơi họ cư trú, hoặc nếu địa chỉ ở ngoài Thái Lan, các tòa án trong khu vực pháp lý nơi iBrowe đặt trụ sở, và người hoặc tổ chức đó sẽ chấp nhận việc tống đạt giấy tờ từ người đã gửi thông báo vi phạm ban đầu"
+        "contact": "Tên, địa chỉ, số điện thoại và địa chỉ email của nhà cung cấp nội dung, thành viên hoặc người dùng (nếu có), cùng với một tuyên bố rằng người hoặc tổ chức đó đồng ý với quyền tài phán của tòa án liên bang đặt tại quận nơi họ cư trú, hoặc nếu địa chỉ ở ngoài Thái Lan, các tòa án trong khu vực pháp lý nơi iBrowe đặt trụ sở, và người hoặc tổ chức đó sẽ chấp nhận việc tống đạt giấy tờ từ người đã gửi thông báo vi phạm ban đầu"
       },
       "contact": {
         "title": "Đại lý được chỉ định về bản quyền",
@@ -954,10 +954,10 @@
   "FeaturesPage": {
     "hero": {
       "title": "iBrowe – Một trình duyệt <em>bảo vệ</em> bạn an toàn và <em>truyền cảm hứng</em> đổi mới",
-      "description": "Bảo mật nâng cao kết hợp với sự sáng tạo không giới hạn, bước vào thế giới trực tuyến với một trình duyệt được thiết kế riêng cho bạn.\n💡⚔️ iBrowe bảo vệ quyền riêng tư của bạn ở mọi bước bằng cách chặn các trình theo dõi thông minh và loại bỏ các tham số theo dõi ẩn khỏi các liên kết.\n🛡️ Duyệt web ẩn danh với Cửa sổ riêng tư được cung cấp bởi Tor để có được sự bảo mật thực sự. Tận hưởng giao diện hiện đại được tích hợp các công cụ mạnh mẽ được thiết kế cho nhà sáng tạo và lập trình viên.\n🚀 Trải nghiệm duyệt web nhanh, mượt mà và ổn định mà không có sự đánh đổi giữa tốc độ và bảo mật. iBrowe là lựa chọn mới cho những người đủ táo bạo để định hình lại thế giới kỹ thuật số.\nTải xuống miễn phí ngay hôm nay và khám phá sự tự do thực sự bắt đầu từ việc sở hữu trình duyệt của bạn.",
+      "description": "Bảo mật nâng cao kết hợp với sự sáng tạo không giới hạn, bước vào thế giới trực tuyến với một trình duyệt được thiết kế riêng cho bạn.\n💡⚔️ iBrowe bảo vệ quyền riêng tư của bạn ở mọi bước bằng cách chặn các trình theo dõi thông minh và loại bỏ các tham số theo dõi ẩn khỏi các liên kết.\n🛡️ Duyệt web ẩn danh với Cửa sổ riêng tư được cung cấp bởi Tor để có được sự bảo mật thực sự. Tận hưởng giao diện hiện đại được tích hợp các công cụ mạnh mẽ được thiết kế cho nhà sáng tạo và lập trình viên.\n🚀 Trải nghiệm duyệt web nhanh, mượt mà và ổn định mà không có sự đánh đổi giữa tốc độ và bảo mật. iBrowe là lựa chọn mới cho những người đủ táo bạo để định hình lại thế giới kỹ thuật số.\nTải xuống miễn phí ngay hôm nay và khám phá sự tự do thực sự bắt đầu từ việc làm chủ trình duyệt của bạn.",
       "downloadButtons": {
         "ios": "iOS",
-        "macos": "MacOS",
+        "macos": "macOS",
         "android": "Android",
         "windows": "Windows"
       }
@@ -965,10 +965,10 @@
     "mainFeatures": {
       "shields": {
         "title": "🛡️ Shields – Bảo vệ thông minh được tích hợp vào iBrowe",
-        "description": "Shields là một tính năng cốt lõi giúp iBrowe khác biệt với các trình duyệt thông thường. Nó hoạt động như một lớp phòng thủ tích hợp sẵn hoạt động ngay lập tức, không cần tiện ích mở rộng. Ngay khi ở mặc định, Shields bảo vệ bạn khỏi các quảng cáo xâm nhập, trình theo dõi chéo trang, lấy dấu vân tay kỹ thuật số, cookie theo dõi chéo trang và nhiều mối đe dọa trực tuyến khác.\nBạn có thể tùy chỉnh hoàn toàn cách Shields hoạt động để phù hợp với sở thích của mình—hoặc chỉ cần giữ nó ở chế độ \"bảo vệ ngay lập tức\" để có được sự an toàn tức thì mà không cần thiết lập.\niBrowe Shields: bảo mật dưới sự kiểm soát của bạn, từng cú nhấp chuột. Quản lý cài đặt Shields của bạn bất cứ lúc nào tại ibrowe://settings/shields."
+        "description": "Shields là một tính năng cốt lõi giúp iBrowe khác biệt với các trình duyệt thông thường. Nó hoạt động như một lớp phòng thủ tích hợp sẵn hoạt động ngay lập tức, không cần tiện ích mở rộng. Ngay khi ở mặc định, Shields bảo vệ bạn khỏi các quảng cáo xâm nhập, trình theo dõi chéo trang, lấy dấu vân tay kỹ thuật số, cookie theo dõi chéo trang và nhiều mối đe dọa trực tuyến khác.\nBạn có thể tùy chỉnh hoàn toàn cách Shields hoạt động để phù hợp với sở thích của mình—hoặc chỉ cần giữ nó ở chế độ \"bảo vệ ngay lập tức\" để có được sự an toàn tức thì mà không cần thiết lập.\niBrowe Shields: bảo mật dưới sự kiểm soát của bạn, với từng cú nhấp chuột. Quản lý cài đặt Shields của bạn bất cứ lúc nào tại ibrowe://settings/shields."
       },
       "rewards": {
-        "title": "Phần thưởng iBrowe – Kiếm phần thưởng quyền riêng tư của bạn được bảo vệ",
+        "title": "Phần thưởng iBrowe – Kiếm phần thưởng khi quyền riêng tư của bạn được bảo vệ",
         "description": "Chỉ cần bật Phần thưởng iBrowe và bắt đầu kiếm IAT (iBrowe Attention Token) bằng cách xem các quảng cáo hoàn toàn tôn trọng quyền riêng tư của bạn.\n🪙 Kiếm IAT mỗi khi bạn tương tác với các quảng cáo bảo vệ quyền riêng tư\n🤝 Sử dụng IAT của bạn để hỗ trợ những người sáng tạo nội dung yêu thích của bạn\n🎁 Đổi IAT lấy thẻ quà tặng, tài sản kỹ thuật số và các phần thưởng thú vị khác.\nBắt đầu kiếm tiền một cách an toàn và riêng tư ngay hôm nay tại https://ibrowe.com/ibrowe-rewards/"
       },
       "wallet": {
@@ -989,11 +989,11 @@
       "features": {
         "privacy": {
           "title": "🔐 Tăng cường quyền riêng tư và bảo mật",
-          "description": "🌐 Cửa sổ riêng tư Tor – Duyệt web không để lại dấu vết. iBrowe tích hợp Tor (The Onion Router) để mang lại cho bạn sự riêng tư trực tuyến thực sự bằng cách ẩn một địa chỉ IP của bạn một cách hiệu quả, ngăn chặn việc theo dõi từ các trang web, bên thứ ba và thậm chí cả nhà cung cấp dịch vụ internet của bạn. Nó cũng cho phép bạn truy cập các trang web bị chặn hoặc hạn chế ở một số khu vực. Chỉ cần mở Cửa sổ riêng tư Tor trong iBrowe, và lưu lượng truy cập của bạn sẽ tự động được định tuyến qua mạng Tor, cho phép bạn duyệt web mà không để lại dấu vết. Với iBrowe, bạn hoàn toàn kiểm soát quyền riêng tư của mình, trao quyền tự do trực tuyến cho bạn."
+          "description": "🌐 Cửa sổ riêng tư Tor – Duyệt web không để lại dấu vết. iBrowe tích hợp Tor (The Onion Router) để mang lại cho bạn sự riêng tư trực tuyến thực sự bằng cách ẩn địa chỉ IP của bạn một cách hiệu quả, ngăn chặn việc theo dõi từ các trang web, bên thứ ba và thậm chí cả nhà cung cấp dịch vụ internet của bạn. Nó cũng cho phép bạn truy cập các trang web bị chặn hoặc hạn chế ở một số khu vực. Chỉ cần mở Cửa sổ riêng tư Tor trong iBrowe, và lưu lượng truy cập của bạn sẽ tự động được định tuyến qua mạng Tor, cho phép bạn duyệt web mà không để lại dấu vết. Với iBrowe, bạn hoàn toàn kiểm soát quyền riêng tư của mình, trao quyền tự do trực tuyến cho bạn."
         },
         "customization": {
           "title": "🎯 Tùy chỉnh trải nghiệm duyệt web của bạn",
-          "description": "🧭 Thanh bên thông minh Mọi thứ trong tầm tay. iBrowe cung cấp khả năng truy cập nhanh vào các tính năng thiết yếu thông qua một Thanh bên thông minh được thiết kế tối ưu cho sự tiện lợi và hiệu quả, cho phép bạn truy cập ngay lập-tức vào các trang web yêu thích, một Danh sách đọc và dấu trang được sắp xếp gọn gàng, đồng thời kích hoạt dễ dàng các công cụ độc đáo như tính năng bảo mật, VPN hoặc AdBlock. Dù bạn đang làm việc, nghiên cứu hay thư giãn, thanh bên iBrowe giúp bạn luôn trong tầm kiểm soát mà không làm gián đoạn quá trình công việc của mình, duyệt web theo cách của bạn với một thanh công cụ được xây dựng chu đáo chỉ dành cho bạn."
+          "description": "🧭 Thanh bên thông minh - Mọi thứ trong tầm tay. iBrowe cung cấp khả năng truy cập nhanh vào các tính năng thiết yếu thông qua một Thanh bên thông minh được thiết kế tối ưu cho sự tiện lợi và hiệu quả, cho phép bạn truy cập ngay lập tức vào các trang web yêu thích, một Danh sách đọc và dấu trang được sắp xếp gọn gàng, đồng thời kích hoạt dễ dàng các công cụ độc đáo như tính năng bảo mật, VPN hoặc AdBlock. Dù bạn đang làm việc, nghiên cứu hay thư giãn, thanh bên iBrowe sẽ giúp bạn luôn trong tầm kiểm soát mà không làm gián đoạn quá trình công việc của mình, duyệt web theo cách của bạn với một thanh công cụ được xây dựng chu đáo chỉ dành cho bạn."
         },
         "accessibility": {
           "title": "🌍 Công cụ trợ năng và khả năng sử dụng",
@@ -1001,7 +1001,7 @@
         },
         "fingerprint": {
           "title": "🕵️ Ngẫu nhiên hóa dấu vân tay",
-          "description": "Tự động bảo vệ danh tính của bạn khỏi việc theo dõi trực tuyến với công nghệ Ngẫu nhiên hóa Dấu vân tay của iBrowe. Bằng cách liên tục ngẫu nhiên hóa các dữ liệu chính như kích thước màn hình, hệ điều hành, phông chữ và nhiều hơn nữa mỗi khi bạn truy cập một trang web, iBrowe làm cho bạn xuất hiện như một người dùng hoàn toàn mới mỗi lần. Quá trình ẩn này chạy âm thầm trong nền, ngăn các trang web lập hồ sơ hoặc theo dõi bạn trên web mà không can thiệp vào quá trình duyệt web của bạn. Bất kể bạn đi đâu trực tuyến, iBrowe đảm bảo dấu vân tay kỹ thuật số của bạn vẫn không thể bị truy vết, giữ cho quyền riêng tư của bạn được luôn được an toàn và nguyên vẹn."
+          "description": "Tự động bảo vệ danh tính của bạn khỏi việc theo dõi trực tuyến với công nghệ Ngẫu nhiên hóa Dấu vân tay của iBrowe. Bằng cách liên tục ngẫu nhiên hóa các dữ liệu chính như kích thước màn hình, hệ điều hành, phông chữ và nhiều hơn nữa mỗi khi bạn truy cập một trang web, iBrowe làm cho bạn xuất hiện như một người dùng hoàn toàn mới mỗi lần. Quá trình ẩn này chạy âm thầm trong nền, ngăn các trang web lập hồ sơ hoặc theo dõi bạn trên web mà không can thiệp vào quá trình duyệt web của bạn. Bất kể bạn đi đâu trực tuyến, iBrowe đảm bảo dấu vân tay kỹ thuật số của bạn vẫn không thể bị truy vết, giữ cho quyền riêng tư của bạn luôn được an toàn và nguyên vẹn."
         },
         "sync": {
           "title": "🔄 Đồng bộ hóa trên các thiết bị",
@@ -1009,7 +1009,7 @@
         },
         "speedreader": {
           "title": "⚡ Speedreader",
-          "description": "📖 Đọc nhanh hơn, không bị phân tâm\niBrowe Speedreader là một chế độ đọc đặc biệt giúp loại bỏ yếu tố gây phiền nhiễu và tăng tốc độ tải trang:\n📄 Chặn quảng cáo, cửa sổ bật lên và các phiền nhiễu khác\n🚀 Chỉ tải nội dung chính một cách nhanh chóng, tiết kiệm dữ liệu, hoàn hảo cho người dùng di động\n👁️ Giữ sự tập trung của bạn vào những gì quan trọng, như các bài báo, tin tức hoặc bài đăng trên blog\nNó không chỉ dễ chịu hơn cho mắt của bạn mà còn tiết kiệm pin và dữ liệu di động.\niBrowe Speedreader cho một trải nghiệm đọc sạch hơn, nhanh hơn mọi lúc, mọi nơi."
+          "description": "📖 Đọc nhanh hơn - không bị phân tâm\niBrowe Speedreader là một chế độ đọc đặc biệt giúp loại bỏ yếu tố gây phiền nhiễu và tăng tốc độ tải trang:\n📄 Chặn quảng cáo, cửa sổ bật lên và các phiền nhiễu khác\n🚀 Chỉ tải nội dung chính một cách nhanh chóng, tiết kiệm dữ liệu, hoàn hảo cho người dùng di động\n👁️ Giữ sự tập trung của bạn vào những gì quan trọng, như các bài báo, tin tức hoặc bài đăng trên blog\nNó không chỉ dễ chịu hơn cho mắt của bạn mà còn tiết kiệm pin và dữ liệu di động.\niBrowe Speedreader cho một trải nghiệm đọc sạch hơn, nhanh hơn, mọi lúc, mọi nơi."
         },
         "cookie": {
           "title": "🍪 Chặn chấp thuận cookie",
@@ -1017,15 +1017,15 @@
         },
         "verticalTabs": {
           "title": "📚 Tab dọc",
-          "description": "Quản lý tab hiệu quả Mọi thứ được sắp xếp gọn gàng\nTab dọc của iBrowe giúp bạn quản lý việc duyệt web một cách thông minh và có hệ thống hơn:\n📌 Ghim các tab quan trọng để truy cập ngay lập tức\n🗂️ Nhóm các tab theo chủ đề, dự án hoặc mục đích sử dụng\n🧰 Sử dụng các công cụ mạnh mẽ như kéo để sắp xếp lại, kéo để tách ra và ẩn các nhóm tab khi cần.\nBất kể bạn có bao nhiêu tab đang mở, hệ thống tab dọc của iBrowe giữ cho không gian làm việc của bạn gọn gàng để bạn luôn tìm thấy những gì bạn cần một cách nhanh chóng.\nĐơn giản, trực quan và được thiết kế để giúp bạn sắp xếp sự hỗn loạn từ các tab."
+          "description": "Quản lý tab hiệu quả - Mọi thứ được sắp xếp gọn gàng\nTab dọc của iBrowe giúp bạn quản lý việc duyệt web một cách thông minh và có hệ thống hơn:\n📌 Ghim các tab quan trọng để truy cập ngay lập tức\n🗂️ Nhóm các tab theo chủ đề, dự án hoặc mục đích sử dụng\n🧰 Sử dụng các công cụ mạnh mẽ như kéo để sắp xếp lại, kéo để tách ra và ẩn các nhóm tab khi cần.\nBất kể bạn có bao nhiêu tab đang mở, hệ thống tab dọc của iBrowe giữ cho không gian làm việc của bạn gọn gàng để bạn luôn tìm thấy những gì bạn cần một cách nhanh chóng.\nĐơn giản, trực quan và được thiết kế để giúp bạn sắp xếp sự hỗn loạn từ các tab."
         },
         "wayback": {
           "title": "🕰️ Tích hợp Wayback",
-          "description": "Truy cập các trang web đã mất ngay cả khi bạn gặp lỗi 404\nGặp lỗi \"404 – Không tìm thấy trang\"? Đừng lo. iBrowe tự động tìm kiếm các phiên bản đã lưu trữ của các trang bị thiếu bằng cách sử dụng Wayback Machine:\n🔍 Tự động tìm các bản chụp (snapshot) trước đó của trang web không còn tồn tại \n🕸️ Cho phép bạn duyệt các bản sao lưu trữ được lưu trong Internet Archive\n⚙️ Hoạt động liền mạch và tự động, không cần thiết lập\nKhi nội dung biến mất, iBrowe giúp bạn khôi phục nó một cách dễ dàng.\niBrowe + Wayback Machine Khám phá lại các trang tưởng chừng như đã mãi mãi biến mất."
+          "description": "Truy cập các trang web đã mất ngay cả khi bạn gặp lỗi 404\nGặp lỗi \"404 – Không tìm thấy trang\"? Đừng lo. iBrowe tự động tìm kiếm các phiên bản đã lưu trữ của các trang bị thiếu bằng cách sử dụng Wayback Machine:\n🔍 Tự động tìm các bản chụp (snapshot) trước đó của các trang web không còn tồn tại \n🕸️ Cho phép bạn duyệt các bản sao lưu trữ được lưu trong Internet Archive\n⚙️ Hoạt động liền mạch và tự động, không cần thiết lập\nKhi nội dung biến mất, iBrowe giúp bạn khôi phục nó một cách dễ dàng.\niBrowe + Wayback Machine - Khám phá lại các trang tưởng chừng như đã mãi mãi biến mất."
         },
         "mobilePrivacy": {
           "title": "🔐 Trung tâm bảo mật di động",
-          "description": "Theo dõi tình trạng bảo vệ của bạn Tất cả tại một nơi\nBảng điều khiển quyền riêng tư của iBrowe cung cấp cho bạn cái nhìn sâu sắc theo thời gian thực về các biện pháp phòng vệ trực tuyến của bạn:\n🚫 Xem có bao nhiêu quảng cáo và trình theo dõi đã bị iBrowe Shields chặn tự động\n🔍 Đi sâu vào chi tiết về những gì mỗi trang web đã cố gắng tải và cách iBrowe bảo vệ bạn an toàn\n📱 Thiết kế thân thiện với thiết bị di động cho phép bạn kiểm tra các chỉ số bảo vệ dễ dàng trên bất kỳ thiết bị nào\nThêm vào đó, bạn có thể điều chỉnh cài đặt bảo vệ của mình ngay lập tức từ bảng điều khiển tiện dụng này, điều chỉnh mức độ bảo mật duyệt web của bạn chính xác theo cách bạn muốn.\niBrowe Shields Âm thầm hoạt động trong nền, với sự minh bạch mà bạn có thể tin tưởng."
+          "description": "Theo dõi tình trạng bảo vệ của bạn - Tất cả tại một nơi\nBảng điều khiển quyền riêng tư của iBrowe cung cấp cho bạn cái nhìn sâu sắc theo thời gian thực về các biện pháp phòng vệ trực tuyến của bạn:\n🚫 Xem có bao nhiêu quảng cáo và trình theo dõi đã bị iBrowe Shields chặn tự động\n🔍 Đi sâu vào chi tiết về những gì mỗi trang web đã cố gắng tải và cách iBrowe bảo vệ bạn an toàn\n📱 Thiết kế thân thiện với thiết bị di động cho phép bạn kiểm tra các chỉ số bảo vệ dễ dàng trên bất kỳ thiết bị nào\nThêm vào đó, bạn có thể điều chỉnh cài đặt bảo vệ của mình ngay lập tức từ bảng điều khiển tiện dụng này, điều chỉnh mức độ bảo mật duyệt web của bạn chính xác theo cách bạn muốn.\niBrowe Shields Âm thầm hoạt động trong nền, với sự minh bạch mà bạn có thể tin tưởng."
         },
         "extensions": {
           "title": "🧩 Tiện ích mở rộng",
@@ -1053,14 +1053,14 @@
       },
       "download": {
         "ios": "iOS",
-        "macos": "MacOS",
+        "macos": "macOS",
         "android": "Android",
         "windows": "Windows"
       }
     },
     "features": {
       "personal": {
-        "title": "cá nhân",
+        "title": "Cá nhân",
         "heading": "🔒 Tin tức cá nhân, theo cách của bạn",
         "description": "Tin tức iBrowe cho phép bạn kiểm soát những gì bạn đọc dựa trên sở thích của bạn, không phải dựa trên các thuật toán theo dõi hành vi.",
         "keyFeatures": {
@@ -1092,7 +1092,7 @@
         }
       },
       "tracking": {
-        "title": "cá nhân",
+        "title": "Cá nhân",
         "heading": "🔍 Không theo dõi, dù chỉ một chút",
         "description": "Tin tức iBrowe không theo dõi những gì bạn đọc hoặc nhấp vào.",
         "content": {
@@ -1288,10 +1288,10 @@
   "BlockAds": {
     "hero": {
       "title": "iBrowe giải quyết mọi vấn đề quảng cáo gây phiền nhiễu",
-      "description": "Ít phiền nhiễu hơn. Tốc độ cao hơn. Toàn quyền kiểm soát.\nĐược tích hợp công nghệ chặn quảng cáo thông minh, iBrowe tự động lọc các quảng cáo không mong muốn trong thời gian thực.\nĐiều đó đồng nghĩa với thời gian tải trang nhanh hơn, tiết kiệm dữ liệu hơn và bảo mật mạnh mẽ hơn, tất cả điều diễn ra tự động mà không cần phải làm gì cả.\nTrải nghiệm Web, theo cách nó nên có.",
+      "description": "Ít phiền nhiễu hơn. Tốc độ cao hơn. Toàn quyền kiểm soát.\nĐược tích hợp công nghệ chặn quảng cáo thông minh, iBrowe tự động lọc các quảng cáo không mong muốn trong thời gian thực.\nĐiều đó đồng nghĩa với thời gian tải trang nhanh hơn, tiết kiệm dữ liệu hơn và bảo mật mạnh mẽ hơn, tất cả đều diễn ra tự động mà không cần phải làm gì cả.\nTrải nghiệm Web, theo cách nó nên có.",
       "downloadButtons": {
         "ios": "iOS",
-        "macos": "MacOS",
+        "macos": "macOS",
         "android": "Android",
         "windows": "Windows"
       }
@@ -1307,7 +1307,7 @@
         },
         "youtube": {
           "title": "iBrowe Chặn QUẢNG CÁO Youtube",
-          "description": "Mệt mỏi với các quảng cáo giữa video trên YouTube?\niBrowe Chặn QUẢNG CÁO cho YouTube mang đến cho bạn trải nghiệm xem liền mạch, không có quảng cáo hoàn toàn tự động.\n✅ Tự động chặn quảng cáo: Tận hưởng các video yêu thích của bạn mà không bị gián đoạn\n✅ Cài đặt nhanh và dễ dàng: Cài đặt trong vài giây, tương thích với mọi trình duyệt phổ biến\n✅ Tiết kiệm thời gian: Xem liên tục, không bị gián đoạn để có trải nghiệm tốt hơn\n✅ 100% riêng tư: Không theo dõi. Không thu thập dữ liệu. Chỉ có sự yên tâm về quyền riêng tư của bạn.\nTải iBrowe Chặn QUẢNG CÁO cho YouTube ngay hôm nay và lấy lại qquyền kiểm soát thời gian của bạn."
+          "description": "Mệt mỏi với các quảng cáo giữa video trên YouTube?\niBrowe Chặn QUẢNG CÁO cho YouTube mang đến cho bạn trải nghiệm xem liền mạch, không có quảng cáo hoàn toàn tự động.\n✅ Tự động chặn quảng cáo: Tận hưởng các video yêu thích của bạn mà không bị gián đoạn\n✅ Cài đặt nhanh và dễ dàng: Cài đặt trong vài giây, tương thích với mọi trình duyệt phổ biến\n✅ Tiết kiệm thời gian: Xem liên tục, không bị gián đoạn để có trải nghiệm tốt hơn\n✅ 100% riêng tư: Không theo dõi. Không thu thập dữ liệu. Chỉ có sự yên tâm về quyền riêng tư của bạn.\nTải iBrowe Chặn QUẢNG CÁO cho YouTube ngay hôm nay và lấy lại quyền kiểm soát thời gian của bạn."
         },
         "tiktok": {
           "title": "iBrowe Chặn QUẢNG CÁO Tiktok",
@@ -1322,7 +1322,7 @@
     "safeToUse": {
       "title": "Một trình duyệt được xây dựng để tiết kiệm thời gian của bạn, không phải để thu thập dữ liệu cá nhân của bạn.",
       "subtitle": "An toàn để sử dụng",
-      "description": "<p><strong>Hiện đã có trên Android, iOS, Linux, macOS và Windows.</strong><br><strong>iBrowe: Nhanh. Riêng tư. Dễ dàng.</strong></p>",
+      "description": "<p><strong>Hiện đã có trên Android, iOS, Linux, macOS và Windows.</strong><br><strong>iBrowe: Nhanh - Riêng tư - Dễ dàng.</strong></p>",
       "downloadButton": "TẢI iBrowe"
     }
   },
@@ -1342,30 +1342,30 @@
       },
       "ads": {
         "title": "📢 Quảng cáo iBrowe – Bạn hoàn toàn kiểm soát",
-        "description": "Quảng cáo iBrowe được thiết kế để tôn trọng quyền riêng tư của bạn và cho bạn toàn quyền kiểm soát nội dung hiển thị mà bạn thấy.\nKhông giống như các quảng cáo truyền thống, iBrowe cho phép bạn tùy chỉnh trải nghiệm quảng cáo theo cách của riêng mình.\n🔸 Chọn định dạng quảng cáo của bạn\nChọn các loại quảng cáo phù hợp nhất với bạn:\n– 📷 Thẻ hình ảnh trên trang tab mới\n– 🔔 Thông báo đẩy không gây phiền nhiễu\n– 📰 Tin tức và ưu đãi trong nguồn cấp Tin tức iBrowe\n– Hoặc tắt hoàn toàn quảng cáo, quyền quyết định thuộc về bạn\n🔸 Không bao giờ có quảng cáo trên trang webt\n– ❌ Không có cửa sổ bật lên\n– ❌ Không có quảng cáo video trước hoặc giữa video\n– ❌ Không có tập lệnh quảng cáo xâm nhập theo dõi bạn trên web\n✨ Một trải nghiệm quảng cáo minh bạch, an toàn và nhận thưởng\nTheo cách của bạn\nBạn quyết định xem quảng cáo nào và được thưởng bằng IAT (iBrowe Attention Token) cho mỗi tương tác có ý nghĩa.\nVới iBrowe, quảng cáo phục vụ cho bạn, không phải làm phiền bạn."
+        "description": "Quảng cáo iBrowe được thiết kế để tôn trọng quyền riêng tư của bạn và cho bạn toàn quyền kiểm soát nội dung hiển thị mà bạn thấy.\nKhông giống như các quảng cáo truyền thống, iBrowe cho phép bạn tùy chỉnh trải nghiệm quảng cáo theo cách của riêng mình.\n🔸 Chọn định dạng quảng cáo của bạn\nChọn các loại quảng cáo phù hợp nhất với bạn:\n– 📷 Thẻ hình ảnh trên trang tab mới\n– 🔔 Thông báo đẩy không gây phiền nhiễu\n– 📰 Tin tức và ưu đãi trong nguồn cấp Tin tức iBrowe\n– Hoặc tắt hoàn toàn quảng cáo, quyền quyết định thuộc về bạn\n🔸 Không bao giờ có quảng cáo trên trang web\n– ❌ Không có cửa sổ bật lên\n– ❌ Không có quảng cáo video trước hoặc giữa video\n– ❌ Không có tập lệnh quảng cáo xâm nhập theo dõi bạn trên web\n✨ Một trải nghiệm quảng cáo minh bạch, an toàn và nhận thưởng\nTheo cách của bạn\nBạn quyết định xem quảng cáo nào và được thưởng bằng IAT (iBrowe Attention Token) cho mỗi tương tác có ý nghĩa.\nVới iBrowe, quảng cáo phục vụ cho bạn, không phải làm phiền bạn."
       },
       "iat": {
-        "title": "💎 Bạn có thể làm gì với IAT? Câu trả lời: Hầu hết mọi thứ!",
-        "description": "Khi bạn kiếm được IAT (iBrowe Attention Token) thông qua hoạt động duyệt web hàng ngày, bạn sẽ có cơ hội mở ra một thế giới giống như các tài sản kỹ thuật số hàng đầu.\n✅ Chuyển đổi sang các loại tiền tệ phổ biến\nChuyển đổi IAT của bạn thành tiền pháp định hoặc các loại tiền mã hóa lớn như USDT, ETH hoặc BTC một cách nhanh chóng và dễ dàng.\n🎁 Đổi thẻ quà tặng\nSử dụng token của bạn để nhận thẻ quà tặng từ các thương hiệu và dịch vụ hàng đầu như Amazon, Netflix, Grab, Shopee và nhiều hơn nữa.\n❤️ Hỗ trợ những nhà sáng tạo yêu thích của bạn\nGửi IAT trực tiếp đến các trang web hoặc nhà sáng tạo nội dung mà bạn yêu thích với sự minh bạch hoàn toàn và không có trung gian.\n🌐 Tăng cường trải nghiệm Web3 của bạn\nChuyển IAT sang ví Web3 của bạn (ví dụ: MetaMask, WalletConnect)\n– Lưu trữ, giao dịch và trao đổi nó như bất kỳ tài sản tiền mã hóa nào\n– Sử dụng IAT để mua NFT hoặc thanh toán cho hàng hóa và dịch vụ trên các ứng dụng Web3 và DApps\n✨ IAT không chỉ là một token\nđó là chìa khóa của bạn đến sự tự do kỹ thuật số, và bạn là người kiểm soát nó."
+        "title": "💎 Bạn có thể làm gì với IAT?\nCâu trả lời: Hầu hết mọi thứ!",
+        "description": "Khi bạn kiếm được IAT (iBrowe Attention Token) thông qua hoạt động duyệt web hàng ngày, bạn sẽ có cơ hội mở ra một thế giới giống như các tài sản kỹ thuật số hàng đầu.\n✅ Chuyển đổi sang các loại tiền tệ phổ biến\nChuyển đổi IAT của bạn thành tiền pháp định hoặc các loại tiền mã hóa lớn như USDT, ETH hoặc BTC một cách nhanh chóng và dễ dàng.\n🎁 Đổi thẻ quà tặng\nSử dụng token của bạn để nhận thẻ quà tặng từ các thương hiệu và dịch vụ hàng đầu như Amazon, Netflix, Grab, Shopee và nhiều hơn nữa.\n❤️ Hỗ trợ những nhà sáng tạo yêu thích của bạn\nGửi IAT trực tiếp đến các trang web hoặc nhà sáng tạo nội dung mà bạn yêu thích với sự minh bạch hoàn toàn và không có trung gian.\n🌐 Tăng cường trải nghiệm Web3 của bạn\nChuyển IAT sang ví Web3 của bạn (ví dụ: MetaMask, WalletConnect)\n– Lưu trữ, giao dịch và trao đổi nó như bất kỳ tài sản tiền mã hóa nào\n– Sử dụng IAT để mua NFT hoặc thanh toán cho hàng hóa và dịch vụ trên các ứng dụng Web3 và DApps\n✨ IAT không chỉ là một token\nĐó là chìa khóa của bạn đến sự tự do kỹ thuật số, và bạn là người kiểm soát nó."
       },
       "support": {
         "title": "🤝 Làm thế nào tôi có thể hỗ trợ các trang web và người sáng tạo?",
-        "description": "Tại iBrowe, quyền riêng tư của bạn quan trọng hơn lợi nhuận của Big Tech.\nChúng tôi chặn các quảng cáo xâm phạm theo dõi và lạm dụng dữ liệu của bạn\nKhông giám sát. Không rò rỉ dữ liệu. Chỉ duyệt web an toàn.\nNhưng còn các trang web và những nhà sáng tạo bạn yêu thích thì sao?\nHọ có thể kiếm doanh thu như thế nào nếu các quảng cáo truyền thống biến mất?\n❤️ Phần thưởng iBrowe là câu trả lời\nVới IAT (iBrowe Attention Token) bạn kiếm được từ các quảng cáo tôn trọng quyền riêng tư,\nbạn có thể hỗ trợ trực tiếp các trang web và nhà sáng tạo bạn quan tâm.\n🔸 Không có trung gian\n🔸 Không có phí ẩn\n🔸 Hỗ trợ minh bạch 100%\n💻 Bạn là chủ sở hữu trang web hay nhà sáng tạo nội dung? Hãy tham gia cùng chúng tôi!\nTrở thành một Nhà sáng tạo được xác minh bởi iBrowe\nhoàn toàn miễn phí và chỉ mất vài bước đơn giản.\nBắt đầu kiếm IAT từ người dùng trên toàn thế giới ngay hôm nay.\n✨ iBrowe đang xây dựng một nền kinh tế kỹ thuật số mới, một nền kinh tế công bằng, minh bạch và do người dùng điều khiển.\nVà bạn có thể là một phần của hành trình đó ngay từ ngày đầu tiên."
+        "description": "Tại iBrowe, quyền riêng tư của bạn quan trọng hơn lợi nhuận của Big Tech.\nChúng tôi chặn các quảng cáo xâm phạm theo dõi và lạm dụng dữ liệu của bạn\nKhông giám sát. Không rò rỉ dữ liệu. Chỉ duyệt web an toàn.\nNhưng còn các trang web và những nhà sáng tạo bạn yêu thích thì sao?\nHọ có thể kiếm doanh thu như thế nào nếu các quảng cáo truyền thống biến mất?\n❤️ Phần thưởng iBrowe là câu trả lời\nVới IAT (iBrowe Attention Token) bạn kiếm được từ các quảng cáo tôn trọng quyền riêng tư,\nBạn có thể hỗ trợ trực tiếp các trang web và nhà sáng tạo bạn quan tâm.\n🔸 Không có trung gian\n🔸 Không có phí ẩn\n🔸 Hỗ trợ minh bạch 100%\n💻 Bạn là chủ sở hữu trang web hay nhà sáng tạo nội dung? Hãy tham gia cùng chúng tôi!\nTrở thành một Nhà sáng tạo được xác minh bởi iBrowe\nHoàn toàn miễn phí và chỉ mất vài bước đơn giản.\nBắt đầu kiếm IAT từ người dùng trên toàn thế giới ngay hôm nay.\n✨ iBrowe đang xây dựng một nền kinh tế kỹ thuật số mới, một nền kinh tế công bằng, minh bạch và do người dùng điều khiển.\nVà bạn có thể là một phần của hành trình đó ngay từ ngày đầu tiên."
       }
     },
     "faq": {
       "title": "Các câu hỏi thường gặp",
       "adsReplace": {
         "question": "Quảng cáo iBrowe có thay thế quảng cáo trên trang web không?",
-        "answer": "Không — Quảng cáo iBrowe không thay thế hoặc chèn quảng cáo vào các trang web.\nTheo mặc định, iBrowe chặn tất cả các quảng cáo xâm nhập, bao gồm:\n– 🚫 Biểu ngữ phiền phức\n– 🚫 Cửa sổ bật lên\n– 🚫 Quảng cáo theo dõi hành vi của bạn trên web\n📢 Vậy, Quảng cáo iBrowe là gì?\nQuảng cáo iBrowe là các quảng cáo tôn trọng quyền riêng tư, do người dùng kiểm soát, xuất hiện hoàn toàn riêng biệt với các trang web bạn truy cập. Bạn chọn xem chúng và bạn được phần thưởng vì đã làm như vậy.\nBạn có thể chọn từ các định dạng quảng cáo như:\n🔹 Thẻ hình ảnh trên trang Tab mới của bạn\n🔹 Thông báo đẩy không gây gián đoạn\n🔹 Ưu đãi và khuyến mãi trong nguồn cấp Tin tức iBrowe\n🔹 Và nhiều hơn nữa, tất cả mà không làm gián đoạn trải nghiệm duyệt web của bạn\n✨ Đây là một hình thức quảng cáo mới, một loại tôn trọng quyền riêng tư của bạn và phát thưởng cho sự chú ý của bạn.\n🧱 Được phát triển bởi Mã nguồn mở. Xây dựng tối ưu cho Quyền riêng tư.\niBrowe, một trình duyệt ưu tiên quyền riêng tư được xây dựng trên Chromium (cùng một công cụ được sử dụng bởi Chrome, Edge và Vivaldi),\nnhưng được cải tiến vượt trội:\n🔐 Chúng tôi loại bỏ các thành phần theo dõi không cần thiết\n🔧 Chúng tôi tùy chỉnh mỗi bản cập nhật Chromium để loại bỏ mã xâm phạm quyền riêng tư\n🎯 Mục tiêu của chúng tôi: tối đa hóa quyền riêng tư và mang lại phần thưởng công bằng — ngay từ thiết kế."
+        "answer": "Không — Quảng cáo iBrowe không thay thế hoặc chèn quảng cáo vào các trang web.\nTheo mặc định, iBrowe chặn tất cả các quảng cáo xâm nhập, bao gồm:\n– 🚫 Biểu ngữ phiền phức\n– 🚫 Cửa sổ bật lên\n– 🚫 Quảng cáo theo dõi hành vi của bạn trên web\n📢 Vậy, Quảng cáo iBrowe là gì?\nQuảng cáo iBrowe là các quảng cáo tôn trọng quyền riêng tư, do người dùng kiểm soát, xuất hiện hoàn toàn riêng biệt với các trang web bạn truy cập. Bạn chọn xem chúng và bạn được phần thưởng vì đã làm như vậy.\nBạn có thể chọn từ các định dạng quảng cáo như:\n🔹 Thẻ hình ảnh trên trang Tab mới của bạn\n🔹 Thông báo đẩy không gây gián đoạn\n🔹 Ưu đãi và khuyến mãi trong nguồn cấp Tin tức iBrowe\n🔹 Và nhiều hơn nữa, tất cả mà không làm gián đoạn trải nghiệm duyệt web của bạn\n✨ Đây là một hình thức quảng cáo mới, một loại tôn trọng quyền riêng tư của bạn và phát thưởng cho sự chú ý của bạn.\n🧱 Được phát triển bởi Mã nguồn mở. Xây dựng tối ưu cho Quyền riêng tư.\niBrowe, một trình duyệt ưu tiên quyền riêng tư được xây dựng trên Chromium (cùng một công cụ được sử dụng bởi Chrome, Edge và Vivaldi), nhưng được cải tiến vượt trội:\n🔐 Chúng tôi loại bỏ các thành phần theo dõi không cần thiết\n🔧 Chúng tôi tùy chỉnh mỗi bản cập nhật Chromium để loại bỏ mã xâm phạm quyền riêng tư\n🎯 Mục tiêu của chúng tôi: tối đa hóa quyền riêng tư và mang lại phần thưởng công bằng — ngay từ thiết kế."
       },
       "platforms": {
         "question": "Nền tảng nào hỗ trợ Phần thưởng iBrowe?",
-        "answer": "Phần thưởng iBrowe có sẵn trên nhiều nền tảng,\nvì vậy bạn có thể kiếm tiền trong khi duyệt web không giới hạn.\n✅ Hỗ trợ đầy đủ trên:\n- Windows\n- macOS\n- Android\nChỉ cần sử dụng iBrowe, bật tính năng Phần thưởng và bắt đầu kiếm IAT (iBrowe Attention Token) bằng cách xem các quảng cáo an toàn, tôn trọng quyền riêng tư.\n🍎 Trên thiết bị iOS:\nDo các hạn chế của hệ thống iOS, Phần thưởng iBrowe hiện chỉ giới hạn ở việc hỗ trợ nhà sáng tạo nội dung.\nTrong khi bạn chưa thể kiếm IAT từ việc xem quảng cáo trên iOS, bạn vẫn có thể gửi IAT đến các trang web và nhà sáng tạo yêu thích của mình một cách trực tiếp và minh bạch.\n⚙️ Yêu cầu hệ thống:\n– Kết nối internet an toàn\n– Một tài khoản iBrowe ID để quản lý ví IAT của bạn\n– Quảng cáo iBrowe được bật để bắt đầu nhận phần thưởng\n💸 Bắt đầu với Phần thưởng iBrowe ngay hôm nay\nnó đơn giản, an toàn và biến việc duyệt web của bạn thành giá trị thực."
+        "answer": "Phần thưởng iBrowe có sẵn trên nhiều nền tảng, vì vậy bạn có thể kiếm tiền trong khi duyệt web không giới hạn.\n✅ Hỗ trợ đầy đủ trên:\n- Windows\n- macOS\n- Android\nChỉ cần sử dụng iBrowe, bật tính năng Phần thưởng và bắt đầu kiếm IAT (iBrowe Attention Token) bằng cách xem các quảng cáo an toàn, tôn trọng quyền riêng tư.\n🍎 Trên thiết bị iOS:\nDo các hạn chế của hệ thống iOS, Phần thưởng iBrowe hiện chỉ giới hạn ở việc hỗ trợ nhà sáng tạo nội dung.\nTrong khi bạn chưa thể kiếm IAT từ việc xem quảng cáo trên iOS, bạn vẫn có thể gửi IAT đến các trang web và nhà sáng tạo yêu thích của mình một cách trực tiếp và minh bạch.\n⚙️ Yêu cầu hệ thống:\n– Kết nối internet an toàn\n– Một tài khoản iBrowe ID để quản lý ví IAT của bạn\n– Quảng cáo iBrowe được bật để bắt đầu nhận phần thưởng\n💸 Bắt đầu với Phần thưởng iBrowe ngay hôm nay\nNó đơn giản, an toàn và biến việc duyệt web của bạn thành giá trị thực."
       },
       "activate": {
         "question": "Làm cách nào để kích hoạt Phần thưởng iBrowe?",
-        "answer": "Bắt đầu với Phần thưởng iBrowe rất nhanh chóng và dễ dàng chỉ trong vài cú nhấp chuột, bạn có thể bắt đầu kiếm IAT (iBrowe Attention Token) ngay lập tức.\n📍 Đối với người dùng máy tính để bàn hoặc Android:\n- Mở trình duyệt iBrowe\n- Nhấn hoặc nhấp vào biểu tượng IAT 🪙 gần thanh địa chỉ\n- Chọn \"Kích hoạt Phần thưởng iBrowe\"\nLàm theo các bước để tạo ví hoặc kết nối tài khoản hiện có\nSau khi được kích hoạt, iBrowe sẽ bắt đầu hiển thị các quảng cáo tôn trọng quyền riêng tư dựa trên sở thích bạn đã chọn và bạn sẽ bắt đầu kiếm IAT mỗi khi tương tác.\n📱 Đối với người dùng iOS:\nTrong khi việc kiếm IAT từ quảng cáo hiện không được hỗ trợ trên iOS (do các hạn chế của nền tảng),\nbạn vẫn có thể sử dụng Phần thưởng iBrowe để hỗ trợ trực tiếp các trang web và nhà sáng tạo yêu thích của mình.\n✨ Kích hoạt Phần thưởng iBrowe ngay hôm nay và biến việc duyệt web của bạn thành giá trị thực.\nKiểm soát hoàn toàn những gì bạn thấy, bảo vệ quyền riêng tư của bạn và nhận phần thưởng công bằng."
+        "answer": "Bắt đầu với Phần thưởng iBrowe rất nhanh chóng và dễ dàng chỉ trong vài cú nhấp chuột, bạn có thể bắt đầu kiếm IAT (iBrowe Attention Token) ngay lập tức.\n📍 Đối với người dùng máy tính để bàn hoặc Android:\n- Mở trình duyệt iBrowe\n- Nhấn hoặc nhấp vào biểu tượng IAT 🪙 gần thanh địa chỉ\n- Chọn \"Kích hoạt Phần thưởng iBrowe\"\nLàm theo các bước để tạo ví hoặc kết nối tài khoản hiện có\nSau khi được kích hoạt, iBrowe sẽ bắt đầu hiển thị các quảng cáo tôn trọng quyền riêng tư dựa trên sở thích bạn đã chọn và bạn sẽ bắt đầu kiếm IAT mỗi khi tương tác.\n📱 Đối với người dùng iOS:\nTrong khi việc kiếm IAT từ quảng cáo hiện không được hỗ trợ trên iOS (do các hạn chế của nền tảng), bạn vẫn có thể sử dụng Phần thưởng iBrowe để hỗ trợ trực tiếp các trang web và nhà sáng tạo yêu thích của mình.\n✨ Kích hoạt Phần thưởng iBrowe ngay hôm nay và biến việc duyệt web của bạn thành giá trị thực.\nKiểm soát hoàn toàn những gì bạn thấy, bảo vệ quyền riêng tư của bạn và nhận phần thưởng công bằng."
       },
       "earn": {
         "question": "Làm cách nào để kiếm phần thưởng với iBrowe?",
@@ -1381,7 +1381,7 @@
       },
       "controlAds": {
         "question": "Tôi có thể kiểm soát tần suất quảng cáo iBrowe không?",
-        "answer": "Hoàn toàn có thể!\niBrowe Ads được thiết kế để cung cấp cho bạn 100% quyền kiểm soát trải nghiệm duyệt web của bạn, bao gồm cả tần suất quảng cáo xuất hiện.\n⚙️ Đây là những gì bạn có thể làm:\n🔹 Tắt định dạng quảng cáo cụ thể\n– Không muốn thấy thẻ hình ảnh trên trang Tab Mới hoặc ưu đãi trong nguồn cấp tin tức?\n– Bạn có thể tắt các định dạng quảng cáo cụ thể trực tiếp từ menu cài đặt quảng cáo của mình.\n🔹 Đặt tần suất thông báo đẩy\n– Chọn số lượng quảng cáo thông báo đẩy bạn muốn nhận mỗi giờ\n– Đặt từ 1 đến 10 quảng cáo mỗi giờ, hoặc tắt hoàn toàn\n📍 Đi tới:\nCài đặt > iBrowe Rewards > Quảng cáo\nđể tùy chỉnh tùy chọn của bạn bất cứ lúc nào.\n✨ Duyệt web tự do, luôn kiểm soát và chỉ nhận phần thưởng khi bạn muốn."
+        "answer": "Hoàn toàn có thể!\niBrowe Ads được thiết kế để cung cấp cho bạn 100% quyền kiểm soát trải nghiệm duyệt web của bạn, bao gồm cả tần suất quảng cáo xuất hiện.\n⚙️ Đây là những gì bạn có thể làm:\n🔹 Tắt định dạng quảng cáo cụ thể\n– Không muốn thấy thẻ hình ảnh trên trang Tab Mới hoặc ưu đãi trong nguồn cấp tin tức?\n– Bạn có thể tắt các định dạng quảng cáo cụ thể trực tiếp từ menu cài đặt quảng cáo của mình.\n🔹 Đặt tần suất thông báo đẩy\n– Chọn số lượng quảng cáo thông báo đẩy bạn muốn nhận mỗi giờ\n– Đặt từ 1 đến 10 quảng cáo mỗi giờ, hoặc tắt hoàn toàn\n📍 Đi tới:\nCài đặt > iBrowe Rewards > Quảng cáo (để tùy chỉnh tùy chọn của bạn bất cứ lúc nào.)\n✨ Duyệt web tự do, luôn kiểm soát và chỉ nhận phần thưởng khi bạn muốn."
       },
       "creators": {
         "question": "Nhà sáng tạo nội dung là ai — và họ có khác với nhà xuất bản không?",
@@ -1389,7 +1389,7 @@
       },
       "revenue": {
         "question": "iBrowe chia sẻ doanh thu quảng cáo với người dùng như thế nào?",
-        "answer": "Tại iBrowe, chúng tôi tin rằng bạn — chứ không phải Big Tech — nên trực tiếp hưởng lợi từ trải nghiệm duyệt web của mình.\nĐó là lý do tại sao chúng tôi chia sẻ doanh thu quảng cáo với bạn, chứ không chỉ giữ cho riêng mình.\n📊 Phần chia sẻ doanh thu của bạn\nBạn có thể kiếm tới 70% doanh thu được tạo ra từ các quảng cáo tôn trọng quyền riêng tư được hiển thị thông qua iBrowe.\n💎 Thanh toán bằng IAT\nThu nhập của bạn được thanh toán bằng IAT (iBrowe Attention Tokens) thông qua hệ thống iBrowe Rewards.\n❤️ Giữ lại hoặc đóng góp, do bạn quyết định\nVới IAT của bạn, bạn có thể:\n– 💼 Lưu trữ trong ví kỹ thuật số của bạn\n– 🎁 Đổi lấy thẻ quà tặng hoặc chuyển đổi sang các loại tiền tệ khác\n– 🙌 Chia sẻ một phần với các trang web hoặc nhà sáng tạo nội dung bạn yêu thích (hoàn toàn tùy chọn)\n🔐 iBrowe = Minh bạch. Công bằng. Người dùng là trên hết.\nBạn không còn là sản phẩm\nBây giờ bạn là chủ sở hữu giá trị của mình, được thưởng cho những gì bạn chọn để xem."
+        "answer": "Tại iBrowe, chúng tôi tin rằng bạn — chứ không phải Big Tech — nên trực tiếp hưởng lợi từ trải nghiệm duyệt web của mình.\nĐó là lý do tại sao chúng tôi chia sẻ doanh thu quảng cáo với bạn, chứ không chỉ giữ cho riêng mình.\n📊 Phần chia sẻ doanh thu của bạn\nBạn có thể kiếm tới 70% doanh thu được tạo ra từ các quảng cáo tôn trọng quyền riêng tư được hiển thị thông qua iBrowe.\n💎 Thanh toán bằng IAT\nThu nhập của bạn được thanh toán bằng IAT (iBrowe Attention Tokens) thông qua hệ thống iBrowe Rewards.\n❤️ Giữ lại hoặc đóng góp, do bạn quyết định\nVới IAT của bạn, bạn có thể:\n– 💼 Lưu trữ trong ví kỹ thuật số của bạn\n– 🎁 Đổi lấy thẻ quà tặng hoặc chuyển đổi sang các loại tiền tệ khác\n– 🙌 Chia sẻ một phần với các trang web hoặc nhà sáng tạo nội dung bạn yêu thích (hoàn toàn tùy chọn)\n🔐 iBrowe = Minh bạch - Công bằng - Người dùng là trên hết.\nBạn không còn là sản phẩm\nBây giờ bạn là chủ sở hữu giá trị của mình, được thưởng cho những gì bạn chọn để xem."
       }
     }
   },
@@ -1494,11 +1494,11 @@
       "title": "Các câu hỏi thường gặp",
       "trackers": {
         "question": "iBrowe chặn trình theo dõi, tập lệnh và tài nguyên không mong muốn như thế nào?",
-        "answer": "🛡 iBrowe Shields — Bảo vệ quyền riêng tư thông minh, theo thời gian thực\n\niBrowe Shields sử dụng các danh sách bộ lọc mạnh mẽ và công nghệ phân tích để tự động chặn các mối đe dọa và trình theo dõi.\n\n📋 Nguồn chặn chính:\n🔹 EasyList & EasyPrivacy\n– Danh sách bộ lọc phổ biến để chặn quảng cáo và trình theo dõi trên web\n🔹 Dự án uBlock Origin\n– Dự án mã nguồn mở nổi tiếng với khả năng chặn nội dung chính xác và linh hoạt\n🔹 Quy tắc tùy chỉnh của iBrowe\n– Được phát triển riêng để phát hiện và chặn các trình theo dõi vượt ngoài các bộ lọc công khai, tối ưu cho hiệu quả thực tế\n\n🧠 Không chỉ dựa vào danh sách — Bảo vệ dựa trên hành vi\nMột số trình theo dõi không nằm trong danh sách công khai. Vì vậy, iBrowe còn tích hợp phân tích hành vi theo thời gian thực để phát hiện và chặn các đoạn mã hoặc script có dấu hiệu theo dõi, kể cả khi bộ lọc chưa cập nhật.\n\n💪 Hợp tác cùng cộng đồng bảo vệ quyền riêng tư\niBrowe không chỉ sử dụng danh sách chặn mã nguồn mở mà còn đóng góp và duy trì các danh sách này, góp phần xây dựng môi trường web an toàn hơn cho mọi người.\n\n✨ Kết quả: Chặn thông minh, sâu và chính xác hơn\nSo với các trình duyệt truyền thống, iBrowe mang lại khả năng bảo vệ:\n– Chính xác hơn\n– Linh hoạt hơn\n– Ưu tiên quyền riêng tư của người dùng"
+        "answer": "🛡 iBrowe Shields — Bảo vệ quyền riêng tư thông minh, theo thời gian thực\n\niBrowe Shields sử dụng các danh sách bộ lọc mạnh mẽ và phân tích thông minh để tự động chặn các mối đe dọa và trình theo dõi.\n\n📋 Nguồn chặn cốt lõi:\n🔹 EasyList & EasyPrivacy\n– Các danh sách bộ lọc được sử dụng rộng rãi nhất để chặn quảng cáo và trình theo dõi trên web\n🔹 Dự án uBlock Origin\n– Một dự án ​​mã nguồn mở uy tín được biết đến với khả năng chặn nội dung chính xác, và tùy chỉnh linh hoạt\n🔹 Các quy tắc tùy chỉnh của iBrowe\n– Được phát triển nội bộ nhằm phát hiện và chặn các trình theo dõi vượt khỏi các bộ lọc công khai, được tối ưu hoá để đạt hiệu quả thực tế\n\n🧠 Vượt ra ngoài danh sách — Bảo vệ dựa trên hành vi\nMột số trình theo dõi có thể không xuất hiện trong danh sách chặn công khai. Vì vậy, iBrowe còn tích hợp phân tích hành vi theo thời gian thực để phát hiện và chặn các đoạn mã hoặc script có dấu hiệu theo dõi, ngay cả khi các bộ lọc công khai chưa cập nhật kịp thời.\n\n💪 Đồng hành cùng cộng đồng bảo vệ quyền riêng tư\niBrowe không chỉ sử dụng danh sách chặn mã nguồn mở mà chúng tôi còn tích cực hỗ trợ, đóng góp và duy trì các danh sách này nhằm góp phần xây dựng một môi trường web an toàn hơn cho tất cả mọi người.\n\n✨ Kết quả: Chặn thông minh hơn, sâu hơn và chính xác hơn\nSo với các trình duyệt truyền thống, iBrowe mang lại khả năng bảo vệ:\n– Chính xác hơn\n– Linh hoạt hơn\n– Và cam kết hơn với sự ưu tiên quyền riêng tư của người dùng"
       },
       "fingerprinting": {
         "question": "Tính năng ngẫu nhiên hóa dấu vân tay hoạt động như thế nào?",
-        "answer": "Khi bạn duyệt web, trình duyệt của bạn tiết lộ nhiều thông tin như:\n– Phần cứng đồ họa (GPU)\n– Thiết bị âm thanh\n– Hệ điều hành\n– Ngôn ngữ và phông chữ đã cài đặt\n– Kích thước màn hình\n– Phiên bản trình duyệt\n\nKết hợp lại, các thông tin này tạo thành một dấu vân tay kỹ thuật số mà các trang web có thể dùng để theo dõi bạn, kể cả khi không có cookie.\n\n🔐 iBrowe bảo vệ bạn bằng cách ngẫu nhiên hóa dấu vân tay\n\nTheo mặc định, iBrowe Shields sử dụng nhiều kỹ thuật để chống dấu vân tay:\n✅ Ngẫu nhiên hóa các định danh chính (WebGL, Canvas, AudioContext...)\n✅ Tắt hoặc hạn chế quyền truy cập vào thông tin có thể tạo dấu vân tay\n✅ Tạo danh tính mới mỗi khi bạn khởi động lại hoặc mở lại trình duyệt\n✅ Làm cho trình duyệt của bạn xuất hiện khác nhau với mỗi trang web\n\n🚫 Kết quả:\nCác trang web không thể liên kết bạn giữa các phiên hoặc nhận diện trình duyệt của bạn một cách nhất quán theo thời gian.\n\n🧪 Muốn kiểm tra?\nHãy thử Panopticlick của EFF để xem trình duyệt của bạn bảo vệ dấu vân tay tốt đến đâu.\n\n✨ iBrowe = Bảo vệ ngay cả khi bạn không nhìn thấy"
+        "answer": "Mỗi khi bạn duyệt web, trình duyệt của bạn sẽ tiết lộ một số chi tiết riêng biệt như:\n– Phần cứng đồ họa (GPU) của bạn\n– Phần cứng âm thanh\n– Hệ điều hành\n– Ngôn ngữ và phông chữ đã cài đặt\n– Kích thước màn hình\n– Và chi tiết phiên bản trình duyệt\n\nKhi kết hợp lại, các giá trị này tạo thành một dấu vân tay kỹ thuật số mà các trang web có thể sử dụng để theo dõi bạn trên các trang web, ngay cả khi không có cookie.\n\n🔐 iBrowe bảo vệ bạn bằng cách ngẫu nhiên hóa dấu vân tay\n\nTheo mặc định, iBrowe Shields bảo vệ chống lại dấu vân tay bằng cách sử dụng kết hợp các kỹ thuật:\n✅ Ngẫu nhiên hóa các định danh chính được sử dụng để theo dõi (ví dụ: WebGL, Canvas, API AudioContext)\n✅ Tắt hoặc hạn chế quyền truy cập vào thông tin có thể tạo dấu vân tay\n✅ Tạo một danh tính mới mỗi khi bạn khởi động lại hoặc mở lại trình duyệt\n✅ Làm cho trình duyệt của bạn xuất hiện khác nhau đối với mỗi trang web\n\n🚫 Kết quả:\nCác trang web không còn có thể liên kết bạn giữa các phiên hoặc nhận dạng trình duyệt của bạn một cách nhất quán theo thời gian.\n\n🧪 Muốn kiểm tra?\nHãy thử Panopticlick của EFF để kiểm tra xem trình duyệt của bạn bảo vệ dấu vân tay tốt đến mức nào.\n\n✨ iBrowe = Bảo vệ ngay cả khi bạn không thể nhìn thấy"
       },
       "storage": {
         "question": "Điều gì làm cho tính năng chặn lưu trữ bên thứ ba của iBrowe khác biệt?",
