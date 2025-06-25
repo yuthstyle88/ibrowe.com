@@ -1570,94 +1570,94 @@
         "question": "Quảng cáo iBrowe: Các câu hỏi thường gặp ⚡",
         "answer": "Đây là tất cả những gì bạn cần biết về Quảng cáo iBrowe. Quảng cáo iBrowe khác với quảng cáo trong các trình duyệt khác như thế nào và tại sao bạn nên chọn xem chúng? Quảng cáo iBrowe nổi bật theo một số cách quan trọng"
       }
+    }
+  },
+  "Marketing": {
+    "hero": {
+      "title": "Quảng cáo trên trình duyệt và công cụ tìm kiếm của iBrowe",
+      "description": "Tiếp cận hàng triệu người dùng iBrowe và biến họ thành khách hàng trung thành với các quảng cáo hiệu suất cao được điều chỉnh để đáp ứng mọi mục tiêu tiếp thị của bạn.",
+      "imageAlt": "Nền tảng quảng cáo iBrowe"
     },
-    "Marketing": {
-      "hero": {
-        "title": "Quảng cáo trên trình duyệt và công cụ tìm kiếm của iBrowe",
-        "description": "Tiếp cận hàng triệu người dùng iBrowe và biến họ thành khách hàng trung thành với các quảng cáo hiệu suất cao được điều chỉnh để đáp ứng mọi mục tiêu tiếp thị của bạn.",
-        "imageAlt": "Nền tảng quảng cáo iBrowe"
-      },
-      "features": {
-        "title": "Tại sao chọn iBrowe cho quảng cáo của bạn?",
-        "description": "Bởi vì chúng tôi giúp bạn tiếp cận đối tượng mục tiêu của mình một cách chính xác, được hỗ trợ bởi công nghệ tiên tiến và vị trí quảng cáo được tối ưu hóa mang lại ROI tối đa cho doanh nghiệp của bạn.",
-        "tabs": {
-          "newAudiences": {
-            "title": "Người xem mới được mở khóa",
-            "description": "Mở khóa quyền truy cập vào những người xem bạn không thể tiếp cận thông qua các nền tảng khác."
-          },
-          "lowCompetition": {
-            "title": "Cạnh tranh thấp, tác động cao",
-            "description": "Các định dạng quảng cáo độc đáo chưa từng được sử dụng trước đây."
-          },
-          "fastGrowing": {
-            "title": "Tăng trưởng nhanh",
-            "description": "Được xây dựng trên các trình duyệt và máy móc phát triển nhanh nhất thế giới."
-          },
-          "brandSafe": {
-            "title": "An toàn thương hiệu",
-            "description": "Vị trí quảng cáo cao cấp mà không bị gián đoạn."
-          }
+    "features": {
+      "title": "Tại sao chọn iBrowe cho quảng cáo của bạn?",
+      "description": "Bởi vì chúng tôi giúp bạn tiếp cận đối tượng mục tiêu của mình một cách chính xác, được hỗ trợ bởi công nghệ tiên tiến và vị trí quảng cáo được tối ưu hóa mang lại ROI tối đa cho doanh nghiệp của bạn.",
+      "tabs": {
+        "newAudiences": {
+          "title": "Người xem mới được mở khóa",
+          "description": "Mở khóa quyền truy cập vào những người xem bạn không thể tiếp cận thông qua các nền tảng khác."
+        },
+        "lowCompetition": {
+          "title": "Cạnh tranh thấp, tác động cao",
+          "description": "Các định dạng quảng cáo độc đáo chưa từng được sử dụng trước đây."
+        },
+        "fastGrowing": {
+          "title": "Tăng trưởng nhanh",
+          "description": "Được xây dựng trên các trình duyệt và máy móc phát triển nhanh nhất thế giới."
+        },
+        "brandSafe": {
+          "title": "An toàn thương hiệu",
+          "description": "Vị trí quảng cáo cao cấp mà không bị gián đoạn."
         }
-      },
-      "brands": {
-        "title": "Các thương hiệu tiên phong phát triển mạnh mẽ cùng iBrowe Market"
-      },
-      "subscribe": {
-        "title": "Đăng ký để nhận các bản cập nhật mới nhất từ iBrowe Market.",
-        "description": "Luôn cập nhật thông tin về các cơ hội quảng cáo mới và các bản cập nhật nền tảng.",
-        "emailPlaceholder": "Địa chỉ email",
-        "button": "Đăng ký",
-        "successMessage": "Cảm ơn bạn đã đăng ký nhận bản cập nhật của chúng tôi!",
-        "errorMessage": "Rất tiếc! Đã xảy ra lỗi khi gửi biểu mẫu."
       }
     },
-    "linux": {
-      "hero": {
-        "title": "Cài đặt iBrowe trên Linux",
-        "subtitle": "🌟 Tải xuống Trình duyệt iBrowe ngay hôm nay! 🌟",
-        "features": [
-          "🔹 Chặn quảng cáo thông minh duyệt web không bị phân tâm",
-          "🔹 Bảo mật tối ưu – bảo vệ dữ liệu của bạn và duy trì quyền riêng tư.",
-          "🔹 Giao diện hiện đại, dễ sử dụng hoạt động liền mạch trên tất cả các thiết bị của bạn",
-          "🚀 Nâng cấp trải nghiệm duyệt web của bạn nhanh chóng, riêng tư và dễ dàng!"
-        ]
+    "brands": {
+      "title": "Các thương hiệu tiên phong phát triển mạnh mẽ cùng iBrowe Market"
+    },
+    "subscribe": {
+      "title": "Đăng ký để nhận các bản cập nhật mới nhất từ iBrowe Market.",
+      "description": "Luôn cập nhật thông tin về các cơ hội quảng cáo mới và các bản cập nhật nền tảng.",
+      "emailPlaceholder": "Địa chỉ email",
+      "button": "Đăng ký",
+      "successMessage": "Cảm ơn bạn đã đăng ký nhận bản cập nhật của chúng tôi!",
+      "errorMessage": "Rất tiếc! Đã xảy ra lỗi khi gửi biểu mẫu."
+    }
+  },
+  "linux": {
+    "hero": {
+      "title": "Cài đặt iBrowe trên Linux",
+      "subtitle": "🌟 Tải xuống Trình duyệt iBrowe ngay hôm nay! 🌟",
+      "features": [
+        "🔹 Chặn quảng cáo thông minh duyệt web không bị phân tâm",
+        "🔹 Bảo mật tối ưu – bảo vệ dữ liệu của bạn và duy trì quyền riêng tư.",
+        "🔹 Giao diện hiện đại, dễ sử dụng hoạt động liền mạch trên tất cả các thiết bị của bạn",
+        "🚀 Nâng cấp trải nghiệm duyệt web của bạn nhanh chóng, riêng tư và dễ dàng!"
+      ]
+    },
+    "installation": {
+      "title": "Cài đặt iBrowe trên Linux",
+      "viewSource": "Xem nguồn",
+      "verifySignature": "hoặc xác minh chữ ký",
+      "systemRequirements": "Yêu cầu hệ thống: Bản phân phối Linux 64 bit với glibc 2.28 trở lên",
+      "signingKeys": "Khóa ký: Tất cả các gói đều được ký bằng khóa GPG của chúng tôi. Bạn có thể xác minh chữ ký bằng khóa công khai của chúng tôi.",
+      "channels": {
+        "release": "Kênh phát hành",
+        "beta": "Kênh Beta",
+        "nightly": "Kênh nightly",
+        "releaseDescription": "Kênh phát hành ổn định được khuyến nghị cho hầu hết người dùng. Nó nhận được các bản cập nhật thường xuyên với các bản sửa lỗi và vá lỗi bảo mật.",
+        "betaDescription": "Kênh beta dành cho người dùng muốn thử nghiệm các tính năng mới trước khi chúng được phát hành ra kênh ổn định. Nó có thể chứa lỗi và không được khuyến nghị để sử dụng trong sản xuất.",
+        "nightlyDescription": "Kênh nightly chứa các bản dựng phát triển mới nhất. Nó được cập nhật hàng ngày và có thể không ổn định. Chỉ sử dụng cái này nếu bạn muốn thử nghiệm các tính năng mới nhất và không ngại các vấn đề tiềm ẩn."
       },
-      "installation": {
-        "title": "Cài đặt iBrowe trên Linux",
-        "viewSource": "Xem nguồn",
-        "verifySignature": "hoặc xác minh chữ ký",
-        "systemRequirements": "Yêu cầu hệ thống: Bản phân phối Linux 64 bit với glibc 2.28 trở lên",
-        "signingKeys": "Khóa ký: Tất cả các gói đều được ký bằng khóa GPG của chúng tôi. Bạn có thể xác minh chữ ký bằng khóa công khai của chúng tôi.",
-        "channels": {
-          "release": "Kênh phát hành",
-          "beta": "Kênh Beta",
-          "nightly": "Kênh nightly",
-          "releaseDescription": "Kênh phát hành ổn định được khuyến nghị cho hầu hết người dùng. Nó nhận được các bản cập nhật thường xuyên với các bản sửa lỗi và vá lỗi bảo mật.",
-          "betaDescription": "Kênh beta dành cho người dùng muốn thử nghiệm các tính năng mới trước khi chúng được phát hành ra kênh ổn định. Nó có thể chứa lỗi và không được khuyến nghị để sử dụng trong sản xuất.",
-          "nightlyDescription": "Kênh nightly chứa các bản dựng phát triển mới nhất. Nó được cập nhật hàng ngày và có thể không ổn định. Chỉ sử dụng cái này nếu bạn muốn thử nghiệm các tính năng mới nhất và không ngại các vấn đề tiềm ẩn."
-        },
-        "distributions": {
-          "debian": "Debian/Ubuntu",
-          "fedora": "Fedora",
-          "opensuse": "openSUSE",
-          "arch": "Arch Linux",
-          "flatpak": "Flatpak",
-          "snap": "Snap",
-          "github": "Bản phát hành GitHub",
-          "unofficial": "Các gói do cộng đồng duy trì",
-          "manjaro": "Manjaro Linux",
-          "solus": "Solus Linux"
-        },
-        "aurHelper": "Sử dụng trình trợ giúp AUR như yay:",
-        "flatpakDescription": "Flatpak là định dạng gói phần mềm đa nền tảng hoạt động trên mọi bản phân phối Linux. Nó cung cấp một môi trường cách ly (sandbox) cho các ứng dụng.",
-        "snapDescription": "Snap là định dạng gói phần mềm đa nền tảng hoạt động trên mọi bản phân phối Linux. Nó hỗ trợ các bản cập nhật tự động và khả năng khôi phục phiên bản trước.",
-        "githubDescription": "Bạn có thể tải xuống bản phát hành mới nhất trực tiếp từ kho GitHub của chúng tôi. Điều này hữu ích nếu bạn muốn cài đặt iBrowe trên một bản phân phối không được hỗ trợ.",
-        "unofficialDescription": "Các bản phân phối này không được iBrowe hỗ trợ chính thức, nhưng các thành viên cộng đồng duy trì các gói cho chúng. Mặc dù chúng tôi không cung cấp hỗ trợ trực tiếp, nhưng các gói này thường được duy trì tốt và đáng tin cậy.",
-        "troubleshooting": {
-          "title": "Các vấn đề và giải pháp phổ biến",
-          "description": "Nếu bạn gặp bất kỳ vấn đề nào trong quá trình cài đặt hoặc khi sử dụng iBrowe, hãy thử các giải pháp sau:",
-          "commands": "# Cập nhật hệ thống của bạn trước tiên\nsudo apt update && sudo apt upgrade  # Đối với Debian/Ubuntu\nsudo dnf update  # Đối với Fedora\nsudo zypper update  # Đối với openSUSE\nsudo pacman -Syu  # Đối với Arch Linux\n\n# Nếu trình quản lý gói báo lỗi, hãy thử:\nsudo apt clean && sudo apt update  # Đối với Debian/Ubuntu\nsudo dnf clean all && sudo dnf update  # Đối với Fedora\nsudo zypper clean && sudo zypper update  # Đối với openSUSE\nsudo pacman -Scc && sudo pacman -Syu  # Đối với Arch Linux"
-        }
+      "distributions": {
+        "debian": "Debian/Ubuntu",
+        "fedora": "Fedora",
+        "opensuse": "openSUSE",
+        "arch": "Arch Linux",
+        "flatpak": "Flatpak",
+        "snap": "Snap",
+        "github": "Bản phát hành GitHub",
+        "unofficial": "Các gói do cộng đồng duy trì",
+        "manjaro": "Manjaro Linux",
+        "solus": "Solus Linux"
+      },
+      "aurHelper": "Sử dụng trình trợ giúp AUR như yay:",
+      "flatpakDescription": "Flatpak là định dạng gói phần mềm đa nền tảng hoạt động trên mọi bản phân phối Linux. Nó cung cấp một môi trường cách ly (sandbox) cho các ứng dụng.",
+      "snapDescription": "Snap là định dạng gói phần mềm đa nền tảng hoạt động trên mọi bản phân phối Linux. Nó hỗ trợ các bản cập nhật tự động và khả năng khôi phục phiên bản trước.",
+      "githubDescription": "Bạn có thể tải xuống bản phát hành mới nhất trực tiếp từ kho GitHub của chúng tôi. Điều này hữu ích nếu bạn muốn cài đặt iBrowe trên một bản phân phối không được hỗ trợ.",
+      "unofficialDescription": "Các bản phân phối này không được iBrowe hỗ trợ chính thức, nhưng các thành viên cộng đồng duy trì các gói cho chúng. Mặc dù chúng tôi không cung cấp hỗ trợ trực tiếp, nhưng các gói này thường được duy trì tốt và đáng tin cậy.",
+      "troubleshooting": {
+        "title": "Các vấn đề và giải pháp phổ biến",
+        "description": "Nếu bạn gặp bất kỳ vấn đề nào trong quá trình cài đặt hoặc khi sử dụng iBrowe, hãy thử các giải pháp sau:",
+        "commands": "# Cập nhật hệ thống của bạn trước tiên\nsudo apt update && sudo apt upgrade  # Đối với Debian/Ubuntu\nsudo dnf update  # Đối với Fedora\nsudo zypper update  # Đối với openSUSE\nsudo pacman -Syu  # Đối với Arch Linux\n\n# Nếu trình quản lý gói báo lỗi, hãy thử:\nsudo apt clean && sudo apt update  # Đối với Debian/Ubuntu\nsudo dnf clean all && sudo dnf update  # Đối với Fedora\nsudo zypper clean && sudo zypper update  # Đối với openSUSE\nsudo pacman -Scc && sudo pacman -Syu  # Đối với Arch Linux"
       }
     }
   }
