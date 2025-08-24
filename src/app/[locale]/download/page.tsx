@@ -1,9 +1,8 @@
 "use client";
 
 import Image from 'next/image'
-import Navigation from '@/components/Navigation'
 import { useTranslations } from 'next-intl'
-import PlatformLinks, { PLATFORM_LINKS } from '@/components/PlatformLinks'
+import { PLATFORM_LINKS } from '@/components/PlatformLinks'
 
 export default function Download() {
   const t = useTranslations('Download')

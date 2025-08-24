@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
+import { PLATFORM_LINKS } from '@/components/PlatformLinks'
 
 export default function Footer() {
   const t = useTranslations('Footer');
@@ -82,7 +83,7 @@ export default function Footer() {
             <div className="mb-8 sm:mb-0">
               <h3 className="text-black text-base font-bold mb-6">{t('sections.download')}</h3>
               <div className="space-y-3">
-                <Link href="https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href={PLATFORM_LINKS.macos} className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/mac-os-logo.png"
                     alt="MacOS"
@@ -92,7 +93,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.macos')}</strong>
                 </Link>
-                <Link href="#" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href={PLATFORM_LINKS.windows} className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/windows.png"
                     alt="Windows"
@@ -102,7 +103,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.windows')}</strong>
                 </Link>
-                <Link href="https://apps.apple.com/us/app/ibrowe/id6741485553" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href={PLATFORM_LINKS.appStore} className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/app-store.png"
                     alt="iOS"
@@ -112,7 +113,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.ios')}</strong>
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=com.ibrowe108.browser" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href={PLATFORM_LINKS.playStore} className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/apps-android.png"
                     alt="Android"
@@ -122,7 +123,7 @@ export default function Footer() {
                   />
                   <strong>{t('download.android')}</strong>
                 </Link>
-                <Link href="/linux" className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
+                <Link href={PLATFORM_LINKS.linux} className="flex items-center text-[#4e5d78] hover:text-primary transition-colors text-sm">
                   <Image
                     src="/images/linux.png"
                     alt="Linux"
