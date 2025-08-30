@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const PLATFORM_LINKS = {
   windows: 'https://ibrowe.com/download/iBroweBrowserSetup.exe',
-  macos: 'https://ibrowe.com/ibrowe_dmg/iBroweBrowser-135.1.0.2.dmg',
+  macos: 'https://ibrowe.com/ibrowe_dmg/iBroweBrowser-139.1.81.135.dmg',
   linux: '/linux',
   appStore: 'https://apps.apple.com/us/app/ibrowe/id6741485553',
   playStore: 'https://play.google.com/store/apps/details?id=com.ibrowe108.browser'
