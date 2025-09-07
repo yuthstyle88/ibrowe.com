@@ -13,7 +13,7 @@ type PlatformLinks = {
 
 export const PLATFORM_LINKS: PlatformLinks = {
     windows: 'https://ibrowe.com/download/iBroweBrowserSetup.exe',
-    macos: 'https://ibrowe.com/ibrowe_dmg/iBroweBrowser-139.1.81.137.dmg',
+    macos: 'https://ibrowe.com/ibrowe_dmg/iBroweBrowser-139.1.81.135.dmg',
     macosIntel: 'https://ibrowe.com/ibrowe_dmg/x64/iBroweBrowser-139.1.81.137.dmg',
     linux: '/linux',
     appStore: 'https://apps.apple.com/us/app/ibrowe/id6741485553',
