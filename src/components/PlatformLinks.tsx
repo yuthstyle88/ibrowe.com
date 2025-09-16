@@ -28,55 +28,47 @@ export default function PlatformLinks({ className = "" }: PlatformLinksProps) {
     const [isMacDropdownOpen, setIsMacDropdownOpen] = useState(false);
 
     return (
-        <div className={`flex flex-wrap gap-3 justify-center md:justify-start mt-10 ${className}`}>
-            <Link
-                href={PLATFORM_LINKS.appStore}
-                className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full text-base font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-                aria-label="Download for iOS"
-            >
-                <FaApple className="text-xl" />
-                iOS
-            </Link>
+        <div className={`flex flex-col sm:flex-row flex-wrap gap-4 justify-center items-center sm:justify-start mt-4 mb-8 ${className}`}>
             <Link
                 href={PLATFORM_LINKS.playStore}
-                className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full text-base font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="flex items-center gap-3 bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 w-full sm:w-auto text-center"
                 aria-label="Download for Android"
             >
-                <FaAndroid className="text-xl" />
+                <FaAndroid className="text-2xl" />
                 Android
             </Link>
             <Link
-                href={PLATFORM_LINKS.windows}
-                className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full text-base font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-                aria-label="Download for Windows"
+                href={PLATFORM_LINKS.appStore}
+                className="flex items-center gap-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 w-full sm:w-auto text-center"
+                aria-label="Download for iOS"
             >
-                <FaWindows className="text-xl" />
-                Windows
+                <FaApple className="text-2xl" />
+                iOS
             </Link>
             <Link
-                href={PLATFORM_LINKS.linux}
-                className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full text-base font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-                aria-label="Download for Linux"
+                href={PLATFORM_LINKS.windows}
+                className="flex items-center gap-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 w-full sm:w-auto text-center"
+                aria-label="Download for Windows"
             >
-                <FaLinux className="text-xl" />
-                Linux
+                <FaWindows className="text-2xl" />
+                Windows
             </Link>
-            <div className="relative">
+            <div className="relative w-full sm:w-auto">
                 <button
                     onClick={() => setIsMacDropdownOpen(!isMacDropdownOpen)}
-                    className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full text-base font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                    className="flex items-center gap-3 bg-gradient-to-r from-gray-700 to-gray-800 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-gray-800 hover:to-gray-900 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 w-full justify-center"
                     aria-label="macOS download options"
                     aria-expanded={isMacDropdownOpen}
                 >
-                    <FaApple className="text-xl" />
+                    <FaApple className="text-2xl" />
                     macOS
-                    <FaChevronDown className={`text-sm transition-transform duration-200 ${isMacDropdownOpen ? 'rotate-180' : ''}`} />
+                    <FaChevronDown className={`text-base transition-transform duration-200 ${isMacDropdownOpen ? 'rotate-180' : ''}`} />
                 </button>
                 {isMacDropdownOpen && (
-                    <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-xl border border-gray-100 z-10">
+                    <div className="absolute top-full left-0 mt-2 w-full sm:w-56 bg-white rounded-lg shadow-xl border border-gray-100 z-10">
                         <Link
                             href={PLATFORM_LINKS.macos}
-                            className="block px-4 py-2 text-sm text-gray-800 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-200"
+                            className="block px-4 py-3 text-base text-gray-800 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-200"
                             onClick={() => setIsMacDropdownOpen(false)}
                             aria-label="Download for macOS (Apple Silicon)"
                         >
@@ -84,7 +76,7 @@ export default function PlatformLinks({ className = "" }: PlatformLinksProps) {
                         </Link>
                         <Link
                             href={PLATFORM_LINKS.macosIntel || '#'}
-                            className="block px-4 py-2 text-sm text-gray-800 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-200"
+                            className="block px-4 py-3 text-base text-gray-800 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-200"
                             onClick={() => setIsMacDropdownOpen(false)}
                             aria-label="Download for macOS (Intel)"
                         >
@@ -93,6 +85,14 @@ export default function PlatformLinks({ className = "" }: PlatformLinksProps) {
                     </div>
                 )}
             </div>
+            <Link
+                href={PLATFORM_LINKS.linux}
+                className="flex items-center gap-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 w-full sm:w-auto text-center"
+                aria-label="Download for Linux"
+            >
+                <FaLinux className="text-2xl" />
+                Linux
+            </Link>
         </div>
     );
 }
