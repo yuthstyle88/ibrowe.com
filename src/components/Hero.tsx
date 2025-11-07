@@ -48,23 +48,46 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Partner logos */}
-      <div className="bg-gray-50 py-8 md:py-12 mt-6 md:mt-8">
-        <div className="container mx-auto px-4 sm:px-5">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 md:gap-8 items-center justify-items-center">
-            {[1, 2, 3, 4, 'Symbols'].map((num) => (
-              <div key={num} className="relative w-24 h-10 sm:w-28 sm:h-12 md:w-32 md:h-12">
-                <Image
-                  src={`/images/${num}.svg`}
-                  alt={t('partnerLogoAlt', { num })}
-                  fill
-                  className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-                />
-              </div>
-            ))}
-          </div>
+        {/* Partner logos – responsive */}
+        <div className="bg-gray-50 py-8 md:py-12 mt-6 md:mt-8">
+            <div className="container mx-auto px-4 sm:px-5">
+
+                {/* ---- Mobile: 2 per row ---- */}
+                <div className="grid grid-cols-2 gap-6 sm:hidden items-center justify-items-center">
+                    {[1, 2, 3, 4, 'Symbols', 6].map((num) => (
+                        <div
+                            key={num}
+                            className="relative w-24 h-10"
+                        >
+                            <Image
+                                src={`/images/${num}.svg`}
+                                alt={t('partnerLogoAlt', { num })}
+                                fill
+                                className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                            />
+                        </div>
+                    ))}
+                </div>
+
+                {/* ---- Tablet & Desktop: single row ---- */}
+                <div className="hidden sm:flex flex-nowrap items-center justify-center md:justify-between gap-6 md:gap-8 overflow-x-auto scrollbar-hide">
+                    {[1, 2, 3, 4, 'Symbols', 6].map((num) => (
+                        <div
+                            key={num}
+                            className="relative flex-shrink-0 w-28 h-12 md:w-32 md:h-14"
+                        >
+                            <Image
+                                src={`/images/${num}.svg`}
+                                alt={t('partnerLogoAlt', { num })}
+                                fill
+                                className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                            />
+                        </div>
+                    ))}
+                </div>
+
+            </div>
         </div>
-      </div>
     </div>
   )
 }
