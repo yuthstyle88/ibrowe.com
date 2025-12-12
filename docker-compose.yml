@@ -9,8 +9,3 @@ services:
       - "3001:3000"
     environment:
       - NODE_ENV=production
-    deploy:
-      resources:
-        limits:
-          cpus: "0.50"
-          memory: 512M
