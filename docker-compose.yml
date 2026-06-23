@@ -5,7 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    # Bind to loopback only — the host nginx proxies the public domain to
+    # 127.0.0.1:3001. The port is no longer reachable directly from the internet.
     ports:
-      - "3001:3001"
-    environment:
-      - NODE_ENV=production
+      - "127.0.0.1:3001:80"
+    restart: unless-stopped

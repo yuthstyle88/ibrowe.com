@@ -11,16 +11,13 @@ import AboutSection from '@/components/AboutSection'
 
 type PageProps = {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
 export default async function HomePage({
-  params,
-  searchParams
+  params
 }: PageProps) {
   const { locale } = await params;
-  const resolvedSearchParams = await searchParams;
-  
+
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
