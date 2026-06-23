@@ -4,53 +4,23 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Required for Docker standalone build
-  output: 'standalone',
+  // Static HTML export — no Node server (next-server). Output in ./out is
+  // served directly by nginx. This removes the server-side execution surface
+  // entirely (the cryptominer RCE was reached through next-server).
+  output: 'export',
 
-  trailingSlash: false,
-
-  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
-
-  // Keep your original host-based rewrite
-  async rewrites() {
-    return {
-      beforeFiles: [
-        {
-          source: '/:path*',
-          has: [
-            {
-              type: 'host',
-              value: 'support.ibrowe.com',
-            },
-          ],
-          destination: '/support/en/:path*',
-        },
-      ],
-    };
+  // Image Optimization API needs a running server; disable it for export.
+  images: {
+    unoptimized: true,
   },
 
-  // Security + static file headers
-  async headers() {
-    return [
-      {
-        source: '/_next/static/(.*)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
-          }
-        ]
-      },
-      {
-        source: '/(.*)',
-        headers: [
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'X-Frame-Options', value: 'DENY' },
-          { key: 'X-XSS-Protection', value: '1; mode=block' }
-        ]
-      }
-    ];
-  },
+  // Trailing slash => each route exports as <route>/index.html, which makes
+  // nginx static serving trivial and uniform (try_files $uri $uri/).
+  trailingSlash: true,
+
+  // NOTE: rewrites() and headers() are NOT supported with `output: 'export'`.
+  // - host rewrite (support.ibrowe.com -> /support/en) is handled per-vhost in nginx
+  // - security + cache headers are set in the nginx server block
 };
 
 module.exports = withNextIntl(nextConfig);

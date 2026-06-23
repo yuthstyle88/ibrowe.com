@@ -1,11 +1,18 @@
 import { NextIntlClientProvider } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import '../globals.css';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { routing } from '@/i18n/routing';
 
 type LayoutProps = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
+}
+
+// Pre-render one static branch per locale (required for `output: 'export'`).
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 export default async function LocaleLayout({
@@ -13,6 +20,9 @@ export default async function LocaleLayout({
   params
 }: LayoutProps) {
   const { locale } = await params;
+  // Enable static rendering for this locale (otherwise next-intl reads
+  // headers() at request time, which is incompatible with `output: 'export'`).
+  setRequestLocale(locale);
   const messages = (await import(`@/messages/${locale}.json`)).default;
   
   return (
